@@ -7,18 +7,15 @@ the task is to find the value of k.
 '''
 
 def numberOfRotation(arr):
+    # let say that if that is rotated then any time that left element is 
+    # greater than the right element then count when it appears
     n = len(arr)
-    check = []
-    for i in range(len(arr)):
-        check.append(arr[i])
-    count = 0
-    arr.sort()
     for i in range(n):
-        res = rotationByOne(arr)
-        if res == check:
-            return count
-            break
-        count+=1
+        if arr[i] > arr[i+1] and i+1 < n :
+            return i+1
+        
+        
+
         
 
 def rotationByOne(arr):
