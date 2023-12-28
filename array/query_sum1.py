@@ -24,6 +24,8 @@ def brute_query_sum(arr,Q):
 
 
 # using the most simplest method
+
+# it is called the MO's algorithm
 def simple_query_sum(arr,Q):
     # first sort the query array
     Q.sort(key = lambda x: x[1])
