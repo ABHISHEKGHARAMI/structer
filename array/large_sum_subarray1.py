@@ -1,7 +1,7 @@
 # find the largest sum of the given array
 def find_large_sub(arr):
     n = len(arr)
-    sum1 = 0
+    sum1 = []
     for i in range(n):
         for j in range(i+1,n+1):
             sum1.append(sum(arr[i:j]))
