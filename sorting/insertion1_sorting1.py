@@ -14,7 +14,7 @@ def insertion_sort(arr):
             if arr[j] > arr[i]:
                 arr[i],arr[j] = arr[j] , arr[i]
                 
-    # printing the arrray
+    # printing the array
     for i in range(n):
         print(arr[i],end=" ")
         
