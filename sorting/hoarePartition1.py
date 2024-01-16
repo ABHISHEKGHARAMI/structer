@@ -2,6 +2,50 @@
 
 # in this algorithm we will take the first element as the pivot
 
+'''
+Hoare’s Partition Scheme works by initializing two indexes that start at two ends, 
+the two indexes move toward each other until an inversion is (A smaller value on the
+left side and a greater value on the right side) found. When an inversion is found, 
+two values are swapped and the process is repeated.
+
+Algorithm: 
+
+Hoarepartition(arr[], lo, hi)
+
+   pivot = arr[lo]
+   i = lo - 1  // Initialize left index
+   j = hi + 1  // Initialize right index
+
+   // Find a value in left side greater
+   // than pivot
+   do
+      i = i + 1
+   while arr[i] < pivot
+
+   // Find a value in right side smaller
+   // than pivot
+   do
+      j--;
+   while (arr[j] > pivot);
+
+   if i >= j then 
+      return j
+
+   swap arr[i] with arr[j]
+
+
+   
+QuickSort(arr[], l,  r)
+
+If r > l
+     1. Find the partition point of the array  
+              m =Hoarepartition(a,l,r) 
+     2. Call Quicksort for less than partition point   
+             Call Quicksort(arr, l, m)
+     3. Call Quicksort for greater than the partition point 
+             Call Quicksort(arr, m+1, r)
+'''
+
 def QuickSort(arr,low,high):
     if low < high:
         pi = partition(arr,low,high)
