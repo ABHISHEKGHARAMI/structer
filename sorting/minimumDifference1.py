@@ -39,6 +39,40 @@ def minDifference(arr):
     return min
 
 
+
+# more efficient approach
+
+
+def QuickSort(arr,low,high):
+    if low < high:
+        pi = partition(arr,low,high)
+        QuickSort(arr,low,pi-1)
+        QuickSort(arr,pi+1,high)
+        
+        
+# partition for quicksort
+def partition(arr,low,high):
+    i = low - 1
+    pivot = arr[high]
+    for j in range(low,high):
+        if arr[j] <= pivot:
+            i+=1
+            arr[i],arr[j] = arr[j],arr[i]
+    arr[i+1],arr[high] = arr[high],arr[i+1]
+    return i+1
+        
+
+
+#  now for the min difference 
+def minEffDifference(arr):
+    n = len(arr)
+    QuickSort(arr,0,n-1)
+    min = 99999
+    for j in range(n-1):
+        if abs(arr[j+1]-arr[j]) < min:
+            min = abs(arr[j+1] - arr[j])
+    return min
 arr = [1, 19, -4, 31, 38, 25, 100]
 
 print(f"The minimum value of the difference is : {minDifference(arr)}")
+print(f"The minimum value of the efficient approach is :{minEffDifference(arr)}")
