@@ -8,8 +8,8 @@ def matrixRotation90(mat):
             temp = mat[i][j]
             mat[i][j] = mat[j][n - i -1]
             mat[j][n - i - 1] = mat[n - i - 1][n - j - 1]
-            mat[n - i - 1][n - j - 1] = mat[n - i - 1][j]
-            mat[n - i - 1][j] = temp
+            mat[n - i - 1][n - j - 1] = mat[n - j - 1][i]
+            mat[n - j - 1][i] = temp
             j+=1
     return mat
     
