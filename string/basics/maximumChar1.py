@@ -8,10 +8,12 @@ def maxChar(str1):
         max_char =""
         count = 0
         for i in c1:
-            if c1[i] > count:
+            if c1[i] >= count:
                 count = c1[i]
                 max_char += i
-        return max_char[len(max_char)-1]
+        c2 = list(max_char)
+        c2.sort()
+        return c2[0]
     
     
 str1 = "testsample"
