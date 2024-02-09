@@ -1,4 +1,4 @@
-# Robin Karp algorithm for pattern searching.
+# "Robin Karp" algorithm for pattern searching.
 '''
 algorithm for  -
 Initially calculate the hash value of the pattern.
