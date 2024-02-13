@@ -5,3 +5,4 @@ So far covered topic is -
 # 3. Sort
 # 4. Matrix
 # 5. String
+# 6. LinkList
