@@ -15,14 +15,3 @@ there are several operation need to follow
  one by one we will implement this.
 '''
 
-class Node:
-    def __init__(self,data):
-        self.data = data
-        self.next = None
-        
-        
-        
-# class for link list
-class LinkList:
-    def __init__(self):
-        self.head = None
