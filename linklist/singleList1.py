@@ -28,7 +28,7 @@ class linkedList:
     
     # inserting at the front of the Linked List
     def insertFront(self,data):
-        print("Inserting data at the front .....")
+        print("Inserting data at the front .....\n")
         node = Node(data)
         node.next = self.head
         self.head = node
@@ -37,7 +37,7 @@ class linkedList:
     # insert at the back end of the linked list
     def insertEnd(self,data):
         node = Node(data)
-        print("Inserting Data at the end .....")
+        print("Inserting Data at the end .....\n")
         if self.head is None:
             self.insertFront(data)
         else:
@@ -49,7 +49,7 @@ class linkedList:
     # printing the list
     def printingList(self):
         if self.head is None:
-            print("The List is empty ..")
+            print("The List is empty ..\n")
         else:
             print("Printing List .......")
             temp = self.head
