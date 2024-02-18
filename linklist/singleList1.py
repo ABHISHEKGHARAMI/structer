@@ -51,9 +51,19 @@ class linkedList:
     # inserting after a certain node
     def insertAfterNode(self,data_after,data):
         if self.head is None:
-            print("Can't Perform operation List is empty .")
+            print("\nCan't Perform operation List is empty .\n")
         else:
-            pass
+            # just checking that the node exist in the list if exist then do the insertion .
+            if self.search(data_after) == True:
+                print(f"\n Inserting {data} after {data_after} ......\n")
+                node = Node(data)
+                temp = self.head
+                while temp:
+                    if temp.data == data_after:
+                        node.next = temp.next
+                        temp.next = node
+                        break
+                    temp = temp.next
             
     # searching in the list
     def search(self,data):
@@ -97,3 +107,8 @@ if list1.search(4) == True:
     print("Present")
 else:
     print("Not Present.")
+    
+    
+#executing the insert after function
+list1.insertAfterNode(3,6)
+list1.printingList()
