@@ -130,6 +130,28 @@ class linkedList:
                         temp.next = temp.next.next
                         break
                     temp = temp.next
+                    
+                    
+    # delete before of a node, given data
+    def deleteBefore(self,data_before):
+        if self.head is None:
+            print("\nThe list is empty can't delete.\n")
+        elif self.head.next.data == data_before:
+            self.head = self.head.next
+        else:
+            prev = None
+            current = self.head
+            while current.next :
+                if current.next.data == data_before:
+                    if prev is None:
+                        self.head = current.next
+                    else:
+                        prev.next = current.next
+                    break
+                prev = current
+                current = current.next
+            
+            
         
         
         
@@ -188,4 +210,6 @@ list1.printingList()
 list1.deleteEnd()
 list1.printingList()
 list1.deleteAfter(3)
+list1.printingList()
+list1.deleteBefore(3)
 list1.printingList()
