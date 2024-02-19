@@ -151,6 +151,18 @@ class linkedList:
                     break
                 prev = current
                 current = current.next
+                
+                
+                
+    # find the length of the list
+    def lengthList(self):
+        return self.findlengthrecurr(self.head)
+    
+    def findlengthrecurr(self,node):
+        if node is None:
+            return 0
+        else:
+            return 1 + self.findlengthrecurr(node.next)
             
             
         
@@ -214,3 +226,4 @@ list1.deleteAfter(3)
 list1.printingList()
 list1.deleteBefore(3)
 list1.printingList()
+print(f"\nThe length of the list is : {list1.lengthList()}")
