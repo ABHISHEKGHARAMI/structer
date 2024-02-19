@@ -6,9 +6,9 @@ there are several operation need to follow
  ii. insert at the end d
  iii. insert after a certain node d
  iv. insert before a certain node d
- v. delete from the front
- vi . delete from the end
- vii. delete after a certain node
+ v. delete from the front d
+ vi . delete from the end d
+ vii. delete after a certain node d
  viii. delete before a certain node
  ix. print the list. d
  x . search from the list d
