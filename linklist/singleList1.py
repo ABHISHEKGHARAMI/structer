@@ -96,7 +96,27 @@ class linkedList:
         else:
             temp = self.head
             self.head = self.head.next
-            print(f"\nthe front data {temp.data} is deleted .")            
+            print(f"\nthe front data {temp.data} is deleted .")        
+            
+            
+            
+            
+    # deleting data from the end of the list
+    def deleteEnd(self):
+        if self.head is None:
+            print("\nthe list is empty already.")
+        elif self.head.next is None:
+            self.head  = None
+        else:
+            temp = self.head
+            while temp.next.next:
+                temp = temp.next
+            temp.next = None
+        
+        
+        
+        
+        
     # searching in the list
     def search(self,data):
         flag = False
@@ -147,4 +167,6 @@ list1.printingList()
 list1.insertbefore(2,7)
 list1.printingList()
 list1.deleteFront()
+list1.printingList()
+list1.deleteEnd()
 list1.printingList()
