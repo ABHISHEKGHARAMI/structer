@@ -12,6 +12,7 @@ there are several operation need to follow
  viii. delete before a certain node d
  ix. print the list. d
  x . search from the list d
+ xi . find the length the list
  and more ..
  one by one we will implement this.
 '''
