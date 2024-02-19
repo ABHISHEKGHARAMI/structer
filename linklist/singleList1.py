@@ -9,7 +9,7 @@ there are several operation need to follow
  v. delete from the front d
  vi . delete from the end d
  vii. delete after a certain node d
- viii. delete before a certain node
+ viii. delete before a certain node d
  ix. print the list. d
  x . search from the list d
  and more ..
