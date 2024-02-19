@@ -113,6 +113,23 @@ class linkedList:
                 temp = temp.next
             temp.next = None
         
+    
+    # delete data after a node given
+    def deleteAfter(self,data_After):
+        if self.search(data_After) == False:
+            print("\n Can't delete data after the node.\n")
+        else:
+            if self.head == None:
+                print("\n List is empty ..\n")
+            elif self.head.next is None:
+                self.head = None
+            else:
+                temp = self.head
+                while temp.next:
+                    if temp.next.data == data_After:
+                        temp.next = temp.next.next
+                        break
+                    temp = temp.next
         
         
         
@@ -169,4 +186,6 @@ list1.printingList()
 list1.deleteFront()
 list1.printingList()
 list1.deleteEnd()
+list1.printingList()
+list1.deleteAfter(3)
 list1.printingList()
