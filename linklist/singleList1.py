@@ -126,7 +126,7 @@ class linkedList:
             else:
                 temp = self.head
                 while temp.next:
-                    if temp.next.data == data_After:
+                    if temp.data == data_After:
                         temp.next = temp.next.next
                         break
                     temp = temp.next
