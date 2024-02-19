@@ -4,7 +4,7 @@ Single list implementation for linked list using python.
 there are several operation need to follow
  i. insert at the front d
  ii. insert at the end d
- iii. insert after a certain node
+ iii. insert after a certain node 
  iv. insert before a certain node
  v. delete from the front
  vi . delete from the end
@@ -64,6 +64,28 @@ class linkedList:
                         temp.next = node
                         break
                     temp = temp.next
+                    
+    
+    # inserting after a certain given data
+    def insertbefore(self,data_before,data):
+        if self.search(data_before) == False:
+            print("\ncan't insert the data , the node before insertion is not present ...")
+        else:
+            print(f"\nInserting the {data} before the given data {data_before}.\n")
+            node = Node(data)
+            temp = self.head
+            prev = None
+            while temp!= None:
+                if temp.data == data_before:
+                    if prev is None:
+                        node.next = self.head
+                        self.head = node
+                    else:
+                        node.next = temp
+                        prev.next = node
+                        break
+                prev = temp 
+                temp = temp.next
             
     # searching in the list
     def search(self,data):
