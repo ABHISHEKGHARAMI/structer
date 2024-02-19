@@ -134,3 +134,5 @@ else:
 #executing the insert after function
 list1.insertAfterNode(3,6)
 list1.printingList()
+list1.insertbefore(2,7)
+list1.printingList()
