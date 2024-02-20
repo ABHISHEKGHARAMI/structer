@@ -183,6 +183,25 @@ class linkedList:
             self.head = prev
             
             
+            
+            
+    # Middle of the Linked List
+    def middleList(self):
+        if self.head == None:
+            print("\n0\n")
+        else:
+            h = self.lengthList()
+            h = h//2
+            count = 0 
+            temp = self.head
+            while temp:
+                if count == h:
+                    print(f"the middle of the list is :{temp.data}")
+                    break
+                count += 1
+                temp = temp.next
+            
+            
         
         
         
@@ -248,4 +267,5 @@ print(f"\nThe length of the list is : {list1.lengthList()}")
 
 list1.reverseList()
 list1.printingList()
+list1.middleList()
 
