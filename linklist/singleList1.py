@@ -164,6 +164,23 @@ class linkedList:
             return 0
         else:
             return 1 + self.findlengthrecurr(node.next)
+        
+        
+        
+    # Reverse the Linked list.
+    def reverseList(self) :
+        if self.head is None:
+            print("\nthe linked list is empty so no reverse..\n")
+        else:
+            print("\nreversing the linked list.....\n")
+            current = self.head
+            prev = None
+            while current.next is not None:
+                next = current.next
+                current.next = prev
+                prev = current
+                current = next
+            self.head = prev
             
             
         
@@ -228,3 +245,4 @@ list1.printingList()
 list1.deleteBefore(3)
 list1.printingList()
 print(f"\nThe length of the list is : {list1.lengthList()}")
+
