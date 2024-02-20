@@ -14,6 +14,7 @@ there are several operation need to follow
  x . search from the list d
  xi . find the length the list
  xii . Reverse the linked list .
+ xiii . Middle of the Linked List .
  and more ..
  one by one we will implement this.
 '''
