@@ -197,7 +197,7 @@ class linkedList:
             temp = self.head
             while temp:
                 if count == h:
-                    print(f"the middle of the list is :{temp.data}")
+                    print(f"\nthe middle of the list is :{temp.data}.\n")
                     break
                 count += 1
                 temp = temp.next
