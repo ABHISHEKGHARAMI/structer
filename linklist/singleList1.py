@@ -175,7 +175,7 @@ class linkedList:
             print("\nreversing the linked list.....\n")
             current = self.head
             prev = None
-            while current.next is not None:
+            while current is not None:
                 next = current.next
                 current.next = prev
                 prev = current
@@ -245,4 +245,7 @@ list1.printingList()
 list1.deleteBefore(3)
 list1.printingList()
 print(f"\nThe length of the list is : {list1.lengthList()}")
+
+list1.reverseList()
+list1.printingList()
 
