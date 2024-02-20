@@ -160,7 +160,22 @@ class linkedList:
                 
     # delete the data given in the function
     def deleteData(self,data):
-        pass
+        if self.head is None:
+            print("\ncan't delete the list is empty ...\n")
+        else:
+            print(f"\nDeleting data {data} from the list ....\n")
+            if self.head.data == data:
+                self.head = None
+            else:
+                prev = None
+                temp = self.head
+                while temp:
+                    if temp.data == data:
+                        prev.next = temp.next
+                        break
+                    prev = temp
+                    temp = temp.next
+                
     
                 
                 
@@ -327,5 +342,7 @@ list1.printingList()
 list1.middleList()
 list1.printnthFromLast(1)
 list1.moveLastFirst()
+list1.printingList()
+list1.deleteData(3)
 list1.printingList()
 
