@@ -16,6 +16,7 @@ there are several operation need to follow
  xii . Reverse the linked list .
  xiii . Middle of the Linked List .
  xiv. print the Nth node from the last
+ xv. Move the last element to the first
  and more ..
  one by one we will implement this.
 '''
@@ -202,6 +203,20 @@ class linkedList:
                     break
                 count += 1
                 temp = temp.next
+                
+                
+    # Move the last element form the last insert in to the first
+    def moveLastFirst(self):
+        if self.head is None:
+            print("\nThe List is empty..\n")
+        else:
+            val = 0
+            temp = self.head
+            while temp:
+                val = temp.data
+                temp = temp.next
+            self.deleteEnd()
+            self.insertFront(val)
             
             
     # print the last node from the last
@@ -270,7 +285,7 @@ else:
 #executing the insert after function
 list1.insertAfterNode(3,6)
 list1.printingList()
-list1.insertbefore(2,7)
+'''list1.insertbefore(2,7)
 list1.printingList()
 list1.deleteFront()
 list1.printingList()
@@ -278,12 +293,14 @@ list1.deleteEnd()
 list1.printingList()
 list1.deleteAfter(3)
 list1.printingList()
-list1.deleteBefore(3)
-list1.printingList()
-print(f"\nThe length of the list is : {list1.lengthList()}")
+list1.deleteBefore(3)'''
+'''list1.printingList()
+print(f"\nThe length of the list is : {list1.lengthList()}")'''
 
-list1.reverseList()
+'''list1.reverseList()'''
 list1.printingList()
 list1.middleList()
 list1.printnthFromLast(1)
+list1.moveLastFirst()
+list1.printingList()
 
