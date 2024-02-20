@@ -204,7 +204,22 @@ class linkedList:
                 temp = temp.next
             
             
-        
+    # print the last node from the last
+    def printnthFromLast(self,n):
+        if self.head == None or self.lengthList() < n:
+            print("\n0\n")
+        else:
+            h = self.lengthList()
+            h = h - n
+            count = 0 
+            temp = self.head
+            while temp:
+                if count == h:
+                    print(f"\nthe data from the last of {n} is :{temp.data}.\n")
+                    break
+                count += 1
+                temp = temp.next
+            
         
         
         
@@ -270,4 +285,5 @@ print(f"\nThe length of the list is : {list1.lengthList()}")
 list1.reverseList()
 list1.printingList()
 list1.middleList()
+list1.printnthFromLast(1)
 
