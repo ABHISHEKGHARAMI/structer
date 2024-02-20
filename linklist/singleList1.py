@@ -17,6 +17,7 @@ there are several operation need to follow
  xiii . Middle of the Linked List .
  xiv. print the Nth node from the last
  xv. Move the last element to the first
+ xvi. Move the middle element to the head
  and more ..
  one by one we will implement this.
 '''
@@ -157,6 +158,12 @@ class linkedList:
                 current = current.next
                 
                 
+    # delete the data given in the function
+    def deleteData(self,data):
+        pass
+    
+                
+                
                 
     # find the length of the list
     def lengthList(self):
@@ -217,6 +224,24 @@ class linkedList:
                 temp = temp.next
             self.deleteEnd()
             self.insertFront(val)
+            
+            
+    # move the middle element to the head
+    def moveMidFirst(self):
+        if self.head is None:
+            print("\nThe list is empty.\n")
+        else:
+            h = self.lengthList()
+            h = h // 2
+            count = 0
+            val = 0
+            temp = self.head
+            while temp:
+                if count == h:
+                    val = temp.data
+                count += 1
+                temp = temp.next
+            
             
             
     # print the last node from the last
