@@ -17,7 +17,8 @@ there are several operation need to follow
  xiii . Middle of the Linked List .
  xiv. print the Nth node from the last
  xv. Move the last element to the first
- xvi. Move the middle element to the head
+ xvi. Move the middle element to the head.
+ xvii. delete the alternate node from the list .
  and more ..
  one by one we will implement this.
 '''
