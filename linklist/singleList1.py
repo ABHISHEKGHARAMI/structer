@@ -257,6 +257,28 @@ class linkedList:
                     val = temp.data
                 count += 1
                 temp = temp.next
+                
+    
+    # delete alternate node from the linked list.
+    def deleteAlternate(self):
+        if self.head is None:
+            print("\nThe List is empty can be altered...\n")
+        else:
+            prev = self.head
+            temp = self.head.next
+            while prev != None and temp != None:
+                prev.next = temp.next
+                temp = None
+                
+                
+                # update the prev pointer
+                
+                prev = prev.next
+                
+                # update the prev
+                if prev!= None:
+                    temp = prev.next
+                
             
             
             
@@ -345,5 +367,7 @@ list1.printnthFromLast(1)
 list1.moveLastFirst()
 list1.printingList()
 list1.deleteData(3)
+list1.printingList()
+list1.deleteAlternate()
 list1.printingList()
 
