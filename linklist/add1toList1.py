@@ -14,7 +14,7 @@ class Node:
 # linkked list
 class Linkedlist:
     def __init__(self):
-        self.next = None
+        self.head = None
         
         
     # insert the data for the linked list
@@ -25,7 +25,7 @@ class Linkedlist:
             self.head = new_node
         else:
             temp = self.head
-            while temp:
+            while temp.next:
                 temp = temp.next
             temp.next = new_node
             
@@ -52,4 +52,15 @@ class Linkedlist:
                 prev = temp
                 temp = next
             self.head = prev
+
+
+# testing the function build
+list1 = Linkedlist()
+
+list1.insertList(1)
+list1.insertList(2)
+list1.insertList(3)
+list1.displayList()
+list1.reverseList()
+list1.displayList()
             
