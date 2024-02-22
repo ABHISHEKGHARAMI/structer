@@ -52,6 +52,16 @@ class Linkedlist:
                 prev = temp
                 temp = next
             self.head = prev
+            
+            
+    # building the main add 1 function
+    def addOneList(self):
+        self.reverseList()
+        self.head.data = self.head.data + 1
+        temp = self.head
+        carry = 0
+        prev = None
+        
 
 
 # testing the function build
