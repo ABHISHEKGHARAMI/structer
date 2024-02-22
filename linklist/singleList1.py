@@ -12,13 +12,14 @@ there are several operation need to follow
  viii. delete before a certain node d
  ix. print the list. d
  x . search from the list d
- xi . find the length the list
- xii . Reverse the linked list .
- xiii . Middle of the Linked List .
- xiv. print the Nth node from the last
- xv. Move the last element to the first
- xvi. Move the middle element to the head.
- xvii. delete the alternate node from the list .
+ xi . find the length the list  d
+ xii . Reverse the linked list . d 
+ xiii . Middle of the Linked List . d
+ xiv. print the Nth node from the last d
+ xv. Move the last element to the first d
+ xvi. Move the middle element to the head.d
+ xvii. delete the alternate node from the list .d
+ xviii. Printing the alternative data of the link list. d
  and more ..
  one by one we will implement this.
 '''
