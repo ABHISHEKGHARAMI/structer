@@ -70,13 +70,47 @@ class LinkedList:
                 prev = temp
                 temp = next
             self.head = prev
+            
+            
+    # add two linked list 
+    def add2List(self,list1,list2):
+        carry = 0
+        result = LinkedList()
+        ptr1 = list1.head
+        ptr2 = list2.head
+        while ptr1 or ptr2 or carry:
+            val1 = ptr1.data if ptr1 else 0
+            val2 = ptr2.data if ptr2 else 0
+            total = val1 + val2 + carry
+            carry = total // 10
+            result.insertList(total % 10)
+            
+            if ptr1:
+                ptr1 = ptr1.next
+            if ptr2:
+                ptr2 = ptr2.next
+            
+        return result
+            
+            
+
                 
 # testing the list
 list1 = LinkedList()
-list1.insertList(1)
-list1.insertList(2)
+list1.insertList(5)
+list1.insertList(6)
 list1.insertList(3)
-list1.insertList(4)
-list1.printingList()
+
+
+list2 = LinkedList()
+list2.insertList(8)
+list2.insertList(4)
+list2.insertList(2)
+
+# reverse the result
 list1.reverseList()
-list1.printingList()
+list2.reverseList()
+
+result = LinkedList().add2List(list1,list2)
+result.reverseList()
+result.printingList()
