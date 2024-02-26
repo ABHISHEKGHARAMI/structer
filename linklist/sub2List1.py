@@ -75,7 +75,7 @@ class LinkedList:
         result = LinkedList()
         ptr1 = list1.head
         ptr2 = list2.head
-        while ptr1 or ptr2 or borrow:
+        while ptr1 or ptr2:
             val1 = ptr1.data if ptr1 else 0
             val2 = ptr2.data if ptr2 else 0
             diff = val1 - val2 - borrow
