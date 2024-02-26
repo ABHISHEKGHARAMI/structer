@@ -28,6 +28,8 @@ So far covered topic is -
 
       7. Substraction 2 linked list problem.
 
-      
+      8. Sum of the last n node.
+
+
       
 
