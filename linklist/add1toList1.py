@@ -31,6 +31,7 @@ class Linkedlist:
             
     # display the node
     def displayList(self):
+        print("\nPrinting the list .....\n")
         if self.head is None:
             print("\nthe list is empty.\n")
         else:
@@ -57,20 +58,34 @@ class Linkedlist:
     # building the main add 1 function
     def addOneList(self):
         self.reverseList()
-        self.head.data = self.head.data + 1
+        carry = 1
         temp = self.head
-        carry = 0
-        prev = None
-        
+        while temp:
+            total = temp.data + carry
+            temp.data = total % 10
+            carry = total // 10
+            if carry == 0:
+                break
+            
+            temp = temp.next
+        # check the carry is there then add the new node to the list
+        if carry:
+            new_node = Node(carry)
+            temp.next = new_node
+        # now time for the reverse the list
+        self.reverseList()       
 
 
 # testing the function build
 list1 = Linkedlist()
 
 list1.insertList(1)
-list1.insertList(2)
-list1.insertList(3)
+list1.insertList(9)
+list1.insertList(9)
+list1.insertList(9)
 list1.displayList()
-list1.reverseList()
+#list1.reverseList()
+#list1.displayList()
+list1.addOneList()
 list1.displayList()
             
