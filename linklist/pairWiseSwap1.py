@@ -34,7 +34,7 @@ class LinkedList:
             self.head = new_node
         else:
             temp = self.head
-            while temp:
+            while temp.next:
                 temp = temp.next
             temp.next = new_node
             
@@ -48,5 +48,30 @@ class LinkedList:
             while temp.next:
                 print(f"{temp.data}=>",end=" ")
                 temp = temp.next
+                
+    
+    # pair wise swapping the linked list
+    def pairWiseSwap(self):
+        if self.head is None:
+            print("\nThe linked list is empty.\n")
+        else:
+            print("\nAfter swapping the linked list in pair wise form ...\n")
+            temp = self.head
+            while temp and temp.next:
+                if temp.data != temp.next.data:
+                    temp.data , temp.next.data = temp.next.data , temp.data
+                temp = temp.next.next
+                
+                
+# executing the main function
+list1 = LinkedList()
+list1.insertList(1)
+list1.insertList(2)
+list1.insertList(3)
+list1.insertList(4)
+list1.insertList(5)
+
+# print the list
+list1.printingList()
             
             
