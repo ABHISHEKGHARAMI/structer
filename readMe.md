@@ -32,6 +32,8 @@ So far covered topic is -
 
       9. Swap the two nodes for the linked list .
 
+      10. Delete the duplicate from the linked list .
+
       
 
 
