@@ -45,3 +45,33 @@ class LinkedList:
             while temp.next:
                 print(f"{temp.data}=>", end=" ")
                 temp = temp.next
+    
+    
+    # remove duplicate from the linked list 
+    def removeDuplicate(self):
+        if self.head is None:
+            print("\n\the list is empty.\n")
+        else:
+            print("\nprinting the list ...\n")
+            temp = self.head
+            while temp and temp.next.next:
+                if temp.data == temp.next.data:
+                    temp = temp.next.next
+                    
+
+
+# executing the created function
+list1 = LinkedList()
+list1.insertList(1)
+list1.insertList(2)
+list1.insertList(2)
+list1.insertList(3)
+list1.insertList(4)
+list1.insertList(5)
+
+list1.printingList()
+
+# executing the main fucntion
+list1.removeDuplicate()
+
+list1.printingList()
