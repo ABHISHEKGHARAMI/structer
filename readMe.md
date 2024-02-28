@@ -30,6 +30,10 @@ So far covered topic is -
 
       8. Sum of the last n node.
 
+      9. Swap the two nodes for the linked list .
+
+      
+
 
       
 
