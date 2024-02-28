@@ -44,6 +44,7 @@ class LinkedList:
         if self.head is None:
             print("\nthe list is empty.....\n")
         else:
+            print("\nprinting the list ...\n")
             temp = self.head
             while temp.next:
                 print(f"{temp.data}=>",end=" ")
@@ -72,6 +73,12 @@ list1.insertList(4)
 list1.insertList(5)
 
 # print the list
+list1.printingList()
+
+
+list1.pairWiseSwap()
+
+# print the final linked list
 list1.printingList()
             
             
