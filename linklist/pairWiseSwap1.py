@@ -62,7 +62,7 @@ class LinkedList:
                 if temp.data != temp.next.data:
                     temp.data , temp.next.data = temp.next.data , temp.data
                 temp = temp.next.next
-                
+    # thing is that just go iteratively .
                 
 # executing the main function
 list1 = LinkedList()
