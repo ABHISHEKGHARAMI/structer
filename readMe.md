@@ -36,6 +36,8 @@ So far covered topic is -
 
       11. Remove duplicate from the unsorted linked list .
 
+      12. Intersection of two linked list.
+
       
 
       
