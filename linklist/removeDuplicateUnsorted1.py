@@ -50,3 +50,34 @@ class LinkedList:
                 print(f"{temp.data}=>", end=" ")
                 temp = temp.next
     
+    # remove the duplicate from the unsorted linked list
+    def removeDupUnsorted(self):
+        if self.head is None:
+            print("\nthe list is empty.\n")
+        else:
+            temp = self.head
+            dict1 = {}
+            while temp:
+                if temp.data in dict1:
+                    dict1[temp.data] = dict1[temp.data] + 1
+                else:
+                    dict1[temp.data] = 1
+                temp = temp.next
+            #print(dict1)
+            list2 = LinkedList()
+            for i in dict1:
+                list2.insertList(i)
+            list2.printingList()
+            
+            
+list1 = LinkedList()
+list1.insertList(1)
+list1.insertList(2)
+list1.insertList(2)
+list1.insertList(3)
+list1.insertList(4)
+list1.insertList(5)
+
+list1.printingList()
+
+list1.removeDupUnsorted()
