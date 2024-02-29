@@ -34,6 +34,10 @@ So far covered topic is -
 
       10. Delete the duplicate from the linked list . 
 
+      11. Remove duplicate from the unsorted linked list .
+
+      
+
       
 
 
