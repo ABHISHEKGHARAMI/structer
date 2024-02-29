@@ -56,7 +56,8 @@ class LinkedList:
             temp = self.head
             while temp and temp.next.next:
                 if temp.data == temp.next.data:
-                    temp = temp.next.next
+                    temp.next = temp.next.next
+                temp = temp.next
                     
 
 
@@ -71,7 +72,7 @@ list1.insertList(5)
 
 list1.printingList()
 
-# executing the main fucntion
+# executing the main function
 list1.removeDuplicate()
 
 list1.printingList()
