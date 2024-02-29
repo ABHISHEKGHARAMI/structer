@@ -38,6 +38,8 @@ So far covered topic is -
 
       12. Intersection of two linked list.
 
+      13. Zig Zag representation for linked list .
+
       
 
       
