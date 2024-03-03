@@ -65,9 +65,9 @@ class dList:
                     break
                 temp = temp.next
             if flag == 1:
-                print(f"\n{data} present in the list.\n")
+                return 1
             else:
-                print(f"can't find {data}.\n")
+                return 0
         
         
         
