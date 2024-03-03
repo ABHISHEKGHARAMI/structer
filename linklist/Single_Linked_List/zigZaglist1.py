@@ -49,3 +49,8 @@ class LinkedList:
             while temp.next:
                 print(f"{temp.data}=>", end=" ")
                 temp = temp.next
+                
+    
+    # zig zag function
+    def zigZag(self):
+        pass
