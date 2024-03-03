@@ -13,6 +13,8 @@ So far covered topic is -
  5. String
 
  6. LinkList
+    
+    1. Single Linked List :-
 
       1. Basic LinkList Implementation and execution of Insert , delete , search , loop operations .
       
@@ -39,6 +41,8 @@ So far covered topic is -
       12. Intersection of two linked list.
 
       13. Zig Zag representation for linked list .
+
+    2. Double Linked List :-
 
       
 
