@@ -51,6 +51,24 @@ class dList:
             temp.next = new_node
             new_node.prev = temp
             
+    # adding a new node after a given node
+    def insertAfterNode(self,data_to_insert,data_after_insert):
+        new_node = Node(data_to_insert)
+        new_node.prev = None
+        if self.head is None:
+            print("\nThe list is empty.\n")
+        else:
+            temp = self.head
+            while temp:
+                if temp.data == data_after_insert:
+                    new_node.prev = temp
+                    new_node.next = temp.next
+                    if temp.next:
+                        temp.next.prev = new_node
+                    temp.next = new_node
+                    return
+                temp = temp.next
+            
             
     # search the data to the dll
     def searchList(self,data):
@@ -79,3 +97,5 @@ dlist1.insertLast(3)
 dlist1.insertLast(4)
 dlist1.display()
 dlist1.searchList(3)
+dlist1.insertAfterNode(6,3)
+dlist1.display()
