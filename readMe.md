@@ -44,6 +44,8 @@ So far covered topic is -
 
     2. Double Linked List :-
 
+      1. Basic intro of double linked list .
+
       
 
       
