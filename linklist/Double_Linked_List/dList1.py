@@ -20,6 +20,7 @@ class dList:
             temp = self.head
             while temp:
                 print(f"{temp.data}=>",end=" ")
+                
                 temp = temp.next
                 
                 
