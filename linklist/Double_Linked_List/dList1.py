@@ -50,6 +50,24 @@ class dList:
                 temp = temp.next
             temp.next = new_node
             new_node.prev = temp
+            
+            
+    # search the data to the dll
+    def searchList(self,data):
+        if self.head is None:
+            print("\nThe list is empty can't find the data in the list .\n")
+        else:
+            flag = 0
+            temp = self.head
+            while temp:
+                if temp.data == data:
+                    flag = 1
+                    break
+                temp = temp.next
+            if flag == 1:
+                print(f"\n{data} present in the list.\n")
+            else:
+                print(f"can't find {data}.\n")
         
         
         
@@ -60,3 +78,4 @@ dlist1.insertLast(2)
 dlist1.insertLast(3)
 dlist1.insertLast(4)
 dlist1.display()
+dlist1.searchList(3)
