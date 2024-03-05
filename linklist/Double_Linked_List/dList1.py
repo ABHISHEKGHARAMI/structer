@@ -130,7 +130,18 @@ class dList:
                     temp.next = temp.next.next
                 temp = temp.next
             
-            
+    
+    
+    # delete before the node given
+    def deleteBeforeNode(self,data_before_invoke):
+        print(f"\n{data_before_invoke} before data deleting operation...\n")
+        if self.head is None:
+            print("\n\The list is empty.\n")
+        else:
+            temp = self.head
+            while temp:
+                if temp.
+                temp = temp.next
     # search the data to the dll
     def searchList(self,data):
         if self.head is None:
