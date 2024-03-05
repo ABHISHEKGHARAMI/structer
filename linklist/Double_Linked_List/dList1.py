@@ -104,6 +104,19 @@ class dList:
             self.head = self.head.next
             print(f"{temp.data} deleted from the double linked list.")
             
+    # delete the last node of the double linked list
+    def deleteLastNode(self):
+        print("\ndeleting the last node of the double linked list ..\n")
+        if self.head is None:
+            print("\nthe linked list is empty ..\n")
+        elif self.head.next is None:
+            self.head = None
+        else:
+            temp = self.head
+            while temp.next:
+                temp = temp.next
+            temp.prev.next = None
+            
             
     # search the data to the dll
     def searchList(self,data):
@@ -137,4 +150,6 @@ dlist1.display()
 dlist1.insertBeforeData(7,3)
 dlist1.display()
 dlist1.deleteList()
+dlist1.display()
+dlist1.deleteLastNode()
 dlist1.display()
