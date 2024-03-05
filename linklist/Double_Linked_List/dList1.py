@@ -117,6 +117,19 @@ class dList:
                 temp = temp.next
             temp.prev.next = None
             
+    
+    # delete after a certain node after a given node data
+    def deleteAfterNodeData(self,data_after_invoke):
+        print(f"\nAfter {data_after_invoke} data to be deleted.")
+        if self.head is None:
+            print("\nThe Double Linked list is empty can't perform operation ..\n")
+        else:
+            temp = self.head
+            while temp:
+                if temp.data == data_after_invoke:
+                    temp.next = temp.next.next
+                temp = temp.next
+            
             
     # search the data to the dll
     def searchList(self,data):
@@ -152,4 +165,6 @@ dlist1.display()
 dlist1.deleteList()
 dlist1.display()
 dlist1.deleteLastNode()
+dlist1.display()
+dlist1.deleteAfterNodeData(7)
 dlist1.display()
