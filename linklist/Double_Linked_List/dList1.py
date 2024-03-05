@@ -68,6 +68,27 @@ class dList:
                     temp.next = new_node
                     return
                 temp = temp.next
+                
+    # add before the given  data
+    def insertBeforeData(self,data_to_insert,data_before_insert):
+        new_node = Node(data_to_insert)
+        new_node.prev = None
+        if self.head is None:
+            print("\nThe list is empty.\n")
+        else:
+            if self.searchList(data_before_insert) == 0:
+                print(f"\n{data_before_insert} is not present in the list .\n")
+            else:
+                print(f"{data_to_insert} inserting in linked list .")
+                temp = self.head
+                while temp:
+                    if temp.next.data == data_before_insert:
+                        new_node.prev = temp
+                        new_node.next = temp.next
+                        temp.next.prev = new_node
+                        temp.next = new_node
+                        return
+                    temp = temp.next
             
             
     # search the data to the dll
@@ -98,4 +119,6 @@ dlist1.insertLast(4)
 dlist1.display()
 dlist1.searchList(3)
 dlist1.insertAfterNode(6,3)
+dlist1.display()
+dlist1.insertBeforeData(7,3)
 dlist1.display()
