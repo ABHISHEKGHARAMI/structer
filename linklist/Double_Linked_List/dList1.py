@@ -89,6 +89,20 @@ class dList:
                         temp.next = new_node
                         return
                     temp = temp.next
+                    
+    # delete the first node of the Double linked list
+    def deleteList(self):
+        print("\ndeleting the first node of the double linked list .\n")
+        if self.head is None:
+            print("\nThe double linked list is empty.\n")
+        elif self.head.next is None:
+            temp = self.head
+            print(f"{temp.data} is deleted .")
+            self.head = None
+        else:
+            temp = self.head
+            self.head = self.head.next
+            print(f"{temp.data} deleted from the double linked list.")
             
             
     # search the data to the dll
@@ -121,4 +135,6 @@ dlist1.searchList(3)
 dlist1.insertAfterNode(6,3)
 dlist1.display()
 dlist1.insertBeforeData(7,3)
+dlist1.display()
+dlist1.deleteList()
 dlist1.display()
