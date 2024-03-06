@@ -37,6 +37,9 @@ class dList:
             self.head = new_node
             
             
+    # 
+            
+            
     # add data to the last of the linked list .
     def insertLast(self,data):
         new_node = Node(data)
@@ -139,6 +142,20 @@ class dList:
             print("\n\The list is empty.\n")
         else:
             pass
+        
+        
+    # delete a certain data
+    def deleteNode(self,data):
+        if self.head is None:
+            print("\nThe Double Linked list is empty can't perform operation ..\n")
+        else:
+            print(f"\n{data} deleting from the list ..\n")
+            temp = self.head
+            while temp:
+                if temp.next.data == data:
+                    temp = temp.next.next
+                    return
+                temp = temp.next
             
             
     
@@ -234,3 +251,4 @@ print(f"The length of the Double linked list is : {dlist1.lengthList()}")
 print(f"The data of the middle of the node is : {dlist1.middleNode()}")
 dlist1.reverseList()
 dlist1.display()
+data = int(input("enter the data in the terminal to be deleted :"))
