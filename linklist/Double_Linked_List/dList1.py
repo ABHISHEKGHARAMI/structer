@@ -138,10 +138,10 @@ class dList:
         if self.head is None:
             print("\n\The list is empty.\n")
         else:
-            temp = self.head
-            while temp:
-                if temp.
-                temp = temp.next
+            pass
+            
+            
+            
     # search the data to the dll
     def searchList(self,data):
         if self.head is None:
@@ -158,6 +158,18 @@ class dList:
                 return 1
             else:
                 return 0
+            
+    # find the length of the tree
+    def lengthList(self,node):
+        return self.lengthUtill(node.next)
+    
+    
+    # util function for the  length function
+    def lengthUtill(self,node):
+        if node is None:
+            return 0
+        else:
+            return 1 + self.lengthUtill(node.next)
         
         
         
@@ -179,3 +191,4 @@ dlist1.deleteLastNode()
 dlist1.display()
 dlist1.deleteAfterNodeData(7)
 dlist1.display()
+print(f"The length of the Double linked list is : {dlist1.lengthList(dlist1.head)}")
