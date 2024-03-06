@@ -141,7 +141,28 @@ class dList:
             pass
             
             
-            
+    
+    # reverse the double linked list
+    def reverseList(self):
+        print("\nReversing the double linked list ..\n")
+        if self.head is None or self.head.next is None:
+            print("\nThe current double linked list is empty or has single element no need to reverse it .\n")
+        else:
+            print("\nReversing the Double Linked List ..\n")
+            current = self.head
+            prev_node = None
+            while current is not None:
+                temp = current.next
+                current.next = prev_node
+                current.prev = temp
+                
+                #  now move the current node
+                prev_node = current
+                current = temp
+            # set up the prev node to the head
+            self.head = prev_node
+    
+          
     # search the data to the dll
     def searchList(self,data):
         if self.head is None:
@@ -211,3 +232,5 @@ dlist1.deleteAfterNodeData(7)
 dlist1.display()
 print(f"The length of the Double linked list is : {dlist1.lengthList()}")
 print(f"The data of the middle of the node is : {dlist1.middleNode()}")
+dlist1.reverseList()
+dlist1.display()
