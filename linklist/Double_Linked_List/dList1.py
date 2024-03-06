@@ -160,8 +160,8 @@ class dList:
                 return 0
             
     # find the length of the tree
-    def lengthList(self,node):
-        return self.lengthUtill(node.next)
+    def lengthList(self):
+        return self.lengthUtill(self.head)
     
     
     # util function for the  length function
@@ -170,6 +170,24 @@ class dList:
             return 0
         else:
             return 1 + self.lengthUtill(node.next)
+        
+        
+    # finding the middle of the node
+    def middleNode(self):
+        if self.head is None:
+            print("\nThe list is empty.\n")
+            return 0
+        else:
+            temp = self.head
+            data = 0
+            count = 0
+            while temp:
+                if count == (self.lengthList())//2:
+                    data = temp.data
+                    break
+                count += 1
+                temp = temp.next
+            return data
         
         
         
@@ -191,4 +209,5 @@ dlist1.deleteLastNode()
 dlist1.display()
 dlist1.deleteAfterNodeData(7)
 dlist1.display()
-print(f"The length of the Double linked list is : {dlist1.lengthList(dlist1.head)}")
+print(f"The length of the Double linked list is : {dlist1.lengthList()}")
+print(f"The data of the middle of the node is : {dlist1.middleNode()}")
