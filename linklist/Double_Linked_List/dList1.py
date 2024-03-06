@@ -37,7 +37,22 @@ class dList:
             self.head = new_node
             
             
-    # 
+    # checking any data is present or not
+    def __contain__(self):
+        if self.head is None:
+            return 0
+        else:
+            flag = 0
+            temp = self.head
+            while temp:
+                if temp.data == data:
+                    flag = 1
+                    break
+                temp = temp.next
+            if flag == 1:
+                return 1
+            else:
+                return 0
             
             
     # add data to the last of the linked list .
