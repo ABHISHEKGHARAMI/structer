@@ -38,7 +38,7 @@ class dList:
             
             
     # checking any data is present or not
-    def __contain__(self):
+    def __contain__(self,data):
         if self.head is None:
             return 0
         else:
@@ -168,7 +168,7 @@ class dList:
             temp = self.head
             while temp:
                 if temp.next.data == data:
-                    temp = temp.next.next
+                    temp.next = temp.next.next
                     return
                 temp = temp.next
             
@@ -267,3 +267,8 @@ print(f"The data of the middle of the node is : {dlist1.middleNode()}")
 dlist1.reverseList()
 dlist1.display()
 data = int(input("enter the data in the terminal to be deleted :"))
+if dlist1.__contain__(data) == 1:
+    dlist1.deleteNode(data)
+    dlist1.display()
+else:
+    print(f"\n{data} is not present in the double linked list .\n")
