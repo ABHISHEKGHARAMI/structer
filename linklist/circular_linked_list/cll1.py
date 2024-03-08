@@ -84,6 +84,27 @@ class Clist:
                         temp.next = node
                         node.next = temp.next.next
                     temp = temp.next
+                    
+                    
+    # insertion before a certain node
+    def insertionBefoerNode(self,data_before_insert,data_to_insert):
+        node = Node(data_to_insert)
+        if self.head is None:
+            print("\nList is empty.")
+            logging.info("\nList is empty.")
+        else:
+            if self.__contain__(data_before_insert) == 0:
+                print(f"\n{data_before_insert} is not present in the list.")
+                logging.info(f"\n{data_before_insert} is not present in the list.")
+            else:
+                print(f"\nInserting the {data_to_insert} in the list.")
+                logging.info(f"\nInserting the {data_to_insert} in the list.")
+                temp = self.head
+                while temp.next != self.head:
+                    if temp.next.data == data_before_insert:
+                        temp.next = node
+                        node.next = temp.next.next
+                    temp = temp.next
             
     
     # display the linked  list
