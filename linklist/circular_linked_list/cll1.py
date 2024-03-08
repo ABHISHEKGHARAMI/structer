@@ -68,7 +68,22 @@ class Clist:
     # insertion after a certain given node
     def insertionAfterNode(self,data_after_insert,data_to_insert):
         node = Node(data_to_insert)
-        pass
+        if self.head is None:
+            print("\nthe list is empty.")
+            logging.info("\nthe list is empty.")
+        else:
+            if self.__contain__(data_after_insert) == 0:
+                print(f"\n{data_after_insert} is not present in the list.")
+                logging.info(f"\n{data_after_insert} is not present in the list.")
+            else:
+                print(f"\ninserting {data_to_insert} in the list.")
+                logging.info(f"\ninserting {data_to_insert} in the list.")
+                temp = self.head
+                while temp.next != self.head:
+                    if temp.data == data_after_insert:
+                        temp.next = node
+                        node.next = temp.next.next
+                    temp = temp.next
             
     
     # display the linked  list
@@ -97,5 +112,7 @@ clist.insertionlast(2)
 clist.insertionlast(3)
 clist.insertionlast(4)
 clist.insertionlast(5)
+clist.display()
+clist.insertionAfterNode(3,6)
 clist.display()
 

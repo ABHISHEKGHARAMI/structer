@@ -138,3 +138,20 @@ Printing the linked list.
 2024-03-08 12:56:37,777 - INFO - cll1.py - 3=>
 2024-03-08 12:56:40,342 - INFO - cll1.py - 4=>
 2024-03-08 12:56:43,440 - INFO - cll1.py - 5=>
+2024-03-08 13:52:18,016 - INFO - cll1.py - 
+Inserting the 1 at the front of the linked list .
+2024-03-08 13:52:18,050 - INFO - cll1.py - 
+Inserting 2 at the end of the data.
+2024-03-08 13:52:18,053 - INFO - cll1.py - 
+Inserting 3 at the end of the data.
+2024-03-08 13:52:18,054 - INFO - cll1.py - 
+Inserting 4 at the end of the data.
+2024-03-08 13:52:18,056 - INFO - cll1.py - 
+Inserting 5 at the end of the data.
+2024-03-08 13:52:18,058 - INFO - cll1.py - 
+Printing the linked list.
+2024-03-08 13:52:18,059 - INFO - cll1.py - 1=>
+2024-03-08 13:52:18,060 - INFO - cll1.py - 2=>
+2024-03-08 13:52:18,064 - INFO - cll1.py - 3=>
+2024-03-08 13:52:18,065 - INFO - cll1.py - 4=>
+2024-03-08 13:52:18,067 - INFO - cll1.py - 5=>
