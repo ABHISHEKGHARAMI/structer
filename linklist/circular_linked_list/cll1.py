@@ -24,8 +24,8 @@ class Clist:
         logging.info(f"\nInserting the {data} at the front of the linked list .")
         node = Node(data)
         if self.head is None:
-            node.next = self.head
             self.head = node
+            node.next = self.head
         else:
             temp = self.head
             while temp.next != self.head:
@@ -57,12 +57,22 @@ class Clist:
             logging.info("\nthe list is empty.")
         else:
             temp = self.head
-            while temp.next != self.head:
-                print(f"{temp.data}=>",end=" ")
+            while True:
+                print(f"{temp.data}=>", end=" ")
                 logging.info(f"{temp.data}=>")
                 temp = temp.next
+                if temp == self.head:
+                    break
+                
                 
                 
 
-
+# executing the basic function
+clist = Clist()
+clist.insertFront(1)
+clist.insertionlast(2)
+clist.insertionlast(3)
+clist.insertionlast(4)
+clist.insertionlast(5)
+clist.display()
 
