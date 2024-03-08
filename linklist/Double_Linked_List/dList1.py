@@ -1,10 +1,12 @@
 # basic operation on the linked list .
+import sys
+sys.path.append("D:/python_exercise_geeks/structer-1")
 
 from settings import setup_logging
 import logging
 
-import sys
-sys.path.append("D:/python_exercise_geeks/structer-1")
+
+
 
 
 setup_logging()
@@ -27,11 +29,11 @@ class dList:
             print("\nThe list is empty.\n")
         else:
             print("\nPrinting data ....\n")
-            logger.info("\nPrinting data ......\n")
+            logging.info("\nPrinting data ......\n")
             temp = self.head
             while temp:
                 print(f"{temp.data}=>",end=" ")
-                logger.info(f"{temp.data}=>",end=" ")
+                logging.info(f"{temp.data}=>")
                 
                 temp = temp.next
                 
@@ -41,7 +43,7 @@ class dList:
         new_node = Node(data)
         new_node.prev = None
         print(f"\nInserting {data} at the front of the linked list .\n")
-        logger.info(f"\nInserting {data} at the front of the linked list .\n")
+        logging.info(f"\nInserting {data} at the front of the linked list .\n")
         if self.head is None:
             self.head = new_node
         else:
@@ -76,7 +78,7 @@ class dList:
             self.frontInsert(data)
         else:
             print(f"\nInserting {data} at the end of the linked list .\n")
-            logger.info(f"\nInserting {data} at the end of the linked list .\n")
+            logging.info(f"\nInserting {data} at the end of the linked list .\n")
             temp = self.head
             while temp.next:
                 temp = temp.next
@@ -89,7 +91,7 @@ class dList:
         new_node.prev = None
         if self.head is None:
             print("\nThe list is empty.\n")
-            logger.info("\nThe list is empty.\n")
+            logging.info("\nThe list is empty.\n")
         else:
             temp = self.head
             while temp:
@@ -108,14 +110,14 @@ class dList:
         new_node.prev = None
         if self.head is None:
             print("\nThe list is empty.\n")
-            logger.info("\nThe list is empty.\n")
+            logging.info("\nThe list is empty.\n")
         else:
             if self.searchList(data_before_insert) == 0:
                 print(f"\n{data_before_insert} is not present in the list .\n")
-                logger.info(f"\n{data_before_insert} is not present in the list .\n")
+                logging.info(f"\n{data_before_insert} is not present in the list .\n")
             else:
                 print(f"{data_to_insert} inserting in linked list .")
-                logger.info(f"{data_to_insert} inserting in linked list .")
+                logging.info(f"{data_to_insert} inserting in linked list .")
                 temp = self.head
                 while temp:
                     if temp.next.data == data_before_insert:
@@ -129,28 +131,28 @@ class dList:
     # delete the first node of the Double linked list
     def deleteList(self):
         print("\ndeleting the first node of the double linked list .\n")
-        logger.info("\ndeleting the first node of the double linked list .\n")
+        logging.info("\ndeleting the first node of the double linked list .\n")
         if self.head is None:
             print("\nThe double linked list is empty.\n")
-            logger.info("\nThe double linked list is empty.\n")
+            logging.info("\nThe double linked list is empty.\n")
         elif self.head.next is None:
             temp = self.head
             print(f"{temp.data} is deleted .")
-            logger.info(f"{temp.data} is deleted .")
+            logging.info(f"{temp.data} is deleted .")
             self.head = None
         else:
             temp = self.head
             self.head = self.head.next
             print(f"{temp.data} deleted from the double linked list.")
-            logger.info(f"{temp.data} deleted from the double linked list.")
+            logging.info(f"{temp.data} deleted from the double linked list.")
             
     # delete the last node of the double linked list
     def deleteLastNode(self):
         print("\ndeleting the last node of the double linked list ..\n")
-        logger.info("\ndeleting the last node of the double linked list ..\n")
+        logging.info("\ndeleting the last node of the double linked list ..\n")
         if self.head is None:
             print("\nthe linked list is empty ..\n")
-            logger.info("\nthe linked list is empty ..\n")
+            logging.info("\nthe linked list is empty ..\n")
         elif self.head.next is None:
             self.head = None
         else:

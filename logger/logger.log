@@ -1,0 +1,91 @@
+2024-03-08 11:12:52,255 - INFO - dList1.py - 
+Inserting 1 at the front of the linked list .
+
+2024-03-08 11:13:02,185 - INFO - dList1.py - 
+Inserting 2 at the end of the linked list .
+
+2024-03-08 11:13:02,188 - INFO - dList1.py - 
+Inserting 3 at the end of the linked list .
+
+2024-03-08 11:13:02,192 - INFO - dList1.py - 
+Inserting 4 at the end of the linked list .
+
+2024-03-08 11:13:06,199 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:25,234 - INFO - dList1.py - 
+Inserting 1 at the front of the linked list .
+
+2024-03-08 11:14:25,246 - INFO - dList1.py - 
+Inserting 2 at the end of the linked list .
+
+2024-03-08 11:14:25,251 - INFO - dList1.py - 
+Inserting 3 at the end of the linked list .
+
+2024-03-08 11:14:25,270 - INFO - dList1.py - 
+Inserting 4 at the end of the linked list .
+
+2024-03-08 11:14:26,843 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:26,848 - INFO - dList1.py - 1=>
+2024-03-08 11:14:26,849 - INFO - dList1.py - 2=>
+2024-03-08 11:14:26,849 - INFO - dList1.py - 3=>
+2024-03-08 11:14:26,849 - INFO - dList1.py - 4=>
+2024-03-08 11:14:27,848 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:27,850 - INFO - dList1.py - 1=>
+2024-03-08 11:14:27,850 - INFO - dList1.py - 2=>
+2024-03-08 11:14:27,850 - INFO - dList1.py - 3=>
+2024-03-08 11:14:27,856 - INFO - dList1.py - 6=>
+2024-03-08 11:14:27,858 - INFO - dList1.py - 4=>
+2024-03-08 11:14:27,861 - INFO - dList1.py - 7 inserting in linked list .
+2024-03-08 11:14:30,065 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:30,065 - INFO - dList1.py - 1=>
+2024-03-08 11:14:30,065 - INFO - dList1.py - 2=>
+2024-03-08 11:14:30,065 - INFO - dList1.py - 7=>
+2024-03-08 11:14:30,065 - INFO - dList1.py - 3=>
+2024-03-08 11:14:30,065 - INFO - dList1.py - 6=>
+2024-03-08 11:14:30,065 - INFO - dList1.py - 4=>
+2024-03-08 11:14:30,078 - INFO - dList1.py - 
+deleting the first node of the double linked list .
+
+2024-03-08 11:14:30,080 - INFO - dList1.py - 1 deleted from the double linked list.
+2024-03-08 11:14:30,896 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:30,898 - INFO - dList1.py - 2=>
+2024-03-08 11:14:30,898 - INFO - dList1.py - 7=>
+2024-03-08 11:14:30,898 - INFO - dList1.py - 3=>
+2024-03-08 11:14:30,898 - INFO - dList1.py - 6=>
+2024-03-08 11:14:30,909 - INFO - dList1.py - 4=>
+2024-03-08 11:14:30,915 - INFO - dList1.py - 
+deleting the last node of the double linked list ..
+
+2024-03-08 11:14:31,788 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:31,796 - INFO - dList1.py - 2=>
+2024-03-08 11:14:31,801 - INFO - dList1.py - 7=>
+2024-03-08 11:14:31,802 - INFO - dList1.py - 3=>
+2024-03-08 11:14:31,804 - INFO - dList1.py - 6=>
+2024-03-08 11:14:32,562 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:32,563 - INFO - dList1.py - 2=>
+2024-03-08 11:14:32,564 - INFO - dList1.py - 7=>
+2024-03-08 11:14:32,565 - INFO - dList1.py - 6=>
+2024-03-08 11:14:34,669 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:34,671 - INFO - dList1.py - 6=>
+2024-03-08 11:14:34,672 - INFO - dList1.py - 7=>
+2024-03-08 11:14:34,675 - INFO - dList1.py - 2=>
+2024-03-08 11:14:59,774 - INFO - dList1.py - 
+Printing data ......
+
+2024-03-08 11:14:59,780 - INFO - dList1.py - 6=>
+2024-03-08 11:14:59,780 - INFO - dList1.py - 2=>
