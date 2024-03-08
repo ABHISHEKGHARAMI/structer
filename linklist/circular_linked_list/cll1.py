@@ -18,6 +18,23 @@ class Clist:
     def __init__(self):
         self.head = None
         
+    # contain
+    def __contain__(self,data):
+        if self.head is None:
+            return 0
+        else:
+            temp = self.head
+            flag = 0
+            while temp.next != self.head:
+                if temp.data == data:
+                    flag = 1
+                    break
+                temp = temp.next
+            if flag == 1:
+                return 1
+            else:
+                return 0
+        
     # inserting the node at the front of the linked list
     def insertFront(self,data):
         print(f"\nInserting the {data} at the front of the linked list .")
@@ -46,6 +63,12 @@ class Clist:
                 temp = temp.next
             temp.next = node
             node.next = self.head
+            
+            
+    # insertion after a certain given node
+    def insertionAfterNode(self,data_after_insert,data_to_insert):
+        node = Node(data_to_insert)
+        pass
             
     
     # display the linked  list
