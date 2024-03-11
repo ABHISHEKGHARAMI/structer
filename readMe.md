@@ -52,7 +52,11 @@ So far covered topic is -
         
          1. Basic intro of the circular linked list .
 
-         
+ 7. Stack :
+
+    1. Using the stack data structure for the linear data structure .
+    
+            
 
       
 
