@@ -155,3 +155,11 @@ Printing the linked list.
 2024-03-08 13:52:18,064 - INFO - cll1.py - 3=>
 2024-03-08 13:52:18,065 - INFO - cll1.py - 4=>
 2024-03-08 13:52:18,067 - INFO - cll1.py - 5=>
+2024-03-11 16:17:12,357 - ERROR - stack1.py - Data is empty.
+2024-03-11 16:17:46,685 - ERROR - stack1.py - Data is empty.
+2024-03-11 16:19:44,731 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:20:18,716 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:20:39,221 - INFO - stack1.py - [1, 2]
+2024-03-11 16:21:08,206 - INFO - stack1.py - the size of the stack is : 2
+2024-03-11 16:21:30,731 - INFO - stack1.py - {element} has been deleted.
+2024-03-11 16:21:52,153 - INFO - stack1.py - [1]

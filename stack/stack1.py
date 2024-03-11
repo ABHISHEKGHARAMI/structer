@@ -17,7 +17,7 @@ class Stack:
         
     # push operation for the stack
     def pushStack(self,data):
-        if data:
+        if data is None:
             print(f"\nData is empty.")
             logging.error("Data is empty.")
         else:
@@ -59,4 +59,29 @@ class Stack:
             for i in range(len(self.stack)):
                 print(f"\n{self.stack[i]}",end=" ")
             logging.info(self.stack)
-                
+
+
+# executing the stack for the 
+
+s1 = Stack()
+
+# loop
+while True  :
+    print("\n 1: Append data. \n 2: Pop Data. \n 3: Size of Stack. \n 4: Print Stack.")
+    print("\n 0: exit the program.")
+    choice = int(input("\nenter the choice :"))
+    if choice == 0:
+        exit(0)
+    elif choice == 1:
+        data = int(input("\nEnter the data to Push in the stack."))
+        s1.pushStack(data)
+    elif choice == 2:
+        s1.popStack()
+    elif choice == 3:
+        print(f"\nthe size of the stack is : {s1.sizeStack()}")
+        logging.info(f"the size of the stack is : {s1.sizeStack()}")
+    elif choice == 4:
+        s1.printStack()
+    else:
+        print("Wrong choice !!")
+        logging.info("Wrong choice !!")
