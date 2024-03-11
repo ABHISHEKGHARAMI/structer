@@ -163,3 +163,8 @@ Printing the linked list.
 2024-03-11 16:21:08,206 - INFO - stack1.py - the size of the stack is : 2
 2024-03-11 16:21:30,731 - INFO - stack1.py - {element} has been deleted.
 2024-03-11 16:21:52,153 - INFO - stack1.py - [1]
+2024-03-11 16:45:07,160 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:45:13,451 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:45:24,664 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:45:28,905 - INFO - stack1.py - Inserting the {data}
+2024-03-11 16:45:33,711 - INFO - stack1.py - [1, 2, 3, 4]
