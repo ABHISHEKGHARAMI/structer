@@ -41,7 +41,7 @@ class Stack:
         else:
             element = self.stack.pop()
             print(f"{element} has been pop from the stack.")
-            logging.info("{element} has been deleted.")
+            logging.info(f"{element} has been deleted.")
             
     
     # size of the stack
