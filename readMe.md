@@ -15,7 +15,7 @@ So far covered topic is -
  6. LinkList
     
     
-    1. Single Linked List :-
+    1. [Single Linked List :-](./linklist/Single_Linked_List)
 
 
          1. [Basic LinkList Implementation and execution of Insert , delete , search , loop operations .](./linklist/Single_Linked_List/singleList1.py)
