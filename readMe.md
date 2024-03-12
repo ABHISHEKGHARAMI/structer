@@ -52,7 +52,7 @@ So far covered topic is -
         
          1. [Basic intro of the circular linked list .](./linklist/circular_linked_list/)
 
- 7. Stack :
+ 7. [Stack :](./stack)
 
     1. [Using the stack data structure for the linear data structure .](./stack/stack1.py)
 
