@@ -59,6 +59,9 @@ So far covered topic is -
     2. [Pop the middle of the Stack.](./stack/middleStack1.py)
 
     3. [Check parenthesis.](./stack/checkParenthesis1.py)
+
+    4. [Two Stack Implementation.](./stack/twoStack1.py)
+
     
 
     
