@@ -40,7 +40,7 @@ So far covered topic is -
 
          11. [Remove duplicate from the unsorted linked list .](./linklist/Single_Linked_List/removeDuplicateUnsorted1.py)
 
-         12. Intersection of two linked list.
+         12. [Intersection of two linked list.](./linklist/Single_Linked_List/linkedListIntersection1.py)
 
          13. Zig Zag representation for linked list .
 
