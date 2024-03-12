@@ -212,3 +212,20 @@ Printing the linked list.
 2024-03-12 18:55:35,579 - INFO - checkParenthesis1.py - Inserting the {data}
 2024-03-12 18:55:35,588 - INFO - checkParenthesis1.py - ( has been deleted.
 2024-03-12 18:55:35,591 - INFO - checkParenthesis1.py - (a+b)] is not balanced at all .
+2024-03-12 22:15:34,243 - INFO - twoStack1.py - Inserting the 1
+2024-03-12 22:15:36,543 - INFO - twoStack1.py - Inserting the 2
+2024-03-12 22:15:36,545 - INFO - twoStack1.py - Inserting the 3
+2024-03-12 22:15:36,547 - INFO - twoStack1.py - Inserting the 5
+2024-03-12 22:15:36,549 - INFO - twoStack1.py - Inserting the 6
+2024-03-12 22:15:36,550 - INFO - twoStack1.py - Inserting the 7
+2024-03-12 22:15:36,552 - INFO - twoStack1.py - Inserting the 8
+2024-03-12 22:15:36,554 - INFO - twoStack1.py - Inserting the 9
+2024-03-12 22:15:36,555 - INFO - twoStack1.py - Inserting the 10
+2024-03-12 22:15:36,562 - INFO - twoStack1.py - [1, 2, 3, 5, 6]
+2024-03-12 22:15:36,567 - INFO - twoStack1.py - [7, 8, 9, 10]
+2024-03-12 22:15:51,304 - INFO - twoStack1.py - Inserting the 12
+2024-03-12 22:15:51,308 - INFO - twoStack1.py - Inserting the 14
+2024-03-12 22:15:51,317 - INFO - twoStack1.py - [1, 2, 3, 5, 6, 12]
+2024-03-12 22:15:51,324 - INFO - twoStack1.py - [7, 8, 9, 10, 14]
+2024-03-12 22:15:51,326 - INFO - twoStack1.py - 12 has been deleted.
+2024-03-12 22:15:51,328 - INFO - twoStack1.py - 14 has been deleted.
