@@ -44,7 +44,7 @@ So far covered topic is -
 
          13. [Zig Zag representation for linked list .](./linklist/Single_Linked_List/zigZaglist1.py)
 
-    2. Double Linked List :-
+    2. [Double Linked List :-](./linklist/Double_Linked_List)
 
          1. [Basic intro of double linked list .](./linklist//Double_Linked_List/)
 
