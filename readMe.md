@@ -54,7 +54,7 @@ So far covered topic is -
 
  7. Stack :
 
-    1. Using the stack data structure for the linear data structure .
+    1. [Using the stack data structure for the linear data structure .] (./structer-1/stack/stack1.py)
     
             
 
