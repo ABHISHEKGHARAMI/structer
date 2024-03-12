@@ -168,3 +168,23 @@ Printing the linked list.
 2024-03-11 16:45:24,664 - INFO - stack1.py - Inserting the {data}
 2024-03-11 16:45:28,905 - INFO - stack1.py - Inserting the {data}
 2024-03-11 16:45:33,711 - INFO - stack1.py - [1, 2, 3, 4]
+2024-03-12 17:43:35,030 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:43:35,110 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:43:35,112 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:43:35,113 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:43:35,115 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:43:35,120 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,906 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,911 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,914 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,916 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,917 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,921 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:21,928 - INFO - middleStack1.py - 40 deleted form the stack.
+2024-03-12 17:44:54,088 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:54,094 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:54,096 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:54,124 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:54,126 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:54,127 - INFO - middleStack1.py - Inserting the {data}
+2024-03-12 17:44:59,725 - INFO - middleStack1.py - 40 deleted form the stack.

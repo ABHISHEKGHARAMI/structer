@@ -55,6 +55,9 @@ So far covered topic is -
  7. Stack :
 
     1. [Using the stack data structure for the linear data structure .](./stack/stack1.py)
+
+    2. [Pop the middle of the Stack.](./stack/middleStack1.py)
+    
     
             
 
