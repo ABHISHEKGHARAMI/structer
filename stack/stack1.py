@@ -22,7 +22,7 @@ class Stack:
             logging.error("Data is empty.")
         else:
             print(f"Inserting the {data}")
-            logging.info("Inserting the {data}")
+            logging.info(f"Inserting the {data}")
             self.stack.append(data)
     
     
