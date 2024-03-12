@@ -188,3 +188,27 @@ Printing the linked list.
 2024-03-12 17:44:54,126 - INFO - middleStack1.py - Inserting the {data}
 2024-03-12 17:44:54,127 - INFO - middleStack1.py - Inserting the {data}
 2024-03-12 17:44:59,725 - INFO - middleStack1.py - 40 deleted form the stack.
+2024-03-12 18:35:47,383 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:35:55,185 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:35:55,190 - INFO - checkParenthesis1.py - (a+b)+c has balanced parenthesis .
+2024-03-12 18:36:31,100 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:36:31,109 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:36:31,113 - ERROR - checkParenthesis1.py - Stack is empty.
+2024-03-12 18:36:31,115 - INFO - checkParenthesis1.py - (a+b)} has balanced parenthesis .
+2024-03-12 18:41:46,643 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:42:13,493 - INFO - checkParenthesis1.py - (a+b)] is not balanced at all .
+2024-03-12 18:42:45,255 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:42:45,263 - INFO - checkParenthesis1.py - (a+b) is not balanced at all .
+2024-03-12 18:43:36,415 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:45:20,240 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:45:20,250 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:45:20,252 - INFO - checkParenthesis1.py - (a+b) has balanced parenthesis .
+2024-03-12 18:45:52,517 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:45:52,523 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:45:52,526 - INFO - checkParenthesis1.py - (a+b)] has balanced parenthesis .
+2024-03-12 18:55:07,526 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:55:07,554 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:55:07,559 - INFO - checkParenthesis1.py - (a+b) has balanced parenthesis .
+2024-03-12 18:55:35,579 - INFO - checkParenthesis1.py - Inserting the {data}
+2024-03-12 18:55:35,588 - INFO - checkParenthesis1.py - ( has been deleted.
+2024-03-12 18:55:35,591 - INFO - checkParenthesis1.py - (a+b)] is not balanced at all .
