@@ -18,13 +18,13 @@ So far covered topic is -
     1. Single Linked List :-
 
 
-         1. Basic LinkList Implementation and execution of Insert , delete , search , loop operations .
+         1. [Basic LinkList Implementation and execution of Insert , delete , search , loop operations .](./linklist/Single_Linked_List/singleList1.py)
       
-         2. Reverse the List.
+         2. [Reverse the List.](./linklist/Single_Linked_List/singleList1.py)
 
-         3. Print the middle of the Linked List .
+         3. [Print the middle of the Linked List .](./linklist/Single_Linked_List/singleList1.py)
 
-         4. Middle of the Linked List .
+         4. [Middle of the Linked List .](./linklist/Single_Linked_List/singleList1.py)
       
          5. Adding 1 to the LinkList .
 
@@ -46,11 +46,11 @@ So far covered topic is -
 
     2. Double Linked List :-
 
-         1. Basic intro of double linked list .
+         1. [Basic intro of double linked list .](./linklist//Double_Linked_List/)
 
     3. Circular Linked List : -
         
-         1. Basic intro of the circular linked list .
+         1. [Basic intro of the circular linked list .](./linklist/circular_linked_list/)
 
  7. Stack :
 
