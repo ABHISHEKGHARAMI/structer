@@ -32,13 +32,13 @@ So far covered topic is -
 
          7. [Substraction 2 linked list problem.](./linklist/Single_Linked_List/sub2List1.py)
 
-         8. Sum of the last n node.
+         8. [Sum of the last n node.](./linklist/Single_Linked_List/lastNsum1.py)
 
-         9. Swap the two nodes for the linked list .
+         9. [Swap the two nodes for the linked list .](./linklist/Single_Linked_List/pairWiseSwap1.py)
 
-         10. Delete the duplicate from the linked list . 
+         10. [Delete the duplicate from the linked list .](./linklist/Single_Linked_List/removeDuplicate1.py) 
 
-         11. Remove duplicate from the unsorted linked list .
+         11. [Remove duplicate from the unsorted linked list .](./linklist/Single_Linked_List/removeDuplicateUnsorted1.py)
 
          12. Intersection of two linked list.
 
@@ -57,7 +57,7 @@ So far covered topic is -
     1. [Using the stack data structure for the linear data structure .](./stack/stack1.py)
 
     2. [Pop the middle of the Stack.](./stack/middleStack1.py)
-    
+
     
             
 
