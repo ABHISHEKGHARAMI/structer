@@ -26,11 +26,11 @@ So far covered topic is -
 
          4. [Middle of the Linked List .](./linklist/Single_Linked_List/singleList1.py)
       
-         5. Adding 1 to the LinkList .
+         5. [Adding 1 to the LinkList .](./linklist/Single_Linked_List/add1toList1.py)
 
-         6. Adding 2 linked list in in to a linked list .
+         6. [Adding 2 linked list in in to a linked list .](./linklist/Single_Linked_List/add2Numberlist1.py)
 
-         7. Substraction 2 linked list problem.
+         7. [Substraction 2 linked list problem.](./linklist/Single_Linked_List/sub2List1.py)
 
          8. Sum of the last n node.
 
