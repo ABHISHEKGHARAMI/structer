@@ -252,3 +252,28 @@ Printing the linked list.
 2024-03-13 13:27:13,709 - INFO - removeConDup1.py - Inserting the b
 2024-03-13 13:27:13,762 - INFO - removeConDup1.py - Inserting the c
 2024-03-13 13:27:22,386 - INFO - removeConDup1.py - After removing the consequtive duplicate from the string will be : ababc
+2024-03-13 22:21:41,307 - INFO - stockSpan1.py - Inserting the 0
+2024-03-13 22:21:41,639 - INFO - stockSpan1.py - Inserting the 1
+2024-03-13 22:21:41,639 - INFO - stockSpan1.py - Inserting the 2
+2024-03-13 22:21:41,639 - INFO - stockSpan1.py - 2 has been deleted.
+2024-03-13 22:21:41,639 - INFO - stockSpan1.py - Inserting the 3
+2024-03-13 22:21:41,653 - INFO - stockSpan1.py - Inserting the 4
+2024-03-13 22:21:41,657 - INFO - stockSpan1.py - 4 has been deleted.
+2024-03-13 22:21:41,657 - INFO - stockSpan1.py - 3 has been deleted.
+2024-03-13 22:21:41,657 - INFO - stockSpan1.py - Inserting the 5
+2024-03-13 22:21:41,657 - INFO - stockSpan1.py - 5 has been deleted.
+2024-03-13 22:21:41,673 - INFO - stockSpan1.py - 1 has been deleted.
+2024-03-13 22:21:41,673 - INFO - stockSpan1.py - Inserting the 6
+2024-03-13 22:21:47,622 - INFO - stockSpan1.py - Inserting the 0
+2024-03-13 22:21:47,631 - INFO - stockSpan1.py - Inserting the 1
+2024-03-13 22:21:47,631 - INFO - stockSpan1.py - Inserting the 2
+2024-03-13 22:21:47,636 - INFO - stockSpan1.py - 2 has been deleted.
+2024-03-13 22:21:47,636 - INFO - stockSpan1.py - Inserting the 3
+2024-03-13 22:21:47,644 - INFO - stockSpan1.py - Inserting the 4
+2024-03-13 22:21:47,644 - INFO - stockSpan1.py - 4 has been deleted.
+2024-03-13 22:21:47,644 - INFO - stockSpan1.py - 3 has been deleted.
+2024-03-13 22:21:47,656 - INFO - stockSpan1.py - Inserting the 5
+2024-03-13 22:21:47,656 - INFO - stockSpan1.py - 5 has been deleted.
+2024-03-13 22:21:47,669 - INFO - stockSpan1.py - 1 has been deleted.
+2024-03-13 22:21:47,677 - INFO - stockSpan1.py - Inserting the 6
+2024-03-13 22:21:47,677 - INFO - stockSpan1.py - [1, 1, 1, 2, 1, 4, 6]
