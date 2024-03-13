@@ -229,3 +229,9 @@ Printing the linked list.
 2024-03-12 22:15:51,324 - INFO - twoStack1.py - [7, 8, 9, 10, 14]
 2024-03-12 22:15:51,326 - INFO - twoStack1.py - 12 has been deleted.
 2024-03-12 22:15:51,328 - INFO - twoStack1.py - 14 has been deleted.
+2024-03-13 13:13:21,901 - INFO - stack1.py - Inserting the 1
+2024-03-13 13:13:25,195 - INFO - stack1.py - Inserting the 2
+2024-03-13 13:13:28,514 - INFO - stack1.py - Inserting the 3
+2024-03-13 13:13:31,003 - INFO - stack1.py - Inserting the 4
+2024-03-13 13:13:36,026 - INFO - stack1.py - Inserting the 5
+2024-03-13 13:14:14,387 - INFO - stack1.py - [1, 2, 3, 4, 5]

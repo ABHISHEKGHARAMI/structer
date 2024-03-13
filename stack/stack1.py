@@ -3,7 +3,7 @@
 
 # set up log for the logger .
 import sys
-sys.path.append("D:/python_exercise_geeks/structer-1")
+sys.path.append("D:/geeks1.0/structer")
 
 from settings import setup_logging
 import logging

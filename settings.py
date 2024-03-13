@@ -7,5 +7,5 @@ import os
 
 def setup_logging():
     # Configure logging
-    logging.basicConfig(filename='D:/python_exercise_geeks/structer-1/logger/logger.log', level=logging.INFO,
+    logging.basicConfig(filename='D:/geeks1.0/structer/logger/logger.log', level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(filename)s - %(message)s')
