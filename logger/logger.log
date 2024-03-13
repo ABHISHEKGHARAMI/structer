@@ -235,3 +235,20 @@ Printing the linked list.
 2024-03-13 13:13:31,003 - INFO - stack1.py - Inserting the 4
 2024-03-13 13:13:36,026 - INFO - stack1.py - Inserting the 5
 2024-03-13 13:14:14,387 - INFO - stack1.py - [1, 2, 3, 4, 5]
+2024-03-13 13:25:09,929 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:25:27,724 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:25:36,510 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:25:43,455 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:25:46,703 - INFO - removeConDup1.py - Inserting the c
+2024-03-13 13:26:30,703 - ERROR - removeConDup1.py - name 'self' is not defined
+2024-03-13 13:26:54,745 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:26:54,751 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:26:54,753 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:26:54,756 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:26:54,759 - INFO - removeConDup1.py - Inserting the c
+2024-03-13 13:27:13,678 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:27:13,680 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:27:13,683 - INFO - removeConDup1.py - Inserting the a
+2024-03-13 13:27:13,709 - INFO - removeConDup1.py - Inserting the b
+2024-03-13 13:27:13,762 - INFO - removeConDup1.py - Inserting the c
+2024-03-13 13:27:22,386 - INFO - removeConDup1.py - After removing the consequtive duplicate from the string will be : ababc

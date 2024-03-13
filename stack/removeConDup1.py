@@ -1,7 +1,7 @@
 # setting up the logger
 
 import sys
-sys.path.append("D:/python_exercise_geeks/structer-1")
+sys.path.append("D:/geeks1.0/structer")
 
 from settings import setup_logging
 import logging
@@ -95,10 +95,10 @@ def removeDuplicate(exp):
                 if s1.topStack() == x:
                     continue
                 else:
-                    s1.pushStack()
+                    s1.pushStack(x)
             # have to print the stack for the string
             str1 = ""
-            for i in self.stack:
+            for i in s1.stack:
                 str1+=i
             return str1
                 
