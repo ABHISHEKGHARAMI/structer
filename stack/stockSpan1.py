@@ -1,5 +1,10 @@
 # problem statement
 '''
+The stock span problem is a financial problem where we have a series of N 
+daily price quotes for a stock and we need to calculate the span of the stock's price 
+for all N days. The span Si of the stock's price on a given day i is defined 
+as the maximum number of consecutive days just before the given day, 
+for which the price of the stock on the current day is less than its price on the given day. 
 
 '''
 # setting up the logger file
@@ -84,3 +89,27 @@ class Stack:
             if flag == 1:
                 return 1
             return 0
+
+#function for the span of the function
+def spanStock(prices):
+    try:
+        n = len(prices)
+        stack = Stack()
+        span = [0] * n
+        stack.pushStack(0)
+        span[0] = 1
+        for i in range(1,n):
+            while  not stack.isEmpty() and prices[stack.topStack()] <= prices[i]:
+                stack.popStack()
+            span[i] = i + 1 if stack.isEmpty() else (i - stack.topStack())
+            stack.pushStack(i)
+        return span
+    except Exception as e:
+        print(e)
+        logging.info(e)
+        
+        
+# executing the main function
+prices = [100,80,60,70,60,75,85]
+print(spanStock(prices))
+logging.info(spanStock(prices))
