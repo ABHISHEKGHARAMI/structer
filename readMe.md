@@ -62,6 +62,8 @@ So far covered topic is -
 
     4. [Two Stack Implementation.](./stack/twoStack1.py)
 
+    5. [Removing cons duplicate from the string using stack data structure.](./stack/removeConDup1.py)
+
     
 
     
