@@ -64,6 +64,10 @@ So far covered topic is -
 
     5. [Removing cons duplicate from the string using stack data structure.](./stack/removeConDup1.py)
 
+    6. [Stock Span problem.](./stack/stockSpan1.py)
+
+    
+
     
 
     
