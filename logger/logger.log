@@ -321,3 +321,14 @@ Printing the linked list.
 2024-03-16 14:02:58,848 - INFO - nextGreaterElement1.py - Inserting the 5
 2024-03-16 14:02:58,848 - INFO - nextGreaterElement1.py - The next greater element array by the operation will be : [-1]
 2024-03-16 14:04:33,910 - INFO - nextGreaterElement1.py - Inserting the 5
+2024-03-16 14:39:14,497 - INFO - nextGreaterElement1.py - Inserting the 0
+2024-03-16 14:39:23,239 - INFO - nextGreaterElement1.py - name 'result' is not defined
+2024-03-16 14:40:05,768 - INFO - nextGreaterElement1.py - Inserting the 0
+2024-03-16 14:40:09,012 - INFO - nextGreaterElement1.py - Inserting the 1
+2024-03-16 14:40:10,840 - INFO - nextGreaterElement1.py - Inserting the 2
+2024-03-16 14:40:15,933 - INFO - nextGreaterElement1.py - Inserting the 3
+2024-03-16 14:40:20,927 - INFO - nextGreaterElement1.py - Inserting the 0
+2024-03-16 14:40:20,927 - INFO - nextGreaterElement1.py - Inserting the 1
+2024-03-16 14:40:20,927 - INFO - nextGreaterElement1.py - Inserting the 2
+2024-03-16 14:40:20,937 - INFO - nextGreaterElement1.py - Inserting the 3
+2024-03-16 14:40:20,940 - INFO - nextGreaterElement1.py - The next greater element array by the operation will be : [5, 25, 25, -1]

@@ -94,25 +94,12 @@ class Stack:
 def nextGreater(arr):
     try:
         s1 = Stack()
-        temp = []
-        n = len(arr) 
-        i = 0
-        while i < n - 1:
-            if arr[i] < arr[i+1]:
-                s1.pushStack(arr[i+1])
-            else:
-                j = i + 1
-                while j < n:
-                    if arr[i] < arr[j]:
-                        s1.pushStack(arr[j])
-                    j+=1
-            i+=1
-            temp = []
-            for i in range(s1.sizeStack()):
-                temp.append(s1.stack.pop())
-            temp = temp[::-1]
-            temp[-1] = -1
-            return temp 
+        result = [-1] * len(arr)
+        for i in range(len(arr)):
+            while not s1.isEmpty() and arr[s1.topStack()] < arr[i]:
+                result[s1.stack.pop()] = arr[i]
+            s1.pushStack(i)
+        return result
                             
     except Exception as e:
         print(e)
