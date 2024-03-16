@@ -66,6 +66,12 @@ So far covered topic is -
 
     6. [Stock Span problem.](./stack/stockSpan1.py)
 
+    7. [Previous Greater Element.](./stack/previousGreaterElement1.py)
+
+    8. [Next Greater Element.](./stack/nextGreaterElement1.py)
+
+    
+
     
 
     
