@@ -70,6 +70,8 @@ So far covered topic is -
 
     8. [Next Greater Element.](./stack/nextGreaterElement1.py)
 
+    9. [Min Pop Element.](./stack/minPop1.py)
+
     
 
     
