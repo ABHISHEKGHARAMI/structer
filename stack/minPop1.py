@@ -123,3 +123,4 @@ def popMin(arr):
 # execution for the function
 arr = [1, 6, 43, 1, 2, 0, 5]
 print(f"After pop min operation for the array is : {popMin(arr)}")
+logging.info(f"After pop min operation for the array is : {popMin(arr)}")

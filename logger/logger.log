@@ -344,3 +344,18 @@ Printing the linked list.
 2024-03-16 17:43:33,588 - INFO - minPop1.py - Inserting the 2
 2024-03-16 17:43:35,321 - INFO - minPop1.py - Inserting the 0
 2024-03-16 17:43:40,080 - INFO - minPop1.py - Inserting the 5
+2024-03-16 17:48:01,626 - INFO - minPop1.py - Inserting the 1
+2024-03-16 17:48:01,631 - INFO - minPop1.py - Inserting the 6
+2024-03-16 17:48:01,634 - INFO - minPop1.py - Inserting the 43
+2024-03-16 17:48:01,637 - INFO - minPop1.py - Inserting the 1
+2024-03-16 17:48:01,639 - INFO - minPop1.py - Inserting the 2
+2024-03-16 17:48:01,646 - INFO - minPop1.py - Inserting the 0
+2024-03-16 17:48:01,647 - INFO - minPop1.py - Inserting the 5
+2024-03-16 17:48:01,650 - INFO - minPop1.py - Inserting the 1
+2024-03-16 17:48:01,652 - INFO - minPop1.py - Inserting the 6
+2024-03-16 17:48:01,653 - INFO - minPop1.py - Inserting the 43
+2024-03-16 17:48:01,655 - INFO - minPop1.py - Inserting the 1
+2024-03-16 17:48:01,656 - INFO - minPop1.py - Inserting the 2
+2024-03-16 17:48:01,667 - INFO - minPop1.py - Inserting the 0
+2024-03-16 17:48:01,669 - INFO - minPop1.py - Inserting the 5
+2024-03-16 17:48:01,670 - INFO - minPop1.py - After pop min operation for the array is : [0, 0, 1, 1, 1, 1, 1]
