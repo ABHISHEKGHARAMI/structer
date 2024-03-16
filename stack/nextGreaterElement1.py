@@ -95,7 +95,32 @@ def nextGreater(arr):
     try:
         s1 = Stack()
         temp = []
-        n = len(arr) - 1
+        n = len(arr) 
+        i = 0
+        while i < n - 1:
+            if arr[i] < arr[i+1]:
+                s1.pushStack(arr[i+1])
+            else:
+                j = i + 1
+                while j < n:
+                    if arr[i] < arr[j]:
+                        s1.pushStack(arr[j])
+                    j+=1
+            i+=1
+            temp = []
+            for i in range(s1.sizeStack()):
+                temp.append(s1.stack.pop())
+            temp = temp[::-1]
+            temp[-1] = -1
+            return temp 
+                            
     except Exception as e:
         print(e)
         logging.info(e)
+        
+        
+# main execution of the program
+arr = [4,5,2,25]
+
+print(f"The next greater element array by the operation will be : {nextGreater(arr)}")
+logging.info(f"The next greater element array by the operation will be : {nextGreater(arr)}")

@@ -317,3 +317,7 @@ Printing the linked list.
 2024-03-16 11:00:54,722 - INFO - previousGreaterElement1.py - Inserting the -1
 2024-03-16 11:00:56,853 - INFO - previousGreaterElement1.py - Inserting the 40
 2024-03-16 11:02:08,351 - INFO - previousGreaterElement1.py - After the operation the next greater element will be : [-1, 10, 4, -1, -1, 40]
+2024-03-16 14:02:34,135 - INFO - nextGreaterElement1.py - Inserting the 5
+2024-03-16 14:02:58,848 - INFO - nextGreaterElement1.py - Inserting the 5
+2024-03-16 14:02:58,848 - INFO - nextGreaterElement1.py - The next greater element array by the operation will be : [-1]
+2024-03-16 14:04:33,910 - INFO - nextGreaterElement1.py - Inserting the 5
