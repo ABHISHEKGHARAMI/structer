@@ -84,24 +84,23 @@ class Stack:
 def largestHistogramArea(height):
     try:
         s1 = Stack()
-        index = 0
-        maxArea = 0
-        while index < len(height)-1:
-            if not s1 or height[index] >=  height[s1.stack[-1]]:
+        index = 0 
+        max_area = 0
+        while index < len(height):
+            if s1.isEmpty() == 1 or height[index] >= height[s1.stack[-1]]:
                 s1.pushStack(index)
                 index += 1
             else:
                 top_of_stack = s1.stack.pop()
-                width = index if not s1 else index - s1.stack[-1] - 1
-                top_of_area = width * height[top_of_area]
-                maxArea = max(maxArea,top_of_area)
-        
-        while s1:
+                width = index if s1.isEmpty() == 1 else index - s1.stack[-1] - 1
+                area_of_top = width * height[top_of_stack]
+                max_area = max(max_area,area_of_top)
+        while s1.stack:
             top_of_stack = s1.stack.pop()
-            width = index if not s1 else index - s1.stack[-1] - 1
-            top_of_area = width * height[top_of_stack]
-            maxArea = max(top_of_area,maxArea)
-        return maxArea
+            width = index if s1.isEmpty() == 1 else len(height) - s1.stack[-1] - 1
+            area_of_top = width * height[top_of_stack]
+            max_area = max(max_area,area_of_top)
+        return max_area
     except Exception as e:
         print(e)
         logging.info(e)
