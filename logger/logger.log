@@ -359,3 +359,14 @@ Printing the linked list.
 2024-03-16 17:48:01,667 - INFO - minPop1.py - Inserting the 0
 2024-03-16 17:48:01,669 - INFO - minPop1.py - Inserting the 5
 2024-03-16 17:48:01,670 - INFO - minPop1.py - After pop min operation for the array is : [0, 0, 1, 1, 1, 1, 1]
+2024-03-20 22:27:42,451 - INFO - largestHistogram1.py - Inserting the 0
+2024-03-20 22:27:42,483 - INFO - largestHistogram1.py - list index out of range
+2024-03-20 22:27:42,487 - INFO - largestHistogram1.py - the max area of the histogram is : None
+2024-03-20 22:28:05,664 - INFO - largestHistogram1.py - Inserting the 0
+2024-03-20 22:28:14,483 - INFO - largestHistogram1.py - list index out of range
+2024-03-20 22:28:17,310 - INFO - largestHistogram1.py - the max area of the histogram is : None
+2024-03-20 22:28:47,966 - INFO - largestHistogram1.py - Inserting the 0
+2024-03-20 22:28:55,655 - INFO - largestHistogram1.py - list index out of range
+2024-03-20 22:28:57,243 - INFO - largestHistogram1.py - the max area of the histogram is : None
+2024-03-20 22:31:40,334 - INFO - largestHistogram1.py - list index out of range
+2024-03-20 22:31:42,751 - INFO - largestHistogram1.py - the max area of the histogram is : None
