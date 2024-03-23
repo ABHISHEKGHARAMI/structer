@@ -74,6 +74,8 @@ So far covered topic is -
 
     10. [Infix to postfix expression](./stack/infix_to_postfix1.py)
 
+    11. [Evaluate the postfix expression.](./stack/evaluate_postfix1.py)
+
     
 
     
