@@ -72,6 +72,10 @@ So far covered topic is -
 
     9. [Min Pop Element.](./stack/minPop1.py)
 
+    10. [Infix to postfix expression](./stack/infix_to_postfix1.py)
+
+    
+
     
 
     
