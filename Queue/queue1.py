@@ -21,6 +21,7 @@ class Queue:
             else:
                 print("\nInserting the queue ...")
                 self.queue.append(data)
+                self.rear = self.rear + 1
                 logging.info(f"Inserted {data} in the queue .")
                 print(f"Inserted {data} in the queue .")
         except Exception as e:
@@ -30,7 +31,15 @@ class Queue:
     # deQueue for the data
     def deQueue(self):
         try:
-            pass
+            if self.front == 0:
+                print("The queue is empty.")
+                logging.error("The queue is empty.")
+            else:
+                data = self.queue.pop(0)
+                self.rear = self.rear - 1
+                print(f"{data} is dequeued from the queue.")
+                logging.info(f"{data} is dequeued from the queue.")
+                
         except Exception as e:
             print(e)
             logging.error(e)
