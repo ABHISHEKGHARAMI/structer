@@ -426,3 +426,16 @@ Printing the linked list.
 2024-03-26 21:59:50,025 - INFO - queue1.py - 1 is dequeued from the queue.
 2024-03-26 21:59:51,871 - INFO - queue1.py - 2 is dequeued from the queue.
 2024-03-26 21:59:54,176 - INFO - queue1.py - [3]
+2024-03-26 22:24:22,894 - INFO - reverseQueue1.py - 1 inserted in the queue.
+2024-03-26 22:24:28,652 - INFO - reverseQueue1.py - 2 inserted in the queue.
+2024-03-26 22:24:30,887 - INFO - reverseQueue1.py - 3 inserted in the queue.
+2024-03-26 22:24:37,740 - INFO - reverseQueue1.py - 4 inserted in the queue.
+2024-03-26 22:26:31,866 - INFO - reverseQueue1.py - 1 inserted in the queue.
+2024-03-26 22:26:34,090 - INFO - reverseQueue1.py - 2 inserted in the queue.
+2024-03-26 22:26:37,336 - INFO - reverseQueue1.py - 2 inserted in the queue.
+2024-03-26 22:26:40,884 - INFO - reverseQueue1.py - 3 inserted in the queue.
+2024-03-26 22:27:18,271 - INFO - reverseQueue1.py - 1 inserted in the queue.
+2024-03-26 22:27:22,298 - INFO - reverseQueue1.py - 2 inserted in the queue.
+2024-03-26 22:27:24,419 - INFO - reverseQueue1.py - 3 inserted in the queue.
+2024-03-26 22:27:26,287 - INFO - reverseQueue1.py - [1, 2, 3]
+2024-03-26 22:27:35,587 - INFO - reverseQueue1.py - The front element of the queue is : 1
