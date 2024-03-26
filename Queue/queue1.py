@@ -31,7 +31,14 @@ class Queue:
     # print the Queue
     def printQueue(self):
         try:
-            pass
+            if self.front == 0:
+                print("The Queue is empty.")
+                logging.info("The Queue is empty.")
+            else:
+                print("\nPrinting the queue ...")
+                logging.info("\nPrinting the queue ...")
+                for i in range(self.front,self.rear):
+                    print(self.queue[i],end=" ")
         except Exception as e:
             print(e)
             logging.error(e)
