@@ -59,4 +59,20 @@ class Queue:
             print(e)
             logging.error(e)
             
+q1 = Queue()           
+while True:
+    print("\n1: Enqueue. \n2: Dequeue \n3: Print Queue.")
+    choice = int(input("\nEnter the choice :"))
+    if choice == 1:
+        data = int(input("Enter the data to enqueued :"))
+        q1.enQueueQueue(data)
+    elif choice == 2:
+        q1.deQueue()
+    elif choice == 3:
+        q1.printQueue()
+    else:
+        print("Wrong choice !!")
+
+        
+            
     
