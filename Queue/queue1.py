@@ -55,6 +55,7 @@ class Queue:
                 logging.info("\nPrinting the queue ...")
                 for i in range(self.front,self.rear):
                     print(self.queue[i],end=" ")
+                logging.info(self.queue)
         except Exception as e:
             print(e)
             logging.error(e)
