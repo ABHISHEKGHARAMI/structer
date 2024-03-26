@@ -401,3 +401,9 @@ Printing the linked list.
 2024-03-26 14:24:17,600 - INFO - queue1.py - 1 is inserted.
 2024-03-26 14:24:40,630 - INFO - queue1.py - 2 is inserted.
 2024-03-26 14:24:56,994 - INFO - queue1.py - 3 is inserted.
+2024-03-26 14:27:43,205 - INFO - evaluate_postfix1.py - Inserting the 6
+2024-03-26 14:27:43,211 - INFO - evaluate_postfix1.py - Inserting the 2
+2024-03-26 14:27:43,214 - INFO - evaluate_postfix1.py - Inserting the 3
+2024-03-26 14:27:43,219 - INFO - evaluate_postfix1.py - Inserting the 5
+2024-03-26 14:27:43,223 - INFO - evaluate_postfix1.py - Inserting the 30
+2024-03-26 14:27:43,226 - INFO - evaluate_postfix1.py - After evaluating the expression 623+* is : 30

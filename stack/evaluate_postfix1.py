@@ -6,6 +6,8 @@ sys.path.append("D:/geeks1.0/structer")
 from settings import setup_logging
 import logging
 
+setup_logging()
+
 # class for the stack
 class Stack:
     def __init__(self):
