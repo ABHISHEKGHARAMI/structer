@@ -398,3 +398,6 @@ Printing the linked list.
 2024-03-23 21:53:02,723 - INFO - infix_to_postfix1.py - The infix expression to postfix expression of a+b*c+d will be : abc*+d+
 2024-03-26 14:13:42,841 - INFO - infix_to_postfix1.py - Inserting the +
 2024-03-26 14:13:42,932 - INFO - infix_to_postfix1.py - The infix expression to postfix expression of a+b will be : ab+
+2024-03-26 14:24:17,600 - INFO - queue1.py - 1 is inserted.
+2024-03-26 14:24:40,630 - INFO - queue1.py - 2 is inserted.
+2024-03-26 14:24:56,994 - INFO - queue1.py - 3 is inserted.
