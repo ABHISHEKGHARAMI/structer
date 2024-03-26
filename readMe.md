@@ -76,6 +76,10 @@ So far covered topic is -
 
     11. [Evaluate the postfix expression.](./stack/evaluate_postfix1.py)
 
+8. [Queue :](./Queue/)
+
+    1. [First queue problem.](./Queue/queue1.py)
+
     
 
     
