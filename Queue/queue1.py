@@ -15,7 +15,14 @@ class Queue:
     # enQueue for the data
     def enQueueQueue(self,data):
         try:
-            pass
+            if self.front == self.rear:
+                print("\nThe Queue is full.")
+                logging.error("The Queue is full.")
+            else:
+                print("\nInserting the queue ...")
+                self.queue.append(data)
+                logging.info(f"Inserted {data} in the queue .")
+                print(f"Inserted {data} in the queue .")
         except Exception as e:
             print(e)
             logging.error(e)
