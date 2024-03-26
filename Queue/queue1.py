@@ -7,73 +7,59 @@ import logging
 
 # setting the Queue for the class
 class Queue:
-    def __init__(self):
+    def __init__(self,size):
+        self.size = size
         self.queue = []
         self.front = 0
-        self.rear = len(self.queue) - 1
+        self.rear = 0
         
-    # enQueue for the data
-    def enQueueQueue(self,data):
-        try:
-            if self.front == self.rear:
-                print("\nThe Queue is full.")
-                logging.error("The Queue is full.")
-            else:
-                print("\nInserting the queue ...")
-                self.queue.append(data)
-                self.rear = self.rear + 1
-                logging.info(f"Inserted {data} in the queue .")
-                print(f"Inserted {data} in the queue .")
-        except Exception as e:
-            print(e)
-            logging.error(e)
+    # enQueue for the queue 
+    def enQueue(self,data):
+        if self.rear == self.size:
+            print("The queue is empty.")
+            logging.error("The queue is empty.")
+        else:
+            self.queue.append(data)
+            self.rear += 1
+            print(f"{data} is inserted.")
+            logging.info(f"{data} is inserted.")
             
-    # deQueue for the data
+    # dequeue for the queue
     def deQueue(self):
-        try:
-            if self.front == 0:
-                print("The queue is empty.")
-                logging.error("The queue is empty.")
-            else:
-                data = self.queue.pop(0)
-                self.rear = self.rear - 1
-                print(f"{data} is dequeued from the queue.")
-                logging.info(f"{data} is dequeued from the queue.")
-                
-        except Exception as e:
-            print(e)
-            logging.error(e)
+        if self.rear == 0:
+            print("The list is empty.")
+            logging.error("The list is empty.")
+        else:
+            data = self.queue.pop(0)
+            self.rear = self.rear - 1
+            print(f"{data} is dequeued from the queue.")
+            logging.info(f"{data} is dequeued from the queue.")
             
-    # print the Queue
+    # print the queue.
     def printQueue(self):
-        try:
-            if self.front == 0:
-                print("The Queue is empty.")
-                logging.info("The Queue is empty.")
-            else:
-                print("\nPrinting the queue ...")
-                logging.info("\nPrinting the queue ...")
-                for i in range(self.front,self.rear):
-                    print(self.queue[i],end=" ")
-                logging.info(self.queue)
-        except Exception as e:
-            print(e)
-            logging.error(e)
-            
-q1 = Queue()           
+        if self.rear == 0:
+            print("The list is empty.")
+            logging.error("List is empty.")
+        else:
+            print("printing the queue :")
+            for i in range(self.size):
+                print(self.queue[i])
+            logging.info(self.queue)
+
+size = int(input("enter the size of queue :"))
+q1 = Queue(size)
 while True:
-    print("\n1: Enqueue. \n2: Dequeue \n3: Print Queue.")
-    choice = int(input("\nEnter the choice :"))
+    print("\n1: enqueue. \n2: dequeue. \n3: print queue. \n0: exit.")
+    choice = int(input("enter the choice :"))
     if choice == 1:
-        data = int(input("Enter the data to enqueued :"))
-        q1.enQueueQueue(data)
+        data = int(input("enter the data :"))
+        q1.enQueue(data)
     elif choice == 2:
         q1.deQueue()
     elif choice == 3:
         q1.printQueue()
+    elif choice == 0:
+        exit(0)
     else:
-        print("Wrong choice !!")
-
+        print("Wrong choice !!!")
         
-            
-    
