@@ -45,7 +45,7 @@ class Queue:
             logging.error("List is empty.")
         else:
             print("printing the queue :")
-            for i in range(self.size-1):
+            for i in range(self.front,self.rear):
                 print(self.queue[i])
             logging.info(self.queue)
 
