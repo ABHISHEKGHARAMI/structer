@@ -443,3 +443,10 @@ Printing the linked list.
 2024-03-28 21:37:37,208 - INFO - reverseQueue1.py - After the operation the queue is :deque([2, 1, 4, 5])
 2024-03-28 21:39:59,607 - INFO - reverseQueue1.py - After deque the list is :[1, 2, 3]
 2024-03-28 21:40:27,939 - INFO - reverseQueue1.py - After the operation the queue is :deque([3, 2, 1, 4, 5])
+2024-03-28 22:27:07,870 - INFO - basicDeQueue1.py - 1 inserted to the left of the queue.
+2024-03-28 22:27:12,254 - INFO - basicDeQueue1.py - 2 inserted to the right of the queue.
+2024-03-28 22:27:14,198 - INFO - basicDeQueue1.py - 3 inserted to the right of the queue.
+2024-03-28 22:27:16,665 - INFO - basicDeQueue1.py - 3 inserted to the right of the queue.
+2024-03-28 22:27:18,856 - INFO - basicDeQueue1.py - 4 inserted to the right of the queue.
+2024-03-28 22:27:21,454 - INFO - basicDeQueue1.py - 5 inserted to the right of the queue.
+2024-03-28 22:27:25,467 - INFO - basicDeQueue1.py - [1, 2, 3, 3, 4, 5]
