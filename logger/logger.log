@@ -439,3 +439,5 @@ Printing the linked list.
 2024-03-26 22:27:24,419 - INFO - reverseQueue1.py - 3 inserted in the queue.
 2024-03-26 22:27:26,287 - INFO - reverseQueue1.py - [1, 2, 3]
 2024-03-26 22:27:35,587 - INFO - reverseQueue1.py - The front element of the queue is : 1
+2024-03-28 21:37:12,017 - INFO - reverseQueue1.py - After deque the list is :[1, 2, 3]
+2024-03-28 21:37:37,208 - INFO - reverseQueue1.py - After the operation the queue is :deque([2, 1, 4, 5])
