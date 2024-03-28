@@ -19,7 +19,7 @@ def reverseQueue(q,k):
         mem.append(q1.popleft())
     logging.info(f"After deque the list is :{mem}")
     mem = mem[::-1]
-    for i in mem:
+    for i in range(len(mem)):
         q1.appendleft(mem.pop())
         
     print(f"After the operation the queue is :{q1}")
