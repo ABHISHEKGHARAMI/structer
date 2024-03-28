@@ -82,6 +82,12 @@ So far covered topic is -
 
     2. [Reverse Queue for a given number.](./Queue/reverseQueue1.py)
 
+9. [Dequeue :](./dequeue/)
+
+    1. [Setting up the basic Dequeue .](./dequeue/basicDeQueue1.py)
+
+    
+
     
 
     
