@@ -80,6 +80,8 @@ So far covered topic is -
 
     1. [First queue problem.](./Queue/queue1.py)
 
+    2. [Reverse Queue for a given number.](./Queue/reverseQueue1.py)
+
     
 
     
