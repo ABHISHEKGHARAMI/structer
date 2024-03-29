@@ -96,6 +96,10 @@ So far covered topic is -
 
         3. [Rotation for the queue.](./dequeue/rotateQueue1.py)
 
+        4. [Rotation for the petrol and distance.](./dequeue/firstRotation1.py)
+
+        
+
     
 
     
