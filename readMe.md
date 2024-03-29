@@ -86,6 +86,8 @@ So far covered topic is -
 
     1. [Setting up the basic Dequeue .](./dequeue/basicDeQueue1.py)
 
+    2. [Maximum sub array for the dequeue.](./dequeue/maxSubarray1.py)
+
     
 
     
