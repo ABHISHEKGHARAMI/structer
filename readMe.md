@@ -88,6 +88,8 @@ So far covered topic is -
 
     2. [Maximum sub array for the dequeue.](./dequeue/maxSubarray1.py)
 
+    3. [Rotation for the queue.](./dequeue/rotateQueue1.py)
+
     
 
     
