@@ -452,3 +452,6 @@ Printing the linked list.
 2024-03-28 22:27:25,467 - INFO - basicDeQueue1.py - [1, 2, 3, 3, 4, 5]
 2024-03-29 10:17:13,834 - INFO - maxSubarray1.py - The maximum sub array of the given array : [3, 3, 4, 5, 5, 5, 6]
 2024-03-29 10:38:19,947 - INFO - rotateQueue1.py - After queue rotation for the queue will be : deque([3, 2, 1, 4, 5, 6, 7, 8, 9])
+2024-03-29 11:36:05,400 - INFO - firstRotation1.py - The start point of the petrol and distance is : 0
+2024-03-29 11:37:09,888 - INFO - firstRotation1.py - The start point of the petrol and distance is : 1
+2024-03-29 11:38:13,518 - INFO - firstRotation1.py - The start point of the petrol and distance is : 2
