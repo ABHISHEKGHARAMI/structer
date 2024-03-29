@@ -53,42 +53,48 @@ So far covered topic is -
          1. [Basic intro of the circular linked list .](./linklist/circular_linked_list/)
 
  7. [Stack :](./stack)
+    
+    1. Stack Problems :
 
-    1. [Using the stack data structure for the linear data structure .](./stack/stack1.py)
+         1. [Using the stack data structure for the linear data structure .](./stack/stack1.py)
 
-    2. [Pop the middle of the Stack.](./stack/middleStack1.py)
+         2. [Pop the middle of the Stack.](./stack/middleStack1.py)
 
-    3. [Check parenthesis.](./stack/checkParenthesis1.py)
+         3. [Check parenthesis.](./stack/checkParenthesis1.py)
 
-    4. [Two Stack Implementation.](./stack/twoStack1.py)
+         4. [Two Stack Implementation.](./stack/twoStack1.py)
 
-    5. [Removing cons duplicate from the string using stack data structure.](./stack/removeConDup1.py)
+         5. [Removing cons duplicate from the string using stack data structure.](./stack/removeConDup1.py)
 
-    6. [Stock Span problem.](./stack/stockSpan1.py)
+         6. [Stock Span problem.](./stack/stockSpan1.py)
 
-    7. [Previous Greater Element.](./stack/previousGreaterElement1.py)
+         7. [Previous Greater Element.](./stack/previousGreaterElement1.py)
 
-    8. [Next Greater Element.](./stack/nextGreaterElement1.py)
+         8. [Next Greater Element.](./stack/nextGreaterElement1.py)
 
-    9. [Min Pop Element.](./stack/minPop1.py)
+         9. [Min Pop Element.](./stack/minPop1.py)
 
-    10. [Infix to postfix expression](./stack/infix_to_postfix1.py)
+        10. [Infix to postfix expression](./stack/infix_to_postfix1.py)
 
-    11. [Evaluate the postfix expression.](./stack/evaluate_postfix1.py)
+        11. [Evaluate the postfix expression.](./stack/evaluate_postfix1.py)
 
 8. [Queue :](./Queue/)
 
-    1. [First queue problem.](./Queue/queue1.py)
+    1. Queue Problems :
 
-    2. [Reverse Queue for a given number.](./Queue/reverseQueue1.py)
+        1. [First queue problem.](./Queue/queue1.py)
+
+        2. [Reverse Queue for a given number.](./Queue/reverseQueue1.py)
 
 9. [Dequeue :](./dequeue/)
 
-    1. [Setting up the basic Dequeue .](./dequeue/basicDeQueue1.py)
+    1. DeQueue Problems :
 
-    2. [Maximum sub array for the dequeue.](./dequeue/maxSubarray1.py)
+        1. [Setting up the basic Dequeue .](./dequeue/basicDeQueue1.py)
 
-    3. [Rotation for the queue.](./dequeue/rotateQueue1.py)
+        2. [Maximum sub array for the dequeue.](./dequeue/maxSubarray1.py)
+
+        3. [Rotation for the queue.](./dequeue/rotateQueue1.py)
 
     
 
