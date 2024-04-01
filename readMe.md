@@ -98,7 +98,10 @@ So far covered topic is -
 
         4. [Rotation for the petrol and distance.](./dequeue/firstRotation1.py)
 
-        
+10. [Tree :](./Tree)
+
+     1. Normal Tree :
+     
 
     
 
