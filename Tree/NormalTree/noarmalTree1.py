@@ -2,12 +2,12 @@
 # and generate the real picture of the tree
 
 # *** setting up the logger file
-import networkx as nx
-import matplotlib.pyplot as plt
 import sys
 sys.path.append("D:/geeks1.0/structer")
 import logging
 from settings import setup_logging
+import matplotlib.pyplot as plt
+import networkx as nx
 
 # here goes the tree
 # importing the modules for that
