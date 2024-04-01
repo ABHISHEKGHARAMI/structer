@@ -101,7 +101,10 @@ So far covered topic is -
 10. [Tree :](./Tree)
 
      1. Normal Tree :
+
+     2. Binary tree :
      
+
 
     
 
