@@ -2,16 +2,15 @@
 # and generate the real picture of the tree
 
 # *** setting up the logger file
-import logging
-from settings import setup_logging
+import matplotlib.pyplot as plt
+import networkx as nx
 import sys
 sys.path.append("D:/geeks1.0/structer")
-
+import logging
+from settings import setup_logging
 
 # here goes the tree
 # importing the modules for that
-import networkx as nx
-import matplotlib.pyplot as plt
 
 
 class Treenodes:
@@ -96,8 +95,7 @@ G = tree.to_networkx()
 # time to plot the tree
 plt.figure(figsize = (8,6))
 pos = nx.spring_layout(G)  # Positions for all nodes
-nx.draw(G, pos, with_labels=True, node_size=5000, node_color="skyblue",
-        font_size=20, font_weight="bold", arrowsize=20)
+nx.draw(G, pos, with_labels=True, node_size=5000, node_color="skyblue", font_size=20, font_weight="bold", arrowsize=20)
 plt.title("Tree Visualization")
 plt.show()
         
