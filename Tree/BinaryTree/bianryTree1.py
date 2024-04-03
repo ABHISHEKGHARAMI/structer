@@ -142,7 +142,8 @@ class Tree:
 
         # Save the plot to the specified directory
         plt.savefig(file_path)
-        plt.close()  # Close the plot to free resources
+        plt.show()
+          # Close the plot to free resources
 
 #executing the main function .
 tree = Tree()

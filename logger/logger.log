@@ -488,3 +488,52 @@ Printing the linked list.
 2024-04-03 12:54:33,288 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000017E4BF3F810>
 2024-04-03 12:54:33,302 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000017E4BF3F890>
 2024-04-03 12:54:33,303 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x0000017E4BF3F6D0>
+2024-04-03 13:07:00,680 - INFO - bianryTree1.py - Doing inorder traversal ....
+2024-04-03 13:07:00,685 - INFO - bianryTree1.py - ->2
+2024-04-03 13:07:00,702 - INFO - bianryTree1.py - ->3
+2024-04-03 13:07:00,706 - INFO - bianryTree1.py - ->4
+2024-04-03 13:07:00,711 - INFO - bianryTree1.py - ->5
+2024-04-03 13:07:00,713 - INFO - bianryTree1.py - ->6
+2024-04-03 13:07:00,715 - INFO - bianryTree1.py - ->7
+2024-04-03 13:07:00,718 - INFO - bianryTree1.py - ->8
+2024-04-03 13:08:06,114 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x0000027C7A643110>
+2024-04-03 13:08:06,115 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x0000027C7A643250>
+2024-04-03 13:08:06,116 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x0000027C7A643290>
+2024-04-03 13:08:06,117 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000027C7A643310>
+2024-04-03 13:08:06,117 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000027C7A643390>
+2024-04-03 13:08:06,119 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x0000027C7A6431D0>
+2024-04-03 13:10:45,626 - INFO - bianryTree1.py - Doing inorder traversal ....
+2024-04-03 13:10:45,630 - INFO - bianryTree1.py - ->2
+2024-04-03 13:10:45,632 - INFO - bianryTree1.py - ->3
+2024-04-03 13:10:45,636 - INFO - bianryTree1.py - ->4
+2024-04-03 13:10:45,638 - INFO - bianryTree1.py - ->5
+2024-04-03 13:10:45,641 - INFO - bianryTree1.py - ->6
+2024-04-03 13:10:45,643 - INFO - bianryTree1.py - ->7
+2024-04-03 13:10:45,644 - INFO - bianryTree1.py - ->8
+2024-04-03 13:10:45,646 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x000002036C03F090>
+2024-04-03 13:10:45,647 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x000002036C03F190>
+2024-04-03 13:10:45,647 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x000002036C03F1D0>
+2024-04-03 13:10:45,649 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000002036C03F210>
+2024-04-03 13:10:45,651 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000002036C03F250>
+2024-04-03 13:10:45,652 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x000002036C03F150>
+2024-04-03 13:11:33,194 - INFO - bianryTree1.py - Doing inorder traversal ....
+2024-04-03 13:11:33,198 - INFO - bianryTree1.py - ->2
+2024-04-03 13:11:33,201 - INFO - bianryTree1.py - ->3
+2024-04-03 13:11:33,203 - INFO - bianryTree1.py - ->4
+2024-04-03 13:11:33,207 - INFO - bianryTree1.py - ->5
+2024-04-03 13:11:33,210 - INFO - bianryTree1.py - ->6
+2024-04-03 13:11:33,212 - INFO - bianryTree1.py - ->7
+2024-04-03 13:11:33,213 - INFO - bianryTree1.py - ->8
+2024-04-03 13:11:33,215 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x00000200BB5BE910>
+2024-04-03 13:11:33,216 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x00000200BC248390>
+2024-04-03 13:11:33,216 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x00000200BC2483D0>
+2024-04-03 13:11:33,217 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248410>
+2024-04-03 13:11:33,217 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248450>
+2024-04-03 13:11:33,218 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x00000200BC248350>
+2024-04-03 13:12:21,279 - INFO - bianryTree1.py - Deleting the value 4 from the tree ...
+2024-04-03 13:12:21,281 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248410>
+2024-04-03 13:12:21,283 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248450>
+2024-04-03 13:12:21,284 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x00000200BC248350>
+2024-04-03 13:12:21,285 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248410>
+2024-04-03 13:12:21,287 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x00000200BC248450>
+2024-04-03 13:12:21,288 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x00000200BC248350>
