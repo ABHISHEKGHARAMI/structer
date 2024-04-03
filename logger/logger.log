@@ -455,3 +455,15 @@ Printing the linked list.
 2024-03-29 11:36:05,400 - INFO - firstRotation1.py - The start point of the petrol and distance is : 0
 2024-03-29 11:37:09,888 - INFO - firstRotation1.py - The start point of the petrol and distance is : 1
 2024-03-29 11:38:13,518 - INFO - firstRotation1.py - The start point of the petrol and distance is : 2
+2024-04-03 12:06:07,955 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x000001DD42C3ED90>
+2024-04-03 12:06:07,982 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x000001DD42C3EE50>
+2024-04-03 12:06:07,983 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x000001DD42C3EE90>
+2024-04-03 12:06:07,983 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000001DD42C3EED0>
+2024-04-03 12:06:07,984 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000001DD42C3EF10>
+2024-04-03 12:06:07,985 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x000001DD42C3EE10>
+2024-04-03 12:07:33,493 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x0000016E7423EE50>
+2024-04-03 12:07:33,497 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x0000016E7423EF90>
+2024-04-03 12:07:33,498 - INFO - bianryTree1.py - Adding edge between 3 and <__main__.TreeNode object at 0x0000016E7423EFD0>
+2024-04-03 12:07:33,499 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000016E7423F050>
+2024-04-03 12:07:33,500 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x0000016E7423F0D0>
+2024-04-03 12:07:33,501 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x0000016E7423EF10>

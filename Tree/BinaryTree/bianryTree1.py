@@ -102,7 +102,7 @@ tree.insertNode(6)
 tree.insertNode(8)
 
 current_directory = os.getcwd()
-relative_directory = 'tree_image'
+relative_directory = 'Tree/tree_image'
 
 full_dir = os.path.join(current_directory,relative_directory)
 
