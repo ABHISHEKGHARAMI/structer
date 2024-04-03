@@ -166,3 +166,11 @@ if not os.path.exists(full_dir):
 file_path = os.path.join(full_dir,'binary_tree1.png')
 
 tree.visualize_saveImage(file_path=file_path)
+
+tree.deleteNode(4)
+
+tree.to_networkx()
+
+delete_path = os.path.join(full_dir,'binary_tree_delete1.png')
+
+tree.visualize_saveImage(file_path=delete_path)
