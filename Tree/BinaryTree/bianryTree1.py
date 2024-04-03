@@ -66,7 +66,20 @@ class Tree:
             print(f"->{node.value}")
             logging.info(f"->{node.value}")
             self.inOrder_Traversal_recursive(node.right)
-            
+    
+    
+    # recursive postorder travesal
+    def postOrder_Traversal(self):
+        logging.info(f"Post order traversal")
+        self.postOrder_traversal_recursive(self.root)
+        
+    # recursive function for the postorder
+    def postOrder_traversal_recursive(self,node):
+        if node:
+            self.postOrder_traversal_recursive(node.left)
+            self.postOrder_traversal_recursive(node.right)
+            print(f"->{node.value}")
+            logging.info(f"->{node.value}")        
     # find the min node
     def _find_min(self,node):
         while node.left:
