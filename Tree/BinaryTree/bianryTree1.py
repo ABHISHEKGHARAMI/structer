@@ -53,6 +53,59 @@ class Tree:
             logging.error(e)
             
             
+    # inorder traversal
+    def inOrder_Traversal(self):
+        print("Doing inorder traversal .....")
+        logging.info("Doing inorder traversal ....")
+        self.inOrder_Traversal_recursive(self.root)
+    
+    # recursive inorder traversal  
+    def inOrder_Traversal_recursive(self,node):
+        if node:
+            self.inOrder_Traversal_recursive(node.left)
+            print(f"->{node.value}")
+            logging.info(f"->{node.value}")
+            self.inOrder_Traversal_recursive(node.right)
+            
+    # find the min node
+    def _find_min(self,node):
+        while node.left:
+            node = node.left
+        return node
+    
+    # delete node
+    def deleteNode(self,value):
+        print(f"Deleting the value {value} from the tree ...")
+        logging.info(f"Deleting the value {value} from the tree ...")
+        self.deleteNode_recursive(self.root,value)
+        
+    
+    #delete node recursively
+    def deleteNode_recursive(self,node,value):
+        try:
+            if not node:
+                return node
+            if node.value > value:
+                node.left = self.deleteNode_recursive(node.left,value)
+            elif node.value < value:
+                node.right = self.deleteNode_recursive(node.right,value)
+            else:
+                # node has  children
+                if not node.left:
+                    return node.right
+                if not node.right:
+                    return node.left
+                
+                # node has 2 children
+                min_node = self._find_min(node.right)
+                # copy the value to the node value
+                node.value = min_node.value
+                # delete the min value
+                node.right = self.deleteNode_recursive(node.right,min_node.value)
+        except Exception as e:
+            print(e)
+            logging.error(e)
+            
     
     # adding the networkx for the graph plotting
     def to_networkx(self):
@@ -100,6 +153,8 @@ tree.insertNode(2)
 tree.insertNode(4)
 tree.insertNode(6)
 tree.insertNode(8)
+
+tree.inOrder_Traversal()
 
 current_directory = os.getcwd()
 relative_directory = 'Tree/tree_image'
