@@ -79,7 +79,22 @@ class Tree:
             self.postOrder_traversal_recursive(node.left)
             self.postOrder_traversal_recursive(node.right)
             print(f"->{node.value}")
-            logging.info(f"->{node.value}")        
+            logging.info(f"->{node.value}")      
+            
+    # pre Order traversal for the tree
+    def preOrder_Traversal(self):
+        logging.info("PreOrder Traversal ....")
+        self.preOrder_recursive_traversal(self.root)
+        
+    # pre order recursive algorithm
+    def preOrder_recursive_traversal(self,node):
+        if node:
+            print(f"->{node.value}",end=" ")
+            logging.info(f"->{node.value}")
+            self.preOrder_recursive_traversal(node.left)
+            self.preOrder_recursive_traversal(node.right)
+            
+      
     # find the min node
     def _find_min(self,node):
         while node.left:
@@ -169,6 +184,11 @@ tree.insertNode(6)
 tree.insertNode(8)
 
 tree.inOrder_Traversal()
+
+# adding the pre order and post order traversal of the tree
+tree.preOrder_Traversal()
+
+tree.postOrder_Traversal()
 
 current_directory = os.getcwd()
 relative_directory = 'Tree/tree_image'
