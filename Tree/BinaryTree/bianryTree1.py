@@ -94,7 +94,20 @@ class Tree:
             self.preOrder_recursive_traversal(node.left)
             self.preOrder_recursive_traversal(node.right)
             
-      
+    # find the height of the tree recursively
+    def find_height(self):
+        try:
+            return self.height_recursive(self.root)
+        except Exception as e:
+            print(e)
+            logging.info(e)  
+            
+    # recursive function
+    def height_recursive(self,node):
+        if not node:
+            return 0
+        else:
+            return max(self.height_recursive(node.left),self.height_recursive(node.right))+1
     # find the min node
     def _find_min(self,node):
         while node.left:
@@ -183,6 +196,10 @@ tree.insertNode(4)
 tree.insertNode(6)
 tree.insertNode(8)
 
+
+# printing the height of the tree
+print(f"The height of the binary tree is : {tree.find_height()}")
+logging.info(f"The height of the binary tree is : {tree.find_height()}")
 tree.inOrder_Traversal()
 
 # adding the pre order and post order traversal of the tree
