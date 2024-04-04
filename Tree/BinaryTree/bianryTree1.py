@@ -114,6 +114,21 @@ class Tree:
             node = node.left
         return node
     
+    # print the tree data from the k th node
+    def print_from_kth_distance(self,k):
+        return self.print_recursive_kth(self.root,k)
+    
+    # recursive function for this
+    def print_recursive_kth(self,node,k):
+        if not node or k< 0:
+            return
+        if node or k == 0:
+            print(f"{self.root.value}", end=" ")
+            logging.info(f"{self.root.value}")
+        else:
+            self.print_recursive_kth(node.left)
+            self.print_from_kth_distance(node.right)
+    
     # delete node
     def deleteNode(self,value):
         print(f"Deleting the value {value} from the tree ...")
@@ -200,6 +215,9 @@ tree.insertNode(8)
 # printing the height of the tree
 print(f"The height of the binary tree is : {tree.find_height()}")
 logging.info(f"The height of the binary tree is : {tree.find_height()}")
+#exe
+k = int(input(f"enter the tree of height {tree.find_height()} :"))
+tree.print_from_kth_distance(k)
 tree.inOrder_Traversal()
 
 # adding the pre order and post order traversal of the tree
