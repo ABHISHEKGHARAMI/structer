@@ -217,7 +217,9 @@ print(f"The height of the binary tree is : {tree.find_height()}")
 logging.info(f"The height of the binary tree is : {tree.find_height()}")
 #exe
 k = int(input(f"enter the tree of height {tree.find_height()} :"))
+
 tree.print_from_kth_distance(k)
+logging.info(f"{tree.print_from_kth_distance(k)}")
 tree.inOrder_Traversal()
 
 # adding the pre order and post order traversal of the tree
