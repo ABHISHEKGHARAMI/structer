@@ -809,3 +809,12 @@ Printing the linked list.
 2024-04-07 11:35:27,305 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000001D8E7948F90>
 2024-04-07 11:35:27,306 - INFO - bianryTree1.py - Adding edge between 7 and <__main__.TreeNode object at 0x000001D8E7948FD0>
 2024-04-07 11:35:27,307 - INFO - bianryTree1.py - Adding edge between 5 and <__main__.TreeNode object at 0x000001D8E7948ED0>
+2024-04-10 11:34:51,494 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 11:34:51,520 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 11:34:51,525 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 11:34:51,528 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 11:34:51,536 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 11:34:51,540 - INFO - binaryTree2.py - 45-->
+2024-04-10 11:34:51,542 - INFO - binaryTree2.py - 35-->
+2024-04-10 11:34:51,543 - INFO - binaryTree2.py - 24-->
+2024-04-10 11:34:51,543 - INFO - binaryTree2.py - 23-->
