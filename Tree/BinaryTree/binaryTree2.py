@@ -178,6 +178,19 @@ class Tree:
             logging.info(e)
             raise Exception
         
+        
+        
+    # size of the tree
+    def sizetree(self,node):
+        try:
+            if not node:
+                return 0
+            else:
+                return self.sizetree(node.left) + 1 + self.sizetree(node.right)
+        except Exception as e:
+            print(e)
+            logging.error(e)
+            raise Exception
     
     
 # checking the execution
@@ -191,3 +204,6 @@ for i in arr:
 tree.inorder_trav()
 
 tree.levelorder_traversal()
+
+print(f"The size of the binary tree is : {tree.sizetree(tree.root)}")
+logging.info(f"The size of the binary tree is : {tree.sizetree(tree.root)}")

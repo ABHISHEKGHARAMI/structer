@@ -103,7 +103,10 @@ So far covered topic is -
      1. Normal Tree :
 
      2. Binary tree :
-     
+          
+       1. [All the function like the traversal ,level order traversal ,size ,height .](./Tree/BinaryTree/binaryTree2.py)
+
+       
 
 
     

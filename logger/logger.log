@@ -864,3 +864,18 @@ Printing the linked list.
 2024-04-10 12:13:33,718 - INFO - binaryTree2.py - ==>24
 2024-04-10 12:13:33,719 - INFO - binaryTree2.py - ==>45
 2024-04-10 12:13:33,720 - INFO - binaryTree2.py - ==>35
+2024-04-10 12:19:56,670 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 12:19:56,686 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 12:19:56,689 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 12:19:56,692 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 12:19:56,695 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 12:19:56,698 - INFO - binaryTree2.py - 45-->
+2024-04-10 12:19:56,701 - INFO - binaryTree2.py - 35-->
+2024-04-10 12:19:56,703 - INFO - binaryTree2.py - 24-->
+2024-04-10 12:19:56,704 - INFO - binaryTree2.py - 23-->
+2024-04-10 12:19:56,707 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 12:19:56,708 - INFO - binaryTree2.py - ==>23
+2024-04-10 12:19:56,709 - INFO - binaryTree2.py - ==>24
+2024-04-10 12:19:56,710 - INFO - binaryTree2.py - ==>45
+2024-04-10 12:19:56,712 - INFO - binaryTree2.py - ==>35
+2024-04-10 12:19:56,714 - INFO - binaryTree2.py - The size of the binary tree is : 4
