@@ -25,4 +25,25 @@ class Tree:
     def __init__(self):
         self.root = None
         
+    def insertNode(self,data):
+        if not self.root:
+            self.root = TreeNode(data)
+        else:
+            self.insert_recursive(self.root,data)
     
+    # recursive function for the insertion
+    def insert_recursive(self,node,data):
+        try:
+            if node.data < data :
+                if node.left:
+                    self.insert_recursive(node.left,data)
+                else:
+                    node.left = TreeNode(data)
+            else:
+                if node.right :
+                    self.insert_recursive(node.right,data)
+                else:
+                    node.right = TreeNode(data)
+        except Exception as e:
+            print(e)
+            logging.info(e)
