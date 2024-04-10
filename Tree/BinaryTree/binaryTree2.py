@@ -11,6 +11,31 @@ import logging
 
 setup_logging()
 
+# queue class for the level order traversal
+class Queue:
+    def __init__(self):
+        self.queue = []
+        
+    # push
+    def push(self,node):
+        #print(f"{node.data} pushed in the queue.")
+        #logging.info(f"{node.data} pushed in the queue.")
+        self.queue.append(node)
+        
+    # pop 
+    def pop(self):
+        if self.emptyQueue() == True:
+            print("Queue is empty .")
+        else:
+            return self.queue.pop(0)
+    
+    # check empty
+    def emptyQueue(self):
+        if len(self.queue) == 0:
+            return True
+        else:
+            return False
+
 
 # class for treenode
 class TreeNode:
@@ -129,6 +154,29 @@ class Tree:
             logging.info(f"{node.data}-->")
             self.preorder_utill_recursive(node.left)
             self.preorder_utill_recursive(node.right)
+            
+    # level order traversal
+    def levelorder_traversal(self):
+        try:
+            print("\nlevel order traversal.")
+            logging.info("level order traversal.")
+            q1 = Queue()
+            if not self.root:
+                return
+            q1.push(self.root)
+            while q1.emptyQueue() == False:
+                node_queue = q1.queue[0]
+                print(f"-->{node_queue.data}",end=" ")
+                logging.info(f"==>{node_queue.data}")
+                q1.pop()
+                if node_queue.left:
+                    q1.push(node_queue.left)
+                if node_queue.right:
+                    q1.push(node_queue.right)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
         
     
     
@@ -141,3 +189,5 @@ for i in arr:
     tree.insertNode(i)
 
 tree.inorder_trav()
+
+tree.levelorder_traversal()

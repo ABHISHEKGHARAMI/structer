@@ -818,3 +818,49 @@ Printing the linked list.
 2024-04-10 11:34:51,542 - INFO - binaryTree2.py - 35-->
 2024-04-10 11:34:51,543 - INFO - binaryTree2.py - 24-->
 2024-04-10 11:34:51,543 - INFO - binaryTree2.py - 23-->
+2024-04-10 12:11:57,194 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 12:11:57,221 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 12:11:57,225 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 12:11:57,226 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 12:11:57,228 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 12:11:57,230 - INFO - binaryTree2.py - 45-->
+2024-04-10 12:11:57,231 - INFO - binaryTree2.py - 35-->
+2024-04-10 12:11:57,233 - INFO - binaryTree2.py - 24-->
+2024-04-10 12:11:57,234 - INFO - binaryTree2.py - 23-->
+2024-04-10 12:11:57,236 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 12:11:57,239 - INFO - binaryTree2.py - 23 pushed in the queue.
+2024-04-10 12:11:57,240 - INFO - binaryTree2.py - ==>23
+2024-04-10 12:11:57,242 - INFO - binaryTree2.py - 24 pushed in the queue.
+2024-04-10 12:11:57,244 - INFO - binaryTree2.py - ==>24
+2024-04-10 12:11:57,245 - INFO - binaryTree2.py - 45 pushed in the queue.
+2024-04-10 12:11:57,246 - INFO - binaryTree2.py - ==>45
+2024-04-10 12:11:57,249 - INFO - binaryTree2.py - 35 pushed in the queue.
+2024-04-10 12:11:57,250 - INFO - binaryTree2.py - ==>35
+2024-04-10 12:12:45,701 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 12:12:45,705 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 12:12:45,707 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 12:12:45,709 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 12:12:45,712 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 12:12:45,716 - INFO - binaryTree2.py - 45-->
+2024-04-10 12:12:45,717 - INFO - binaryTree2.py - 35-->
+2024-04-10 12:12:45,720 - INFO - binaryTree2.py - 24-->
+2024-04-10 12:12:45,722 - INFO - binaryTree2.py - 23-->
+2024-04-10 12:12:45,723 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 12:12:45,759 - INFO - binaryTree2.py - ==>23
+2024-04-10 12:12:45,760 - INFO - binaryTree2.py - ==>24
+2024-04-10 12:12:45,761 - INFO - binaryTree2.py - ==>45
+2024-04-10 12:12:45,762 - INFO - binaryTree2.py - ==>35
+2024-04-10 12:13:33,694 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 12:13:33,697 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 12:13:33,701 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 12:13:33,703 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 12:13:33,708 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 12:13:33,709 - INFO - binaryTree2.py - 45-->
+2024-04-10 12:13:33,710 - INFO - binaryTree2.py - 35-->
+2024-04-10 12:13:33,712 - INFO - binaryTree2.py - 24-->
+2024-04-10 12:13:33,713 - INFO - binaryTree2.py - 23-->
+2024-04-10 12:13:33,715 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 12:13:33,717 - INFO - binaryTree2.py - ==>23
+2024-04-10 12:13:33,718 - INFO - binaryTree2.py - ==>24
+2024-04-10 12:13:33,719 - INFO - binaryTree2.py - ==>45
+2024-04-10 12:13:33,720 - INFO - binaryTree2.py - ==>35
