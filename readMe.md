@@ -104,7 +104,7 @@ So far covered topic is -
 
      2. Binary tree :
           
-       1. [All the function like the traversal ,level order traversal ,size ,height .](./Tree/BinaryTree/binaryTree2.py)
+       1. [All the function like the traversal ,level order traversal ,size ,height , min value and max value .](./Tree/BinaryTree/binaryTree2.py)
 
        
 

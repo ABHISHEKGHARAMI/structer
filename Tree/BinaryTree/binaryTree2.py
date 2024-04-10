@@ -204,7 +204,23 @@ class Tree:
             rmax = self.maxElement(node.right)
             res = max(res,max(lmax,rmax))
             return res
-            
+    
+    
+    # find the min element
+    def minElement(self,node):
+        try:
+            max = 99999
+            if not node:
+                return max
+            res = node.data
+            lmin = self.minElement(node.left)
+            rmin = self.minElement(node.right)
+            res = min(res,min(lmin,rmin))
+            return res
+        except Exception as e:
+            print(e)
+            logging.error(e)
+            raise Exception
     
     
 # checking the execution
@@ -225,3 +241,8 @@ logging.info(f"The size of the binary tree is : {tree.sizetree(tree.root)}")
 # max element
 print(f"the max value of the tree is : {tree.maxElement(tree.root)}")
 logging.info(f"the max value of the tree is : {tree.maxElement(tree.root)}")
+
+
+# min element
+print(f"The min value of the tree is : {tree.minElement(tree.root)}")
+logging.info(f"The min value of the tree is : {tree.minElement(tree.root)}")
