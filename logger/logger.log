@@ -879,3 +879,34 @@ Printing the linked list.
 2024-04-10 12:19:56,710 - INFO - binaryTree2.py - ==>45
 2024-04-10 12:19:56,712 - INFO - binaryTree2.py - ==>35
 2024-04-10 12:19:56,714 - INFO - binaryTree2.py - The size of the binary tree is : 4
+2024-04-10 13:06:17,010 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 13:06:17,027 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 13:06:17,029 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 13:06:17,032 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 13:06:17,034 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 13:06:17,035 - INFO - binaryTree2.py - 45-->
+2024-04-10 13:06:17,036 - INFO - binaryTree2.py - 35-->
+2024-04-10 13:06:17,037 - INFO - binaryTree2.py - 24-->
+2024-04-10 13:06:17,039 - INFO - binaryTree2.py - 23-->
+2024-04-10 13:06:17,042 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 13:06:17,044 - INFO - binaryTree2.py - ==>23
+2024-04-10 13:06:17,045 - INFO - binaryTree2.py - ==>24
+2024-04-10 13:06:17,047 - INFO - binaryTree2.py - ==>45
+2024-04-10 13:06:17,048 - INFO - binaryTree2.py - ==>35
+2024-04-10 13:06:17,050 - INFO - binaryTree2.py - The size of the binary tree is : 4
+2024-04-10 13:07:15,887 - INFO - binaryTree2.py - Inserting 23 in the tree .
+2024-04-10 13:07:15,892 - INFO - binaryTree2.py - Inserting 24 in the tree .
+2024-04-10 13:07:15,893 - INFO - binaryTree2.py - Inserting 45 in the tree .
+2024-04-10 13:07:15,896 - INFO - binaryTree2.py - Inserting 35 in the tree .
+2024-04-10 13:07:15,899 - INFO - binaryTree2.py - Doing inorder traversal
+2024-04-10 13:07:15,901 - INFO - binaryTree2.py - 45-->
+2024-04-10 13:07:15,902 - INFO - binaryTree2.py - 35-->
+2024-04-10 13:07:15,903 - INFO - binaryTree2.py - 24-->
+2024-04-10 13:07:15,904 - INFO - binaryTree2.py - 23-->
+2024-04-10 13:07:15,906 - INFO - binaryTree2.py - level order traversal.
+2024-04-10 13:07:15,907 - INFO - binaryTree2.py - ==>23
+2024-04-10 13:07:15,909 - INFO - binaryTree2.py - ==>24
+2024-04-10 13:07:15,911 - INFO - binaryTree2.py - ==>45
+2024-04-10 13:07:15,913 - INFO - binaryTree2.py - ==>35
+2024-04-10 13:07:15,915 - INFO - binaryTree2.py - The size of the binary tree is : 4
+2024-04-10 13:07:15,920 - INFO - binaryTree2.py - the max value of the tree is : 45

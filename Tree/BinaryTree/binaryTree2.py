@@ -191,6 +191,20 @@ class Tree:
             print(e)
             logging.error(e)
             raise Exception
+        
+    
+    # find the maximum of the tree
+    def maxElement(self,node):
+        min = -1111
+        if not node:
+            return min
+        else:
+            res = node.data
+            lmax = self.maxElement(node.left)
+            rmax = self.maxElement(node.right)
+            res = max(res,max(lmax,rmax))
+            return res
+            
     
     
 # checking the execution
@@ -207,3 +221,7 @@ tree.levelorder_traversal()
 
 print(f"The size of the binary tree is : {tree.sizetree(tree.root)}")
 logging.info(f"The size of the binary tree is : {tree.sizetree(tree.root)}")
+
+# max element
+print(f"the max value of the tree is : {tree.maxElement(tree.root)}")
+logging.info(f"the max value of the tree is : {tree.maxElement(tree.root)}")
