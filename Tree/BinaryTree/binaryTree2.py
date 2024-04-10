@@ -63,3 +63,28 @@ class Tree:
         while node.left:
             node = node.left
         return node
+    
+    # delete node
+    def deleteNode(self,data):
+        print(f"Deleting the {data} form the tree .")
+        logging.info(f"Deleting the {data} form the tree .")
+        self.deleteNode_recursive(self.root,data)
+        
+        
+    # adding the recursive delete function
+    def deleteNode_recursive(self,node,data):
+        if not node:
+            return
+        if node.data < data:
+            node.left = self.deleteNode_recursive(node.left,data)
+        elif node.data > data:
+            node.right = self.deleteNode_recursive(node.right,data)
+        else:
+            if not node.left:
+                return node.right
+            elif not node.right:
+                return node.left
+            else:
+                min_node = self.findMin(node)
+                node.data = min_node.data
+                node.right = self.deleteNode_recursive(node.right,min_node.data)
