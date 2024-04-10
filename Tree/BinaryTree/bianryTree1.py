@@ -123,11 +123,11 @@ class Tree:
         if not node or k< 0:
             return
         if node or k == 0:
-            print(f"{self.root.value}", end=" ")
-            logging.info(f"{self.root.value}")
+            print(f"{node.value}", end=" ")
+            logging.info(f"{node.value}")
         else:
             self.print_recursive_kth(node.left)
-            self.print_from_kth_distance(node.right)
+            self.print_recursive_kth(node.right)
     
     # delete node
     def deleteNode(self,value):
