@@ -26,6 +26,8 @@ class Tree:
         self.root = None
         
     def insertNode(self,data):
+        print(f"Inserting {data} in the tree .")
+        logging.info(f"Inserting {data} in the tree .")
         if not self.root:
             self.root = TreeNode(data)
         else:
@@ -47,3 +49,17 @@ class Tree:
         except Exception as e:
             print(e)
             logging.info(e)
+            raise EOFError
+        
+    # return the height
+    def heightTree(self,node):
+        if not node:
+            return 0
+        else:
+            return max(self.heightTree(node.left),self.heightTree(node.right)) + 1
+        
+    # find the min value
+    def findMin(self,node):
+        while node.left:
+            node = node.left
+        return node
