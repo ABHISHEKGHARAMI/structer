@@ -221,11 +221,22 @@ class Tree:
             print(e)
             logging.error(e)
             raise Exception
+        
+    # print the left view of the tree
+    def left_view(self,node):
+        if not node :
+            return
+        while node:
+            print(f"=>{node.data}")
+            logging.info(f"=>{node.data}")
+            node = node.left
+        
     
     
 # checking the execution
 tree = Tree()
 
+tree.insertNode(25)
 arr = [23,24,45,35]
 
 for i in arr:
@@ -246,3 +257,6 @@ logging.info(f"the max value of the tree is : {tree.maxElement(tree.root)}")
 # min element
 print(f"The min value of the tree is : {tree.minElement(tree.root)}")
 logging.info(f"The min value of the tree is : {tree.minElement(tree.root)}")
+
+# print the left view of the tre
+tree.left_view(tree.root)
