@@ -88,3 +88,56 @@ class Tree:
                 min_node = self.findMin(node)
                 node.data = min_node.data
                 node.right = self.deleteNode_recursive(node.right,min_node.data)
+                
+                
+    # print the inorder,postorder and preorder traversal
+    def inorder_trav(self):
+        print("Doing inorder traversal")
+        logging.info("Doing inorder traversal")
+        self.inorder_utill_recursive(self.root)
+    
+    # recursive
+    def inorder_utill_recursive(self,node):
+        if node:
+            self.inorder_utill_recursive(node.left)
+            print(f"-->{node.data}",end=" ")
+            logging.info(f"{node.data}-->")
+            self.inorder_utill_recursive(node.right)
+    #postorder traversal
+
+    def postorder_trav(self):
+        print("Doing Postorder traversal")
+        logging.info("Doing Postorder traversal")
+        self.postorder_utill_recursive(self.root)
+    
+    # recursive
+    def postorder_utill_recursive(self, node):
+        if node:
+            self.postorder_utill_recursive(node.left)
+            self.postorder_utill_recursive(node.right)
+            print(f"-->{node.data}", end=" ")
+            logging.info(f"{node.data}-->")
+            
+    def preorder_trav(self):
+        print("Doing Preorder traversal")
+        logging.info("Doing Preorder traversal")
+        self.preorder_utill_recursive(self.root)
+        
+    def preorder_utill_recursive(self, node):
+        if node:
+            print(f"-->{node.data}", end=" ")
+            logging.info(f"{node.data}-->")
+            self.preorder_utill_recursive(node.left)
+            self.preorder_utill_recursive(node.right)
+        
+    
+    
+# checking the execution
+tree = Tree()
+
+arr = [23,24,45,35]
+
+for i in arr:
+    tree.insertNode(i)
+
+tree.inorder_trav()
