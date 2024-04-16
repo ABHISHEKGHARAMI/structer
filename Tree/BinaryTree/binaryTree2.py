@@ -226,10 +226,20 @@ class Tree:
     def left_view(self,node):
         if not node :
             return
-        while node:
-            print(f"=>{node.data}")
-            logging.info(f"=>{node.data}")
-            node = node.left
+        print("\nprinting the left view of the tree.")
+        logging.info("printing the left view of the tree.")
+        q1 = Queue()
+        q1.push(node)
+        while q1.emptyQueue() == False:
+            node_queue = q1.queue[0]
+            print(f"->{node_queue.data}")
+            level_size = len(q1.queue)
+            for _ in range(level_size):
+                current = q1.pop()
+                if current.left:
+                    q1.push(current.left)
+                if current.right:
+                    q1.push(current.right)
         
     
     
