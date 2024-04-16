@@ -240,6 +240,26 @@ class Tree:
                     q1.push(current.left)
                 if current.right:
                     q1.push(current.right)
+                    
+    # right view of the tree
+    def right_view(self,node):
+        if node is None:
+            return 
+        print("right view of the tree.")
+        logging.info("right view of the tree.")
+        q1 = Queue()
+        q1.push(node)
+        while q1.emptyQueue() == False:
+            node_queue = q1.queue[-1]
+            print(f"->{node_queue.data}",end=" ")
+            logging.info(f"{node_queue.data}")
+            level = len(q1.queue)
+            for _ in range(level):
+                current = q1.pop()
+                if current.right:
+                    q1.push(current.right)
+                if current.left:
+                    q1.push(current.left)
         
     
     
@@ -270,3 +290,6 @@ logging.info(f"The min value of the tree is : {tree.minElement(tree.root)}")
 
 # print the left view of the tre
 tree.left_view(tree.root)
+
+# right view of the tree
+tree.right_view(tree.root)
