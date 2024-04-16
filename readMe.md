@@ -106,6 +106,10 @@ So far covered topic is -
           
        1. [All the function like the traversal ,level order traversal ,size ,height , min value and max value .](./Tree/BinaryTree/binaryTree2.py)
 
+       2.[left and right view of the tree.](./Tree/BinaryTree/binaryTree2.py)
+
+       
+
        
 
 
