@@ -108,7 +108,12 @@ So far covered topic is -
 
        2.[left and right view of the tree.](./Tree/BinaryTree/binaryTree2.py)
 
+       3.[Top view of the tree.](./Tree/BinaryTree/binaryTree2.py)
+
        
+
+
+
 
        
 
