@@ -70,3 +70,37 @@ class Tree:
                 node = node.left
             return node.data
         
+    
+    # delete the node for the tree
+    def deleteNode(self,data):
+        print(f"Delete {data} from the tree.")
+        logging.info(f"Delete {data} from the tree.")
+        self.deleteNode_recursive(self.root,data)
+        
+        
+    # delete recursive for the tree
+    def deleteNode_recursive(self,node,data):
+        try:
+            if not node or not data:
+                return node
+            else:
+                if node.data < data:
+                    node.right = self.deleteNode_recursive(node.right,data)
+                elif node.data > data:
+                    node.left = self.deleteNode_recursive(node.left,data)
+                else:
+                    if not node.left:
+                        return node.right
+                    elif not node.right:
+                        return node.left
+                    else:
+                        temp_node = self.find_min(node.right)
+                        node.data = temp_node.data
+                        node.right = self.deleteNode_recursive(node.right,temp_node.data)
+                return node
+                        
+        except Exception as e:
+            print(e)
+            logging.error(e)
+            raise Exception
+        
