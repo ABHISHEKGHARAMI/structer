@@ -116,6 +116,22 @@ class Tree:
             else:
                 return self.searchTree(node.left,data)
             
+            
+    #Traversal for the tree
+    def preorder_traversal(self):
+        if self.root:
+            self.preorder_recur(self.root)
+            
+    # recursive
+    def preorder_recur(self,node):
+        if not node:
+            self.preorder_recur(node.left)
+            print(f"->{node.data}")
+            logging.info(f"->{node.data}")
+            self.preorder_recur(node.right)
+    
+    # traversal for the post order      
+            
         
         
         
@@ -127,7 +143,8 @@ for i in list1:
     t1.insertTree(i)
 
 while True:
-    print("1: insert \n2: delete \n3: search \n 0: exit")
+    print("\n1: insert \n2: delete \n3: search \n 0: exit")
+    print("\n4: inorder traversal .")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -145,4 +162,7 @@ while True:
         else:
             print(f"{data} is  present in the tree.")
             logging.info(f"{data} is present in the tree.")
+            
+    elif choice == 4:
+        t1.preorder_traversal()
         

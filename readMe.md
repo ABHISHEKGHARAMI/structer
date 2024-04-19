@@ -110,6 +110,8 @@ So far covered topic is -
 
        3.[Top view of the tree.](./Tree/BinaryTree/binaryTree2.py)
 
+       4.[Practice for the binary tree.](./Tree//BinaryTree/binary_practise_tree3.py)
+
        
 
 
