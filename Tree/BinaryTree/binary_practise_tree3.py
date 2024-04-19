@@ -104,3 +104,24 @@ class Tree:
             logging.error(e)
             raise Exception
         
+        
+        
+root_data = int(input("enter the root for the data :"))
+list1 = list(map(int,input("enter the all the tree data for the list (with comma):").split(",")))
+t1 = Tree()
+t1.insertTree(root_data)
+for i in list1:
+    t1.insertTree(i)
+
+while True:
+    print("1: insert \n2: delete \n 0: exit")
+    choice = int(input("enter the choice :"))
+    if choice == 0:
+        exit(0)
+    elif choice == 1:
+        data = int(input("enter the data to the insert in the tree :"))
+        t1.insertTree(data)
+    elif choice == 2:
+        data = int(input("enter the data to be delete :"))
+        t1.deleteNode(data)
+        
