@@ -44,4 +44,29 @@ class Tree:
         except Exception as e:
             print(e)
             logging.error(e)
-            raise Exception          
+            raise Exception         
+        
+        
+    # find the height
+    def height(self,node):
+        try:
+            if not node:
+                return 0
+            else:
+                lheight = self.height(node.left)
+                rheight = self.height(node.right)
+                return max(lheight,rheight) + 1
+        except Exception as e:
+            print(e)
+            logging.error(e)
+            raise Exception 
+        
+    # find the min value for the tree
+    def find_min(self,node):
+        if not node:
+            return
+        else:
+            while node.left:
+                node = node.left
+            return node.data
+        
