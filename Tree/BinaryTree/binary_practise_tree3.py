@@ -118,17 +118,17 @@ class Tree:
             
             
     #Traversal for the tree
-    def preorder_traversal(self):
+    def inorder_traversal(self):
         if self.root:
-            self.preorder_recur(self.root)
+            self.inorder_recur(self.root)
             
     # recursive
-    def preorder_recur(self,node):
+    def inorder_recur(self,node):
         if not node:
-            self.preorder_recur(node.left)
+            self.inorder_recur(node.left)
             print(f"->{node.data}")
             logging.info(f"->{node.data}")
-            self.preorder_recur(node.right)
+            self.inorder_recur(node.right)
     
     # traversal for the post order      
             
