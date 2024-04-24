@@ -154,6 +154,21 @@ class Tree:
             logging.info(f"{node.data}")
             preorder_recur(node.left)
             preorder_recur(node.right)
+            
+            
+    # print the node from the k nodes
+    def print_kth(self,k):
+        self.print_kth_recur(self.root,k)
+        
+    # recur util function for that
+    def print_kth_recur(self,node,k):
+        if not node:
+            return node
+        else:
+            if k == 0:
+                print(f"->{node.data}")
+                self.print_kth_recur(node.left,k-1)
+                self.print_kth_recur(node.right,k-1)
         
         
         
@@ -167,6 +182,7 @@ for i in list1:
 while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
+    print("\n7: print from k th node.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -197,5 +213,14 @@ while True:
         print("preorder traversal ---")
         logging.info("preorder traversal ---")
         t1.preOrder()
+    elif choice == 7:
+        data = int(input("enter the data from the where you want to  print :"))
+        h1 = t1.height(t1.root)
+        if data  < h1:
+            t1.print_kth(data)
+            
+        else:
+            print("can't perform op.")
+            logging.error("can't perform.")
     
         
