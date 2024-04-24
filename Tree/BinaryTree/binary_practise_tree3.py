@@ -131,7 +131,17 @@ class Tree:
             self.inorder_recur(node.right)
     
     # traversal for the post order      
+    def postorder(self):
+        if self.root:
+            self.postorder_recur(self.root)
             
+    # recur
+    def postorder_recur(self,node):
+        if node:
+            self.postorder_recur(node.left)
+            self.postorder_recur(node.right)
+            print(f"->{node.data}")
+            logging.info(f"->{node.data}")
         
         
         
@@ -144,7 +154,7 @@ for i in list1:
 
 while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
-    print("\n4: inorder traversal .")
+    print("\n4: inorder traversal . \n5: postorder traversal .")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
