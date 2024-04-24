@@ -142,6 +142,18 @@ class Tree:
             self.postorder_recur(node.right)
             print(f"->{node.data}")
             logging.info(f"->{node.data}")
+            
+    # pre order traversal
+    def preOrder(self):
+        self.preorder_recur(self.root)
+        
+    # recur function
+    def preorder_recur(self,node):
+        if node:
+            print(f"->{node.data}",end=" ")
+            logging.info(f"{node.data}")
+            preorder_recur(node.left)
+            preorder_recur(node.right)
         
         
         
@@ -154,7 +166,7 @@ for i in list1:
 
 while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
-    print("\n4: inorder traversal . \n5: postorder traversal .")
+    print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -174,5 +186,16 @@ while True:
             logging.info(f"{data} is present in the tree.")
             
     elif choice == 4:
-        t1.preorder_traversal()
+        print("inorder traversal ----")
+        logging.info("inorder traversal ----")
+        t1.inorder_traversal()
+    elif choice == 5:
+        print("postorder traversal -----")
+        logging.info("postorder traversall -----")
+        t1.postorder()
+    elif choice == 6:
+        print("preorder traversal ---")
+        logging.info("preorder traversal ---")
+        t1.preOrder()
+    
         
