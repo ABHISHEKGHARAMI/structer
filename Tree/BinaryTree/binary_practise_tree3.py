@@ -25,7 +25,7 @@ class Tree:
         if not self.root:
             self.root = TreeNode(data)
         else:
-            insert_recursive(self.root,data)  
+            self.insert_recursive(self.root,data)
             
             
     # insert the recursive for the tree
@@ -167,8 +167,8 @@ class Tree:
         else:
             if k == 0:
                 print(f"->{node.data}")
-                self.print_kth_recur(node.left,k-1)
-                self.print_kth_recur(node.right,k-1)
+            self.print_kth_recur(node.left,k-1)
+            self.print_kth_recur(node.right,k-1)
         
         
         
