@@ -271,18 +271,21 @@ class Tree:
             return
         
         q1 = Queue()
+        _left = []
         q1.push(self.root)
         while q1.emptyqueue() != 1:
             n = len(q1.queue)
             for i in range(n):
                 temp = q1.pop()
                 if i == 0:
-                    print(f"->{temp.data}",end=" ")
+                    #print(f"->{temp.data}",end=" ")
                     logging.info(f"->{temp.data}")
+                    _left.append(temp.data)
                     if temp.left:
                         q1.push(temp.left)
                     if temp.right:
                         q1.push(temp.right)
+        return _left
                         
                         
     # adding the right view of the tree
@@ -290,18 +293,37 @@ class Tree:
         if self.root == None:
             return
         q1 = Queue()
+        _right = []
         q1.push(self.root)
         while q1.emptyqueue() != 1:
             n = len(q1.queue)
             for i in range(n):
                 temp = q1.pop()
                 if i == 0:
-                    print(f"->{temp.data}",end=" ")
+                    #print(f"->{temp.data}",end=" ")
                     logging.info(f"->{temp.data}")
+                    _right.append(temp.data)
                     if temp.right:
                         q1.push(temp.right)
                     if temp.left:
                         q1.push(temp.left)
+        return _right
+    
+    
+    #adding the top view the tree.
+    def top_view(self):
+        if self.root == None:
+            return
+        lview = self.leftView()
+        rview = self.rightView()
+        lview = lview[::-1]
+        for i in rview:
+            lview.append(i)
+        lview = list(set(lview))
+        for i in lview:
+            print(i,end=" ")
+            logging.info(i)
+                
                 
             
                     
@@ -327,7 +349,7 @@ while True:
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
-    print("\n13: right view of the tree.")
+    print("\n13: right view of the tree. \n14: top view of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -392,12 +414,21 @@ while True:
     elif choice == 12:
         print(f"left view of the tree.")
         logging.info(f"left view of the tree.")
-        t1.leftView()
+        left = t1.leftView()
+        print(left)
+        logging.info(left)
         
         
     elif choice == 13:
         print("right view of the tree .")
         logging.info("right view of the tree.")
-        t1.rightView()
+        print(t1.rightView())
+        logging.info(t1.rightView())
+        
+        
+    elif choice == 14:
+        print("\nthe top view of the tree is :")
+        logging.info("\nthe top view of the tree is :")
+        t1.top_view()
     
         

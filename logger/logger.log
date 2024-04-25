@@ -1308,3 +1308,28 @@ Printing the linked list.
 2024-04-25 19:50:52,608 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x00000291DAEDB690> is popped from the queue.
 2024-04-25 19:50:52,610 - INFO - binary_practise_tree3.py - ->80
 2024-04-25 19:50:52,611 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x00000291DAEDB650> is popped from the queue.
+2024-04-25 21:03:11,631 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 21:03:11,661 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 21:03:11,663 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 21:03:11,665 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 21:03:11,667 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 21:03:11,668 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 21:03:11,670 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 21:03:15,899 - INFO - binary_practise_tree3.py - 
+the top view of the tree is :
+2024-04-25 21:03:23,427 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F706810> is popped from the queue.
+2024-04-25 21:03:23,429 - INFO - binary_practise_tree3.py - ->50
+2024-04-25 21:03:23,429 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F706A50> is popped from the queue.
+2024-04-25 21:03:23,433 - INFO - binary_practise_tree3.py - ->40
+2024-04-25 21:03:23,435 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707DD0> is popped from the queue.
+2024-04-25 21:03:23,436 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707CD0> is popped from the queue.
+2024-04-25 21:03:23,437 - INFO - binary_practise_tree3.py - ->10
+2024-04-25 21:03:23,437 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707D50> is popped from the queue.
+2024-04-25 21:03:27,675 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F706810> is popped from the queue.
+2024-04-25 21:03:27,675 - INFO - binary_practise_tree3.py - ->50
+2024-04-25 21:03:27,675 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707DD0> is popped from the queue.
+2024-04-25 21:03:27,682 - INFO - binary_practise_tree3.py - ->70
+2024-04-25 21:03:27,684 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F706A50> is popped from the queue.
+2024-04-25 21:03:27,685 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707E50> is popped from the queue.
+2024-04-25 21:03:27,687 - INFO - binary_practise_tree3.py - ->80
+2024-04-25 21:03:27,687 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001F83F707E10> is popped from the queue.
