@@ -9,25 +9,44 @@ import logging
 setup_logging()
 
 
-# stack
-class Stack:
+# queue
+class Queue:
     def __init__(self):
-        self.stack = []
+        self.queue = []
         
         
-    # push for the stack
+    # push for the queue
     def push(self,data):
-        self.stack.append(data)
-    # pop for the stack
+        self.queue.append(data)
+    # pop for the queue
     def pop(self):
-        pass
+        if self.emptyqueue() == 1:
+            print("queue is underflowed.")
+            return -1
+        else:
+            data = self.queue.pop(0)
+            print(f"{data} is popped from the queue.")
+            logging.info(f"{data} is popped from the queue.")
+            return data
     
-    # check stack
+    # check queue
     def top(self):
-        pass
+        if  self.emptyqueue() == 1:
+            return -1
+        else:
+            return self.queue[-1]
     def front(self):
-        pass
+        if self.emptyqueue() == 1:
+            return -1
+        else:
+            return self.queue[0]
     
+    # check empty or not
+    def emptyqueue(self):
+        if len(self.queue) == 0:
+            return 1
+        else:
+            return 0
 
 class TreeNode:
     def __init__(self,data):
