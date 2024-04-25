@@ -320,7 +320,7 @@ class Tree:
         for i in rview:
             lview.append(i)
         lview = list(set(lview))
-        for i in lview:
+        for i in sorted(lview):
             print(i,end=" ")
             logging.info(i)
                 
