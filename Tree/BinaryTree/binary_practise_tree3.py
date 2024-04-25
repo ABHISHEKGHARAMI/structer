@@ -235,6 +235,23 @@ class Tree:
         else:
             return self.size(node.left) + 1 + self.size(node.right)
         
+        
+    # get the max number
+    def maxTree(self,node):
+        if node == None:
+            return
+        res = node.data
+        lres= self.maxTree(node.left)
+        rres = self.maxTree(node.right)
+        if res < lres:
+            res = lres
+        if res < rres:
+            res = rres
+        return res
+        
+        
+        
+        
     
         
         
@@ -251,7 +268,7 @@ while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
-    print("\n9: size of the tree.")
+    print("\n9: size of the tree. \n10: max number of the tree .")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -301,5 +318,10 @@ while True:
         data = t1.size(t1.root)
         print(f"the size of the tree is : {data}")
         logging.info(f"the size of the tree is : {data}")
+        
+    elif choice == 10:
+        data = t1.maxTree(t1.root)
+        print(f"the maximum number of the tree is : {data}")
+        logging.info(f"the maximum number of the tree is : {data}")
     
         
