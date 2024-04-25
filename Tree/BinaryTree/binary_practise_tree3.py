@@ -298,10 +298,10 @@ class Tree:
                 if i == 0:
                     print(f"->{temp.data}",end=" ")
                     logging.info(f"->{temp.data}")
-                    if temp.left:
-                        q1.push(temp.left)
                     if temp.right:
                         q1.push(temp.right)
+                    if temp.left:
+                        q1.push(temp.left)
                 
             
                     
