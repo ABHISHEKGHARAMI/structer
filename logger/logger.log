@@ -1199,3 +1199,26 @@ Printing the linked list.
 2024-04-25 19:12:40,955 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
 2024-04-25 19:12:40,957 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
 2024-04-25 19:12:42,920 - INFO - binary_practise_tree3.py - the minimum number of the tree is : 80
+2024-04-25 19:14:30,957 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 19:14:30,961 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 19:14:30,965 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 19:14:30,966 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 19:14:30,969 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 19:14:30,972 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 19:14:30,975 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 19:14:36,251 - INFO - binary_practise_tree3.py - level order traversal.
+2024-04-25 19:14:36,254 - INFO - binary_practise_tree3.py - ->50
+2024-04-25 19:14:36,255 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FE110> is popped from the queue.
+2024-04-25 19:14:36,258 - INFO - binary_practise_tree3.py - ->40
+2024-04-25 19:14:36,259 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FE350> is popped from the queue.
+2024-04-25 19:14:36,262 - INFO - binary_practise_tree3.py - ->70
+2024-04-25 19:14:36,264 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FF690> is popped from the queue.
+2024-04-25 19:14:36,266 - INFO - binary_practise_tree3.py - ->10
+2024-04-25 19:14:36,269 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FF590> is popped from the queue.
+2024-04-25 19:14:36,270 - INFO - binary_practise_tree3.py - ->45
+2024-04-25 19:14:36,273 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FF610> is popped from the queue.
+2024-04-25 19:14:36,274 - INFO - binary_practise_tree3.py - ->60
+2024-04-25 19:14:36,287 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FF6D0> is popped from the queue.
+2024-04-25 19:14:36,294 - INFO - binary_practise_tree3.py - ->80
+2024-04-25 19:14:36,297 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001A4EC9FF710> is popped from the queue.
+2024-04-25 19:14:54,437 - INFO - binary_practise_tree3.py - the minimum number of the tree is : 10
