@@ -192,8 +192,8 @@ class Tree:
         if node:
             print(f"->{node.data}",end=" ")
             logging.info(f"{node.data}")
-            preorder_recur(node.left)
-            preorder_recur(node.right)
+            self.preorder_recur(node.left)
+            self.preorder_recur(node.right)
             
             
     # print the node from the k nodes
@@ -298,7 +298,7 @@ while True:
         t1.levelOrder()
         
     elif choice == 9:
-        data = t1.size()
+        data = t1.size(t1.root)
         print(f"the size of the tree is : {data}")
         logging.info(f"the size of the tree is : {data}")
     
