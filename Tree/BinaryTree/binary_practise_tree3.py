@@ -239,7 +239,7 @@ class Tree:
     # get the max number
     def maxTree(self,node):
         if node == None:
-            return
+            return -sys.maxsize
         res = node.data
         lres= self.maxTree(node.left)
         rres = self.maxTree(node.right)

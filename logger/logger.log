@@ -1152,3 +1152,34 @@ Printing the linked list.
 2024-04-25 18:50:14,333 - INFO - binary_practise_tree3.py - ->70
 2024-04-25 18:50:14,344 - INFO - binary_practise_tree3.py - <__main__.TreeNode object at 0x000001E4E7E03490> is popped from the queue.
 2024-04-25 18:50:25,927 - INFO - binary_practise_tree3.py - the size of the tree is : 7
+2024-04-25 19:03:18,322 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 19:03:18,392 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 19:03:18,394 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 19:03:18,395 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 19:03:18,398 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 19:03:18,400 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 19:03:18,403 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 19:03:24,198 - INFO - binary_practise_tree3.py - preorder traversal ---
+2024-04-25 19:03:24,200 - INFO - binary_practise_tree3.py - 50
+2024-04-25 19:03:24,201 - INFO - binary_practise_tree3.py - 40
+2024-04-25 19:03:24,202 - INFO - binary_practise_tree3.py - 10
+2024-04-25 19:03:24,203 - INFO - binary_practise_tree3.py - 45
+2024-04-25 19:03:24,203 - INFO - binary_practise_tree3.py - 70
+2024-04-25 19:03:24,205 - INFO - binary_practise_tree3.py - 60
+2024-04-25 19:03:24,206 - INFO - binary_practise_tree3.py - 80
+2024-04-25 19:04:56,836 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 19:04:56,843 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 19:04:56,848 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 19:04:56,852 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 19:04:56,856 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 19:04:56,858 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 19:04:56,860 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 19:04:59,314 - INFO - binary_practise_tree3.py - preorder traversal ---
+2024-04-25 19:04:59,315 - INFO - binary_practise_tree3.py - 50
+2024-04-25 19:04:59,316 - INFO - binary_practise_tree3.py - 40
+2024-04-25 19:04:59,317 - INFO - binary_practise_tree3.py - 10
+2024-04-25 19:04:59,318 - INFO - binary_practise_tree3.py - 45
+2024-04-25 19:04:59,319 - INFO - binary_practise_tree3.py - 70
+2024-04-25 19:04:59,319 - INFO - binary_practise_tree3.py - 60
+2024-04-25 19:04:59,320 - INFO - binary_practise_tree3.py - 80
+2024-04-25 19:05:09,883 - INFO - binary_practise_tree3.py - the maximum number of the tree is : 80
