@@ -8,6 +8,27 @@ import logging
 
 setup_logging()
 
+
+# stack
+class Stack:
+    def __init__(self):
+        self.stack = []
+        
+        
+    # push for the stack
+    def push(self,data):
+        self.stack.append(data)
+    # pop for the stack
+    def pop(self):
+        pass
+    
+    # check stack
+    def top(self):
+        pass
+    def front(self):
+        pass
+    
+
 class TreeNode:
     def __init__(self,data):
         self.data = data
@@ -169,6 +190,12 @@ class Tree:
             logging.info(f"{node.data}",end=" ")
         self.print_kth_recur(node.left,k-1)
         self.print_kth_recur(node.right,k-1)
+        
+        
+    
+    # print the level order traversal
+    
+        
         
         
         
