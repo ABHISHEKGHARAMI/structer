@@ -25,7 +25,7 @@ class Queue:
             return -1
         else:
             data = self.queue.pop(0)
-            print(f"{data} is popped from the queue.")
+           # print(f"{data} is popped from the queue.")
             logging.info(f"{data} is popped from the queue.")
             return data
     
@@ -283,6 +283,27 @@ class Tree:
                         q1.push(temp.left)
                     if temp.right:
                         q1.push(temp.right)
+                        
+                        
+    # adding the right view of the tree
+    def rightView(self):
+        if self.root == None:
+            return
+        q1 = Queue()
+        q1.push(self.root)
+        while q1.emptyqueue() != 1:
+            n = len(q1.queue)
+            for i in range(n):
+                temp = q1.pop()
+                if i == 0:
+                    print(f"->{temp.data}",end=" ")
+                    logging.info(f"->{temp.data}")
+                    if temp.left:
+                        q1.push(temp.left)
+                    if temp.right:
+                        q1.push(temp.right)
+                
+            
                     
         
         
@@ -306,6 +327,7 @@ while True:
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
+    print("\n13: right view of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -371,5 +393,11 @@ while True:
         print(f"left view of the tree.")
         logging.info(f"left view of the tree.")
         t1.leftView()
+        
+        
+    elif choice == 13:
+        print("right view of the tree .")
+        logging.info("right view of the tree.")
+        t1.rightView()
     
         
