@@ -263,6 +263,27 @@ class Tree:
             res = rres
             
         return res
+    
+    
+    # left view of the tree
+    def leftView(self):
+        if self.root == None:
+            return
+        
+        q1 = Queue()
+        q1.push(self.root)
+        while q1.emptyqueue() != 1:
+            temp = q1.front()
+            print(f"->{temp.data}",end=" ")
+            logging.info(f"->{temp.data}")
+            
+            if temp.left:
+                q1.push(temp.left)
+                
+            if temp.right:
+                q1.push(temp.right)
+                
+            q1.pop()
         
         
         
@@ -284,7 +305,7 @@ while True:
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
     print("\n9: size of the tree. \n10: max number of the tree .")
-    print("\n11: min number of the tree.")
+    print("\n11: min number of the tree. \n 12 : left view of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -344,5 +365,11 @@ while True:
         data = t1.minTree(t1.root)
         print(f"the minimum number of the tree is : {data}")
         logging.info(f"the minimum number of the tree is : {data}")
+        
+        
+    elif choice == 12:
+        print(f"left view of the tree.")
+        logging.info(f"left view of the tree.")
+        t1.leftView()
     
         
