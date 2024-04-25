@@ -164,11 +164,11 @@ class Tree:
     def print_kth_recur(self,node,k):
         if not node or k < 0:
             return 
-        else:
-            if k == 0:
-                print(f"->{node.data}")
-            self.print_kth_recur(node.left,k-1)
-            self.print_kth_recur(node.right,k-1)
+        if k == 0 :
+            print(f"->{node.data}",end=" ")
+            logging.info(f"{node.data}",end=" ")
+        self.print_kth_recur(node.left,k-1)
+        self.print_kth_recur(node.right,k-1)
         
         
         
