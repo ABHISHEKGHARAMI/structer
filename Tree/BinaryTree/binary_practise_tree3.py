@@ -248,6 +248,21 @@ class Tree:
         if res < rres:
             res = rres
         return res
+    
+    
+    #min number
+    def minTree(self,node):
+        if node == None:
+            return sys.maxsize
+        res = node.data
+        lres = self.minTree(node.left)
+        if res > lres :
+            res = lres
+        rres = self.minTree(node.right)
+        if res > rres :
+            res = rres
+            
+        return res
         
         
         
@@ -269,6 +284,7 @@ while True:
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
     print("\n9: size of the tree. \n10: max number of the tree .")
+    print("\n11: min number of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -323,5 +339,10 @@ while True:
         data = t1.maxTree(t1.root)
         print(f"the maximum number of the tree is : {data}")
         logging.info(f"the maximum number of the tree is : {data}")
+        
+    elif choice == 11:
+        data = t1.minTree(t1.root)
+        print(f"the minimum number of the tree is : {data}")
+        logging.info(f"the minimum number of the tree is : {data}")
     
         

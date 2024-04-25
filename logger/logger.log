@@ -1183,3 +1183,19 @@ Printing the linked list.
 2024-04-25 19:04:59,319 - INFO - binary_practise_tree3.py - 60
 2024-04-25 19:04:59,320 - INFO - binary_practise_tree3.py - 80
 2024-04-25 19:05:09,883 - INFO - binary_practise_tree3.py - the maximum number of the tree is : 80
+2024-04-25 19:11:04,804 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 19:11:04,809 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 19:11:04,824 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 19:11:04,833 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 19:11:04,842 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 19:11:04,846 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 19:11:04,853 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 19:11:07,164 - INFO - binary_practise_tree3.py - the minimum number of the tree is : 9223372036854775807
+2024-04-25 19:12:40,938 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-25 19:12:40,943 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-25 19:12:40,945 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-25 19:12:40,949 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-25 19:12:40,953 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-25 19:12:40,955 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-25 19:12:40,957 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-25 19:12:42,920 - INFO - binary_practise_tree3.py - the minimum number of the tree is : 80
