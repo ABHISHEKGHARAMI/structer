@@ -53,6 +53,7 @@ class TreeNode:
         self.data = data
         self.left = None
         self.right = None
+        self.horizontal_distance = 0
         
 class Tree:
     def __init__(self):
@@ -324,6 +325,43 @@ class Tree:
             print(i,end=" ")
             logging.info(i)
                 
+    # adding the bottom view of the tree
+    def setHorizontalDistance(self,node,hd):
+        if node is None:
+            return
+        self.setHorizontalDistance(node.left,hd-1)
+        self.setHorizontalDistance(node.right,hd-1)
+        
+        
+    def bottomView(self):
+        if self.root is None:
+            return
+        self.setHorizontalDistance(self.root,0)
+        # dictionary for storing the bottom view nodes
+        bottom_view_map = {}
+        q1 = Queue()
+        q1.append(self.root)
+        while q1.emptyqueue() != 1:
+            node = q1.pop()
+            hd = node.horizontal_distance
+            
+            bottom_view_map[hd] = node.data
+            
+            
+            if node.left:
+                q1.push(node.left)
+                node.left.horizontal_distance = hd - 1
+            
+            if node.right:
+                q1.push(node.right)
+                node.right.horizontal_distance = hd - 1
+                
+        # print the bottom element
+        for key in sorted(bottom_view_map):
+            print(bottom_view_map[key],end=" ")
+            logging.info(bottom_view_map[key])       
+            
+            
                 
             
                     
@@ -350,6 +388,7 @@ while True:
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
     print("\n13: right view of the tree. \n14: top view of the tree.")
+    print("\n14: bottom view tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -430,5 +469,12 @@ while True:
         print("\nthe top view of the tree is :")
         logging.info("\nthe top view of the tree is :")
         t1.top_view()
+        
+        
+        
+    elif choice == 15:
+        print("\nthe bottom view of the tree is:")
+        logging.info("the bottom view of the tree is :")
+        t1.bottomView()
     
         
