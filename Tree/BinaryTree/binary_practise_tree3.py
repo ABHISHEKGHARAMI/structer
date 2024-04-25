@@ -251,6 +251,7 @@ while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
     print("\n7: print from k th node. \n8: print the levelorder traversal.")
+    print("\n9: size of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -295,5 +296,10 @@ while True:
         print("\nlevel order traversal.")
         logging.info("level order traversal.")
         t1.levelOrder()
+        
+    elif choice == 9:
+        data = t1.size()
+        print(f"the size of the tree is : {data}")
+        logging.info(f"the size of the tree is : {data}")
     
         
