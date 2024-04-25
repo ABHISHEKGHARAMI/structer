@@ -227,6 +227,13 @@ class Tree:
                 q1.push(node_queue.left)
             if node_queue.right:
                 q1.push(node_queue.right)
+                
+    # size of the tree
+    def size(self,node):
+        if node is None:
+            return 0
+        else:
+            return self.size(node.left) + 1 + self.size(node.right)
         
     
         
