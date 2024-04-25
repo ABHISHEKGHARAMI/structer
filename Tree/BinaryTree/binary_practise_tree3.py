@@ -213,6 +213,21 @@ class Tree:
         
     
     # print the level order traversal
+    def levelOrder(self):
+        if self.root == None:
+            return
+        q1 = Queue()
+        q1.push(self.root)
+        while q1.emptyqueue() !=1:
+            node_queue = q1.queue[0]
+            print(f"->{node_queue.data}",end=" ")
+            logging.info(f"->{node_queue.data}")
+            q1.pop()
+            if node_queue.left:
+                q1.push(node_queue.left)
+            if node_queue.right:
+                q1.push(node_queue.right)
+        
     
         
         
@@ -228,7 +243,7 @@ for i in list1:
 while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
-    print("\n7: print from k th node.")
+    print("\n7: print from k th node. \n8: print the levelorder traversal.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -268,5 +283,10 @@ while True:
         else:
             print("can't perform op.")
             logging.error("can't perform.")
+            
+    elif choice == 8:
+        print("\nlevel order traversal.")
+        logging.info("level order traversal.")
+        t1.levelOrder()
     
         
