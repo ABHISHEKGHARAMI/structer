@@ -340,7 +340,7 @@ class Tree:
         # dictionary for storing the bottom view nodes
         bottom_view_map = {}
         q1 = Queue()
-        q1.append(self.root)
+        q1.push(self.root)
         while q1.emptyqueue() != 1:
             node = q1.pop()
             hd = node.horizontal_distance
@@ -388,7 +388,7 @@ while True:
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
     print("\n13: right view of the tree. \n14: top view of the tree.")
-    print("\n14: bottom view tree.")
+    print("\n15: bottom view tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
