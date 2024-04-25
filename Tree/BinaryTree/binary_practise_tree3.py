@@ -162,8 +162,8 @@ class Tree:
         
     # recur util function for that
     def print_kth_recur(self,node,k):
-        if not node:
-            return node
+        if not node or k < 0:
+            return 
         else:
             if k == 0:
                 print(f"->{node.data}")
