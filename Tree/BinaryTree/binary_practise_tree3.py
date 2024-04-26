@@ -362,17 +362,18 @@ class Tree:
             logging.info(bottom_view_map[key])       
             
     # check sum property for tree
-    def checkSum(self):
-        if self.root :
-            return self.check_sum_recurr(self.root)
+    def checkSum(self,node):
+        if node == None:
+            return True
+        if node.left == None and node.right == None:
+            return True
+        sum = 0
+        if node.left != None:
+            sum += node.left.data
+        if node.right != None:
+            sum += node.right.data
+        return node.data == sum and self.checkSum(node.left) and self.checkSum(node.right)
         
-        
-    # print the recur
-    def check_sum_recurr(self,node):
-        if node.data == node.left.data + node.right.data:  
-            return False
-        else:
-            return self.check_sum_recurr(node.left) and self.check_sum_recurr(node.right)     
                 
             
                     
