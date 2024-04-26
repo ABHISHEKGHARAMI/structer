@@ -361,7 +361,18 @@ class Tree:
             print(bottom_view_map[key],end=" ")
             logging.info(bottom_view_map[key])       
             
-            
+    # check sum property for tree
+    def checkSum(self):
+        if self.root :
+            return self.check_sum_recurr(self.root)
+        
+        
+    # print the recur
+    def check_sum_recurr(self,node):
+        if node.data == node.left.data + node.right.data:  
+            return False
+        else:
+            return self.check_sum_recurr(node.left) and self.check_sum_recurr(node.right)     
                 
             
                     
@@ -388,7 +399,7 @@ while True:
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
     print("\n13: right view of the tree. \n14: top view of the tree.")
-    print("\n15: bottom view tree.")
+    print("\n15: bottom view tree. \n16: Check sum for tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -476,5 +487,15 @@ while True:
         print("\nthe bottom view of the tree is:")
         logging.info("the bottom view of the tree is :")
         t1.bottomView()
+        
+        
+    elif choice == 16:
+        print("Checking the tree is check sum property :")
+        logging.info("Checking the tree is check sum property :")
+        if t1.checkSum() == False:
+            print("\nthe tree does not follow check sum.")
+            logging.info("the tree does not follow check sum.")
+        else:
+            print("\nthe tree follows ")
     
         
