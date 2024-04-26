@@ -1422,3 +1422,25 @@ the top view of the tree is :
 2024-04-26 11:29:50,189 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
 2024-04-26 11:29:50,192 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
 2024-04-26 11:29:53,260 - INFO - binary_practise_tree3.py - Checking the tree is check sum property :
+2024-04-26 12:00:47,485 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-26 12:00:47,534 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-26 12:00:47,536 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-26 12:00:47,542 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-26 12:00:47,544 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-26 12:00:47,546 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-26 12:00:47,548 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-26 12:00:50,964 - INFO - binary_practise_tree3.py - Checking the tree is check sum property :
+2024-04-26 12:00:50,967 - INFO - binary_practise_tree3.py - the tree does not follow check sum.
+2024-04-26 12:01:27,487 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-26 12:01:27,491 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-26 12:01:27,495 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-26 12:01:32,452 - INFO - binary_practise_tree3.py - postorder traversall -----
+2024-04-26 12:01:32,455 - INFO - binary_practise_tree3.py - ->40
+2024-04-26 12:01:32,457 - INFO - binary_practise_tree3.py - ->10
+2024-04-26 12:01:32,461 - INFO - binary_practise_tree3.py - ->50
+2024-04-26 12:01:54,492 - INFO - binary_practise_tree3.py - preorder traversal ---
+2024-04-26 12:01:54,493 - INFO - binary_practise_tree3.py - 50
+2024-04-26 12:01:54,494 - INFO - binary_practise_tree3.py - 10
+2024-04-26 12:01:54,495 - INFO - binary_practise_tree3.py - 40
+2024-04-26 12:02:09,499 - INFO - binary_practise_tree3.py - Checking the tree is check sum property :
+2024-04-26 12:02:09,501 - INFO - binary_practise_tree3.py - the tree does not follow check sum.
