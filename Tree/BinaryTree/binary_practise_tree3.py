@@ -373,6 +373,17 @@ class Tree:
         if node.right != None:
             sum += node.right.data
         return node.data == sum and self.checkSum(node.left) and self.checkSum(node.right)
+    
+    # check the tree is balanced tree
+    def checkBalance(self,node):
+        if node is None:
+            return 1
+        lh = self.height(node.left)
+        rh = self.height(node.right)
+        
+        if abs(lh - rh) <= 1 and self.checkBalance(node.left) and self.checkBalance(node.right):
+            return 1
+        return 0
         
                 
             
@@ -401,6 +412,7 @@ while True:
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
     print("\n13: right view of the tree. \n14: top view of the tree.")
     print("\n15: bottom view tree. \n16: Check sum for tree.")
+    print("\n17: check the tree is balanced.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -498,5 +510,14 @@ while True:
             logging.info("the tree does not follow check sum.")
         else:
             print("\nthe tree follows ")
+            
+    elif choice == 17:
+        data = t1.checkBalance(t1.root)
+        if data == 1:
+            print("\nthe tree is balanced.")
+            logging.info("the tree is balanced.")
+        else:
+            print("\nthe tree is not balanced.")
+            logging.info("\nthe tree is not balanced.")
     
         
