@@ -493,7 +493,7 @@ while True:
     elif choice == 16:
         print("Checking the tree is check sum property :")
         logging.info("Checking the tree is check sum property :")
-        if t1.checkSum() == False:
+        if t1.checkSum(t1.root) == False:
             print("\nthe tree does not follow check sum.")
             logging.info("the tree does not follow check sum.")
         else:
