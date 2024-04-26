@@ -1444,3 +1444,11 @@ the top view of the tree is :
 2024-04-26 12:01:54,495 - INFO - binary_practise_tree3.py - 40
 2024-04-26 12:02:09,499 - INFO - binary_practise_tree3.py - Checking the tree is check sum property :
 2024-04-26 12:02:09,501 - INFO - binary_practise_tree3.py - the tree does not follow check sum.
+2024-04-26 13:54:24,393 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-26 13:54:24,426 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-26 13:54:24,428 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-26 13:54:24,430 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-26 13:54:24,436 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-26 13:54:24,446 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-26 13:54:24,455 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-26 13:54:28,173 - INFO - binary_practise_tree3.py - the tree is balanced.
