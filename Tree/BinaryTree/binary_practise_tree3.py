@@ -456,7 +456,8 @@ while True:
     print("\n13: right view of the tree. \n14: top view of the tree.")
     print("\n15: bottom view tree. \n16: Check sum for tree.")
     print("\n17: check the tree is balanced.")
-    print("\n18 : find the maxwidth of the tree.")
+    print("\n18: find the maxwidth of the tree.")
+    print("\n19: from inorder to preorder tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -570,5 +571,11 @@ while True:
         
         print(f"The max width of the tree is : {data}")
         logging.info(f"The max width of the tree is : {data}")
+        
+        
+    elif choice == 19:
+        inorder = list(map(int,input("enter the data for the inorder :").split(",")))
+        postorder = list(map(int,input("enter the data for the postorder :").split(",")))
+        t1.inOrder_to_postOrder(inorder,postorder)
     
         
