@@ -410,6 +410,24 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+    # build tree inorder to preoorder tree
+    def inOrder_to_preOrder(self,inorder,preorder):
+        try:
+            if not inorder or not preorder:
+                return None
+            root_val = preorder.pop(0)
+            root = TreeNode(root_val)
+            root_index = inorder.index(root_val)
+            root.left = self.inOrder_to_preOrder(inorder[:root_index],preorder)
+            root.right = self.inOrder_to_preOrder(inorder[root_index+1:],preorder)
+            
+            return root
+            
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
                 
             
                     
