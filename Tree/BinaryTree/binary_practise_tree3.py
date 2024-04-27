@@ -385,6 +385,31 @@ class Tree:
             return 1
         return 0
         
+    # get the max width for the tree
+    def getWidth(self,node,level):
+        if node == None:
+            return 0
+        if level == 1:
+            return 1
+        elif level > 1:
+            return self.getWidth(node.left,level-1) + self.getWidth(node.right,level-1)
+        
+        
+    # function for getting the max width
+    def getMaxWidth(self,node):
+        try:
+            maxWidth = 0
+            h = self.height()
+            for i in range(h):
+                width = self.getWidth(node,i)
+                if width > maxWidth:
+                    maxWidth = width
+                    
+            return maxWidth
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
                 
             
                     
@@ -413,6 +438,7 @@ while True:
     print("\n13: right view of the tree. \n14: top view of the tree.")
     print("\n15: bottom view tree. \n16: Check sum for tree.")
     print("\n17: check the tree is balanced.")
+    print("\n18 : find the maxwidth of the tree.")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -519,5 +545,12 @@ while True:
         else:
             print("\nthe tree is not balanced.")
             logging.info("\nthe tree is not balanced.")
+            
+            
+    elif choice == 18:
+        data = t1.getMaxWidth(t1.root)
+        
+        print(f"The max width of the tree is : {data}")
+        logging.info(f"The max width of the tree is : {data}")
     
         
