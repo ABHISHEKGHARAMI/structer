@@ -1452,3 +1452,35 @@ the top view of the tree is :
 2024-04-26 13:54:24,446 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
 2024-04-26 13:54:24,455 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
 2024-04-26 13:54:28,173 - INFO - binary_practise_tree3.py - the tree is balanced.
+2024-04-27 11:35:09,069 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-27 11:35:09,156 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-27 11:35:09,158 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-27 11:35:09,162 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-27 11:35:09,165 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-27 11:35:09,167 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-27 11:35:09,168 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-27 11:35:13,341 - INFO - binary_practise_tree3.py - preorder traversal ---
+2024-04-27 11:35:13,343 - INFO - binary_practise_tree3.py - 50
+2024-04-27 11:35:13,345 - INFO - binary_practise_tree3.py - 40
+2024-04-27 11:35:13,347 - INFO - binary_practise_tree3.py - 10
+2024-04-27 11:35:13,348 - INFO - binary_practise_tree3.py - 45
+2024-04-27 11:35:13,350 - INFO - binary_practise_tree3.py - 70
+2024-04-27 11:35:13,351 - INFO - binary_practise_tree3.py - 60
+2024-04-27 11:35:13,353 - INFO - binary_practise_tree3.py - 80
+2024-04-27 11:35:36,593 - INFO - binary_practise_tree3.py - Tree.height() missing 1 required positional argument: 'node'
+2024-04-27 11:37:20,793 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-27 11:37:20,804 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-27 11:37:20,812 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-27 11:37:20,814 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-27 11:37:20,818 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-27 11:37:20,820 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-27 11:37:20,821 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-27 11:37:24,113 - INFO - binary_practise_tree3.py - postorder traversall -----
+2024-04-27 11:37:24,115 - INFO - binary_practise_tree3.py - ->10
+2024-04-27 11:37:24,119 - INFO - binary_practise_tree3.py - ->45
+2024-04-27 11:37:24,122 - INFO - binary_practise_tree3.py - ->40
+2024-04-27 11:37:24,124 - INFO - binary_practise_tree3.py - ->60
+2024-04-27 11:37:24,128 - INFO - binary_practise_tree3.py - ->80
+2024-04-27 11:37:24,131 - INFO - binary_practise_tree3.py - ->70
+2024-04-27 11:37:24,136 - INFO - binary_practise_tree3.py - ->50
+2024-04-27 11:37:51,592 - INFO - binary_practise_tree3.py - '>' not supported between instances of 'NoneType' and 'int'

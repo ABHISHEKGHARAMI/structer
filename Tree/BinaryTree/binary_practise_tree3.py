@@ -399,7 +399,7 @@ class Tree:
     def getMaxWidth(self,node):
         try:
             maxWidth = 0
-            h = self.height()
+            h = self.height(self.root)
             for i in range(h):
                 width = self.getWidth(node,i)
                 if width > maxWidth:
