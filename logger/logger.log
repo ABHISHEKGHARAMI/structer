@@ -1484,3 +1484,19 @@ the top view of the tree is :
 2024-04-27 11:37:24,131 - INFO - binary_practise_tree3.py - ->70
 2024-04-27 11:37:24,136 - INFO - binary_practise_tree3.py - ->50
 2024-04-27 11:37:51,592 - INFO - binary_practise_tree3.py - '>' not supported between instances of 'NoneType' and 'int'
+2024-04-27 11:43:25,692 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-27 11:43:25,745 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-27 11:43:25,747 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-27 11:43:25,748 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-27 11:43:25,750 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-27 11:43:25,752 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-27 11:43:25,764 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-27 11:43:28,725 - INFO - binary_practise_tree3.py - preorder traversal ---
+2024-04-27 11:43:28,727 - INFO - binary_practise_tree3.py - 50
+2024-04-27 11:43:28,729 - INFO - binary_practise_tree3.py - 40
+2024-04-27 11:43:28,732 - INFO - binary_practise_tree3.py - 10
+2024-04-27 11:43:28,734 - INFO - binary_practise_tree3.py - 45
+2024-04-27 11:43:28,736 - INFO - binary_practise_tree3.py - 70
+2024-04-27 11:43:28,737 - INFO - binary_practise_tree3.py - 60
+2024-04-27 11:43:28,741 - INFO - binary_practise_tree3.py - 80
+2024-04-27 11:44:06,449 - INFO - binary_practise_tree3.py - The max width of the tree is : 2

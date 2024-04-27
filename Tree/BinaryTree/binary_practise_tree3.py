@@ -400,7 +400,7 @@ class Tree:
         try:
             maxWidth = 0
             h = self.height(self.root)
-            for i in range(h):
+            for i in range(1,h):
                 width = self.getWidth(node,i)
                 if width > maxWidth:
                     maxWidth = width
