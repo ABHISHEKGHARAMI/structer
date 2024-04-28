@@ -135,6 +135,19 @@ class Tree:
             self.inOrder_recurr(node.right)
             
             
+    # pre order and post order recurr
+    def preOrder(self):
+        if self.root:
+            self.preOrder_recurr(self.root)
+            
+    def preOrder_recurr(self,node):
+        if node:
+            print(f"->{node.data}",end=" ")
+            logging.info(f"->{node.data}")
+            self.preOrder_recurr(node.left)
+            self.preOrder_recurr(node.right)
+            
+            
         
         
 t1 = Tree()      
