@@ -450,6 +450,19 @@ class Tree:
             else:
                 return []
             
+            
+    # lca function
+    def lca(self,node,data1,data2):
+        try:
+            data1_path = self.path_to_node(node,data1)
+            data2_path = self.path_to_node(node,data2)
+            intersection = list(set(data1_path).intersection(data2_path))
+            return intersection[-1]
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+            
                 
             
                 
@@ -605,12 +618,12 @@ while True:
         
         
     elif choice == 20:
-        data = int(input("\nenter the data to search path :"))
-        path = t1.path_to_node(t1.root,data)
-        if len(path) == 0:
-            print(f"\n{data} does not exist in the tree.")
-            logging.info(f"\n{data} does not exist in the tree.")
+        data1,data2 = map(int,input("enter the two data for find the lca with comma :").split(","))
+        data = t1.lca(t1.root,data1,data2)
+        if data:
+            print(f"the least common ancester of the two given node is : {data}")
+            logging.info(f"the least common ancester of the two given node is : {data}")
         else:
-            print(f"\nThe path of the tree is :{path}")
-    
+            print("no common ancester found .")
+            logging.info("no common ancester found .")    
         
