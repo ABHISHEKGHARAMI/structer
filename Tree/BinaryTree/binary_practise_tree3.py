@@ -450,7 +450,7 @@ for i in list1:
 while True:
     print("\n1: insert \n2: delete \n3: search \n 0: exit")
     print("\n4: inorder traversal . \n5: postorder traversal \n6: preorder traversal")
-    print("\n7: print from k th node. \n8: print the levelorder traversal.")
+    print("\n7: print from k th node. \n8: print the level order traversal.")
     print("\n9: size of the tree. \n10: max number of the tree .")
     print("\n11: min number of the tree. \n 12 : left view of the tree.")
     print("\n13: right view of the tree. \n14: top view of the tree.")
