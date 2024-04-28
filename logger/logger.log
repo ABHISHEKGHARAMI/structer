@@ -1560,3 +1560,11 @@ the top view of the tree is :
 2024-04-28 11:51:07,670 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
 2024-04-28 11:52:07,848 - INFO - binary_practise_tree3.py - the least common ancester of the two given node is : 40
 2024-04-28 11:52:58,208 - INFO - binary_practise_tree3.py - the least common ancester of the two given node is : 50
+2024-04-28 12:03:22,324 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-28 12:03:22,498 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-28 12:03:22,500 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-28 12:03:22,501 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-28 12:03:22,503 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-28 12:03:22,507 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-28 12:03:22,510 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-28 12:03:35,668 - INFO - binary_practise_tree3.py - the total numbers of node present in the tree is : 7
