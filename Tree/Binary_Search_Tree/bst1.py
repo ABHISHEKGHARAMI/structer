@@ -119,11 +119,28 @@ class Tree:
                 return self.searchTree(node.right,data)
             else:
                 return self.searchTree(node.left,data)
+            
+    
+    
+    # traversal of the tree
+    def inOrder(self):
+        if self.root:
+            self.inOrder_recurr(self.root)
+            
+    def inOrder_recurr(self,node):
+        if node:
+            self.inOrder_recurr(node.left)
+            print(f"->{node.data}",end=" ")
+            logging.info(f"->{node.data}")
+            self.inOrder_recurr(node.right)
+            
+            
         
         
 t1 = Tree()      
 while True:
     print("\n1: insert. \t 2: height. \t 3: find min. \t 4: delete. \t 5: search.")
+    print("\n6: Inorder.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -153,4 +170,9 @@ while True:
         else:
             print(f"{data} not present in the tree.")
             logging.info(f"{data} is not present in the tree.")
+            
+    elif choice == 6:
+        print("\ninorder traversal.")
+        logging.info("inorder traversal.")
+        t1.inOrder()
         
