@@ -44,10 +44,24 @@ class Tree:
             logging.info(e)
             raise Exception
         
+    # height of the tree
+    def height(self,node):
+        try:
+            if node == None:
+                return 0
+            else:
+                lheight = self.height(node.left)
+                rheight = self.height(node.right)
+                return max(lheight,rheight) + 1
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+        
         
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t 2:")
+    print("\n1: insert. \t 2: height.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
