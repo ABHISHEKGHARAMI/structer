@@ -433,18 +433,23 @@ class Tree:
     # lca problem
     # find the path towards the node 1 and node 2 take the last common node of the tree
     def path_to_node(self,node,data):
-        path = []
-        if node:
-            if node.data == data:
-                path.append(node.data)
-            elif node.data < data:
-                self.path_to_node(node.right,data)
-                path.append(node.right.data)
+        if node == None:
+            return []
+        if node.data == data:
+            return [node.data]
+        elif node.data < data:
+            right_path = self.path_to_node(node.right,data)
+            if right_path:
+                return [node.data] + right_path
             else:
-                self.path_to_node(node.left,data)
-                path.append(node.left.data)
-                
-        return path
+                return []
+        else:
+            left_path = self.path_to_node(node.left,data)
+            if left_path:
+                return [node.left] + left_path
+            else:
+                return []
+            
                 
             
                 
@@ -606,6 +611,6 @@ while True:
             print(f"\n{data} does not exist in the tree.")
             logging.info(f"\n{data} does not exist in the tree.")
         else:
-            print(f"\nThe path of the tree is :")
+            print(f"\nThe path of the tree is :{path}")
     
         

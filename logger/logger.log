@@ -1500,3 +1500,31 @@ the top view of the tree is :
 2024-04-27 11:43:28,737 - INFO - binary_practise_tree3.py - 60
 2024-04-27 11:43:28,741 - INFO - binary_practise_tree3.py - 80
 2024-04-27 11:44:06,449 - INFO - binary_practise_tree3.py - The max width of the tree is : 2
+2024-04-28 11:17:23,958 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-28 11:17:24,022 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-28 11:17:24,030 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-28 11:17:24,040 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-28 11:17:24,045 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-28 11:17:24,049 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-28 11:17:24,054 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-28 11:19:06,585 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-28 11:19:06,590 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-28 11:19:06,594 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-28 11:19:06,597 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-28 11:19:06,600 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-28 11:19:06,602 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-28 11:19:06,604 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-28 11:21:30,198 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-28 11:21:30,204 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-28 11:21:30,211 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-28 11:21:30,213 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-28 11:21:30,216 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-28 11:21:30,219 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-28 11:21:30,222 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
+2024-04-28 11:28:38,469 - INFO - binary_practise_tree3.py - Inserting the 50 in the tree.
+2024-04-28 11:28:38,532 - INFO - binary_practise_tree3.py - Inserting the 40 in the tree.
+2024-04-28 11:28:38,534 - INFO - binary_practise_tree3.py - Inserting the 10 in the tree.
+2024-04-28 11:28:38,542 - INFO - binary_practise_tree3.py - Inserting the 45 in the tree.
+2024-04-28 11:28:38,544 - INFO - binary_practise_tree3.py - Inserting the 70 in the tree.
+2024-04-28 11:28:38,549 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
+2024-04-28 11:28:38,554 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
