@@ -59,9 +59,25 @@ class Tree:
             raise Exception
         
         
+        
+    # find the min of the tree
+    def find_min(self,node):
+        try:
+            if not node:
+                return
+            else:
+                while node.left:
+                    node = node.left
+                return node.data
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+        
+        
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t 2: height.")
+    print("\n1: insert. \t 2: height. \t 3: find min.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -71,4 +87,9 @@ while True:
         h1 = t1.height(t1.root)
         print(f"the height of the tree is : {h1}")
         logging.info(f"the height of the tree is : {h1}")
+        
+        
+    elif choice == 3:
+        print(f"the min element of the tree is : {t1.find_min(t1.root)}")
+        logging.info(f"the min element of the tree is : {t1.find_min(t1.root)}")
         
