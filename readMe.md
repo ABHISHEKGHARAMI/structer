@@ -112,6 +112,10 @@ So far covered topic is -
 
        4.[Practice for the binary tree.](./Tree//BinaryTree/binary_practise_tree3.py)
 
+     3. Binary Search Tree :
+
+       1. [Basic binary search tree](./Tree/Binary_Search_Tree/bst1.py)
+
        
 
 
