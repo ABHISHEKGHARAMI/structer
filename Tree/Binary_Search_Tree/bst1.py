@@ -108,9 +108,22 @@ class Tree:
             raise Exception
         
         
+    # search the tree
+    def searchTree(self,node,data):
+        if node == None:
+            return False
+        else:
+            if node.data == data:
+                return True
+            elif node.data < data:
+                return self.searchTree(node.right,data)
+            else:
+                return self.searchTree(node.left,data)
+        
+        
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t 2: height. \t 3: find min. \t 4: delete.")
+    print("\n1: insert. \t 2: height. \t 3: find min. \t 4: delete. \t 5: search.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -130,4 +143,14 @@ while True:
     elif choice == 4:
         data = int(input("enter the data for delete :"))
         t1.delete(data)
+        
+    elif choice == 5:
+        data = int(input("\nenter the data to be search :"))
+        flag = t1.searchTree(t1.root,data)
+        if flag == True:
+            print(f"{data} is present in the tree.")
+            logging.info(f"{data} is present in the tree.")
+        else:
+            print(f"{data} not present in the tree.")
+            logging.info(f"{data} is not present in the tree.")
         
