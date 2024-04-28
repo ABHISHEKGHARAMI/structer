@@ -67,3 +67,8 @@ while True:
         data = int(input("enter the data to be insert :"))
         t1.insertion(data)
         
+    elif choice == 2:
+        h1 = t1.height(t1.root)
+        print(f"the height of the tree is : {h1}")
+        logging.info(f"the height of the tree is : {h1}")
+        
