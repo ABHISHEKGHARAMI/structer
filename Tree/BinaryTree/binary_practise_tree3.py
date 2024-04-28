@@ -446,7 +446,7 @@ class Tree:
         else:
             left_path = self.path_to_node(node.left,data)
             if left_path:
-                return [node.left] + left_path
+                return [node.data] + left_path
             else:
                 return []
             
