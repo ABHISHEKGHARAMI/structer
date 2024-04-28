@@ -463,6 +463,13 @@ class Tree:
             logging.info(e)
             raise Exception
             
+            
+    # count the number of nodes
+    def count_nodes(self,node):
+        if node == None:
+            return 0
+        else:
+            return self.count_nodes(node.left) + self.count_nodes(node.right) + 1
                 
             
                 
@@ -496,6 +503,7 @@ while True:
     print("\n18: find the maxwidth of the tree.")
     print("\n19: from inorder to preorder tree.")
     print("\n20: for least common ancester :")
+    print("\n21 : print the total nodes in a tree :")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -626,4 +634,13 @@ while True:
         else:
             print("no common ancester found .")
             logging.info("no common ancester found .")    
+            
+            
+    elif choice == 21:
+        count = t1.count_nodes(t1.root)
+        print(f"the total numbers of node present in the tree is : {count}")
+        logging.info(f"the total numbers of node present in the tree is : {count}")
+    
+    else:
+        print("wrong choice!!!")
         
