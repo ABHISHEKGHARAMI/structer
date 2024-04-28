@@ -454,9 +454,9 @@ class Tree:
     # lca function
     def lca(self,node,data1,data2):
         try:
-            data1_path = self.path_to_node(node,data1)
-            data2_path = self.path_to_node(node,data2)
-            intersection = list(set(data1_path).intersection(data2_path))
+            list1 = self.path_to_node(node,data1)
+            list2 = self.path_to_node(node,data2)
+            intersection = list(filter(lambda x: x in list2, list1))
             return intersection[-1]
         except Exception as e:
             print(e)
