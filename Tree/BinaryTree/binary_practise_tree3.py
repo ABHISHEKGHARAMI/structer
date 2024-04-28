@@ -428,6 +428,25 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+        
+    # lca problem
+    # find the path towards the node 1 and node 2 take the last common node of the tree
+    def path_to_node(self,node,data):
+        path = []
+        if node:
+            if node.data == data:
+                path.append(node.data)
+            elif node.data < data:
+                self.path_to_node(node.right,data)
+                path.append(node.right.data)
+            else:
+                self.path_to_node(node.left,data)
+                path.append(node.left.data)
+                
+        return path
+                
+            
                 
             
                     
@@ -458,6 +477,7 @@ while True:
     print("\n17: check the tree is balanced.")
     print("\n18: find the maxwidth of the tree.")
     print("\n19: from inorder to preorder tree.")
+    print("\n20: for least common ancester :")
     choice = int(input("enter the choice :"))
     if choice == 0:
         exit(0)
@@ -577,5 +597,15 @@ while True:
         inorder = list(map(int,input("enter the data for the inorder :").split(",")))
         postorder = list(map(int,input("enter the data for the postorder :").split(",")))
         t1.inOrder_to_postOrder(inorder,postorder)
+        
+        
+    elif choice == 20:
+        data = int(input("\nenter the data to search path :"))
+        path = t1.path_to_node(t1.root,data)
+        if len(path) == 0:
+            print(f"\n{data} does not exist in the tree.")
+            logging.info(f"\n{data} does not exist in the tree.")
+        else:
+            print(f"\nThe path of the tree is :")
     
         
