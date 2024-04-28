@@ -75,9 +75,42 @@ class Tree:
             raise Exception
         
         
+    # delete the node
+    def delete(self,data):
+        print(f"deleting the {data} from the tree.")
+        logging.info(f"deleting the {data} from the tree.")
+        self.deleteNode_recursive(self.root,data)
+        
+        
+    # delete recursive for the tree
+    def deleteNode_recursive(self,node,data):
+        try:
+            if not node or not data:
+                return node
+            else:
+                if node.data < data:
+                    node.right = self.deleteNode_recursive(node.right,data)
+                elif node.data > data:
+                    node.left = self.deleteNode_recursive(node.left,data)
+                else:
+                    if not node.left:
+                        return node.right
+                    elif not node.right:
+                        return node.left
+                    else:
+                        temp_node = self.find_min(node.right)
+                        node.data = temp_node.data
+                        node.right = self.deleteNode_recursive(node.right,temp_node.data)
+                return node  
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+        
+        
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t 2: height. \t 3: find min.")
+    print("\n1: insert. \t 2: height. \t 3: find min. \t 4: delete.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -92,4 +125,9 @@ while True:
     elif choice == 3:
         print(f"the min element of the tree is : {t1.find_min(t1.root)}")
         logging.info(f"the min element of the tree is : {t1.find_min(t1.root)}")
+        
+        
+    elif choice == 4:
+        data = int(input("enter the data for delete :"))
+        t1.delete(data)
         
