@@ -148,12 +148,25 @@ class Tree:
             self.preOrder_recurr(node.right)
             
             
+    def postOrder(self):
+        if self.root:
+            self.postorder_recur(self.root)
+            
+    def postorder_recur(self,node):
+        if node:
+            self.postorder_recur(node.left)
+            self.postorder_recur(node.right)
+            print(f"->{node.data}",end=" ")
+            logging.info(f"->{node.data}")
+            
+            
+            
         
         
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t 2: height. \t 3: find min. \t 4: delete. \t 5: search.")
-    print("\n6: Inorder.")
+    print("\n1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
+    print("\n6: Inorder. \t7: preorder \t8: postorder.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -189,3 +202,13 @@ while True:
         logging.info("inorder traversal.")
         t1.inOrder()
         
+        
+    elif choice == 7:
+        print("\npreorder tranversal")
+        logging.info("\nPreorder traversal :")
+        t1.preOrder()
+        
+    elif choice == 8:
+        print("\nPostorder traversal.")
+        logging.info("\nPostorder traversal.")
+        t1.postOrder()
