@@ -1736,3 +1736,38 @@ Postorder traversal.
 2024-04-29 12:19:57,296 - INFO - bst1.py - ->10
 2024-04-29 12:19:57,298 - INFO - bst1.py - ->80
 2024-04-29 12:19:57,299 - INFO - bst1.py - Queue is under flowed.
+2024-04-29 12:45:04,623 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 12:45:11,471 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 12:45:15,922 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 12:45:20,919 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 12:45:27,185 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 12:45:41,492 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 12:45:45,444 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 12:45:47,676 - INFO - bst1.py - inorder traversal.
+2024-04-29 12:45:47,680 - INFO - bst1.py - ->10
+2024-04-29 12:45:47,682 - INFO - bst1.py - ->40
+2024-04-29 12:45:47,684 - INFO - bst1.py - ->45
+2024-04-29 12:45:47,686 - INFO - bst1.py - ->50
+2024-04-29 12:45:47,689 - INFO - bst1.py - ->60
+2024-04-29 12:45:47,690 - INFO - bst1.py - ->70
+2024-04-29 12:45:47,692 - INFO - bst1.py - ->80
+2024-04-29 12:46:00,861 - INFO - bst1.py - Left view of the BST.
+2024-04-29 12:46:35,452 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 12:46:39,516 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 12:46:47,911 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 12:46:51,638 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 12:46:56,079 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 12:47:00,383 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 12:47:05,183 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 12:47:06,847 - INFO - bst1.py - inorder traversal.
+2024-04-29 12:47:06,849 - INFO - bst1.py - ->10
+2024-04-29 12:47:06,851 - INFO - bst1.py - ->40
+2024-04-29 12:47:06,852 - INFO - bst1.py - ->45
+2024-04-29 12:47:06,854 - INFO - bst1.py - ->50
+2024-04-29 12:47:06,856 - INFO - bst1.py - ->60
+2024-04-29 12:47:06,857 - INFO - bst1.py - ->70
+2024-04-29 12:47:06,859 - INFO - bst1.py - ->80
+2024-04-29 12:47:16,630 - INFO - bst1.py - Left view of the BST.
+2024-04-29 12:47:16,633 - INFO - bst1.py - ->50
+2024-04-29 12:47:16,635 - INFO - bst1.py - ->40
+2024-04-29 12:47:16,637 - INFO - bst1.py - ->10

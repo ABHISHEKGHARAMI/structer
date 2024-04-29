@@ -295,7 +295,7 @@ class Tree:
         q1 = Queue()
         q1.push(self.root)
         while q1.isEmpty() != 1:
-            h = len(self.queue)
+            h = len(q1.queue)
             for i in range(h):
                 temp = q1.pop()
                 if i == 0:
