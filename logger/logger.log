@@ -1594,3 +1594,18 @@ Postorder traversal.
 2024-04-29 10:56:25,703 - INFO - bst1.py - ->80
 2024-04-29 10:56:25,704 - INFO - bst1.py - ->70
 2024-04-29 10:56:25,706 - INFO - bst1.py - ->50
+2024-04-29 10:58:45,025 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 10:58:49,754 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 10:58:54,114 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 10:58:57,378 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 10:59:01,460 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 10:59:04,963 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 10:59:08,590 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 10:59:14,643 - INFO - bst1.py - inorder traversal.
+2024-04-29 10:59:14,645 - INFO - bst1.py - ->10
+2024-04-29 10:59:14,647 - INFO - bst1.py - ->40
+2024-04-29 10:59:14,648 - INFO - bst1.py - ->45
+2024-04-29 10:59:14,649 - INFO - bst1.py - ->50
+2024-04-29 10:59:14,651 - INFO - bst1.py - ->60
+2024-04-29 10:59:14,652 - INFO - bst1.py - ->70
+2024-04-29 10:59:14,654 - INFO - bst1.py - ->80
