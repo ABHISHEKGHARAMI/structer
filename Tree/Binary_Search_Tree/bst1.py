@@ -218,6 +218,25 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+        
+    # min Element of the BST
+    def minTree(self,node):
+        try:
+            if node is None:
+                return sys.maxsize
+            res = node.data
+            lres = self.minTree(node.left)
+            if lres < res :
+                res = lres
+            rres = self.minTree(node.right)
+            if rres < res:
+                res = rres
+            return res
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
             
             
         
@@ -226,7 +245,7 @@ t1 = Tree()
 while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
-    print("\n11 : max element.")
+    print("\n11 : max element. \t12: min element.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -292,3 +311,9 @@ while True:
         max_ele = t1.maxBST(t1.root)
         print(f"the max element in the bst is : {max_ele}")
         logging.info(f"the max element in the bst is : {max_ele}")
+        
+        
+    elif choice == 12:
+        min_ele = t1.minBST(t1.root)
+        print(f"the min element of the bst is : {min_ele}")
+        logging.info(f"the min element of the bst is : {min_ele}")
