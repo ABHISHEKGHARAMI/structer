@@ -267,13 +267,32 @@ class Tree:
             raise Exception
             
             
+            
+    # level order traversal for the BST
+    def levelOrder(self):
+        if self.root is None:
+            return
+        q1 = Queue()
+        q1.push(self.root)
+        while q1.isEmpty() != 1:
+            node_queue = q1.queue[0]
+            print(f"->{node_queue.data}",end=" ")
+            logging.info(f"->{node_queue.data}")
+            q1.pop()
+            
+            if node_queue.left:
+                q1.push(node_queue.left)
+            
+            if node_queue.right:
+                q1.push(node_queue.right)
+            
         
         
 t1 = Tree()      
 while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
-    print("\n11 : max element. \t12: min element.")
+    print("\n11 : max element. \t12: min element. \t13: level order traversal.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -345,3 +364,9 @@ while True:
         min_ele = t1.minBST(t1.root)
         print(f"the min element of the bst is : {min_ele}")
         logging.info(f"the min element of the bst is : {min_ele}")
+        
+        
+    elif choice == 13:
+        print("level order traversal:")
+        logging.info("level order traversal :")
+        t1.levelOrder()
