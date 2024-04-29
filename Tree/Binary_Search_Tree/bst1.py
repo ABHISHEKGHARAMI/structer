@@ -6,6 +6,34 @@ import logging
 
 setup_logging()
 
+
+class Queue:
+    def __init__(self):
+        self.queue = []
+        
+    def push(self,data):
+        self.queue.append(data)
+        
+    def pop(self,data):
+        if self.isEmpty() == 1:
+            print("Queue is under flowed.")
+            logging.info("Queue is under flowed.")
+            return -1
+        else:
+            return self.queue.pop(0)
+    
+    def isEmpty(self):
+        if len(self.queue) == 0:
+            return 1
+        else:
+            return 0
+        
+    def front(self):
+        if self.isEmpty() == 1:
+            return -1
+        else:
+            return self.queue[0]
+
 class TreeNode:
     def __init__(self,data):
         self.data = data
