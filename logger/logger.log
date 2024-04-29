@@ -1684,3 +1684,43 @@ Postorder traversal.
 2024-04-29 11:38:44,421 - INFO - bst1.py - inserting 60 in the tree.
 2024-04-29 11:38:47,818 - INFO - bst1.py - inserting 80 in the tree.
 2024-04-29 11:38:49,884 - INFO - bst1.py - the min element of the bst is : 10
+2024-04-29 12:05:59,789 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 12:06:02,685 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 12:06:05,764 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 12:06:08,845 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 12:06:12,229 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 12:06:15,247 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 12:06:18,446 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 12:06:20,150 - INFO - bst1.py - inorder traversal.
+2024-04-29 12:06:20,152 - INFO - bst1.py - ->10
+2024-04-29 12:06:20,154 - INFO - bst1.py - ->40
+2024-04-29 12:06:20,156 - INFO - bst1.py - ->45
+2024-04-29 12:06:20,157 - INFO - bst1.py - ->50
+2024-04-29 12:06:20,158 - INFO - bst1.py - ->60
+2024-04-29 12:06:20,160 - INFO - bst1.py - ->70
+2024-04-29 12:06:20,161 - INFO - bst1.py - ->80
+2024-04-29 12:06:28,861 - INFO - bst1.py - level order traversal :
+2024-04-29 12:06:28,863 - INFO - bst1.py - ->50
+2024-04-29 12:07:22,402 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 12:07:29,289 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 12:07:32,087 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 12:07:38,719 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 12:07:42,507 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 12:07:45,508 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 12:07:51,630 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 12:07:53,294 - INFO - bst1.py - inorder traversal.
+2024-04-29 12:07:53,297 - INFO - bst1.py - ->10
+2024-04-29 12:07:53,299 - INFO - bst1.py - ->40
+2024-04-29 12:07:53,301 - INFO - bst1.py - ->45
+2024-04-29 12:07:53,302 - INFO - bst1.py - ->50
+2024-04-29 12:07:53,303 - INFO - bst1.py - ->60
+2024-04-29 12:07:53,305 - INFO - bst1.py - ->70
+2024-04-29 12:07:53,306 - INFO - bst1.py - ->80
+2024-04-29 12:08:04,320 - INFO - bst1.py - level order traversal :
+2024-04-29 12:08:04,322 - INFO - bst1.py - ->50
+2024-04-29 12:08:04,324 - INFO - bst1.py - ->40
+2024-04-29 12:08:04,326 - INFO - bst1.py - ->70
+2024-04-29 12:08:04,328 - INFO - bst1.py - ->10
+2024-04-29 12:08:04,329 - INFO - bst1.py - ->45
+2024-04-29 12:08:04,331 - INFO - bst1.py - ->60
+2024-04-29 12:08:04,332 - INFO - bst1.py - ->80

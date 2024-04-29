@@ -14,7 +14,7 @@ class Queue:
     def push(self,data):
         self.queue.append(data)
         
-    def pop(self,data):
+    def pop(self):
         if self.isEmpty() == 1:
             print("Queue is under flowed.")
             logging.info("Queue is under flowed.")
