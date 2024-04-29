@@ -307,6 +307,21 @@ class Tree:
                 if temp.right:
                     q1.push(temp.right)
                     
+    # floor of a given BST
+    def floorBST(self,node,key):
+        if node is None:
+            return None
+        floorvalue = None
+        while node:
+            if node.data == data:
+                return node.data
+            elif node.data > data:
+                node = node.left
+            else:
+                floorvalue = node.data
+                node = node.right
+        return floorvalue
+                    
             
         
         
@@ -315,6 +330,7 @@ while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
     print("\n11 : max element. \t12: min element. \t13: level order traversal. \t14: Left view of tree.")
+    print("\n15: Floor of BST.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -399,3 +415,8 @@ while True:
         print("Left view of the BST.")
         logging.info("Left view of the BST.")
         t1.leftView()
+        
+        
+    elif choice == 15:
+        x = int(input("enter the data to get the floor :"))
+        data = t1.floorBST(t1.root,x)
