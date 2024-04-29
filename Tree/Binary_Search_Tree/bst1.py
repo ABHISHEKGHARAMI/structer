@@ -178,8 +178,8 @@ class Tree:
         
 t1 = Tree()      
 while True:
-    print("\n1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
-    print("\n6: Inorder. \t7: preorder \t8: postorder. \9: size of tree.")
+    print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
+    print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -231,3 +231,6 @@ while True:
         size = t1.sizetree(t1.root)
         print(f"the size of the binary search tree is : {size}")
         logging.info(f"the size of the binary search tree is : {size}")
+        
+    elif choice == 0:
+        exit(0)

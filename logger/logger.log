@@ -1568,3 +1568,29 @@ the top view of the tree is :
 2024-04-28 12:03:22,507 - INFO - binary_practise_tree3.py - Inserting the 60 in the tree.
 2024-04-28 12:03:22,510 - INFO - binary_practise_tree3.py - Inserting the 80 in the tree.
 2024-04-28 12:03:35,668 - INFO - binary_practise_tree3.py - the total numbers of node present in the tree is : 7
+2024-04-29 10:55:18,840 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 10:55:29,821 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 10:55:33,063 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 10:55:37,046 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 10:55:46,464 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 10:55:50,775 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 10:55:54,068 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 10:55:58,938 - INFO - bst1.py - inorder traversal.
+2024-04-29 10:55:58,939 - INFO - bst1.py - ->10
+2024-04-29 10:55:58,940 - INFO - bst1.py - ->40
+2024-04-29 10:55:58,941 - INFO - bst1.py - ->45
+2024-04-29 10:55:58,942 - INFO - bst1.py - ->50
+2024-04-29 10:55:58,943 - INFO - bst1.py - ->60
+2024-04-29 10:55:58,943 - INFO - bst1.py - ->70
+2024-04-29 10:55:58,945 - INFO - bst1.py - ->80
+2024-04-29 10:56:13,102 - INFO - bst1.py - the size of the binary search tree is : 7
+2024-04-29 10:56:17,705 - INFO - bst1.py - the height of the tree is : 3
+2024-04-29 10:56:25,693 - INFO - bst1.py - 
+Postorder traversal.
+2024-04-29 10:56:25,695 - INFO - bst1.py - ->10
+2024-04-29 10:56:25,697 - INFO - bst1.py - ->45
+2024-04-29 10:56:25,699 - INFO - bst1.py - ->40
+2024-04-29 10:56:25,701 - INFO - bst1.py - ->60
+2024-04-29 10:56:25,703 - INFO - bst1.py - ->80
+2024-04-29 10:56:25,704 - INFO - bst1.py - ->70
+2024-04-29 10:56:25,706 - INFO - bst1.py - ->50
