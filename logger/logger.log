@@ -1629,3 +1629,19 @@ Postorder traversal.
 2024-04-29 11:10:52,947 - INFO - bst1.py - ->60
 2024-04-29 11:10:52,948 - INFO - bst1.py - ->80
 2024-04-29 11:11:23,841 - INFO - bst1.py - the height of the tree is : 3
+2024-04-29 11:26:24,419 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 11:26:30,292 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 11:26:33,108 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 11:26:36,364 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 11:26:39,509 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 11:26:43,251 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 11:26:46,420 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 11:26:50,962 - INFO - bst1.py - inorder traversal.
+2024-04-29 11:26:50,963 - INFO - bst1.py - ->10
+2024-04-29 11:26:50,964 - INFO - bst1.py - ->40
+2024-04-29 11:26:50,965 - INFO - bst1.py - ->45
+2024-04-29 11:26:50,966 - INFO - bst1.py - ->50
+2024-04-29 11:26:50,967 - INFO - bst1.py - ->60
+2024-04-29 11:26:50,969 - INFO - bst1.py - ->70
+2024-04-29 11:26:50,971 - INFO - bst1.py - ->80
+2024-04-29 11:26:57,638 - INFO - bst1.py - the max element in the bst is : 80
