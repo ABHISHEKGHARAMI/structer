@@ -160,13 +160,26 @@ class Tree:
             logging.info(f"->{node.data}")
             
             
+    # size of the tree
+    def sizetree(self,node):
+        try:
+            if node == None:
+                return 0
+            else:
+                return self.sizetree(node.left) + 1 + self.sizetree(node.right)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+            
+            
             
         
         
 t1 = Tree()      
 while True:
     print("\n1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
-    print("\n6: Inorder. \t7: preorder \t8: postorder.")
+    print("\n6: Inorder. \t7: preorder \t8: postorder. \9: size of tree.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -212,3 +225,9 @@ while True:
         print("\nPostorder traversal.")
         logging.info("\nPostorder traversal.")
         t1.postOrder()
+        
+        
+    elif choice == 9:
+        size = t1.sizetree(t1.root)
+        print(f"the size of the binary search tree is : {size}")
+        logging.info(f"the size of the binary search tree is : {size}")
