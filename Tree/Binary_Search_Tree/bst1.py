@@ -420,3 +420,5 @@ while True:
     elif choice == 15:
         x = int(input("enter the data to get the floor :"))
         data = t1.floorBST(t1.root,x)
+        print(f"Floor of the given {x} is : {data}")
+        logging.info(f"Floor of the given {x} is : {data}")

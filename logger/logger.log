@@ -1771,3 +1771,20 @@ Postorder traversal.
 2024-04-29 12:47:16,633 - INFO - bst1.py - ->50
 2024-04-29 12:47:16,635 - INFO - bst1.py - ->40
 2024-04-29 12:47:16,637 - INFO - bst1.py - ->10
+2024-04-29 13:56:28,559 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 13:56:32,378 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 13:56:35,258 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 13:56:38,454 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 13:56:43,066 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 13:56:46,028 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 13:56:50,467 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 13:56:53,692 - INFO - bst1.py - inorder traversal.
+2024-04-29 13:56:53,695 - INFO - bst1.py - ->10
+2024-04-29 13:56:53,697 - INFO - bst1.py - ->40
+2024-04-29 13:56:53,699 - INFO - bst1.py - ->45
+2024-04-29 13:56:53,700 - INFO - bst1.py - ->50
+2024-04-29 13:56:53,702 - INFO - bst1.py - ->60
+2024-04-29 13:56:53,703 - INFO - bst1.py - ->70
+2024-04-29 13:56:53,705 - INFO - bst1.py - ->80
+2024-04-29 13:57:15,524 - INFO - bst1.py - Floor of the given 70 is : 80
+2024-04-29 13:57:35,552 - INFO - bst1.py - Floor of the given 12 is : 80
