@@ -221,15 +221,15 @@ class Tree:
         
         
     # min Element of the BST
-    def minTree(self,node):
+    def minBST(self,node):
         try:
             if node is None:
                 return sys.maxsize
             res = node.data
-            lres = self.minTree(node.left)
+            lres = self.minBST(node.left)
             if lres < res :
                 res = lres
-            rres = self.minTree(node.right)
+            rres = self.minBST(node.right)
             if rres < res:
                 res = rres
             return res

@@ -1645,3 +1645,42 @@ Postorder traversal.
 2024-04-29 11:26:50,969 - INFO - bst1.py - ->70
 2024-04-29 11:26:50,971 - INFO - bst1.py - ->80
 2024-04-29 11:26:57,638 - INFO - bst1.py - the max element in the bst is : 80
+2024-04-29 11:34:12,477 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 11:34:18,834 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 11:34:21,435 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 11:34:24,058 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 11:34:28,178 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 11:34:31,232 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 11:34:36,424 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 11:34:39,072 - INFO - bst1.py - inorder traversal.
+2024-04-29 11:34:39,074 - INFO - bst1.py - ->10
+2024-04-29 11:34:39,075 - INFO - bst1.py - ->40
+2024-04-29 11:34:39,075 - INFO - bst1.py - ->45
+2024-04-29 11:34:39,076 - INFO - bst1.py - ->50
+2024-04-29 11:34:39,077 - INFO - bst1.py - ->60
+2024-04-29 11:34:39,079 - INFO - bst1.py - ->70
+2024-04-29 11:34:39,080 - INFO - bst1.py - ->80
+2024-04-29 11:36:53,809 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 11:36:57,502 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 11:37:08,537 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 11:37:12,935 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 11:37:17,130 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 11:37:20,415 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 11:37:23,402 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 11:37:25,663 - INFO - bst1.py - inorder traversal.
+2024-04-29 11:37:25,665 - INFO - bst1.py - ->10
+2024-04-29 11:37:25,667 - INFO - bst1.py - ->40
+2024-04-29 11:37:25,669 - INFO - bst1.py - ->45
+2024-04-29 11:37:25,671 - INFO - bst1.py - ->50
+2024-04-29 11:37:25,673 - INFO - bst1.py - ->60
+2024-04-29 11:37:25,674 - INFO - bst1.py - ->70
+2024-04-29 11:37:25,675 - INFO - bst1.py - ->80
+2024-04-29 11:37:32,897 - INFO - bst1.py - 'Tree' object has no attribute 'minTree'
+2024-04-29 11:38:21,194 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 11:38:25,626 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 11:38:28,354 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 11:38:31,908 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 11:38:35,154 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 11:38:44,421 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 11:38:47,818 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 11:38:49,884 - INFO - bst1.py - the min element of the bst is : 10
