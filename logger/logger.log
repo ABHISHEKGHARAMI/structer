@@ -1724,3 +1724,15 @@ Postorder traversal.
 2024-04-29 12:08:04,329 - INFO - bst1.py - ->45
 2024-04-29 12:08:04,331 - INFO - bst1.py - ->60
 2024-04-29 12:08:04,332 - INFO - bst1.py - ->80
+2024-04-29 12:19:14,787 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-29 12:19:20,064 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-29 12:19:28,127 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-29 12:19:37,954 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-29 12:19:43,578 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-29 12:19:49,010 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-29 12:19:53,382 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-29 12:19:57,293 - INFO - bst1.py - Left view of the BST.
+2024-04-29 12:19:57,295 - INFO - bst1.py - ->50
+2024-04-29 12:19:57,296 - INFO - bst1.py - ->10
+2024-04-29 12:19:57,298 - INFO - bst1.py - ->80
+2024-04-29 12:19:57,299 - INFO - bst1.py - Queue is under flowed.

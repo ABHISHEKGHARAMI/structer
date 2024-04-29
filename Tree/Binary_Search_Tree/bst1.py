@@ -295,13 +295,13 @@ class Tree:
         q1 = Queue()
         q1.push(self.root)
         while q1.isEmpty() != 1:
-            h = self.height(self.root)
+            h = len(self.queue)
             for i in range(h):
                 temp = q1.pop()
                 if i == 0:
-                    print(f"->{temp.data}")
+                    print(f"->{temp.data}",end=" ")
                     logging.info(f"->{temp.data}")
-                if temp.left:
+                if temp.left!=None:
                     q1.push(temp.left)
                     
                 if temp.right:
