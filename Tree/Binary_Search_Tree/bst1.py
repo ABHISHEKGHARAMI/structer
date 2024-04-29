@@ -199,6 +199,25 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+        
+    # max element of the tree
+    def maxBST(self,node):
+        try:
+            if node is None:
+                return -sys.maxsize
+            res = node.data
+            lres = self.maxBST(node.left)
+            if lres > res:
+                res = lres
+            rres = self.maxBST(node.right)
+            if rres > res :
+                res = rres
+            return res
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
             
             
         
@@ -207,6 +226,7 @@ t1 = Tree()
 while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
+    print("\n11 : max element.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -266,3 +286,9 @@ while True:
     elif choice == 10:
         k = int(input("enter the data from where to print:"))
         t1.print_kth(k)
+        
+        
+    elif choice == 11:
+        max_ele = t1.maxBST(t1.root)
+        print(f"the max element in the bst is : {max_ele}")
+        logging.info(f"the max element in the bst is : {max_ele}")
