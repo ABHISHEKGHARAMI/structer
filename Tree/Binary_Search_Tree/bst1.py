@@ -173,13 +173,40 @@ class Tree:
             raise Exception
             
             
+    
+    # print the kth data
+    def print_kth(self,k):
+        try:
+            self.print_kth_recurr(self.root,k)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+        
+    
+    def print_kth_recurr(self,node,k):
+        try:
+            if node is None or k < 0:
+                return
+            
+            if k == 0:
+                print(f"->{node.data}",end = " ")
+                logging.info(f"->{node.data}")
+            self.print_kth_recurr(node.left,k-1)
+            self.print_kth_recurr(node.right,k-1)
+            
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
+            
             
         
         
 t1 = Tree()      
 while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
-    print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree.")
+    print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -234,3 +261,8 @@ while True:
         
     elif choice == 0:
         exit(0)
+        
+        
+    elif choice == 10:
+        k = int(input("enter the data from where to print:"))
+        t1.print_kth(k)
