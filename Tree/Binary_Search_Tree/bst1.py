@@ -285,6 +285,28 @@ class Tree:
             
             if node_queue.right:
                 q1.push(node_queue.right)
+                
+                
+                
+    # left view of the tree
+    def leftView(self):
+        if self.root is None:
+            return
+        q1 = Queue()
+        q1.push(self.root)
+        while q1.isEmpty() != 1:
+            h = self.height(self.root)
+            for i in range(h):
+                temp = q1.pop()
+                if i == 0:
+                    print(f"->{temp.data}")
+                    logging.info(f"->{temp.data}")
+                if temp.left:
+                    q1.push(temp.left)
+                    
+                if temp.right:
+                    q1.push(temp.right)
+                    
             
         
         
@@ -292,7 +314,7 @@ t1 = Tree()
 while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
-    print("\n11 : max element. \t12: min element. \t13: level order traversal.")
+    print("\n11 : max element. \t12: min element. \t13: level order traversal. \t14: Left view of tree.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -370,3 +392,10 @@ while True:
         print("level order traversal:")
         logging.info("level order traversal :")
         t1.levelOrder()
+        
+        
+        
+    elif choice == 14:
+        print("Left view of the BST.")
+        logging.info("Left view of the BST.")
+        t1.leftView()
