@@ -1820,3 +1820,11 @@ Postorder traversal.
 2024-04-30 21:27:46,078 - INFO - bst1.py - ->80
 2024-04-30 21:28:03,917 - INFO - bst1.py - The ceil of the 65 is : None
 2024-04-30 21:28:18,838 - INFO - bst1.py - The ceil of the 60 is : 60
+2024-04-30 21:33:39,970 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-30 21:33:45,210 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-30 21:33:48,135 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-30 21:33:50,682 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-30 21:33:54,209 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-30 21:33:57,490 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-30 21:34:00,554 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-30 21:34:08,179 - INFO - bst1.py - The ceil of the 66 is : 70

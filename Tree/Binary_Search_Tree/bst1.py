@@ -336,6 +336,7 @@ class Tree:
                 else:
                     ceilVal = node.data
                     node = node.left
+            return ceilVal
         except Exception as e:
             print(e)
             logging.info(e)
