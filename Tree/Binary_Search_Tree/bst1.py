@@ -321,6 +321,25 @@ class Tree:
                 floorvalue = node.data
                 node = node.right
         return floorvalue
+    
+    #ceil of the BST
+    def ceilBST(self,node,x):
+        try:
+            if node == None:
+                return None
+            ceilVal = None
+            while node:
+                if node.data == x:
+                    return node.data
+                elif node.data < x:
+                    node = node.right
+                else:
+                    ceilVal = node.data
+                    node = node.left
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
                     
             
         
@@ -330,7 +349,7 @@ while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
     print("\n11 : max element. \t12: min element. \t13: level order traversal. \t14: Left view of tree.")
-    print("\n15: Floor of BST.")
+    print("\n15: Floor of BST. \t 16: Ceil of the BST.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -422,3 +441,10 @@ while True:
         data = t1.floorBST(t1.root,x)
         print(f"Floor of the given {x} is : {data}")
         logging.info(f"Floor of the given {x} is : {data}")
+        
+        
+    elif chocie == 16:
+        x = int(input("enter the data to find the ceil :"))
+        data = t1.ceilBST(t1.root,x)
+        print(f"The ceil of the {x} is : {data}")
+        logging.info(f"The ceil of the {x} is : {data}")
