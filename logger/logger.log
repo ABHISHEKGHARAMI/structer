@@ -1788,3 +1788,35 @@ Postorder traversal.
 2024-04-29 13:56:53,705 - INFO - bst1.py - ->80
 2024-04-29 13:57:15,524 - INFO - bst1.py - Floor of the given 70 is : 80
 2024-04-29 13:57:35,552 - INFO - bst1.py - Floor of the given 12 is : 80
+2024-04-30 21:25:46,038 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-30 21:25:50,107 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-30 21:25:56,213 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-30 21:25:59,539 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-30 21:26:04,089 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-30 21:26:07,706 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-30 21:26:11,172 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-30 21:26:15,179 - INFO - bst1.py - inorder traversal.
+2024-04-30 21:26:15,182 - INFO - bst1.py - ->10
+2024-04-30 21:26:15,185 - INFO - bst1.py - ->40
+2024-04-30 21:26:15,187 - INFO - bst1.py - ->45
+2024-04-30 21:26:15,189 - INFO - bst1.py - ->50
+2024-04-30 21:26:15,192 - INFO - bst1.py - ->60
+2024-04-30 21:26:15,193 - INFO - bst1.py - ->70
+2024-04-30 21:26:15,195 - INFO - bst1.py - ->80
+2024-04-30 21:27:18,791 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-30 21:27:22,006 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-30 21:27:24,870 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-30 21:27:30,174 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-30 21:27:36,127 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-30 21:27:41,356 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-30 21:27:44,690 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-30 21:27:46,066 - INFO - bst1.py - inorder traversal.
+2024-04-30 21:27:46,067 - INFO - bst1.py - ->10
+2024-04-30 21:27:46,069 - INFO - bst1.py - ->40
+2024-04-30 21:27:46,070 - INFO - bst1.py - ->45
+2024-04-30 21:27:46,071 - INFO - bst1.py - ->50
+2024-04-30 21:27:46,072 - INFO - bst1.py - ->60
+2024-04-30 21:27:46,077 - INFO - bst1.py - ->70
+2024-04-30 21:27:46,078 - INFO - bst1.py - ->80
+2024-04-30 21:28:03,917 - INFO - bst1.py - The ceil of the 65 is : None
+2024-04-30 21:28:18,838 - INFO - bst1.py - The ceil of the 60 is : 60

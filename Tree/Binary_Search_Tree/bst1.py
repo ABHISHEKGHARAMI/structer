@@ -443,7 +443,7 @@ while True:
         logging.info(f"Floor of the given {x} is : {data}")
         
         
-    elif chocie == 16:
+    elif choice == 16:
         x = int(input("enter the data to find the ceil :"))
         data = t1.ceilBST(t1.root,x)
         print(f"The ceil of the {x} is : {data}")
