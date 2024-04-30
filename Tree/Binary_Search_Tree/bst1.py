@@ -341,6 +341,24 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+        
+    # check for the BST
+    def checkBST(self,node):
+        try:
+            if node is None:
+                return 1
+            if node.left != None and node.left.data > node.data:
+                return 0
+            if node.right != None and node.right.data < node.data:
+                return 0
+            if not self.checkBST(node.left) or not self.checkBST(node.right):
+                return 0
+            return 1
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
                     
             
         
@@ -350,7 +368,7 @@ while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
     print("\n11 : max element. \t12: min element. \t13: level order traversal. \t14: Left view of tree.")
-    print("\n15: Floor of BST. \t 16: Ceil of the BST.")
+    print("\n15: Floor of BST. \t 16: Ceil of the BST. \t 17: Check for BST.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -449,3 +467,12 @@ while True:
         data = t1.ceilBST(t1.root,x)
         print(f"The ceil of the {x} is : {data}")
         logging.info(f"The ceil of the {x} is : {data}")
+        
+        
+    elif choice == 17:
+        if t1.checkBST(t1.root) == 0:
+            print("The tree is not a BST")
+            logging.info("The tree is not a BST")
+        else:
+            print("The tree is a BST.")
+            logging.info("The tree is a BST.")
