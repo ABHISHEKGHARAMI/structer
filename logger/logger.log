@@ -1828,3 +1828,19 @@ Postorder traversal.
 2024-04-30 21:33:57,490 - INFO - bst1.py - inserting 60 in the tree.
 2024-04-30 21:34:00,554 - INFO - bst1.py - inserting 80 in the tree.
 2024-04-30 21:34:08,179 - INFO - bst1.py - The ceil of the 66 is : 70
+2024-04-30 21:46:52,522 - INFO - bst1.py - inserting 50 in the tree.
+2024-04-30 21:46:59,224 - INFO - bst1.py - inserting 40 in the tree.
+2024-04-30 21:47:02,228 - INFO - bst1.py - inserting 10 in the tree.
+2024-04-30 21:47:04,783 - INFO - bst1.py - inserting 45 in the tree.
+2024-04-30 21:47:07,617 - INFO - bst1.py - inserting 70 in the tree.
+2024-04-30 21:47:10,353 - INFO - bst1.py - inserting 60 in the tree.
+2024-04-30 21:47:13,233 - INFO - bst1.py - inserting 80 in the tree.
+2024-04-30 21:47:14,769 - INFO - bst1.py - inorder traversal.
+2024-04-30 21:47:14,771 - INFO - bst1.py - ->10
+2024-04-30 21:47:14,773 - INFO - bst1.py - ->40
+2024-04-30 21:47:14,775 - INFO - bst1.py - ->45
+2024-04-30 21:47:14,777 - INFO - bst1.py - ->50
+2024-04-30 21:47:14,779 - INFO - bst1.py - ->60
+2024-04-30 21:47:14,780 - INFO - bst1.py - ->70
+2024-04-30 21:47:14,781 - INFO - bst1.py - ->80
+2024-04-30 21:47:20,912 - INFO - bst1.py - The tree is a BST.

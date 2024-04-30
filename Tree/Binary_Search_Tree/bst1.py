@@ -352,7 +352,7 @@ class Tree:
                 return 0
             if node.right != None and node.right.data < node.data:
                 return 0
-            if not self.checkBST(node.left) or not self.checkBST(node.right):
+            if not self.checkBST(node.left) and not self.checkBST(node.right):
                 return 0
             return 1
         except Exception as e:
