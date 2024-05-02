@@ -382,7 +382,7 @@ while True:
     print("\n0: exit program. \t1: insert. \t2: height. \t3: find min. \t4: delete. \t5: search.")
     print("\n6: Inorder. \t7: preorder \t8: postorder. \t9: size of tree. \t10: print kth node.")
     print("\n11 : max element. \t12: min element. \t13: level order traversal. \t14: Left view of tree.")
-    print("\n15: Floor of BST. \t 16: Ceil of the BST. \t 17: Check for BST.")
+    print("\n15: Floor of BST. \t 16: Ceil of the BST. \t 17: Check for BST. \t 18: Check for sum.")
     choice = int(input("\nenter the choice :"))
     if choice == 1 :
         data = int(input("enter the data to be insert :"))
@@ -490,3 +490,13 @@ while True:
         else:
             print("The tree is a BST.")
             logging.info("The tree is a BST.")
+            
+            
+    elif choice == 18:
+        x = int(input("enter the data to search for pair exist or not :"))
+        if t1.checkSum(t1.root,x) == True:
+            print(f"the sum {x} has pair of sum.")
+            logging.info(f"the sum {x} has pair of sum.")
+        else:
+            print(f"the sum {x} does not pair of sum.")
+            logging.info(f"the sum {x} does not pair of sum.")
