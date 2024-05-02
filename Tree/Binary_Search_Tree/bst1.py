@@ -359,6 +359,20 @@ class Tree:
             print(e)
             logging.info(e)
             raise Exception
+        
+    # check for the check sum
+    def findPair(self,node,x,seen):
+        if node is None:
+            return False
+        if x - node.data in seen:
+            return True
+        seen.add(node.data)
+        
+        return self.findPair(node.left,x,seen) or self.findPair(node.right,x,seen)
+    
+    def checkSum(self,node,x):
+        seen = set()
+        return self.findPair(node,x,seen)
                     
             
         
