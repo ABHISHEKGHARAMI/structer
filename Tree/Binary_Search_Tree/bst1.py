@@ -373,6 +373,39 @@ class Tree:
     def checkSum(self,node,x):
         seen = set()
         return self.findPair(node,x,seen)
+    
+    
+    # lca for the BST
+    def path_to_node(self,node,data):
+        if node is None:
+            return []
+        if node.data == data:
+            return [node.data]
+        elif node.data < data :
+            right_path = self.path_to_node(node.right,data)
+            if right_path:
+                return [node.data] + right_path
+            else:
+                return []
+        else:
+            left_path = self.path_to_node(node.left,data)
+            if left_path:
+                return [node.data] + left_path
+            else:
+                return []
+            
+            
+    #lca
+    def lca(self,node,data1,data2):
+        try:
+            list1 = self.path_to_node(node,data1)
+            list2 = self.path_to_node(node,data2)
+            intersection = list(filter(lambda x : x in list1,list2))
+            return intersection[-1]
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise Exception
                     
             
         
