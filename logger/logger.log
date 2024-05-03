@@ -1860,3 +1860,8 @@ Postorder traversal.
 2024-05-02 13:14:11,133 - INFO - bst1.py - ->70
 2024-05-02 13:14:11,135 - INFO - bst1.py - ->80
 2024-05-02 13:14:52,508 - INFO - bst1.py - the sum 70 has pair of sum.
+2024-05-03 22:10:46,733 - INFO - heapMin1.py - 
+Printing the heap.
+2024-05-03 22:10:46,784 - INFO - heapMin1.py - 10
+2024-05-03 22:10:46,786 - INFO - heapMin1.py - 20
+2024-05-03 22:10:46,791 - INFO - heapMin1.py - 30
