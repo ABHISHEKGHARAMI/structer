@@ -27,8 +27,8 @@ class Heap:
     # heapify
     def heapify(self,i):
         largest = i 
-        left = self.left(i)
-        right = self.right(i)
+        left = 2 *i + 1
+        right = 2 * i + 2
         
         if largest < len(self.heap) and self.heap[left] > self.heap[largest]:
             largest = left
