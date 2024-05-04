@@ -1865,3 +1865,18 @@ Printing the heap.
 2024-05-03 22:10:46,784 - INFO - heapMin1.py - 10
 2024-05-03 22:10:46,786 - INFO - heapMin1.py - 20
 2024-05-03 22:10:46,791 - INFO - heapMin1.py - 30
+2024-05-04 11:27:41,107 - INFO - heapMin1.py - 
+Printing the heap.
+2024-05-04 11:27:41,169 - INFO - heapMin1.py - 10
+2024-05-04 11:27:41,171 - INFO - heapMin1.py - 40
+2024-05-04 11:27:48,313 - INFO - heapMin1.py - 
+Printing the heap.
+2024-05-04 11:27:48,315 - INFO - heapMin1.py - 10
+2024-05-04 11:27:48,317 - INFO - heapMin1.py - 40
+2024-05-04 11:27:48,318 - INFO - heapMin1.py - 50
+2024-05-04 11:27:54,564 - INFO - heapMin1.py - 
+Printing the heap.
+2024-05-04 11:27:54,565 - INFO - heapMin1.py - 5
+2024-05-04 11:27:54,567 - INFO - heapMin1.py - 10
+2024-05-04 11:27:54,568 - INFO - heapMin1.py - 50
+2024-05-04 11:27:54,569 - INFO - heapMin1.py - 40
