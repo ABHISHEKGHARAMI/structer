@@ -1906,3 +1906,8 @@ Printing the heap.
 2024-05-04 18:30:22,415 - INFO - heapSort1.py - ->20
 2024-05-04 18:30:22,418 - INFO - heapSort1.py - ->40
 2024-05-04 18:30:22,419 - INFO - heapSort1.py - ->10
+2024-05-04 18:32:55,553 - INFO - heapSort1.py - ->10
+2024-05-04 18:32:55,556 - INFO - heapSort1.py - ->60
+2024-05-04 18:32:55,564 - INFO - heapSort1.py - ->30
+2024-05-04 18:32:55,566 - INFO - heapSort1.py - ->40
+2024-05-04 18:32:55,567 - INFO - heapSort1.py - ->50
