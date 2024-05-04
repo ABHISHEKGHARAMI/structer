@@ -54,6 +54,13 @@ class Heap:
         if i != min_index:
             self.heap[i], self.heap[min_index] = self.heap[min_index] , self.heap[i]
             self.heapify_down(min_index)
+            
+    # get the min element from the heap
+    def getMinHeap(self):
+        if len(self.heap) == 0:
+            return
+        else:
+            return self.heap[0]      
         
     def print_heap(self):
         if len(self.heap) == 0:
@@ -66,7 +73,8 @@ class Heap:
                 
 h1 = Heap()
 while True:
-    print("\n 0: Exit. \t1: Insert. \t2: Print Heap. \3: Extract heap.")
+    print("0: Exit. \t1: Insert. \t2: Print Heap. \t3: Extract heap.")
+    print("4: Min element from heap.")
     choice = int(input("enter choice :"))
     if choice == 0:
         exit(0)
@@ -83,5 +91,11 @@ while True:
         min_value = h1.extractHeap()
         print(f"the min value extracted from the heap is : {min_value}")
         logging.info(f"the min value extracted from the heap is : {min_value}")
+        
+    
+    elif choice == 4:
+        min_element = h1.getMinHeap()
+        print(f"the min heap element is :{min_element}")
+        logging.info(f"the min heap element is :{min_element}")
         
         
