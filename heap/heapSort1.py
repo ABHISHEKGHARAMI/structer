@@ -53,7 +53,7 @@ class Heap:
         for i in range(heap_size-1,0,-1):
             self.heap[0],self.heap[i] = self.heap[i] , self.heap[0]
             heap_size -= 1
-            self.heapify(i,heap_size)
+            self.heapify(0,heap_size)
             
             
     # print the heap
