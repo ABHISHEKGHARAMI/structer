@@ -30,10 +30,10 @@ class Heap:
         left = 2 *i + 1
         right = 2 * i + 2
         
-        if largest < len(self.heap) and self.heap[left] > self.heap[largest]:
+        if left < len(self.heap) and self.heap[left] > self.heap[largest]:
             largest = left
             
-        if largest < len(self.heap) and self.heap[right] > self.heap[largest]:
+        if right < len(self.heap) and self.heap[right] > self.heap[largest]:
             largest = right
             
         if i != largest:
@@ -45,6 +45,7 @@ class Heap:
     def buildHeap(self,arr):
         for i in range(len(arr)):
             self.heap.append(arr[i])
+        for i in range(len(self.heap)//2,-1,-1):
             self.heapify(i)
             
             

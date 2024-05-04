@@ -1901,3 +1901,8 @@ Printing the heap.
 2024-05-04 14:23:55,672 - INFO - heapMin1.py - 20
 2024-05-04 14:23:55,673 - INFO - heapMin1.py - 30
 2024-05-04 14:24:00,525 - INFO - heapMin1.py - the min heap element is :10
+2024-05-04 18:30:22,385 - INFO - heapSort1.py - ->60
+2024-05-04 18:30:22,413 - INFO - heapSort1.py - ->50
+2024-05-04 18:30:22,415 - INFO - heapSort1.py - ->20
+2024-05-04 18:30:22,418 - INFO - heapSort1.py - ->40
+2024-05-04 18:30:22,419 - INFO - heapSort1.py - ->10
