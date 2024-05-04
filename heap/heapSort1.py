@@ -25,7 +25,7 @@ class Heap:
         return (i - 1) // 2
     
     # heapify
-    def heapify(self,i):
+    def heapify(self,i,heap_size):
         largest = i 
         left = 2 *i + 1
         right = 2 * i + 2
@@ -38,15 +38,22 @@ class Heap:
             
         if i != largest:
             self.heap[i],self.heap[largest] = self.heap[largest],self.heap[i]
-            self.heapify(largest)
+            self.heapify(largest,heap_size)
             
             
     # build heap
     def buildHeap(self,arr):
-        for i in range(len(arr)):
-            self.heap.append(arr[i])
+        self.heap = arr[:]
         for i in range(len(self.heap)//2,-1,-1):
-            self.heapify(i)
+            self.heapify(i,len(arr))
+            
+    # heap sort
+    def heap_sort(self):
+        heap_size = len(self.heap)
+        for i in range(heap_size-1,0,-1):
+            self.heap[0],self.heap[i] = self.heap[i] , self.heap[0]
+            heap_size -= 1
+            self.heapify(i,heap_size)
             
             
     # print the heap
@@ -57,7 +64,14 @@ class Heap:
             
             
             
-arr = list(map(int,input("enter the array seperated by comma :").split(" ")))
-h1 = Heap()
-h1.buildHeap(arr)
-h1.printHeap()
+def heapSort(arr):
+    h1 = Heap()
+    h1.buildHeap(arr)
+    h1.heap_sort()
+    return h1.heap
+
+arr = list(map(int,input("enter the data for list with space :").split(" ")))
+sorted_arr = heapSort(arr)
+
+print(f"After heap sort is the list is : {sorted_arr}")
+logging.info(f"After heap sort is the list is : {sorted_arr}")
