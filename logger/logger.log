@@ -1952,3 +1952,7 @@ Printing the heap.
 2024-05-05 12:42:37,219 - INFO - priorityQueue1.py - ->3
 2024-05-05 12:42:37,220 - INFO - priorityQueue1.py - ->8
 2024-05-05 12:42:37,220 - INFO - priorityQueue1.py - ->5
+2024-05-05 12:46:37,698 - INFO - priorityQueue1.py - ->2
+2024-05-05 12:46:37,703 - INFO - priorityQueue1.py - ->3
+2024-05-05 12:46:37,705 - INFO - priorityQueue1.py - ->5
+2024-05-05 12:46:37,706 - INFO - priorityQueue1.py - ->8
