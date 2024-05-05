@@ -11,7 +11,7 @@ class PriorityQueue:
     def __init__(self):
         self.heap = []
         
-    def parent(self):
+    def parent(self,i):
         return (i - 1)//2
     
     def left(self,i):
@@ -42,10 +42,10 @@ class PriorityQueue:
         min_index = i
         left = self.left(i)
         right = self.right(i)
-        if left < len(self.heap) and self.heap[self.parent(i)] > self.heap[left]:
-            left = i
-        if right < len(self.heap) and self.heap[self.parent(i)] > self.heap[right]:
-            right = i
+        if left < len(self.heap) and self.heap[left] > self.heap[min_index]:
+            min_index = left
+        if right < len(self.heap) and self.heap[right] > self.heap[min_index]:
+            min_index = right
             
         if i != min_index:
             self.heap[i] ,self.heap[min_index] = self.heap[min_index] , self[i]

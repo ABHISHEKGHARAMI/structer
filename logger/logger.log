@@ -1914,3 +1914,14 @@ Printing the heap.
 2024-05-04 22:34:36,955 - INFO - heapSort1.py - After heap sort is the list is : [11, 12, 13, 6, 7, 5]
 2024-05-04 22:37:31,592 - INFO - heapSort1.py - After heap sort is the list is : [13, 12, 11, 5, 7, 6]
 2024-05-04 22:40:53,315 - INFO - heapSort1.py - After heap sort is the list is : [13, 12, 11, 5, 7, 6]
+2024-05-05 12:35:40,613 - INFO - priorityQueue1.py - inserting the 5 in the priority queue.
+2024-05-05 12:35:40,642 - INFO - priorityQueue1.py - inserting the 3 in the priority queue.
+2024-05-05 12:36:26,998 - INFO - priorityQueue1.py - inserting the 5 in the priority queue.
+2024-05-05 12:36:27,007 - INFO - priorityQueue1.py - inserting the 3 in the priority queue.
+2024-05-05 12:36:27,025 - INFO - priorityQueue1.py - inserting the 8 in the priority queue.
+2024-05-05 12:36:27,030 - INFO - priorityQueue1.py - inserting the 2 in the priority queue.
+2024-05-05 12:36:27,040 - INFO - priorityQueue1.py - printing the priority queue.
+2024-05-05 12:36:27,065 - INFO - priorityQueue1.py - ->2
+2024-05-05 12:36:27,067 - INFO - priorityQueue1.py - ->3
+2024-05-05 12:36:27,077 - INFO - priorityQueue1.py - ->8
+2024-05-05 12:36:27,102 - INFO - priorityQueue1.py - ->5
