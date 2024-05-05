@@ -27,7 +27,7 @@ class PQ:
         self.heapify_up(len(self.heap))
         
     def heapify_up(self,i):
-        while i > 0 and self.heap[self.parent(i)]<self.heap[i]:
+        while i > 0 and self.heap[self.parent(i)]>self.heap[i]:
             self.heap[self.parent( i)], self.heap[i] = self.heap[i], self.heap[self.parent(i)]
             i = self.parent(i)
             
