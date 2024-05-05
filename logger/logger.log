@@ -1925,3 +1925,30 @@ Printing the heap.
 2024-05-05 12:36:27,067 - INFO - priorityQueue1.py - ->3
 2024-05-05 12:36:27,077 - INFO - priorityQueue1.py - ->8
 2024-05-05 12:36:27,102 - INFO - priorityQueue1.py - ->5
+2024-05-05 12:40:43,864 - INFO - priorityQueue1.py - inserting the 5 in the priority queue.
+2024-05-05 12:40:43,873 - INFO - priorityQueue1.py - inserting the 3 in the priority queue.
+2024-05-05 12:40:43,880 - INFO - priorityQueue1.py - inserting the 8 in the priority queue.
+2024-05-05 12:40:43,887 - INFO - priorityQueue1.py - inserting the 2 in the priority queue.
+2024-05-05 12:40:43,897 - INFO - priorityQueue1.py - printing the priority queue.
+2024-05-05 12:40:43,900 - INFO - priorityQueue1.py - ->2
+2024-05-05 12:40:43,906 - INFO - priorityQueue1.py - ->3
+2024-05-05 12:40:43,935 - INFO - priorityQueue1.py - ->8
+2024-05-05 12:40:43,944 - INFO - priorityQueue1.py - ->5
+2024-05-05 12:41:32,743 - INFO - priorityQueue1.py - inserting the 5 in the priority queue.
+2024-05-05 12:41:32,748 - INFO - priorityQueue1.py - inserting the 3 in the priority queue.
+2024-05-05 12:41:32,750 - INFO - priorityQueue1.py - inserting the 8 in the priority queue.
+2024-05-05 12:41:32,752 - INFO - priorityQueue1.py - inserting the 2 in the priority queue.
+2024-05-05 12:41:32,754 - INFO - priorityQueue1.py - printing the priority queue.
+2024-05-05 12:41:32,755 - INFO - priorityQueue1.py - ->2
+2024-05-05 12:41:32,756 - INFO - priorityQueue1.py - ->3
+2024-05-05 12:41:32,757 - INFO - priorityQueue1.py - ->8
+2024-05-05 12:41:32,757 - INFO - priorityQueue1.py - ->5
+2024-05-05 12:42:37,205 - INFO - priorityQueue1.py - inserting the 5 in the priority queue.
+2024-05-05 12:42:37,210 - INFO - priorityQueue1.py - inserting the 3 in the priority queue.
+2024-05-05 12:42:37,212 - INFO - priorityQueue1.py - inserting the 8 in the priority queue.
+2024-05-05 12:42:37,214 - INFO - priorityQueue1.py - inserting the 2 in the priority queue.
+2024-05-05 12:42:37,216 - INFO - priorityQueue1.py - printing the priority queue.
+2024-05-05 12:42:37,218 - INFO - priorityQueue1.py - ->2
+2024-05-05 12:42:37,219 - INFO - priorityQueue1.py - ->3
+2024-05-05 12:42:37,220 - INFO - priorityQueue1.py - ->8
+2024-05-05 12:42:37,220 - INFO - priorityQueue1.py - ->5
