@@ -1994,3 +1994,13 @@ Printing the heap.
 2024-05-09 13:10:52,430 - INFO - adjacency_matrix_undirected1.py - Setting the edge from f and e
 2024-05-09 13:10:56,238 - INFO - adjacency_matrix_undirected1.py - the edges of the graph are : [(0, 2, 20), (0, 4, 10), (1, 2, 30), (1, 4, 40), (2, 0, 20), (2, 1, 30), (3, 4, 50), (4, 0, 10), (4, 1, 40), (4, 3, 50), (4, 5, 60), (5, 4, 60)]
 2024-05-09 13:10:56,241 - INFO - adjacency_matrix_undirected1.py - the adjacent matrix will be : 
+2024-05-09 13:14:38,477 - INFO - adjacency_matrix_undirected1.py - the vertices of the graph is : ['a', 'b', 'c', 'd', 'e', 'f']
+2024-05-09 13:14:38,482 - INFO - adjacency_matrix_undirected1.py - the vertices with the proper id is : {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5}
+2024-05-09 13:14:45,479 - INFO - adjacency_matrix_undirected1.py - Setting the edge from a and e
+2024-05-09 13:14:57,764 - INFO - adjacency_matrix_undirected1.py - Setting the edge from a and c
+2024-05-09 13:15:08,374 - INFO - adjacency_matrix_undirected1.py - Setting the edge from c and b
+2024-05-09 13:15:18,542 - INFO - adjacency_matrix_undirected1.py - Setting the edge from b and e
+2024-05-09 13:15:28,408 - INFO - adjacency_matrix_undirected1.py - Setting the edge from e and d
+2024-05-09 13:15:40,595 - INFO - adjacency_matrix_undirected1.py - Setting the edge from f and e
+2024-05-09 13:15:42,648 - INFO - adjacency_matrix_undirected1.py - the edges of the graph are : [(0, 2, 20), (0, 4, 10), (1, 2, 30), (1, 4, 40), (2, 0, 20), (2, 1, 30), (3, 4, 50), (4, 0, 10), (4, 1, 40), (4, 3, 50), (4, 5, 60), (5, 4, 60)]
+2024-05-09 13:15:42,650 - INFO - adjacency_matrix_undirected1.py - the adjacent matrix will be : 
