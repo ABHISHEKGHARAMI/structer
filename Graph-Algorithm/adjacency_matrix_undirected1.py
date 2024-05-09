@@ -1,5 +1,6 @@
 # setting up the logger file
 import networkx as nx
+import os
 import matplotlib.pyplot as plt
 import sys
 sys.path.append("D:/geeks1.0/structer")
@@ -121,6 +122,7 @@ if not os.path.exists(image_folder):
 G_nx = create_graph_from_matrix(G.get_Matrix(), G.get_verticesList())
 
 # Draw the graph
+plt.figure(figsize=(8, 6))
 nx.draw(G_nx, with_labels=True, font_weight='bold')
 image_path = os.path.join(image_folder, "graph_visualization.png")
 plt.savefig(image_path)
