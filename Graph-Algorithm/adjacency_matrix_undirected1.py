@@ -46,7 +46,8 @@ class Graph:
         edges = []
         for i in range(self.verticesNum):
             for j in range(self.verticesNum):
-                edges.append((self.vertices[i],self.vertices(j),self.adjacent_Matrix[i][j]))
+                if self.adjacent_Matrix[i][j] != -1:
+                    edges.append((self.vertices[self.verticesList[i]],self.vertices[self.verticesList[j]],self.adjacent_Matrix[i][j]))
                 
         return edges
     
