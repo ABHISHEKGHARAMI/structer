@@ -2026,3 +2026,14 @@ Printing the heap.
 2024-05-09 13:30:37,527 - INFO - adjacency_matrix_undirected1.py - the adjacent matrix will be : 
 2024-05-09 14:12:05,560 - INFO - adjancent_matrix_directed1.py - the vertices of the graph is : ['a', 'b', 'c', 'd', 'e', 'f']
 2024-05-09 14:12:05,615 - INFO - adjancent_matrix_directed1.py - the vertices with the proper id is : {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5}
+2024-05-09 14:13:40,573 - INFO - adjancent_matrix_directed1.py - the vertices of the graph is : ['a', 'b', 'c', 'd', 'e', 'f']
+2024-05-09 14:13:40,578 - INFO - adjancent_matrix_directed1.py - the vertices with the proper id is : {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5}
+2024-05-09 14:13:47,373 - INFO - adjancent_matrix_directed1.py - Setting the edges from a to e
+2024-05-09 14:13:54,860 - INFO - adjancent_matrix_directed1.py - Setting the edges from a to c
+2024-05-09 14:14:35,701 - INFO - adjancent_matrix_directed1.py - Setting the edges from c to b
+2024-05-09 14:14:47,860 - INFO - adjancent_matrix_directed1.py - Setting the edges from b to e
+2024-05-09 14:14:58,729 - INFO - adjancent_matrix_directed1.py - Setting the edges from e to d
+2024-05-09 14:15:12,422 - INFO - adjancent_matrix_directed1.py - Setting the edges from f to e
+2024-05-09 14:15:14,962 - INFO - adjancent_matrix_directed1.py - the edges of the graph are : [(0, 2, 20), (0, 4, 10), (1, 4, 40), (2, 1, 30), (4, 3, 50), (5, 4, 60)]
+2024-05-09 14:15:14,964 - INFO - adjancent_matrix_directed1.py - the adjacent matrix will be : 
+2024-05-09 14:15:14,990 - INFO - adjancent_matrix_directed1.py - [[-1, -1, 20, -1, 10, -1], [-1, -1, -1, -1, 40, -1], [-1, 30, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1], [-1, -1, -1, 50, -1, -1], [-1, -1, -1, -1, 60, -1]]
