@@ -1,4 +1,6 @@
 # setting up the logger file
+import networkx as nx
+import matplotlib.pyplot as plt
 import sys
 sys.path.append("D:/geeks1.0/structer")
 from settings import setup_logging
@@ -56,6 +58,19 @@ class Graph:
     def get_Matrix(self):
         return self.adjacent_Matrix
     
+# Create a NetworkX graph from the adjacency matrix
+
+
+def create_graph_from_matrix(adj_matrix, vertices_list):
+    G = nx.Graph()
+    G.add_nodes_from(vertices_list)
+    for i in range(len(adj_matrix)):
+        for j in range(len(adj_matrix[0])):
+            if adj_matrix[i][j] != -1:
+                G.add_edge(
+                    vertices_list[i], vertices_list[j], weight=adj_matrix[i][j])
+    return G
+    
     
 # main execution of the program
 vertices_number = int(input("enter the number of graph vertices :"))
@@ -97,3 +112,12 @@ for i in range(G.verticesNum):
     for j in range(G.verticesNum):
         print(f"{G.adjacent_Matrix[i][j]}",end = " ")
     print("\n")
+    
+# Create a NetworkX graph
+G_nx = create_graph_from_matrix(G.get_Matrix(), G.get_verticesList())
+
+# Draw the graph
+nx.draw(G_nx, with_labels=True, font_weight='bold')
+
+# Show the graph
+plt.show()
