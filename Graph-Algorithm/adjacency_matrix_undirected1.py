@@ -113,10 +113,14 @@ for i in range(G.verticesNum):
     for j in range(G.verticesNum):
         print(f"{G.adjacent_Matrix[i][j]}",end = " ")
     print("\n")
-    
-image_folder = "graph_images"
-if not os.path.exists(image_folder):
-    os.makedirs(image_folder)
+
+current_directory = os.getcwd()
+relative_directory = 'Graph-Algorithm/graph-images'
+
+full_dir = os.path.join(current_directory,relative_directory)    
+
+if not os.path.exists(full_dir):
+    os.makedirs(full_dir)
     
 # Create a NetworkX graph
 G_nx = create_graph_from_matrix(G.get_Matrix(), G.get_verticesList())
@@ -124,7 +128,7 @@ G_nx = create_graph_from_matrix(G.get_Matrix(), G.get_verticesList())
 # Draw the graph
 plt.figure(figsize=(8, 6))
 nx.draw(G_nx, with_labels=True, font_weight='bold')
-image_path = os.path.join(image_folder, "graph_visualization.png")
+image_path = os.path.join(full_dir, "graph_visualization.png")
 plt.savefig(image_path)
 
 # Show the graph
