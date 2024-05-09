@@ -92,7 +92,7 @@ while True:
         frm, to, cost = map(str, input(
             "enter the source , destination and cost(with comma) :").split(","))
         cost = int(cost)
-        G.set_edge(frm, to, cost)
+        G.set_edges(frm,to,cost)
 
     elif choice == 2:
         break
