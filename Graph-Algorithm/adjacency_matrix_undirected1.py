@@ -126,7 +126,7 @@ if not os.path.exists(full_dir):
 G_nx = create_graph_from_matrix(G.get_Matrix(), G.get_verticesList())
 
 # Draw the graph
-plt.title("Adjacent matrix graph.")
+
 plt.figure(figsize=(8, 6))
 nx.draw(G_nx, with_labels=True, font_weight='bold')
 image_path = os.path.join(full_dir, "graph_visualization.png")
@@ -134,4 +134,5 @@ image_path = os.path.join(full_dir, "graph_visualization.png")
 plt.savefig(image_path)
 
 # Show the graph
+plt.title("Adjacent matrix graph.")
 plt.show()
