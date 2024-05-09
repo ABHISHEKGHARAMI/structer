@@ -1956,3 +1956,5 @@ Printing the heap.
 2024-05-05 12:46:37,703 - INFO - priorityQueue1.py - ->3
 2024-05-05 12:46:37,705 - INFO - priorityQueue1.py - ->5
 2024-05-05 12:46:37,706 - INFO - priorityQueue1.py - ->8
+2024-05-09 12:18:55,334 - INFO - adjacency_matrix_undirected1.py - the vertices of the graph is : ['a', 'b', 'c', 'd', 'e', 'f']
+2024-05-09 12:18:55,365 - INFO - adjacency_matrix_undirected1.py - the vertices with the proper id is : {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5}
