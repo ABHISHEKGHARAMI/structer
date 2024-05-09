@@ -26,6 +26,8 @@ class Graph:
             
     # setting edge
     def set_edge(self,frm,to,cost=0):
+        print(f"Setting the edge from {frm} and {to}")
+        logging.info(f"Setting the edge from {frm} and {to}")
         frm = self.vertices[frm]
         to = self.vertices[to]
         
@@ -70,3 +72,27 @@ logging.info(f"the vertices of the graph is : {G.verticesList}")
 
 print(f"the vertices with the proper id is : {G.vertices}")
 logging.info(f"the vertices with the proper id is : {G.vertices}")
+
+while True:
+    print("1: for insert the edge setting function. 2: for exit.")
+    choice = int(input("enter choice :"))
+    if choice == 1: 
+        frm , to , cost = map(str, input("enter the source , destination and cost(with comma) :").split(","))
+        cost = int(cost)
+        G.set_edge(frm,to,cost)
+        
+    elif choice == 2:
+        break
+    else: 
+        print("wrong choice !!")
+        
+print(f"the edges of the graph are : {G.get_Edges()}")
+logging.info(f"the edges of the graph are : {G.get_Edges()}")
+
+print("the adjacent matrix will be :")
+logging.info("the adjacent matrix will be : ")
+
+for i in range(G.verticesNum):
+    for j in range(G.verticesNum):
+        print(f"{G.adjacent_Matrix[i][j]}",end = " ")
+    print("\n")
