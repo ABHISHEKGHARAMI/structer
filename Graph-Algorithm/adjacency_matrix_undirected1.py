@@ -134,5 +134,5 @@ image_path = os.path.join(full_dir, "graph_visualization.png")
 plt.savefig(image_path)
 
 # Show the graph
-plt.title("Adjacent matrix graph.")
+plt.title("Adjacent matrix unordered graph.")
 plt.show()
