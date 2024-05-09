@@ -15,7 +15,7 @@ setup_logging()
 class Graph:
     def __init__(self,vertices_number):
         self.vertices_number = vertices_number
-        self.adj_matrix = [[-1]*self.vertices_number for _ in self.vertices_number]
+        self.adj_matrix = [[-1]*self.vertices_number for _ in range(self.vertices_number)]
         self.vertices = {}
         self.vertices_list = [0] * self.vertices_number
         
@@ -78,8 +78,8 @@ for i in range(vertices_number):
 
     G.set_vertices(i, id)
     
-print(f"the vertices of the graph is : {G.verticesList}")
-logging.info(f"the vertices of the graph is : {G.verticesList}")
+print(f"the vertices of the graph is : {G.vertices_list}")
+logging.info(f"the vertices of the graph is : {G.vertices_list}")
 
 print(f"the vertices with the proper id is : {G.vertices}")
 logging.info(f"the vertices with the proper id is : {G.vertices}")
