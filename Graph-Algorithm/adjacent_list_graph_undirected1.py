@@ -42,8 +42,29 @@ class UGraph:
                 print(vertex, "->", " -> ".join(map(str, self.graph[vertex])))
                 logging.info(f"{vertex}  ---> {self.graph[vertex]}")
                 
+    def draw_graph(self,filepath):
+        G = nx.Graph()
+        for vertex, neighbors in self.graph.items():
+            G.add_node(vertex)
+            for neighbor in neighbors:
+                G.add_edge(vertex, neighbor)
+
+        nx.draw(G, with_labels=True, font_weight='bold')
+        plt.title("undirected graph")
+        plt.savefig(filepath)
+        plt.show()
+                
                 
 if __name__=="__main__":
+    current_directory = os.getcwd()
+    relative_directory = 'Graph-Algorithm/graph-images'
+
+    full_dir = os.path.join(current_directory, relative_directory)
+
+    if not os.path.exists(full_dir):
+        os.makedirs(full_dir)
+
+    filepath = os.path.join(full_dir, "adj_list_undirected_graph1.png")
     g1 = UGraph()
     g1.addEdge('a','b')
     g1.addEdge('a','c')
@@ -51,3 +72,5 @@ if __name__=="__main__":
     g1.addEdge('c','d')
     
     g1.printGraph()
+    
+    g1.draw_graph(filepath)
