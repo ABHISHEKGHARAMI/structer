@@ -2052,3 +2052,8 @@ Printing the heap.
 2024-05-10 21:18:59,059 - INFO - adjacent_list_graph_undirected1.py - c  ---> ['d']
 2024-05-10 21:18:59,062 - INFO - adjacent_list_graph_undirected1.py - f  ---> []
 2024-05-10 21:18:59,065 - INFO - adjacent_list_graph_undirected1.py - d  ---> []
+2024-05-10 21:25:16,568 - INFO - adjacent_list_graph_undirected1.py - a  ---> ['b', 'c']
+2024-05-10 21:25:16,573 - INFO - adjacent_list_graph_undirected1.py - b  ---> ['a', 'f']
+2024-05-10 21:25:16,576 - INFO - adjacent_list_graph_undirected1.py - c  ---> ['a', 'd']
+2024-05-10 21:25:16,579 - INFO - adjacent_list_graph_undirected1.py - f  ---> ['b']
+2024-05-10 21:25:16,582 - INFO - adjacent_list_graph_undirected1.py - d  ---> ['c']
