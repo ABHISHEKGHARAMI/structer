@@ -19,13 +19,11 @@ class UGraph:
             # for directed graph have to add two edges for the connection
             if u not in self.graph:
                 self.graph[u] = []
-            else:
-                self.graph[u].append(v)
-                
+            self.graph[u].append(v)
+            
             if v not in self.graph:
                 self.graph[v] = []
-            else:
-                self.graph[v].append(u)
+            self.graph[v].append(u)
                 
             
         except Exception:
