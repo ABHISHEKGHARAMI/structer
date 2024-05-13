@@ -1,7 +1,4 @@
 # setting up the logger
-import networkx as nx
-import os
-import matplotlib.pyplot as plt
 import sys
 sys.path.append("D:/geeks1.0/structer")
 from settings import setup_logging
@@ -59,7 +56,7 @@ class UGraph:
     def getVertex(self):
         if not self.graph:
             return []
-        return self.graph.keys
+        return list(self.graph.keys)
         
     # bfs for the graph
     def bfs(self,start):

@@ -2062,3 +2062,4 @@ Printing the heap.
 2024-05-10 22:00:18,497 - INFO - adjacent_list_graph_undirected1.py - c  ---> ['a', 'd']
 2024-05-10 22:00:18,499 - INFO - adjacent_list_graph_undirected1.py - f  ---> ['b']
 2024-05-10 22:00:18,506 - INFO - adjacent_list_graph_undirected1.py - d  ---> ['c']
+2024-05-13 21:34:25,336 - INFO - bfs_undirected1.py - the vertex of the graphs are :
