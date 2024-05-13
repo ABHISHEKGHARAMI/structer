@@ -51,3 +51,24 @@ class UGraph:
             print(e)
             logging.info(e)
             raise e
+        
+    # bfs for the graph
+    def bfs(self,start):
+        try:
+            visited = set()
+            q1 = Queue()
+            q1.push(self.graph[start])
+            while q1.isEmpty() != 1:
+                vertex = q1.pop()
+                if vertex not in visited:
+                    print(f"--->{vertex}",end=" ")
+                    logging.info(f"--->{vertex}")
+                    visited.add(vertex)
+                    for neighbors in self.graph[vertex]:
+                        if neighbors not in visited:
+                            visited.add(neighbors)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
+            
