@@ -90,6 +90,7 @@ g1.addEdge('c','f')
 keys = g1.getVertex()
 
 print(f"the vertex of the graphs are :")
+print("\n")
 logging.info("the vertex of the graphs are :")
 for i in keys:
     print(i,end=" ")

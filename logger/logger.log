@@ -2090,3 +2090,20 @@ Printing the heap.
 2024-05-13 21:43:19,634 - INFO - bfs_undirected1.py - --->e
 2024-05-13 21:43:19,635 - INFO - bfs_undirected1.py - poping the value : f
 2024-05-13 21:43:19,636 - INFO - bfs_undirected1.py - --->f
+2024-05-13 21:44:51,990 - INFO - bfs_undirected1.py - the vertex of the graphs are :
+2024-05-13 21:44:51,995 - INFO - bfs_undirected1.py - keys : ['a', 'b', 'c', 'e', 'f']
+2024-05-13 21:44:55,823 - INFO - bfs_undirected1.py - a inserting in the queue.
+2024-05-13 21:44:55,826 - INFO - bfs_undirected1.py - poping the value : a
+2024-05-13 21:44:55,828 - INFO - bfs_undirected1.py - --->a
+2024-05-13 21:44:55,830 - INFO - bfs_undirected1.py - b inserting in the queue.
+2024-05-13 21:44:55,831 - INFO - bfs_undirected1.py - c inserting in the queue.
+2024-05-13 21:44:55,832 - INFO - bfs_undirected1.py - poping the value : b
+2024-05-13 21:44:55,837 - INFO - bfs_undirected1.py - --->b
+2024-05-13 21:44:55,839 - INFO - bfs_undirected1.py - e inserting in the queue.
+2024-05-13 21:44:55,841 - INFO - bfs_undirected1.py - poping the value : c
+2024-05-13 21:44:55,843 - INFO - bfs_undirected1.py - --->c
+2024-05-13 21:44:55,843 - INFO - bfs_undirected1.py - f inserting in the queue.
+2024-05-13 21:44:55,844 - INFO - bfs_undirected1.py - poping the value : e
+2024-05-13 21:44:55,845 - INFO - bfs_undirected1.py - --->e
+2024-05-13 21:44:55,846 - INFO - bfs_undirected1.py - poping the value : f
+2024-05-13 21:44:55,847 - INFO - bfs_undirected1.py - --->f
