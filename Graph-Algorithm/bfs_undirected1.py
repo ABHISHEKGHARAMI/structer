@@ -52,6 +52,13 @@ class UGraph:
             logging.info(e)
             raise e
         
+        
+    # getting the vertex of the graph
+    def getVertex(self):
+        if not self.graph:
+            return []
+        return self.graph.keys
+        
     # bfs for the graph
     def bfs(self,start):
         try:
@@ -71,4 +78,26 @@ class UGraph:
             print(e)
             logging.info(e)
             raise e
+        
+        
+# main Execution of the program
+g1 = UGraph()
+g1.addEdge('a','b')
+g1.addEdge('a','c')
+g1.addEdge('b','e')
+g1.addEdge('c','f')
+
+keys = g1.getVertex()
+
+print(f"the vertex of the graphs are :")
+logging.info("the vertex of the graphs are :")
+for i in keys:
+    print(i,end=" ")
+logging.info(f"keys : {keys}")
+
+start = str(input("choose any key and enter the key for the bfs to start :"))
+
+g1.bfs(start)
+
+
             
