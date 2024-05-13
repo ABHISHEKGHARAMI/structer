@@ -12,13 +12,13 @@ class Queue:
         
     def push(self,data):
         if data:
-            print(f"{data} inserting in the queue.")
+            #print(f"{data} inserting in the queue.")
             logging.info(f"{data} inserting in the queue.")
             self.queue.append(data)
             
     # pop operation
     def pop(self):
-        print(f"poping the value : {self.queue[0]}")
+        #print(f"poping the value : {self.queue[0]}")
         logging.info(f"poping the value : {self.queue[0]}")
         if self.isEmpty() != 1:
             return self.queue.pop(0)
