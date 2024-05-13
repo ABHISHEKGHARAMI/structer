@@ -29,3 +29,25 @@ class Queue:
             return 1
         else:
             return 0
+        
+        
+# Graph class for the Undirected graph
+class UGraph:
+    def __init__(self):
+        self.graph = {}
+        
+    # add edge for the graph
+    def addEdge(self,u,v):
+        try:
+            if u not in self.graph:
+                self.graph[u] = []
+            self.graph[u].append(v)
+            
+            
+            if v not in self.graph:
+                self.graph[v] = []
+            self.graph[v].append(u)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
