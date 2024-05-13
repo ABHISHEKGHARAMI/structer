@@ -2063,3 +2063,13 @@ Printing the heap.
 2024-05-10 22:00:18,499 - INFO - adjacent_list_graph_undirected1.py - f  ---> ['b']
 2024-05-10 22:00:18,506 - INFO - adjacent_list_graph_undirected1.py - d  ---> ['c']
 2024-05-13 21:34:25,336 - INFO - bfs_undirected1.py - the vertex of the graphs are :
+2024-05-13 21:38:34,775 - INFO - bfs_undirected1.py - the vertex of the graphs are :
+2024-05-13 21:38:34,782 - INFO - bfs_undirected1.py - keys : ['a', 'b', 'c', 'e', 'f']
+2024-05-13 21:38:41,852 - INFO - bfs_undirected1.py - ['b', 'c'] inserting in the queue.
+2024-05-13 21:38:41,855 - INFO - bfs_undirected1.py - poping the value : ['b', 'c']
+2024-05-13 21:38:41,857 - INFO - bfs_undirected1.py - unhashable type: 'list'
+2024-05-13 21:41:59,038 - INFO - bfs_undirected1.py - the vertex of the graphs are :
+2024-05-13 21:41:59,046 - INFO - bfs_undirected1.py - keys : ['a', 'b', 'c', 'e', 'f']
+2024-05-13 21:42:02,883 - INFO - bfs_undirected1.py - a inserting in the queue.
+2024-05-13 21:42:02,884 - INFO - bfs_undirected1.py - poping the value : a
+2024-05-13 21:42:02,885 - INFO - bfs_undirected1.py - --->a

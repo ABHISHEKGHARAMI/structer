@@ -56,14 +56,15 @@ class UGraph:
     def getVertex(self):
         if not self.graph:
             return []
-        return list(self.graph.keys)
+        a = list(self.graph.keys())
+        return a
         
     # bfs for the graph
     def bfs(self,start):
         try:
             visited = set()
             q1 = Queue()
-            q1.push(self.graph[start])
+            q1.push(start)
             while q1.isEmpty() != 1:
                 vertex = q1.pop()
                 if vertex not in visited:
@@ -72,7 +73,7 @@ class UGraph:
                     visited.add(vertex)
                     for neighbors in self.graph[vertex]:
                         if neighbors not in visited:
-                            visited.add(neighbors)
+                            q1.push(neighbors)
         except Exception as e:
             print(e)
             logging.info(e)
