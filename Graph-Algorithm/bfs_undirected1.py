@@ -96,7 +96,7 @@ for i in keys:
     print(i,end=" ")
 logging.info(f"keys : {keys}")
 
-start = str(input("choose any key and enter the key for the bfs to start :"))
+start = str(input("\nchoose any key and enter the key for the bfs to start :"))
 
 g1.bfs(start)
 
