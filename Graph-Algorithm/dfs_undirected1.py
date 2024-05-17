@@ -64,3 +64,34 @@ class Graph:
             print(e)
             logging.info(e)
             raise e
+        
+        
+# executing the total program
+g1 = Graph()
+
+g1.addEdge('a','b')
+g1.addEdge('a','c')
+g1.addEdge('b','x')
+g1.addEdge('x','y')
+g1.addEdge('c','d')
+g1.addEdge('d','e')
+g1.addEdge('e','f')
+g1.addEdge('f','d')
+
+# print the graph
+g1.printGraph()
+
+
+print("the keys of the graphs are :")
+logging.info("the keys of the graphs are :")
+
+a = g1.getVertex()
+for i in a:
+    print(i,end=" ")
+logging.info(f"{a}")
+
+startV = str(input("enter the starting vertex :"))
+
+g1.dfs_recursive(startV)
+
+
