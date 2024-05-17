@@ -144,3 +144,9 @@ startV = str(input("enter the starting vertex :"))
 g1.dfs_recursive(startV)
 
 
+print("The iterative approach :")
+logging.info("The iterative approach :")
+
+g1.dfs_iterative(startV)
+
+
