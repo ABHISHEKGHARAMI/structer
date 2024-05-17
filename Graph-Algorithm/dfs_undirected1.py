@@ -5,6 +5,32 @@ from settings import setup_logging
 import logging
 setup_logging()
 
+
+
+# stack class
+class Stack:
+    
+    def __init__(self):
+        self.stack = []
+        
+        
+    # pushing the data in the stack
+    def push(self,data):
+        if data:
+            logging.info(f"Pushing {data} in the stack.")
+            self.stack.append(data)
+            
+    # pop from the stack
+    def pop(self):
+        if self.isEmpty() != False:
+            data = self.stack.pop(-1)
+            logging.info(f'{data} has been removed from the stack.')
+            return data
+    
+    # checking the stack is empty or not
+    def isEmpty(self):
+        return len(self.stack) == 0
+
 class Graph:
     
     def __init__(self):
@@ -64,6 +90,8 @@ class Graph:
             print(e)
             logging.info(e)
             raise e
+        
+    #now time for adding the iterative method for the dfs
         
         
 # executing the total program
