@@ -48,3 +48,19 @@ class Graph:
             print(e)
             logging.info(e)
             raise e
+        
+    # here goes the recursive approach of the dfs for graph
+    def dfs_recursive(self,start,visited=None):
+        try:
+            if visited:
+                visited = set()
+            visited.add(start)
+            print(f"--->{start}",end=" ")
+            logging.info(f"--->{start}")
+            for neighbor in self.graph[start]:
+                if neighbor not in visited:
+                    self.dfs_recursive(neighbor,visited)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
