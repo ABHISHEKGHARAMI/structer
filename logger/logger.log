@@ -2157,3 +2157,137 @@ Printing the heap.
 2024-05-17 21:30:26,332 - INFO - dfs_undirected1.py - --->d
 2024-05-17 21:30:26,333 - INFO - dfs_undirected1.py - --->e
 2024-05-17 21:30:26,334 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:51:38,833 - INFO - dfs_undirected1.py - Printing the graph :
+2024-05-17 21:51:38,860 - INFO - dfs_undirected1.py - Vertex is : a and its neighbors are : ['b', 'c']
+2024-05-17 21:51:38,863 - INFO - dfs_undirected1.py - Vertex is : b and its neighbors are : ['a', 'x']
+2024-05-17 21:51:38,866 - INFO - dfs_undirected1.py - Vertex is : c and its neighbors are : ['a', 'd']
+2024-05-17 21:51:38,870 - INFO - dfs_undirected1.py - Vertex is : x and its neighbors are : ['b', 'y']
+2024-05-17 21:51:38,883 - INFO - dfs_undirected1.py - Vertex is : y and its neighbors are : ['x']
+2024-05-17 21:51:38,886 - INFO - dfs_undirected1.py - Vertex is : d and its neighbors are : ['c', 'e', 'f']
+2024-05-17 21:51:38,891 - INFO - dfs_undirected1.py - Vertex is : e and its neighbors are : ['d', 'f']
+2024-05-17 21:51:38,893 - INFO - dfs_undirected1.py - Vertex is : f and its neighbors are : ['e', 'd']
+2024-05-17 21:51:38,894 - INFO - dfs_undirected1.py - the keys of the graphs are :
+2024-05-17 21:51:38,900 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
+2024-05-17 21:51:46,236 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:51:46,237 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:51:46,238 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:51:46,239 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:51:46,240 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:51:46,241 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:51:46,242 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:51:46,244 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:51:46,246 - INFO - dfs_undirected1.py - The iterative approach :
+2024-05-17 21:51:46,248 - INFO - dfs_undirected1.py - Pushing a in the stack.
+2024-05-17 21:53:15,949 - INFO - dfs_undirected1.py - Printing the graph :
+2024-05-17 21:53:15,953 - INFO - dfs_undirected1.py - Vertex is : a and its neighbors are : ['b', 'c']
+2024-05-17 21:53:15,960 - INFO - dfs_undirected1.py - Vertex is : b and its neighbors are : ['a', 'x']
+2024-05-17 21:53:15,963 - INFO - dfs_undirected1.py - Vertex is : c and its neighbors are : ['a', 'd']
+2024-05-17 21:53:15,966 - INFO - dfs_undirected1.py - Vertex is : x and its neighbors are : ['b', 'y']
+2024-05-17 21:53:15,969 - INFO - dfs_undirected1.py - Vertex is : y and its neighbors are : ['x']
+2024-05-17 21:53:16,001 - INFO - dfs_undirected1.py - Vertex is : d and its neighbors are : ['c', 'e', 'f']
+2024-05-17 21:53:16,005 - INFO - dfs_undirected1.py - Vertex is : e and its neighbors are : ['d', 'f']
+2024-05-17 21:53:16,008 - INFO - dfs_undirected1.py - Vertex is : f and its neighbors are : ['e', 'd']
+2024-05-17 21:53:16,011 - INFO - dfs_undirected1.py - the keys of the graphs are :
+2024-05-17 21:53:16,015 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
+2024-05-17 21:53:20,107 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:53:20,108 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:53:20,109 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:53:20,110 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:53:20,110 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:53:20,111 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:53:20,112 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:53:20,114 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:53:20,115 - INFO - dfs_undirected1.py - The iterative approach :
+2024-05-17 21:53:26,934 - INFO - dfs_undirected1.py - Pushing a in the stack.
+2024-05-17 21:54:27,965 - INFO - dfs_undirected1.py - Printing the graph :
+2024-05-17 21:54:27,970 - INFO - dfs_undirected1.py - Vertex is : a and its neighbors are : ['b', 'c']
+2024-05-17 21:54:27,972 - INFO - dfs_undirected1.py - Vertex is : b and its neighbors are : ['a', 'x']
+2024-05-17 21:54:27,975 - INFO - dfs_undirected1.py - Vertex is : c and its neighbors are : ['a', 'd']
+2024-05-17 21:54:27,977 - INFO - dfs_undirected1.py - Vertex is : x and its neighbors are : ['b', 'y']
+2024-05-17 21:54:27,978 - INFO - dfs_undirected1.py - Vertex is : y and its neighbors are : ['x']
+2024-05-17 21:54:27,980 - INFO - dfs_undirected1.py - Vertex is : d and its neighbors are : ['c', 'e', 'f']
+2024-05-17 21:54:27,981 - INFO - dfs_undirected1.py - Vertex is : e and its neighbors are : ['d', 'f']
+2024-05-17 21:54:27,984 - INFO - dfs_undirected1.py - Vertex is : f and its neighbors are : ['e', 'd']
+2024-05-17 21:54:27,986 - INFO - dfs_undirected1.py - the keys of the graphs are :
+2024-05-17 21:54:27,991 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
+2024-05-17 21:54:32,642 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:54:32,643 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:54:32,644 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:54:32,647 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:54:32,648 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:54:32,649 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:54:32,652 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:54:32,654 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:54:32,655 - INFO - dfs_undirected1.py - The iterative approach :
+2024-05-17 21:54:38,403 - INFO - dfs_undirected1.py - Pushing a in the stack.
+2024-05-17 21:54:40,675 - INFO - dfs_undirected1.py - a has been removed from the stack.
+2024-05-17 21:54:40,677 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:54:40,678 - INFO - dfs_undirected1.py - Pushing c in the stack.
+2024-05-17 21:54:40,679 - INFO - dfs_undirected1.py - Pushing b in the stack.
+2024-05-17 21:54:40,680 - INFO - dfs_undirected1.py - b has been removed from the stack.
+2024-05-17 21:54:40,681 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:54:40,681 - INFO - dfs_undirected1.py - Pushing x in the stack.
+2024-05-17 21:54:40,685 - INFO - dfs_undirected1.py - x has been removed from the stack.
+2024-05-17 21:54:40,687 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:54:40,688 - INFO - dfs_undirected1.py - Pushing y in the stack.
+2024-05-17 21:54:40,689 - INFO - dfs_undirected1.py - y has been removed from the stack.
+2024-05-17 21:54:40,690 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:54:40,691 - INFO - dfs_undirected1.py - c has been removed from the stack.
+2024-05-17 21:54:40,693 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:54:40,694 - INFO - dfs_undirected1.py - Pushing d in the stack.
+2024-05-17 21:54:40,694 - INFO - dfs_undirected1.py - d has been removed from the stack.
+2024-05-17 21:54:40,695 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:54:40,696 - INFO - dfs_undirected1.py - Pushing f in the stack.
+2024-05-17 21:54:40,697 - INFO - dfs_undirected1.py - Pushing e in the stack.
+2024-05-17 21:54:40,697 - INFO - dfs_undirected1.py - e has been removed from the stack.
+2024-05-17 21:54:40,698 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:54:40,700 - INFO - dfs_undirected1.py - Pushing f in the stack.
+2024-05-17 21:54:40,701 - INFO - dfs_undirected1.py - f has been removed from the stack.
+2024-05-17 21:54:40,702 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:54:40,703 - INFO - dfs_undirected1.py - f has been removed from the stack.
+2024-05-17 21:55:13,733 - INFO - dfs_undirected1.py - Printing the graph :
+2024-05-17 21:55:13,738 - INFO - dfs_undirected1.py - Vertex is : a and its neighbors are : ['b', 'c']
+2024-05-17 21:55:13,740 - INFO - dfs_undirected1.py - Vertex is : b and its neighbors are : ['a', 'x']
+2024-05-17 21:55:13,743 - INFO - dfs_undirected1.py - Vertex is : c and its neighbors are : ['a', 'd']
+2024-05-17 21:55:13,749 - INFO - dfs_undirected1.py - Vertex is : x and its neighbors are : ['b', 'y']
+2024-05-17 21:55:13,755 - INFO - dfs_undirected1.py - Vertex is : y and its neighbors are : ['x']
+2024-05-17 21:55:13,757 - INFO - dfs_undirected1.py - Vertex is : d and its neighbors are : ['c', 'e', 'f']
+2024-05-17 21:55:13,772 - INFO - dfs_undirected1.py - Vertex is : e and its neighbors are : ['d', 'f']
+2024-05-17 21:55:13,778 - INFO - dfs_undirected1.py - Vertex is : f and its neighbors are : ['e', 'd']
+2024-05-17 21:55:13,779 - INFO - dfs_undirected1.py - the keys of the graphs are :
+2024-05-17 21:55:13,782 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
+2024-05-17 21:55:20,827 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:55:20,830 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:55:20,832 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:55:20,834 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:55:20,836 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:55:20,838 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:55:20,840 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:55:20,841 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:55:20,843 - INFO - dfs_undirected1.py - The iterative approach :
+2024-05-17 21:55:20,846 - INFO - dfs_undirected1.py - Pushing a in the stack.
+2024-05-17 21:55:20,848 - INFO - dfs_undirected1.py - a has been removed from the stack.
+2024-05-17 21:55:20,849 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:55:20,850 - INFO - dfs_undirected1.py - Pushing c in the stack.
+2024-05-17 21:55:20,853 - INFO - dfs_undirected1.py - Pushing b in the stack.
+2024-05-17 21:55:20,854 - INFO - dfs_undirected1.py - b has been removed from the stack.
+2024-05-17 21:55:20,855 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:55:20,856 - INFO - dfs_undirected1.py - Pushing x in the stack.
+2024-05-17 21:55:20,857 - INFO - dfs_undirected1.py - x has been removed from the stack.
+2024-05-17 21:55:20,858 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:55:20,859 - INFO - dfs_undirected1.py - Pushing y in the stack.
+2024-05-17 21:55:20,860 - INFO - dfs_undirected1.py - y has been removed from the stack.
+2024-05-17 21:55:20,863 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:55:20,864 - INFO - dfs_undirected1.py - c has been removed from the stack.
+2024-05-17 21:55:20,865 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:55:20,866 - INFO - dfs_undirected1.py - Pushing d in the stack.
+2024-05-17 21:55:20,866 - INFO - dfs_undirected1.py - d has been removed from the stack.
+2024-05-17 21:55:20,867 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:55:20,869 - INFO - dfs_undirected1.py - Pushing f in the stack.
+2024-05-17 21:55:20,869 - INFO - dfs_undirected1.py - Pushing e in the stack.
+2024-05-17 21:55:20,870 - INFO - dfs_undirected1.py - e has been removed from the stack.
+2024-05-17 21:55:20,880 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:55:20,881 - INFO - dfs_undirected1.py - Pushing f in the stack.
+2024-05-17 21:55:20,882 - INFO - dfs_undirected1.py - f has been removed from the stack.
+2024-05-17 21:55:20,886 - INFO - dfs_undirected1.py - --->f
+2024-05-17 21:55:20,888 - INFO - dfs_undirected1.py - f has been removed from the stack.

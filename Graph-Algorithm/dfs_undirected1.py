@@ -22,7 +22,7 @@ class Stack:
             
     # pop from the stack
     def pop(self):
-        if self.isEmpty() != False:
+        if not self.isEmpty():
             data = self.stack.pop(-1)
             logging.info(f'{data} has been removed from the stack.')
             return data
@@ -97,7 +97,7 @@ class Graph:
             visited = set()
             s1 = Stack()
             s1.push(start)
-            while s1.isEmpty() != False:
+            while not s1.isEmpty() :
                 vertex = s1.pop()
                 if vertex not in visited:
                     print(f"--->{vertex}",end=" ")
@@ -139,7 +139,7 @@ for i in a:
     print(i,end=" ")
 logging.info(f"{a}")
 
-startV = str(input("enter the starting vertex :"))
+startV = str(input("\nenter the starting vertex :"))
 
 g1.dfs_recursive(startV)
 
