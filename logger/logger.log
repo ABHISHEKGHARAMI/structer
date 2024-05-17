@@ -2138,3 +2138,22 @@ Printing the heap.
 2024-05-17 21:27:09,098 - INFO - dfs_undirected1.py - the keys of the graphs are :
 2024-05-17 21:27:09,107 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
 2024-05-17 21:27:20,717 - INFO - dfs_undirected1.py - 'NoneType' object has no attribute 'add'
+2024-05-17 21:30:21,835 - INFO - dfs_undirected1.py - Printing the graph :
+2024-05-17 21:30:21,840 - INFO - dfs_undirected1.py - Vertex is : a and its neighbors are : ['b', 'c']
+2024-05-17 21:30:21,842 - INFO - dfs_undirected1.py - Vertex is : b and its neighbors are : ['a', 'x']
+2024-05-17 21:30:21,846 - INFO - dfs_undirected1.py - Vertex is : c and its neighbors are : ['a', 'd']
+2024-05-17 21:30:21,849 - INFO - dfs_undirected1.py - Vertex is : x and its neighbors are : ['b', 'y']
+2024-05-17 21:30:21,851 - INFO - dfs_undirected1.py - Vertex is : y and its neighbors are : ['x']
+2024-05-17 21:30:21,853 - INFO - dfs_undirected1.py - Vertex is : d and its neighbors are : ['c', 'e', 'f']
+2024-05-17 21:30:21,858 - INFO - dfs_undirected1.py - Vertex is : e and its neighbors are : ['d', 'f']
+2024-05-17 21:30:21,864 - INFO - dfs_undirected1.py - Vertex is : f and its neighbors are : ['e', 'd']
+2024-05-17 21:30:21,866 - INFO - dfs_undirected1.py - the keys of the graphs are :
+2024-05-17 21:30:21,872 - INFO - dfs_undirected1.py - ['a', 'b', 'c', 'x', 'y', 'd', 'e', 'f']
+2024-05-17 21:30:26,322 - INFO - dfs_undirected1.py - --->a
+2024-05-17 21:30:26,324 - INFO - dfs_undirected1.py - --->b
+2024-05-17 21:30:26,326 - INFO - dfs_undirected1.py - --->x
+2024-05-17 21:30:26,328 - INFO - dfs_undirected1.py - --->y
+2024-05-17 21:30:26,330 - INFO - dfs_undirected1.py - --->c
+2024-05-17 21:30:26,332 - INFO - dfs_undirected1.py - --->d
+2024-05-17 21:30:26,333 - INFO - dfs_undirected1.py - --->e
+2024-05-17 21:30:26,334 - INFO - dfs_undirected1.py - --->f
