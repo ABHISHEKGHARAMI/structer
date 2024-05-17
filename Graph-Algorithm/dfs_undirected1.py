@@ -52,7 +52,7 @@ class Graph:
     # here goes the recursive approach of the dfs for graph
     def dfs_recursive(self,start,visited=None):
         try:
-            if visited:
+            if visited is None:
                 visited = set()
             visited.add(start)
             print(f"--->{start}",end=" ")
