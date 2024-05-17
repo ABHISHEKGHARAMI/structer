@@ -28,3 +28,10 @@ class Graph:
             print(e)
             logging.info(e)
             raise e
+        
+        
+    # get the all vertex of the graph
+    def getVertex(self):
+        if self.graph:
+            a = list(self.graph.keys())
+            return a
