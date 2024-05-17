@@ -92,6 +92,27 @@ class Graph:
             raise e
         
     #now time for adding the iterative method for the dfs
+    def dfs_iterative(self,start):
+        try:
+            visited = set()
+            s1 = Stack()
+            s1.push(start)
+            while s1.isEmpty() != False:
+                vertex = s1.pop()
+                if vertex not in visited:
+                    print(f"--->{vertex}",end=" ")
+                    logging.info(f"--->{vertex}")
+                    visited.add(vertex)
+                    
+                    for neighbor in reversed(self.graph[vertex]):
+                        if neighbor not in visited:
+                            s1.push(neighbor)
+                    
+                
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
         
         
 # executing the total program
