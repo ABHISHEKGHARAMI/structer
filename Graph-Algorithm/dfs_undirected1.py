@@ -35,3 +35,16 @@ class Graph:
         if self.graph:
             a = list(self.graph.keys())
             return a
+        
+        
+    def printGraph(self):
+        try:
+            print("Printing the graph :")
+            logging.info("Printing the graph :")
+            for key,value in self.graph.items():
+                print(f"Vertex is : {key} and its neighbors are : {value}")
+                logging.info(f"Vertex is : {key} and its neighbors are : {value}")
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
