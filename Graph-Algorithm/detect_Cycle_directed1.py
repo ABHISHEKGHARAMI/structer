@@ -39,7 +39,7 @@ class Graph:
         if u not in self.graph:
             self.graph[u] = []
         else:
-            self.graph[u] = v
+            self.graph[u].append(v)
             
             
     # idea is that using modified dfs or bfs we can check cycle is present or not
