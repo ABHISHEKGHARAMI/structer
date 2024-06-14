@@ -2291,3 +2291,12 @@ Printing the heap.
 2024-05-17 21:55:20,882 - INFO - dfs_undirected1.py - f has been removed from the stack.
 2024-05-17 21:55:20,886 - INFO - dfs_undirected1.py - --->f
 2024-05-17 21:55:20,888 - INFO - dfs_undirected1.py - f has been removed from the stack.
+2024-06-14 21:46:19,106 - INFO - adjancent_list_graph_und1.py - a -> []
+2024-06-14 21:46:19,157 - INFO - adjancent_list_graph_und1.py - b -> ['c']
+2024-06-14 21:46:19,165 - INFO - adjancent_list_graph_und1.py - c -> []
+2024-06-14 21:47:44,881 - INFO - adjancent_list_graph_und1.py - a  ---> []
+2024-06-14 21:47:44,889 - INFO - adjancent_list_graph_und1.py - b  ---> ['c']
+2024-06-14 21:47:44,897 - INFO - adjancent_list_graph_und1.py - c  ---> []
+2024-06-14 21:48:52,366 - INFO - adjancent_list_graph_und1.py - a  ---> ['b']
+2024-06-14 21:48:52,392 - INFO - adjancent_list_graph_und1.py - b  ---> ['a', 'c']
+2024-06-14 21:48:52,392 - INFO - adjancent_list_graph_und1.py - c  ---> ['b']
