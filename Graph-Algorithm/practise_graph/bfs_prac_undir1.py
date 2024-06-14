@@ -64,3 +64,14 @@ class Graph:
         except Exception as e:
             print(e)
             logging.info(e)
+            
+            
+            
+G = Graph()
+G.addEdge('a','b')
+G.addEdge('b','c')
+G.addEdge('c','d')
+G.addEdge('d','e')
+
+G.bfs('a')
+
