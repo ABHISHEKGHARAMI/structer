@@ -5,6 +5,26 @@ from settings import setup_logging
 import logging
 setup_logging()
 
+
+# stack for the dfs iterative
+class Stack:
+    def __init__(self):
+        self.stack = []
+        
+    def push(self,data):
+        self.stack.append(data)
+        
+    def isEmpty(self):
+        if len(self.stack) == 0:
+            return 1
+        else:
+            return 0
+        
+    def pop(self):
+        if self.isEmpty() != 1:
+            a = self.stack.index(self.stack[-1])
+            return self.stack.po(a)
+
 # graph for dfs
 class Graph:
     def __init__(self):
@@ -58,6 +78,11 @@ class Graph:
         except Exception as e:
             print(e)
             logging.info(e)
+            
+    
+    # using the iterative approach for the Graph
+    def dfs_iterative(self,start):
+        pass
             
             
 # execution of the program
