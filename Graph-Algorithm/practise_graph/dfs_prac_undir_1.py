@@ -103,6 +103,50 @@ class Graph:
             logging.info(e)
             
             
+    
+    # transitive closure for the graph
+    def transitive_closure(self):
+        try:
+            vertices = self.getVertex()
+            n = len(vertices)
+            indexes = { vertices[i] : i for i in range(n)}
+            
+            reaches = [[0]*n for _ in range(n)]
+            
+            for u in self.graph:
+                for v in self.graph[u]:
+                    reaches[indexes[u]][indexes[v]] = 1
+                    
+            # floyd warshell algorithm
+            for k in range(n):
+                for i in range(n):
+                    for j in range(n):
+                        reaches[i][j] = reaches[i][j] or ( reaches[i][k] and reaches[k][j])
+                        
+            self.print_closures(reaches,vertices,indexes)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            
+            
+    # print closures of the graph
+    
+    def print_closures(self,reaches,vertices,indexes):
+        try:
+            print("printing the adjacency matrix :")
+            logging.info("printing the adjacency matrix :")
+            for i in range(len(vertices)):
+                for j in range(len(vertices)):
+                    print(reaches[i][j],end=" ")
+                print()
+                
+            #turning it in to the 
+        except Exception as e:
+            print(e)
+            logging.info(e)
+        
+            
+            
 # execution of the program
 g = Graph()
 
