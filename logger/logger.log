@@ -2325,3 +2325,14 @@ Printing the heap.
 2024-06-16 10:42:13,331 - INFO - dfs_prac_undir_1.py - -->c
 2024-06-16 10:42:13,331 - INFO - dfs_prac_undir_1.py - -->d
 2024-06-16 10:42:13,332 - INFO - dfs_prac_undir_1.py - -->e
+2024-06-16 10:43:29,453 - INFO - dfs_prac_undir_1.py - all the vertex of the graph is : ['a', 'b', 'c', 'd', 'e']
+2024-06-16 10:43:29,457 - INFO - dfs_prac_undir_1.py - -->a
+2024-06-16 10:43:29,458 - INFO - dfs_prac_undir_1.py - -->b
+2024-06-16 10:43:29,461 - INFO - dfs_prac_undir_1.py - -->c
+2024-06-16 10:43:29,463 - INFO - dfs_prac_undir_1.py - -->d
+2024-06-16 10:43:29,464 - INFO - dfs_prac_undir_1.py - -->e
+2024-06-16 10:43:29,468 - INFO - dfs_prac_undir_1.py - a  ---> ['b']
+2024-06-16 10:43:29,471 - INFO - dfs_prac_undir_1.py - b  ---> ['a', 'c', 'e']
+2024-06-16 10:43:29,481 - INFO - dfs_prac_undir_1.py - c  ---> ['b', 'd']
+2024-06-16 10:43:29,499 - INFO - dfs_prac_undir_1.py - d  ---> ['c']
+2024-06-16 10:43:29,513 - INFO - dfs_prac_undir_1.py - e  ---> ['b']
