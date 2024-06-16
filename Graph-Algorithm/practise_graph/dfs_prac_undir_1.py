@@ -72,3 +72,6 @@ print(f"the all the vertex of the graph is : {g.getVertex()}")
 logging.info(f"all the vertex of the graph is : {g.getVertex()}")
 
 g.dfs_recursive('a')
+
+
+g.printGraph()
