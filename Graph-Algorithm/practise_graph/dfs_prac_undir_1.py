@@ -82,7 +82,25 @@ class Graph:
     
     # using the iterative approach for the Graph
     def dfs_iterative(self,start):
-        pass
+        try:
+            s1 = Stack()
+            s1.push(start)
+            visited = set()
+            while s1.isEmpty() != 1:
+                vertex = s1.pop()
+                print(f"--->{vertex}",end=" ")
+                logging.info(f"---->{vertex}")
+                if vertex not in visited:
+                    visited.add(vertex)
+                    
+                    
+                    # go for all the edges for the vertex
+                    for neighbor in reversed(self.graph[vertex]):
+                        if neighbor not in visited:
+                            s1.push(neighbor)
+        except Exception as e:
+            print(e)
+            logging.info(e)
             
             
 # execution of the program
@@ -100,3 +118,7 @@ g.dfs_recursive('a')
 
 
 g.printGraph()
+
+
+# checking for the dfs iterative
+g.dfs_iterative('a')
