@@ -2348,3 +2348,19 @@ Printing the heap.
 2024-06-16 11:32:17,862 - INFO - dfs_prac_undir_1.py - d  ---> ['c']
 2024-06-16 11:32:17,867 - INFO - dfs_prac_undir_1.py - e  ---> ['b']
 2024-06-16 11:32:17,875 - INFO - dfs_prac_undir_1.py - 'list' object has no attribute 'po'
+2024-06-16 11:33:32,848 - INFO - dfs_prac_undir_1.py - all the vertex of the graph is : ['a', 'b', 'c', 'd', 'e']
+2024-06-16 11:33:32,852 - INFO - dfs_prac_undir_1.py - -->a
+2024-06-16 11:33:32,853 - INFO - dfs_prac_undir_1.py - -->b
+2024-06-16 11:33:32,855 - INFO - dfs_prac_undir_1.py - -->c
+2024-06-16 11:33:32,856 - INFO - dfs_prac_undir_1.py - -->d
+2024-06-16 11:33:32,857 - INFO - dfs_prac_undir_1.py - -->e
+2024-06-16 11:33:32,860 - INFO - dfs_prac_undir_1.py - a  ---> ['b']
+2024-06-16 11:33:32,868 - INFO - dfs_prac_undir_1.py - b  ---> ['a', 'c', 'e']
+2024-06-16 11:33:32,871 - INFO - dfs_prac_undir_1.py - c  ---> ['b', 'd']
+2024-06-16 11:33:32,875 - INFO - dfs_prac_undir_1.py - d  ---> ['c']
+2024-06-16 11:33:32,882 - INFO - dfs_prac_undir_1.py - e  ---> ['b']
+2024-06-16 11:33:32,886 - INFO - dfs_prac_undir_1.py - ---->a
+2024-06-16 11:33:32,889 - INFO - dfs_prac_undir_1.py - ---->b
+2024-06-16 11:33:32,890 - INFO - dfs_prac_undir_1.py - ---->c
+2024-06-16 11:33:32,892 - INFO - dfs_prac_undir_1.py - ---->d
+2024-06-16 11:33:32,903 - INFO - dfs_prac_undir_1.py - ---->e
