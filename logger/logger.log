@@ -2364,3 +2364,20 @@ Printing the heap.
 2024-06-16 11:33:32,890 - INFO - dfs_prac_undir_1.py - ---->c
 2024-06-16 11:33:32,892 - INFO - dfs_prac_undir_1.py - ---->d
 2024-06-16 11:33:32,903 - INFO - dfs_prac_undir_1.py - ---->e
+2024-06-16 12:29:03,083 - INFO - dfs_prac_undir_1.py - all the vertex of the graph is : ['a', 'b', 'c', 'd', 'e']
+2024-06-16 12:29:03,111 - INFO - dfs_prac_undir_1.py - -->a
+2024-06-16 12:29:03,114 - INFO - dfs_prac_undir_1.py - -->b
+2024-06-16 12:29:03,115 - INFO - dfs_prac_undir_1.py - -->c
+2024-06-16 12:29:03,117 - INFO - dfs_prac_undir_1.py - -->d
+2024-06-16 12:29:03,118 - INFO - dfs_prac_undir_1.py - -->e
+2024-06-16 12:29:03,120 - INFO - dfs_prac_undir_1.py - a  ---> ['b']
+2024-06-16 12:29:03,122 - INFO - dfs_prac_undir_1.py - b  ---> ['a', 'c', 'e']
+2024-06-16 12:29:03,125 - INFO - dfs_prac_undir_1.py - c  ---> ['b', 'd']
+2024-06-16 12:29:03,127 - INFO - dfs_prac_undir_1.py - d  ---> ['c']
+2024-06-16 12:29:03,130 - INFO - dfs_prac_undir_1.py - e  ---> ['b']
+2024-06-16 12:29:03,132 - INFO - dfs_prac_undir_1.py - ---->a
+2024-06-16 12:29:03,152 - INFO - dfs_prac_undir_1.py - ---->b
+2024-06-16 12:29:03,156 - INFO - dfs_prac_undir_1.py - ---->c
+2024-06-16 12:29:03,157 - INFO - dfs_prac_undir_1.py - ---->d
+2024-06-16 12:29:03,159 - INFO - dfs_prac_undir_1.py - ---->e
+2024-06-16 12:29:03,161 - INFO - dfs_prac_undir_1.py - printing the adjacency matrix :
