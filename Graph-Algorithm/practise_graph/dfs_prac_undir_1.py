@@ -166,3 +166,7 @@ g.printGraph()
 
 # checking for the dfs iterative
 g.dfs_iterative('a')
+
+
+
+g.transitive_closure()
