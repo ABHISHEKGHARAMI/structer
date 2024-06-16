@@ -23,7 +23,7 @@ class Stack:
     def pop(self):
         if self.isEmpty() != 1:
             a = self.stack.index(self.stack[-1])
-            return self.stack.po(a)
+            return self.stack.pop(a)
 
 # graph for dfs
 class Graph:
