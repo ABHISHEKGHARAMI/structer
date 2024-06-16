@@ -16,6 +16,10 @@ class Graph:
             if u not in self.graph:
                 self.graph[u] = []
             self.graph[u].append(v)
+            
+            if v not in self.graph:
+                self.graph[v] =[]
+            self.graph[v].append(u)
         except Exception as e:
             print(e)
             logging.info(e)
