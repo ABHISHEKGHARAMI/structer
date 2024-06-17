@@ -25,6 +25,26 @@ class Queue:
             return 1
         else:
             return 0
+        
+# class for the stack
+class Stack:
+    def __init__(self):
+        self.stack = []
+        
+    # push for data
+    def push(self,data):
+        logging.info(f"{data} inserted for the stack.")
+        self.stack.append(data)
+        
+    def isEmpty(self):
+        if len(self.stack) == 0:
+            return 1
+        else:
+            return 0
+        
+    def pop(self):
+        if self.isEmpty() != 1:
+            return self.stack.pop(-1)
 # class for the graph
 class Graph:
     def __init__(self):
