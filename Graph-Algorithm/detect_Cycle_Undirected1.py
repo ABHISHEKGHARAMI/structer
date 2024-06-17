@@ -89,6 +89,8 @@ class Graph:
     # bfs for the graph
     def bfs(self,start):
         try:
+            print("Bfs for the Graph.")
+            logging.info("Bfs for the Graph.")
             q1 = Queue()
             q1.push(start)
             visited = set()
@@ -108,6 +110,8 @@ class Graph:
     # dfs iterative 
     def dfs(self,start):
         try:
+            print("Dfs for the Graph.")
+            logging.info("Dfs for the Graph.")
             visited = set()
             s1 = Stack()
             s1.push(start)
@@ -133,3 +137,8 @@ g1.addEdge('b','c')
 g1.addEdge('c','d')
 g1.addEdge('d','e')
 
+g1.printGraph()
+
+g1.bfs('a')
+
+g1.dfs('a')
