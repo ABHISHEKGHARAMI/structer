@@ -1,0 +1,75 @@
+# setting up the logger
+import sys
+sys.path.append("D:/geeks1.0/structer")
+from settings import setup_logging
+import logging
+setup_logging()
+
+# class for the Queue
+class Queue:
+    def __init__(self):
+        self.queue = []
+        
+    def push(self,data):
+        logging.info(f"{data} added in to queue.")
+        self.queue.append(data)
+        
+        
+    def pop(self):
+        if self.isEmpty() != 1:
+            pos = self.queue.index(self.queue[-1])
+            return self.queue.pop(self.queue[pos])
+    
+    def isEmpty(self):
+        if len(self.queue) == 0:
+            return 1
+        else:
+            return 0
+# class for the graph
+class Graph:
+    def __init__(self):
+        self.graph = {}
+        
+    # adding edge
+    def addEdge(self,u,v):
+        if u not in self.graph:
+            self.graph[u] = []
+        self.graph[u].append(v)
+        
+        # reverse the connection
+        if v not in self.graph:
+            self.graph[v] = []
+        self.graph[v].append(u)
+        
+    # printing the  graph
+    def printGraph(self):
+        try:
+            if not self.graph:
+                print("Graph is empty.")
+                logging.info("Graph is empty.")
+            else:
+                for vertex in self.graph:
+                    print(vertex, "->", " -> ".join(map(str, self.graph[vertex])))
+                    logging.info(f"{vertex}  ---> {self.graph[vertex]}")
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            
+            
+    # get the graph vertex
+    def getVertex(self):
+        try:
+            a = self.graph.keys()
+            return list(a)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            
+            
+    # bfs for the graph
+    def bfs(self):
+        try:
+            pass
+        except Exception as e:
+            print(e)
+            logging.info(e)
