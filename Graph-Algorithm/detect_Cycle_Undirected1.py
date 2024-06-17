@@ -67,9 +67,19 @@ class Graph:
             
             
     # bfs for the graph
-    def bfs(self):
+    def bfs(self,start):
         try:
-            pass
+            q1 = Queue()
+            q1.push(start)
+            visited = set()
+            while q1.isEmpty() != 1:
+                vertex = q1.pop()
+                print(f"->{vertex}",end=" ")
+                logging.info(f"->{vertex}")
+                visited.add(vertex)
+                for neighbor in self.graph[vertex]:
+                    if neighbor not in visited:
+                        q1.push(neighbor)
         except Exception as e:
             print(e)
             logging.info(e)
