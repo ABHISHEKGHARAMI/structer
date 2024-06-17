@@ -103,3 +103,33 @@ class Graph:
         except Exception as e:
             print(e)
             logging.info(e)
+            
+            
+    # dfs iterative 
+    def dfs(self,start):
+        try:
+            visited = set()
+            s1 = Stack()
+            s1.push(start)
+            while s1.isEmpty() != 1:
+                vertex = s1.pop()
+                if vertex not in visited:
+                    print(f"-->{vertex}",end=" ")
+                    logging.info(f"-->{vertex}")
+                    visited.add(vertex)
+                    
+                    for neighbor in self.graph[vertex]:
+                        if neighbor not in visited:
+                            s1.push(neighbor)
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            
+            
+# execution for the stack
+g1 = Graph()
+g1.addEdge('a','b')
+g1.addEdge('b','c')
+g1.addEdge('c','d')
+g1.addEdge('d','e')
+
