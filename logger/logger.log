@@ -2508,3 +2508,24 @@ Printing the heap.
 2024-06-21 21:39:28,222 - INFO - detect_Cycle_Undirected1.py - e inserted for the stack.
 2024-06-21 21:39:28,223 - INFO - detect_Cycle_Undirected1.py - -->e
 2024-06-21 21:39:28,236 - INFO - detect_Cycle_Undirected1.py - No Cycle detected in the graph.
+2024-06-21 21:46:03,628 - INFO - detect_Cycle_Undirected1.py - a  ---> ['b', 'e']
+2024-06-21 21:46:03,709 - INFO - detect_Cycle_Undirected1.py - b  ---> ['a', 'c']
+2024-06-21 21:46:03,711 - INFO - detect_Cycle_Undirected1.py - c  ---> ['b', 'd']
+2024-06-21 21:46:03,713 - INFO - detect_Cycle_Undirected1.py - d  ---> ['c', 'e']
+2024-06-21 21:46:03,717 - INFO - detect_Cycle_Undirected1.py - e  ---> ['d', 'a']
+2024-06-21 21:46:03,720 - INFO - detect_Cycle_Undirected1.py - Bfs for the Graph.
+2024-06-21 21:46:03,722 - INFO - detect_Cycle_Undirected1.py - a added in to queue.
+2024-06-21 21:46:03,725 - INFO - detect_Cycle_Undirected1.py - 'str' object cannot be interpreted as an integer
+2024-06-21 21:46:03,727 - INFO - detect_Cycle_Undirected1.py - Dfs for the Graph.
+2024-06-21 21:46:03,728 - INFO - detect_Cycle_Undirected1.py - a inserted for the stack.
+2024-06-21 21:46:03,730 - INFO - detect_Cycle_Undirected1.py - -->a
+2024-06-21 21:46:03,731 - INFO - detect_Cycle_Undirected1.py - b inserted for the stack.
+2024-06-21 21:46:03,732 - INFO - detect_Cycle_Undirected1.py - e inserted for the stack.
+2024-06-21 21:46:03,734 - INFO - detect_Cycle_Undirected1.py - -->e
+2024-06-21 21:46:03,736 - INFO - detect_Cycle_Undirected1.py - d inserted for the stack.
+2024-06-21 21:46:03,737 - INFO - detect_Cycle_Undirected1.py - -->d
+2024-06-21 21:46:03,738 - INFO - detect_Cycle_Undirected1.py - c inserted for the stack.
+2024-06-21 21:46:03,742 - INFO - detect_Cycle_Undirected1.py - -->c
+2024-06-21 21:46:03,742 - INFO - detect_Cycle_Undirected1.py - b inserted for the stack.
+2024-06-21 21:46:03,744 - INFO - detect_Cycle_Undirected1.py - -->b
+2024-06-21 21:46:03,750 - INFO - detect_Cycle_Undirected1.py - Cycle detected in the graph.
