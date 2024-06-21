@@ -163,6 +163,7 @@ g1.addEdge('a','b')
 g1.addEdge('b','c')
 g1.addEdge('c','d')
 g1.addEdge('d','e')
+g1.addEdge('e','a')
 
 g1.printGraph()
 
