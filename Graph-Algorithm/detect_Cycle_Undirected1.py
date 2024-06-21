@@ -169,3 +169,11 @@ g1.printGraph()
 g1.bfs('a')
 
 g1.dfs('a')
+
+
+if g1.detectCycle():
+    print('Cycle detected in the Graph.')
+    logging.info('Cycle detected in the graph.')
+else:
+    print('No Cycle detected in the graph .')
+    logging.info('No Cycle detected in the graph.')
