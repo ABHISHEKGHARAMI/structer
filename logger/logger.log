@@ -2449,3 +2449,22 @@ Printing the heap.
 2024-06-16 12:33:35,225 - INFO - dfs_prac_undir_1.py - ---->d
 2024-06-16 12:33:35,226 - INFO - dfs_prac_undir_1.py - ---->e
 2024-06-16 12:33:35,235 - INFO - dfs_prac_undir_1.py - printing the adjacency matrix :
+2024-06-17 14:22:30,744 - INFO - detect_Cycle_Undirected1.py - a  ---> ['b']
+2024-06-17 14:22:30,766 - INFO - detect_Cycle_Undirected1.py - b  ---> ['a', 'c']
+2024-06-17 14:22:30,772 - INFO - detect_Cycle_Undirected1.py - c  ---> ['b', 'd']
+2024-06-17 14:22:30,776 - INFO - detect_Cycle_Undirected1.py - d  ---> ['c', 'e']
+2024-06-17 14:22:30,802 - INFO - detect_Cycle_Undirected1.py - e  ---> ['d']
+2024-06-17 14:22:30,808 - INFO - detect_Cycle_Undirected1.py - Bfs for the Graph.
+2024-06-17 14:22:30,809 - INFO - detect_Cycle_Undirected1.py - a added in to queue.
+2024-06-17 14:22:30,813 - INFO - detect_Cycle_Undirected1.py - 'str' object cannot be interpreted as an integer
+2024-06-17 14:22:30,815 - INFO - detect_Cycle_Undirected1.py - Dfs for the Graph.
+2024-06-17 14:22:30,816 - INFO - detect_Cycle_Undirected1.py - a inserted for the stack.
+2024-06-17 14:22:30,823 - INFO - detect_Cycle_Undirected1.py - -->a
+2024-06-17 14:22:30,827 - INFO - detect_Cycle_Undirected1.py - b inserted for the stack.
+2024-06-17 14:22:30,829 - INFO - detect_Cycle_Undirected1.py - -->b
+2024-06-17 14:22:30,835 - INFO - detect_Cycle_Undirected1.py - c inserted for the stack.
+2024-06-17 14:22:30,838 - INFO - detect_Cycle_Undirected1.py - -->c
+2024-06-17 14:22:30,839 - INFO - detect_Cycle_Undirected1.py - d inserted for the stack.
+2024-06-17 14:22:30,840 - INFO - detect_Cycle_Undirected1.py - -->d
+2024-06-17 14:22:30,841 - INFO - detect_Cycle_Undirected1.py - e inserted for the stack.
+2024-06-17 14:22:30,842 - INFO - detect_Cycle_Undirected1.py - -->e
