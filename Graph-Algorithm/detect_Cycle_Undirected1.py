@@ -140,7 +140,7 @@ class Graph:
                 
                 for neighbor in self.graph[v]:
                     if neighbor not in visited:
-                        if dfs(neighbor.v):
+                        if dfs(neighbor,v):
                             return True
                     elif neighbor in rec_Stack and neighbor != parent:
                         return True
