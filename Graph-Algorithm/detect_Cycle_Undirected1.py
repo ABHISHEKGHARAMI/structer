@@ -129,6 +129,33 @@ class Graph:
             print(e)
             logging.info(e)
             
+    # detect cycle for the graph
+    def detectCycle(self):
+        try:
+            visited = set()
+            rec_Stack = set()
+            def dfs(v,parent):
+                visited.add(v)
+                rec_Stack.add(v)
+                
+                for neighbor in self.graph[v]:
+                    if neighbor not in visited:
+                        if dfs(neighbor.v):
+                            return True
+                    elif neighbor in rec_Stack and neighbor != parent:
+                        return True
+                    
+            # loop over all the graph
+            for node in self.graph:
+                if node not in visited:
+                    if dfs(node,None):
+                        return True
+            return False
+        except Exception as e:
+            print(e)
+            logging.info(e)
+            raise e
+            
             
 # execution for the stack
 g1 = Graph()
