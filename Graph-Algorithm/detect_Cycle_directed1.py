@@ -6,79 +6,99 @@ import logging
 setup_logging()
 
 
-# stack class
-class Stack:
-    def __init__(self):
-        self.stack = []
-        
-    # push in the stack
-    def push(self,data):
-        self.stack.append(data)
-        
-        
-    # is empty
-    def isEmpty(self):
-        if len(self.stack) == 0:
-            return 1
-        else:
-            return 0
-        
-    def pop(self):
-        if self.isEmpty() != 1:
-            data = self.stack.pop(-1)
-            return data
-
-# graph class for detect cycle
+# detect the cycle using the dfs based style 
 class Graph:
-    def __init__(self):
+    def __init__(self,V):
         self.graph = {}
+        self.vertices = V
         
-        
-    # adding the edges of the graph
-    def addEdges(self,u,v):
+    # add edge for the Graph
+    def addEdge(self,u,v):
+        # adding the edge for the directed  graph
         if u not in self.graph:
             self.graph[u] = []
-        else:
-            self.graph[u].append(v)
-            
-            
-    # idea is that using modified dfs or bfs we can check cycle is present or not
-    def dfs_iterative(self,start):
+        self.graph[u].append(v)
+        
+        
+    # print the graph
+    def printGraph(self):
         try:
-            visited = set()
-            s1 = Stack()
-            s1.push(start)
-            while s1.isEmpty() != 1:
-                vertex = s1.pop()
-                if vertex not in visited:
-                    visited.add(vertex)
-                    
-                    for neighbor in reversed(self.graph[vertex]):
-                        if neighbor not in visited:
-                            s1.push(neighbor)
-                            
-                        else:
-                            print("The graph contains cycle.")
-                            logging.info("The graph contains cycle.")
-                            break
-                else:
-                    print("The graph contains cycle.")
-                    logging.info("The graph contains cycle.")
-                    break
+            if not self.graph:
+                print("Graph is empty.")
+                logging.info("Graph is empty.")
+            else:
+                for vertex in self.graph:
+                    print(vertex, "->", " -> ".join(map(str, self.graph[vertex])))
+                    logging.info(f"{vertex}  ---> {self.graph[vertex]}")
         except Exception as e:
             print(e)
             logging.info(e)
-            raise e
+            
+            
+    # module for the check cycle for the graph
+    def isCycle(self):
+        visited = [False]*self.vertices
+        rec_stack = [False]*self.vertices
         
+        for node in range(len(self.vertices)):
+            if not visited[node]:
+                if self.isCycleUtil(node,visited,rec_stack):
+                    return False
+                return True
+            
+            
+    # helper module for the check the each node with the neighbous 
+    def isCycleUtil(self,v,visited,rec_stack):
+        visited[v] = True
+        rec_stack[v] = True
         
-# checking for the main execution of the program
-g1 = Graph()
+        for neighbor in self.graph[v]:
+            if not visited[neighbor]:
+                if self.isCycleUtil(neighbor,visited,rec_stack):
+                    return True
+                elif rec_stack[neighbor] :
+                    return True
+            
+        # if this won't the case then the case will be
+        rec_stack[v] = False
+        return False
+    
+    
+    
+v = int(input("enter the vertices for the graph :"))
 
-g1.addEdges('a','b');
-g1.addEdges('b','c');
-g1.addEdges('c','a');
+g1 = Graph(v)
 
-g1.dfs_iterative('a')
+
+while True:
+    print("1: for add edge.\t 2: Check the Cycle.\t 3: Print Graph.")
+    print("0: for exit")
+    choice = int(input("enter the choice :"))
+    if choice == 0:
+        exit(0)
+    elif choice == 1:
+        u ,v = map(int,input("enter the to vertices :").split(","))
+        g1.addEdge(u,v)
+    elif choice == 2:
+        if g1.isCycle():
+            print("Graph contains the cycle.")
+            logging.info("Graph contains the cycle.")
+        else:
+            print("Graph does not contains the cycle.")
+            logging.info("Graph does not contains the cycle.")
+    elif choice == 3:
+        print("Printing the graph.")
+        logging.info("Printing the graph.")
+        g1.printGraph()
+        
+    else:
+        print("Wrong choice mate!!")
+        logging.info("Wrong choice mate!!")
+        
+        print("Here we go again !!")
+                
+        
+            
 
 
         
