@@ -40,14 +40,14 @@ class Graph:
         visited = [False]*self.vertices
         rec_stack = [False]*self.vertices
         
-        for node in range(len(self.vertices)):
+        for node in range(self.vertices):
             if not visited[node]:
                 if self.isCycleUtil(node,visited,rec_stack):
                     return False
                 return True
             
             
-    # helper module for the check the each node with the neighbous 
+    # helper module for the check the each node with the neighbors 
     def isCycleUtil(self,v,visited,rec_stack):
         visited[v] = True
         rec_stack[v] = True

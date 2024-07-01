@@ -2529,3 +2529,12 @@ Printing the heap.
 2024-06-21 21:46:03,742 - INFO - detect_Cycle_Undirected1.py - b inserted for the stack.
 2024-06-21 21:46:03,744 - INFO - detect_Cycle_Undirected1.py - -->b
 2024-06-21 21:46:03,750 - INFO - detect_Cycle_Undirected1.py - Cycle detected in the graph.
+2024-06-30 20:16:17,398 - INFO - detect_Cycle_directed1.py - Printing the graph.
+2024-06-30 20:16:17,490 - INFO - detect_Cycle_directed1.py - 0  ---> [1]
+2024-06-30 20:16:32,464 - INFO - detect_Cycle_directed1.py - Printing the graph.
+2024-06-30 20:16:32,467 - INFO - detect_Cycle_directed1.py - 0  ---> [1]
+2024-06-30 20:16:32,471 - INFO - detect_Cycle_directed1.py - 1  ---> [2]
+2024-06-30 20:16:32,476 - INFO - detect_Cycle_directed1.py - 2  ---> [3]
+2024-06-30 20:17:59,176 - INFO - detect_Cycle_directed1.py - Printing the graph.
+2024-06-30 20:17:59,184 - INFO - detect_Cycle_directed1.py - 0  ---> [1]
+2024-06-30 20:17:59,189 - INFO - detect_Cycle_directed1.py - 1  ---> [2]
