@@ -44,8 +44,8 @@ class Graph:
             if visited[neighbor] == False:
                 if self.cycleDetectUtil(neighbor,visited,rec_stack) == True:
                     return True
-                elif rec_stack[neighbor] == True:
-                    return True
+            elif rec_stack[neighbor] == True:
+                return True
                 
         # the node need to pop out for the stack
         rec_stack[v] = False
