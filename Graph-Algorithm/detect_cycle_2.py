@@ -70,6 +70,7 @@ g1 = Graph(vertices)
 g1.addEdge('a','b')
 g1.addEdge('b','c')
 g1.addEdge('c','d')
+g1.addEdge('d','a')
 
 if g1.detectCycle() == 1:
     print("This graph contains the cycle")
