@@ -2543,3 +2543,4 @@ Printing the heap.
 2024-07-01 15:35:28,935 - INFO - detect_Cycle_color1.py - the graph does not contain cycle.
 2024-07-01 15:36:35,406 - INFO - detect_Cycle_color1.py - the graph contains cycle.
 2024-07-01 21:31:07,222 - INFO - detect_cycle_2.py - this graph does not contain cycle.
+2024-07-01 21:31:57,230 - INFO - detect_cycle_2.py - this graph contains the cycle.
