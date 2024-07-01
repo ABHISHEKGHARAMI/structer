@@ -55,8 +55,8 @@ class Graph:
 
     # module for the detect cycle for the graph main function
     def cycleDetect(self):
-        visited = [False] * self.V
-        rec_stack = [False] * self.V
+        visited = [False] * (self.V+1)
+        rec_stack = [False] * (self.V+1)
         for node in range(self.V):
             if visited[node] == False:
                 if self.cycleDetectUtil(node,visited,rec_stack) == True:
