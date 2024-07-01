@@ -2538,3 +2538,4 @@ Printing the heap.
 2024-06-30 20:17:59,176 - INFO - detect_Cycle_directed1.py - Printing the graph.
 2024-06-30 20:17:59,184 - INFO - detect_Cycle_directed1.py - 0  ---> [1]
 2024-06-30 20:17:59,189 - INFO - detect_Cycle_directed1.py - 1  ---> [2]
+2024-07-01 15:11:15,165 - INFO - detect_Cycle_directed1.py - the graph does not contain cycle.

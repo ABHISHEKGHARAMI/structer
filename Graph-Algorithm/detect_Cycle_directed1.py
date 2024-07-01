@@ -69,6 +69,7 @@ g1 = Graph(4)
 g1.addEdge(0,1)
 g1.addEdge(1,2)
 g1.addEdge(2,3)
+g1.addEdge(3,0)
 
 if g1.cycleDetect() == 1:
     print("the graph contains the cycle.")
