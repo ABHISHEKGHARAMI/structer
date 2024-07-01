@@ -42,7 +42,7 @@ class Graph:
             if color[v] == "white" and self.isDfsUtil(v,color) == True:
                 return True
             
-        color[v] = "black"
+        color[u] = "black"
         return False
     
     # module for the detect function for the graph
