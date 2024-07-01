@@ -9,14 +9,13 @@ setup_logging()
 # detect the cycle using the dfs based style 
 class Graph:
     def __init__(self,V):
-        self.graph = {}
         self.V = V
+        self.graph = {i: [] for i in range(V)}
+        
         
     # add edge for the Graph
     def addEdge(self,u,v):
         # adding the edge for the directed  graph
-        if u not in self.graph:
-            self.graph[u] = []
         self.graph[u].append(v)
         
         
