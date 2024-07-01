@@ -48,13 +48,13 @@ class Graph:
         for _ in range(self.v - 1):
             for u in self.graph:
                 for v,w in self.graph[u]:
-                    if dist[v] != float('inf') and dist[u] + w < dist[v]:
+                    if dist[u] != float('inf') and dist[u] + w < dist[v]:
                         dist[v] = dist[u] + w
         
         # after that go for declaration for the negative cycle for the graph
         for u in self.graph:
             for v,w in self.graph[u]:
-                if dist[v] != float('inf') and dist[u] + w < dist[v]:
+                if dist[u] != float('inf') and dist[u] + w < dist[v]:
                     print("the graph contains the negative cycle.")
                     logging.info("the graph contains the negative cycle")
                     return True
