@@ -51,8 +51,6 @@ class Graph:
         rec_stack[v] = False
         return False
     
-                
-        
             
 
     # module for the detect cycle for the graph main function
@@ -64,6 +62,21 @@ class Graph:
                 if self.cycleDetectUtil(node,visited,rec_stack) == True:
                     return True
         return False
+    
+    
+
+# main function
+g1 = Graph(4)
+g1.addEdge(0,1)
+g1.addEdge(1,2)
+g1.addEdge(2,3)
+
+if g1.cycleDetect() == 1:
+    print("the graph contains the cycle.")
+    logging.info("the graph contains the cycle.")
+else:
+    print("the graph does not contains cycle.")
+    logging.info("the graph does not contain cycle.")
             
         
     
