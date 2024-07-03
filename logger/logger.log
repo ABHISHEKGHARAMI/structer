@@ -2560,3 +2560,4 @@ Printing the heap.
 2024-07-01 22:15:58,188 - INFO - detect_negative_cycle1.py - d  ---> [('b', -3)]
 2024-07-01 22:15:58,194 - INFO - detect_negative_cycle1.py - the graph contains the negative cycle
 2024-07-03 16:03:31,226 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
+2024-07-03 16:05:56,888 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
