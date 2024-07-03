@@ -102,7 +102,7 @@ class Graph:
         
         
         # assigning the vertex for infinity for the distance 
-        distances = { vertex : 'infinity' for vertex in self.vertices}
+        distances = { vertex : float('infinity') for vertex in self.vertices}
         distances[start] = 0
         
         while len(pq.heap) > 0:
