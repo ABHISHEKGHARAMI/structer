@@ -129,8 +129,8 @@ g1 = Graph(vertices)
 
 g1.addEdge('a', 'b', 1)
 g1.addEdge('b', 'c', 3)
-g1.addEdge('c', 'd', -2)
-g1.addEdge('d', 'b', -3)
+g1.addEdge('c', 'd', 2)
+g1.addEdge('d', 'b', 3)
 
 
 # print the graph
