@@ -123,14 +123,23 @@ class Graph:
     
     
 # execution for the shortest path of the graph
-vertices = ['a','b','c','d']
+vertices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 
 g1 = Graph(vertices)
 
 g1.addEdge('a', 'b', 1)
-g1.addEdge('b', 'c', 3)
-g1.addEdge('c', 'd', 2)
-g1.addEdge('d', 'b', 3)
+g1.addEdge('a', 'c', 4)
+g1.addEdge('b', 'c', 2)
+g1.addEdge('b', 'd', 5)
+g1.addEdge('c', 'd', 1)
+g1.addEdge('c', 'e', 3)
+g1.addEdge('d', 'e', 2)
+g1.addEdge('d', 'f', 4)
+g1.addEdge('e', 'f', 1)
+g1.addEdge('e', 'g', 5)
+g1.addEdge('f', 'g', 3)
+g1.addEdge('g', 'h', 2)
+
 
 
 # print the graph
