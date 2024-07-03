@@ -2562,3 +2562,11 @@ Printing the heap.
 2024-07-03 16:03:31,226 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
 2024-07-03 16:05:56,888 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
 2024-07-03 16:08:00,578 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
+2024-07-03 16:12:30,865 - INFO - dijktra_shortest_path1.py - Graph printed successfully.
+2024-07-03 16:12:30,878 - INFO - dijktra_shortest_path1.py - the shortest path of the graph :
+2024-07-03 16:12:30,885 - INFO - dijktra_shortest_path1.py - vertex------distance
+2024-07-03 16:12:30,887 - INFO - dijktra_shortest_path1.py - --------------------
+2024-07-03 16:12:30,892 - INFO - dijktra_shortest_path1.py - a------------0
+2024-07-03 16:12:30,896 - INFO - dijktra_shortest_path1.py - b------------1
+2024-07-03 16:12:30,899 - INFO - dijktra_shortest_path1.py - c------------4
+2024-07-03 16:12:30,901 - INFO - dijktra_shortest_path1.py - d------------6
