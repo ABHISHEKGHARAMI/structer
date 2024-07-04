@@ -77,19 +77,26 @@ class Graph:
         return False
     
     
-    
 #main execution of the program
-vertices = ['a', 'b', 'c', 'd']
+vertices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 
 g1 = Graph(vertices)
 
 g1.addEdge('a', 'b', 4)
-g1.addEdge('a', 'c', 5)
-g1.addEdge('b', 'c', -3)
-g1.addEdge('b', 'd', 6)
-g1.addEdge('c', 'd', 2)
-
+g1.addEdge('a', 'c', 2)
+g1.addEdge('b', 'c', 5)
+g1.addEdge('b', 'd', 10)
+g1.addEdge('c', 'e', 3)
+g1.addEdge('d', 'f', 11)
+g1.addEdge('e', 'd', 4)
+g1.addEdge('e', 'f', 8)
+g1.addEdge('e', 'g', 7)
+g1.addEdge('f', 'h', 1)
+g1.addEdge('g', 'h', 2)
+g1.addEdge('h', 'i', 6)
+g1.addEdge('i', 'j', 4)
+g1.addEdge('j', 'a', 5)
 
 g1.printGraph()
 
