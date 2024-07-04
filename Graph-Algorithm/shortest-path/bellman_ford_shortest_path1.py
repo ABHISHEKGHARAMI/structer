@@ -60,7 +60,7 @@ class Graph:
                         dist[v] = dist[u] + w
                         
         # after relaxation we  need to check again if any relaxation is possible then go for 
-        # declare that negative cycle exist and there for print the grapg
+        # declare that negative cycle exist and there for print the graph
         for u in self.graph:
             for v,w in self.graph[u]:
                 if dist[u] != float('inf') and dist[u] + w < dist[v]:
