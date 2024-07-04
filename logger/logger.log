@@ -2584,3 +2584,6 @@ Printing the heap.
 2024-07-03 16:21:03,071 - INFO - dijktra_shortest_path1.py - h------------12
 2024-07-04 12:02:58,167 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
 2024-07-04 12:03:35,743 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
+2024-07-04 12:08:06,437 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
+2024-07-04 12:08:06,454 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
+2024-07-04 12:08:06,463 - INFO - bellman_ford_shortest_path1.py - Negative cycle does not exist.

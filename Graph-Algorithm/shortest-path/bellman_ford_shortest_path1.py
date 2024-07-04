@@ -30,6 +30,8 @@ class Graph:
                 print("Graph is empty.")
                 logging.info("Graph is empty.")
             else:
+                print("printing the graph.")
+                logging.info("printing the graph .")
                 for vertex in self.graph:
                     print(f"{vertex}: ", end="")
                     for neighbor in self.graph[vertex]:
