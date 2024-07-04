@@ -46,8 +46,8 @@ class Graph:
     # printing the solution for the graph
     def printArr(self,dist):
         print("Vertex Distance from Source")
-        for i in range(self.v):
-            print("{0}\t\t{1}".format(i, dist[i]))
+        for vertex in dist:
+            print("{0}\t\t{1}".format(vertex, dist[vertex]))
             
             
     # main function for the bellman ford shortest path algorithm
@@ -71,7 +71,7 @@ class Graph:
                     logging.info("negative cycle exist.")
                     return True
                 
-        self.printGraph()
+        self.printArr(dist)
         print("Negative cycle does not exist.")
         logging.info("Negative cycle does not exist.")
         return False
