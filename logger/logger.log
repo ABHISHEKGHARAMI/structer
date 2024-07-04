@@ -2595,3 +2595,6 @@ Printing the heap.
 2024-07-04 12:14:16,568 - INFO - bellman_ford_shortest_path1.py - printing the graph .
 2024-07-04 12:14:16,579 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
 2024-07-04 12:14:16,596 - INFO - bellman_ford_shortest_path1.py - Negative cycle does not exist.
+2024-07-04 12:17:23,165 - INFO - bellman_ford_shortest_path1.py - printing the graph .
+2024-07-04 12:17:23,189 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
+2024-07-04 12:17:23,235 - INFO - bellman_ford_shortest_path1.py - Negative cycle does not exist.
