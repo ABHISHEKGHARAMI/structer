@@ -2582,3 +2582,5 @@ Printing the heap.
 2024-07-03 16:21:03,071 - INFO - dijktra_shortest_path1.py - f------------7
 2024-07-03 16:21:03,071 - INFO - dijktra_shortest_path1.py - g------------10
 2024-07-03 16:21:03,071 - INFO - dijktra_shortest_path1.py - h------------12
+2024-07-04 12:02:58,167 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
+2024-07-04 12:03:35,743 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.

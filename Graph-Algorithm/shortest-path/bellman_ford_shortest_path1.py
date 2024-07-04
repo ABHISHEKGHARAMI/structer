@@ -10,6 +10,7 @@ class Graph:
     def __init__(self,vertices):
         self.vertices = vertices
         self.v = len(self.vertices)
+        self.index_map = {vertex : idx for idx,vertex in enumerate(self.vertices)}
         self.graph = {vertex : [] for vertex in self.vertices}
         
         
@@ -43,7 +44,7 @@ class Graph:
     # printing the solution for the graph
     def printArr(self,dist):
         print("Vertex Distance from Source")
-        for i in range(self.V):
+        for i in range(self.v):
             print("{0}\t\t{1}".format(i, dist[i]))
             
             
@@ -68,7 +69,7 @@ class Graph:
                     logging.info("negative cycle exist.")
                     return True
                 
-        self.printArr(dist)
+        self.printGraph()
         print("Negative cycle does not exist.")
         logging.info("Negative cycle does not exist.")
         return False
