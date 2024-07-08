@@ -43,7 +43,7 @@ class Graph:
                 if dist[i][j] == float('inf'):
                     print("INF", end=" ")
                 else:
-                    print(f"{dist[i][j]:7}", end=" ")
+                    print(f"{dist[i][j]:<4}", end=" ")
             print()
             
             
@@ -57,6 +57,7 @@ class Graph:
                     dist[i][j] = min(dist[i][j],dist[i][k]+dist[k][j])
                     
         self.printSolution(dist)
+        logging.info(dist)
         
         
 # execution of the floyd warshall algorithm
