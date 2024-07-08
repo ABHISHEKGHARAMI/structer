@@ -2599,3 +2599,8 @@ Printing the heap.
 2024-07-04 12:17:23,189 - INFO - bellman_ford_shortest_path1.py - Graph printed successfully.
 2024-07-04 12:17:23,235 - INFO - bellman_ford_shortest_path1.py - Negative cycle does not exist.
 2024-07-08 08:53:15,939 - INFO - flyod_warshalSP1.py - [[0, 4, 2, 9, 5, 13, 12, 14, 20, 24], [32, 0, 5, 10, 8, 16, 15, 17, 23, 27], [27, 31, 0, 7, 3, 11, 10, 12, 18, 22], [27, 31, 29, 0, 32, 11, 39, 12, 18, 22], [24, 28, 26, 4, 0, 8, 7, 9, 15, 19], [16, 20, 18, 25, 21, 0, 28, 1, 7, 11], [17, 21, 19, 26, 22, 30, 0, 2, 8, 12], [15, 19, 17, 24, 20, 28, 27, 0, 6, 10], [9, 13, 11, 18, 14, 22, 21, 23, 0, 4], [5, 9, 7, 14, 10, 18, 17, 19, 25, 0]]
+2024-07-08 11:18:14,816 - INFO - activity_greedy1.py - the following activity will be selected :
+2024-07-08 11:18:14,852 - INFO - activity_greedy1.py - 0
+2024-07-08 11:18:14,856 - INFO - activity_greedy1.py - 1
+2024-07-08 11:18:14,858 - INFO - activity_greedy1.py - 3
+2024-07-08 11:18:14,860 - INFO - activity_greedy1.py - 4

@@ -19,7 +19,7 @@ def activity_selector(s,f):
         print("the following activity will be selected :")
         logging.info("the following activity will be selected :")
         i = 0
-        print(i)
+        print(i,end=' ')
         logging.info(i)
         # this is the greedy selector and locally optimize problem solution leading to the global solution.
         for j in range(1,n):
