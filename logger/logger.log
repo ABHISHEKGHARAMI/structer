@@ -2604,3 +2604,8 @@ Printing the heap.
 2024-07-08 11:18:14,856 - INFO - activity_greedy1.py - 1
 2024-07-08 11:18:14,858 - INFO - activity_greedy1.py - 3
 2024-07-08 11:18:14,860 - INFO - activity_greedy1.py - 4
+2024-07-08 11:19:20,963 - INFO - activity_greedy1.py - the following activity will be selected :
+2024-07-08 11:19:20,968 - INFO - activity_greedy1.py - 0
+2024-07-08 11:19:20,970 - INFO - activity_greedy1.py - 1
+2024-07-08 11:19:20,972 - INFO - activity_greedy1.py - 3
+2024-07-08 11:19:20,973 - INFO - activity_greedy1.py - 4
