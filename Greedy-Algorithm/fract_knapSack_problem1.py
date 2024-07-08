@@ -32,11 +32,11 @@ def knapSackSolution(w,arr):
         # check the weight is overflowing or not
         if item.weight <= w:
             w = w - item.weight
-            final_output += x.profit
+            final_output += item.profit
             
         else:
             # if we can do that then we go for the partially breaking the item in to fraction
-            final_output += x.profit * w/x.weight
+            final_output += item.profit * w / item.weight
             
     # finally return the profit
     return final_output
