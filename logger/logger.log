@@ -2609,3 +2609,4 @@ Printing the heap.
 2024-07-08 11:19:20,970 - INFO - activity_greedy1.py - 1
 2024-07-08 11:19:20,972 - INFO - activity_greedy1.py - 3
 2024-07-08 11:19:20,973 - INFO - activity_greedy1.py - 4
+2024-07-08 11:50:16,414 - INFO - fract_knapSack_problem1.py - The maximum profit of the problem is :240.0
