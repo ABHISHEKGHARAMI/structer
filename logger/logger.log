@@ -2614,3 +2614,21 @@ Printing the heap.
 2024-07-13 14:17:53,449 - INFO - prim_algo1.py - Graph printed successfully.
 2024-07-13 14:18:58,722 - INFO - prim_algo1.py - printing the edges with weight of the graph :
 2024-07-13 14:19:03,402 - INFO - prim_algo1.py - total weight of the mst will be : 0
+2024-07-13 14:21:36,928 - INFO - prim_algo1.py - Printing the graph.
+2024-07-13 14:21:37,015 - INFO - prim_algo1.py - Graph printed successfully.
+2024-07-13 14:22:59,458 - INFO - prim_algo1.py - printing the edges with weight of the graph :
+2024-07-13 14:22:59,462 - INFO - prim_algo1.py - a---b : 4
+2024-07-13 14:22:59,467 - INFO - prim_algo1.py - a---c : 2
+2024-07-13 14:22:59,476 - INFO - prim_algo1.py - a---j : 5
+2024-07-13 14:22:59,478 - INFO - prim_algo1.py - c---b : 5
+2024-07-13 14:22:59,482 - INFO - prim_algo1.py - c---e : 3
+2024-07-13 14:22:59,485 - INFO - prim_algo1.py - e---d : 4
+2024-07-13 14:22:59,492 - INFO - prim_algo1.py - e---f : 8
+2024-07-13 14:22:59,494 - INFO - prim_algo1.py - e---g : 7
+2024-07-13 14:22:59,498 - INFO - prim_algo1.py - b---d : 10
+2024-07-13 14:22:59,503 - INFO - prim_algo1.py - g---h : 2
+2024-07-13 14:22:59,514 - INFO - prim_algo1.py - h---f : 1
+2024-07-13 14:22:59,518 - INFO - prim_algo1.py - h---i : 6
+2024-07-13 14:22:59,526 - INFO - prim_algo1.py - f---d : 11
+2024-07-13 14:22:59,530 - INFO - prim_algo1.py - i---j : 4
+2024-07-13 14:22:59,536 - INFO - prim_algo1.py - total weight of the mst will be : 39
