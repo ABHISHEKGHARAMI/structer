@@ -2632,3 +2632,21 @@ Printing the heap.
 2024-07-13 14:22:59,526 - INFO - prim_algo1.py - f---d : 11
 2024-07-13 14:22:59,530 - INFO - prim_algo1.py - i---j : 4
 2024-07-13 14:22:59,536 - INFO - prim_algo1.py - total weight of the mst will be : 39
+2024-07-13 14:27:16,821 - INFO - greedy_prim1.py - Printing the graph.
+2024-07-13 14:27:16,887 - INFO - greedy_prim1.py - Graph printed successfully.
+2024-07-13 14:27:16,891 - INFO - greedy_prim1.py - printing the edges with weight of the graph :
+2024-07-13 14:27:16,894 - INFO - greedy_prim1.py - a---b : 4
+2024-07-13 14:27:16,896 - INFO - greedy_prim1.py - a---c : 2
+2024-07-13 14:27:16,908 - INFO - greedy_prim1.py - a---j : 5
+2024-07-13 14:27:16,911 - INFO - greedy_prim1.py - c---b : 5
+2024-07-13 14:27:16,913 - INFO - greedy_prim1.py - c---e : 3
+2024-07-13 14:27:16,916 - INFO - greedy_prim1.py - e---d : 4
+2024-07-13 14:27:16,918 - INFO - greedy_prim1.py - e---f : 8
+2024-07-13 14:27:16,924 - INFO - greedy_prim1.py - e---g : 7
+2024-07-13 14:27:16,927 - INFO - greedy_prim1.py - b---d : 10
+2024-07-13 14:27:16,939 - INFO - greedy_prim1.py - g---h : 2
+2024-07-13 14:27:16,942 - INFO - greedy_prim1.py - h---f : 1
+2024-07-13 14:27:16,945 - INFO - greedy_prim1.py - h---i : 6
+2024-07-13 14:27:16,949 - INFO - greedy_prim1.py - f---d : 11
+2024-07-13 14:27:16,951 - INFO - greedy_prim1.py - i---j : 4
+2024-07-13 14:27:16,956 - INFO - greedy_prim1.py - total weight of the mst will be : 39

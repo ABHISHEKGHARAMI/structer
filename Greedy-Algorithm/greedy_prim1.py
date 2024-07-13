@@ -1,10 +1,9 @@
 # setting up the logger file
 
-# setting up the logger
-import logging
-from settings import setup_logging
 import sys
 sys.path.append("D:/geeks1.0/structer")
+from settings import setup_logging
+import logging
 setup_logging()
 
 
