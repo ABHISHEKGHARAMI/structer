@@ -128,7 +128,7 @@ class Graph:
         
         total_weight = 0
         
-        while h1.is_Empty() and len(in_mst) < self.v:
+        while not h1.is_Empty() and len(in_mst) < self.v:
             weight, u = h1.extractMin()
             
             if u in in_mst:
