@@ -68,13 +68,13 @@ class Graph:
 
     def printGraph(self):
         try:
-            if not self.edges:
+            if not self.edge:
                 print("Graph is empty.")
                 logging.info("Graph is empty.")
             else:
                 print("Printing the graph.")
                 logging.info("Printing the graph.")
-                for edge in self.edges:
+                for edge in self.edge:
                     print(f"{edge[1]} - {edge[2]}: {edge[0]}")
                 logging.info("Graph printed successfully.")
         except Exception as e:
@@ -97,8 +97,8 @@ class Graph:
                 v_idx = self.index_map[v]
                 
                 
-                if dsu.find(u) != dsu.find(v):
-                    dsu.union(u,v)
+                if dsu.find(u_idx) != dsu.find(v_idx):
+                    dsu.union(u_idx,v_idx)
                     mst_edges.append((u,v,weight))
                     total_weight += weight
                     

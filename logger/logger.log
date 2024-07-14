@@ -2652,3 +2652,8 @@ Printing the heap.
 2024-07-13 14:27:16,956 - INFO - greedy_prim1.py - total weight of the mst will be : 39
 2024-07-13 17:05:17,404 - INFO - krushkal_algo1.py - 'Graph' object has no attribute 'edges'
 2024-07-13 17:06:06,771 - INFO - krushkal_algo1.py - 'Graph' object has no attribute 'edges'
+2024-07-14 10:21:43,864 - INFO - krushkal_algo1.py - 'Graph' object has no attribute 'edges'
+2024-07-14 10:22:14,323 - INFO - krushkal_algo1.py - 'Graph' object has no attribute 'edges'
+2024-07-14 10:22:51,250 - INFO - krushkal_algo1.py - Printing the graph.
+2024-07-14 10:22:51,289 - INFO - krushkal_algo1.py - Graph printed successfully.
+2024-07-14 10:22:51,302 - INFO - krushkal_algo1.py - list indices must be integers or slices, not str
