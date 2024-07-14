@@ -40,7 +40,7 @@ class Graph:
         self.edges = []
         
     # add edges for the graph
-    def addEdge(self,u,v):
+    def addEdge(self,u,v,w):
         if u in self.vertices and v in self.vertices:
             self.edges.append((w,u,v))
         else:
@@ -50,13 +50,13 @@ class Graph:
     # print the graph
     def printGraph(self):
         try:
-            if not self.edge:
+            if not self.edges:
                 print("Graph is empty.")
                 logging.info("Graph is empty.")
             else:
                 print("Printing the graph.")
                 logging.info("Printing the graph.")
-                for edge in self.edge:
+                for edge in self.edges:
                     print(f"{edge[1]} - {edge[2]}: {edge[0]}")
                 logging.info("Graph printed successfully.")
         except Exception as e:
@@ -77,8 +77,8 @@ class Graph:
         for edge in self.edges:
             weight , u ,v = edge
             
-            u_idx = self.index_map(u)
-            v_idx = self.index_map(v)
+            u_idx = self.index_map[u]
+            v_idx = self.index_map[v]
             
             if dsu.find(u_idx) != dsu.find(v_idx):
                 dsu.Union(u_idx,v_idx)

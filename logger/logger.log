@@ -2661,3 +2661,19 @@ Printing the heap.
 2024-07-14 10:45:29,628 - INFO - krushkal_algo1.py - Graph printed successfully.
 2024-07-14 10:45:29,665 - INFO - krushkal_algo1.py - Edges in MST: [('f', 'h', 1), ('a', 'c', 2), ('g', 'h', 2), ('c', 'e', 3), ('a', 'b', 4), ('e', 'd', 4), ('i', 'j', 4), ('j', 'a', 5), ('h', 'i', 6)]
 2024-07-14 10:45:29,690 - INFO - krushkal_algo1.py - Total weight of MST: 31
+2024-07-14 11:38:42,181 - INFO - kruskal_greedy1.py - 'Graph' object has no attribute 'edge'
+2024-07-14 11:39:25,311 - INFO - kruskal_greedy1.py - Printing the graph.
+2024-07-14 11:39:25,539 - INFO - kruskal_greedy1.py - Graph printed successfully.
+2024-07-14 11:40:31,596 - INFO - kruskal_greedy1.py - Printing the graph.
+2024-07-14 11:40:31,622 - INFO - kruskal_greedy1.py - Graph printed successfully.
+2024-07-14 11:40:31,627 - INFO - kruskal_greedy1.py - f - h: 1
+2024-07-14 11:40:31,630 - INFO - kruskal_greedy1.py - a - c: 2
+2024-07-14 11:40:31,642 - INFO - kruskal_greedy1.py - g - h: 2
+2024-07-14 11:40:31,647 - INFO - kruskal_greedy1.py - c - e: 3
+2024-07-14 11:40:31,656 - INFO - kruskal_greedy1.py - a - b: 4
+2024-07-14 11:40:31,658 - INFO - kruskal_greedy1.py - e - d: 4
+2024-07-14 11:40:31,661 - INFO - kruskal_greedy1.py - i - j: 4
+2024-07-14 11:40:31,663 - INFO - kruskal_greedy1.py - j - a: 5
+2024-07-14 11:40:31,665 - INFO - kruskal_greedy1.py - h - i: 6
+2024-07-14 11:40:31,668 - INFO - kruskal_greedy1.py - Edges in MST: [('f', 'h', 1), ('a', 'c', 2), ('g', 'h', 2), ('c', 'e', 3), ('a', 'b', 4), ('e', 'd', 4), ('i', 'j', 4), ('j', 'a', 5), ('h', 'i', 6)]
+2024-07-14 11:40:31,677 - INFO - kruskal_greedy1.py - Total weight of MST: 31
