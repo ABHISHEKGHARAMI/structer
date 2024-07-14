@@ -2657,3 +2657,7 @@ Printing the heap.
 2024-07-14 10:22:51,250 - INFO - krushkal_algo1.py - Printing the graph.
 2024-07-14 10:22:51,289 - INFO - krushkal_algo1.py - Graph printed successfully.
 2024-07-14 10:22:51,302 - INFO - krushkal_algo1.py - list indices must be integers or slices, not str
+2024-07-14 10:45:29,589 - INFO - krushkal_algo1.py - Printing the graph.
+2024-07-14 10:45:29,628 - INFO - krushkal_algo1.py - Graph printed successfully.
+2024-07-14 10:45:29,665 - INFO - krushkal_algo1.py - Edges in MST: [('f', 'h', 1), ('a', 'c', 2), ('g', 'h', 2), ('c', 'e', 3), ('a', 'b', 4), ('e', 'd', 4), ('i', 'j', 4), ('j', 'a', 5), ('h', 'i', 6)]
+2024-07-14 10:45:29,690 - INFO - krushkal_algo1.py - Total weight of MST: 31
