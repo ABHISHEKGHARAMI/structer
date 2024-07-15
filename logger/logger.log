@@ -2677,3 +2677,5 @@ Printing the heap.
 2024-07-14 11:40:31,665 - INFO - kruskal_greedy1.py - h - i: 6
 2024-07-14 11:40:31,668 - INFO - kruskal_greedy1.py - Edges in MST: [('f', 'h', 1), ('a', 'c', 2), ('g', 'h', 2), ('c', 'e', 3), ('a', 'b', 4), ('e', 'd', 4), ('i', 'j', 4), ('j', 'a', 5), ('h', 'i', 6)]
 2024-07-14 11:40:31,677 - INFO - kruskal_greedy1.py - Total weight of MST: 31
+2024-07-15 16:19:57,532 - INFO - topological_sort1.py - The topological sort for the graph is :
+2024-07-15 16:19:57,573 - INFO - topological_sort1.py - b->d->a->c->e->f
