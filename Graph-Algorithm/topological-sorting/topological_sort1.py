@@ -30,7 +30,10 @@ class Graph:
                 
         # print the stack
         print("The topological sort for the graph is :")
+        logging.info("The topological sort for the graph is :")
         print("->".join(stack))
+        logging.info("->".join(stack))
+        
         
     # topological sort helper union function
     def topologicalSortUtill(self,v,visited,stack):
