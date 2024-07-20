@@ -2679,3 +2679,4 @@ Printing the heap.
 2024-07-14 11:40:31,677 - INFO - kruskal_greedy1.py - Total weight of MST: 31
 2024-07-15 16:19:57,532 - INFO - topological_sort1.py - The topological sort for the graph is :
 2024-07-15 16:19:57,573 - INFO - topological_sort1.py - b->d->a->c->e->f
+2024-07-20 11:55:17,170 - INFO - kahn_topological_sort1.py - there exist a cycle in the graph so that topological sort of the graph is not possible

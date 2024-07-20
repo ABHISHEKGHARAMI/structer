@@ -71,7 +71,7 @@ class Graph:
                         q1.enQueue(v)
             
             # here goes the checking part for the queue
-            if len(top_order) == self.vertices:
+            if len(top_order) == len(self.vertices):
                 print("the topological sort of the graph is :")
                 logging.info("the topological sort of the graph is : ")
                 print('->'.join(top_order))
