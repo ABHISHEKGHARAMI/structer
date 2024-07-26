@@ -2682,3 +2682,18 @@ Printing the heap.
 2024-07-20 11:55:17,170 - INFO - kahn_topological_sort1.py - there exist a cycle in the graph so that topological sort of the graph is not possible
 2024-07-20 11:59:22,974 - INFO - kahn_topological_sort1.py - the topological sort of the graph is : 
 2024-07-20 11:59:23,044 - INFO - kahn_topological_sort1.py - a->b->c->d->e->f
+2024-07-26 15:32:16,429 - INFO - kahn_topological_sort1.py - vertex : a added to the vertex  : c
+2024-07-26 15:32:16,447 - INFO - kahn_topological_sort1.py - vertex : b added to the vertex  : c
+2024-07-26 15:32:16,447 - INFO - kahn_topological_sort1.py - vertex : b added to the vertex  : d
+2024-07-26 15:32:16,447 - INFO - kahn_topological_sort1.py - vertex : c added to the vertex  : e
+2024-07-26 15:32:16,448 - INFO - kahn_topological_sort1.py - vertex : d added to the vertex  : f
+2024-07-26 15:32:16,448 - INFO - kahn_topological_sort1.py - vertex : e added to the vertex  : f
+2024-07-26 15:32:16,493 - INFO - kahn_topological_sort1.py - printing the graph :
+2024-07-26 15:32:16,494 - INFO - kahn_topological_sort1.py - a : ['c']
+2024-07-26 15:32:16,495 - INFO - kahn_topological_sort1.py - b : ['c', 'd']
+2024-07-26 15:32:16,496 - INFO - kahn_topological_sort1.py - c : ['e']
+2024-07-26 15:32:16,497 - INFO - kahn_topological_sort1.py - d : ['f']
+2024-07-26 15:32:16,499 - INFO - kahn_topological_sort1.py - e : ['f']
+2024-07-26 15:32:16,501 - INFO - kahn_topological_sort1.py - f : []
+2024-07-26 15:32:16,502 - INFO - kahn_topological_sort1.py - topological sort is possible for the graph,no cycle found.
+2024-07-26 15:32:16,504 - INFO - kahn_topological_sort1.py - the topological sort of the graph is : a->b->c->d->e->f
