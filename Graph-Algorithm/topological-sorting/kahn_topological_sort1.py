@@ -1,104 +1,118 @@
-# setting up the logger file
+# kahn algorithm for the topological sort
+
+# setting up the logger
 import sys
 sys.path.append("D:/geeks1.0/structer")
 from settings import setup_logging
 import logging
 setup_logging()
 
-# problem statement - kahn algorithm for the topological sort
+
+# queue class
 class Queue:
     def __init__(self):
         self.queue = []
         
-    # enqueue the data
+    # enQueue op
     def enQueue(self,data):
         self.queue.append(data)
-        
-    # check the queue is empty
-    def is_Empty(self):
+    # checking the queue is empty or not
+    def isEmpty(self):
         return len(self.queue) == 0
-    
-    # dequeue the tree
+    #dequeue op
     def deQueue(self):
-        if self.is_Empty()  != True:
+        if not self.isEmpty():
             return self.queue.pop(0)
         
-    # return the length of the Queue
+    # len of the queue
     def __len__(self):
         return len(self.queue)
     
-    
-# here goes the topological sort for the directed acyclic graph
+# Graph structure
 class Graph:
     def __init__(self,vertices):
         self.vertices = vertices
-        self.graph = {vertex : [] for vertex in self.vertices}
+        self.graph = { vertex : [] for vertex in self.vertices}
         
-    # add Edge for the graph
+    # adding edge of the graph
     def addEdge(self,u,v):
         if u in self.graph:
             self.graph[u].append(v)
+            logging.info(f"vertex : {u} added to the vertex  : {v}")
         else:
             self.graph[u] = [v]
+            logging.info(f"vertex : {u} added to the vertex  : {v}")
+    
+    
+    # printing the graph for the conformation
+    def printGraph(self):
+        print("printing the graph :")
+        logging.info("printing the graph :")
+        for vertex in self.graph:
+            print(f"{vertex}:{'->'.join(self.graph[vertex])}")
+            logging.info(f"{vertex} : {self.graph[vertex]}")
             
-    # function for the topological sort
-    def kahn_topoSort(self):
+            
+    # kahn algorithm for the topological sort
+    def topoSortKahn(self):
         try:
-            in_degree = { v : 0 for v in self.vertices }
+            # intialize the vertices the of in-degree 0
+            in_degree = { v: 0 for v in self.vertices}
+            
+            # calculate the all the in-degree of the graph vertices
             for u in self.graph:
                 for v in self.graph[u]:
-                    in_degree[v] += 1       
+                    in_degree[v] += 1
             
-            # enQueue the nodes which has in_degree is zero
-            q1 = Queue()
+            # enQueue all the vertices that has in-degree 0
+            Q1 = Queue()
             for v in self.graph:
                 if in_degree[v] == 0:
-                    q1.enQueue(v)
+                    Q1.enQueue(v)
                     
-                    
-            top_order = [] # top order for storing the queue
+            top_order = []
             
-            # process the queue
-            while not q1.is_Empty():
-                u = q1.deQueue()
+            # process the Queue for the sorting the graph
+            while not Q1.isEmpty():
+                u = Q1.deQueue()
                 top_order.append(u)
                 
-                # decrease the in_degree for if it is in the graph
+                # now time to process the queue all the outgoing edge 
                 for v in self.graph[u]:
                     in_degree[v] = in_degree[v] - 1
-                    # if the in degree is zero  then enqueue that node in queue
                     if in_degree[v] == 0:
-                        q1.enQueue(v)
-            
-            # here goes the checking part for the queue
+                        Q1.enQueue(v)
+                        
+            # now check the topological sort is even possible or not for the graph
             if len(top_order) == len(self.vertices):
-                print("the topological sort of the graph is :")
-                logging.info("the topological sort of the graph is : ")
-                print('->'.join(top_order))
-                logging.info('->'.join(top_order))
+                result = '->'.join(top_order)
+                print("topological sort is possible for the graph,no cycle found.")
+                logging.info("topological sort is possible for the graph,no cycle found.")
+                print(f"the topological sort of the graph is : {result}")
+                logging.info(f"the topological sort of the graph is : {result}")
             else:
-                print("there exist a cycle in the graph so that topological sort of the graph is not possible.")
-                logging.info("there exist a cycle in the graph so that topological sort of the graph is not possible")
-                
-                               
+                print("topological sort is not possible, cycle found.")
+                logging.info("topological sort is not possible, cycle found.")
+            
         except Exception as e:
             print(e)
             logging.info(e)
             raise e
-        
-vertices = ['a','b','c','d','e','f']
+            
 
-g = Graph(vertices)
+vertices = ['a', 'b', 'c', 'd', 'e', 'f']
 
 
-g.addEdge('a', 'c')
-g.addEdge('b', 'c')
-g.addEdge('b', 'd')
-g.addEdge('c', 'e')
-g.addEdge('d', 'f')
-g.addEdge('e', 'f')
+g1 = Graph(vertices)
 
-# topological sort of the graph
+g1.addEdge('a', 'c')
+g1.addEdge('b', 'c')
+g1.addEdge('b', 'd')
+g1.addEdge('c', 'e')
+g1.addEdge('d', 'f')
+g1.addEdge('e', 'f')
 
-g.kahn_topoSort()
+g1.printGraph()
+
+g1.topoSortKahn()
 
