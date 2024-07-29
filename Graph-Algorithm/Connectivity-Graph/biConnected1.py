@@ -16,24 +16,8 @@ class Graph:
         self.graph[u].append(v)
         self.graph[v].append(u)
         
-    # bi connected graph
-    def isBiConnected(self):
-        visited = { vertex : False for vertex in self.vertices }
-        disc = { vertex : float('Inf') for vertex in self.vertices }
-        low = { vertex : float('Inf') for vertex in self.vertices }
-        parent = { vertex : None for vertex in self.vertices }
-        ap = { vertex : False for vertex in self.vertices }
-        
-        if self.isBiConnectedUtill(self.vertices[0],visited,parent,low,disc,ap):
-            return False
-        if any(not visited[vertex] for vertex in self.vertices):
-            return False
-        
-        
-        return True
-    
-    #  for bi connected utill-function
-    def isBiConnectedUtill(self,u,visited,parent,low,disc,ap):
+    # building the util function for bi connected graph
+    def isBiConnectedUtil(self,u,visited,parent,low,disc,ap):
         children = 0
         visited[u] = True
         disc[u] = self.time 
@@ -46,21 +30,34 @@ class Graph:
                 parent[v] = u
                 children += 1
                 
-                if self.isBiConnectedUtill(v,visited,parent,low,disc,ap):
+                if self.isBiConnectedUtil(v,visited,parent,low,disc,ap):
                     return True
                 low[u] = min(low[u],low[v])
                 
-                
-                if parent[u] is not None and children > 1:
+                if parent[u] is None and children > 1:
                     ap[u] = True
-                    
                 if parent[u] is not None and low[v] >= disc[u]:
                     ap[u] = True
             elif v!=parent[u]:
                 low[u] = min(low[u],disc[v])
-                
-                
         return ap[u]
+    
+
+# main function for checking the bi connected graph
+def isBiConnected(self):
+    visited = { vertex : False for vertex in self.vertices }
+    disc = { vertex : float('Inf') for vertex in self.vertices }
+    low = { vertex : float('Inf') for vertex in self.vertices }
+    parent = { vertex : None for vertex in self.vertices }
+    ap = { vertex : False for vertex in self.vertices }
+    
+    if self.isBiConnectedUtil(self.vertices[0],visited,parent,low,disc,ap):
+        return False
+    if any(not visited[vertex] for vertex in self.vertices):
+        return False
+    
+    return True
+                
     
     
 # vertices for graph
