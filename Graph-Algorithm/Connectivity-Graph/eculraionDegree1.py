@@ -33,7 +33,16 @@ class Graph:
     def isConnected(self):
         visited = { vertex : False for vertex in self.vertices }
         
-        for i in self.vertices :
+        for i in self.vertices:
+            if len(self.graph[i]) != 0:
+                break
+            
+        if i == len(self.vertices):
+            return True
+        
+        self.dfsUtil(i,visited)
+        
+        for i in self.vertices:
             if visited[i] == False and len(self.graph[i]) > 0:
                 return False
         return True
@@ -53,7 +62,7 @@ class Graph:
                 return 2
             elif odd == 2:
                 return 1
-            elif odd > 2:
+            else:
                 return 0
             
             
