@@ -2771,3 +2771,4 @@ Printing the heap.
 2024-07-29 15:48:26,361 - INFO - bridgeComponent1.py - b ->c
 2024-07-29 15:48:26,364 - INFO - bridgeComponent1.py - a ->b
 2024-07-29 21:48:30,736 - INFO - eculraionDegree1.py - the graph is not euclerian path.
+2024-07-29 21:52:51,186 - INFO - eculraionDegree1.py - the graph is not euclerian path.

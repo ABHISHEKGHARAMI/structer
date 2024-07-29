@@ -46,7 +46,7 @@ class Graph:
         else:
             odd = 0
             for i in self.vertices:
-                if len(self.graph[i]) % 2 == 0:
+                if len(self.graph[i]) % 2 != 0:
                     odd += 1
                     
             if odd == 0:
