@@ -80,14 +80,18 @@ class Graph:
             logging.info(f"The graph  has a euclerian cycle.")
             
             
-vertices = ['a','b','c','d','e']
+vertices = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 g1 = Graph(vertices)
 
 g1.addEdge('a', 'b')
-g1.addEdge('a', 'c')
+g1.addEdge('a', 'g')
 g1.addEdge('b', 'c')
+g1.addEdge('b', 'f')
 g1.addEdge('c', 'd')
+g1.addEdge('d', 'e')
+g1.addEdge('e', 'f')
+g1.addEdge('f', 'g')
 
 
 g1.eTest()
