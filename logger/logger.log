@@ -2743,3 +2743,4 @@ Printing the heap.
 2024-07-27 13:24:32,972 - INFO - kahn_topological_sort1.py - topological sort is possible for the graph,no cycle found.
 2024-07-27 13:24:32,974 - INFO - kahn_topological_sort1.py - the topological sort of the graph is : a->b->c->d->e->f
 2024-07-29 10:59:05,362 - INFO - biConnected1.py - the graph is not bi connected .
+2024-07-29 11:34:46,697 - INFO - biConnected1.py - the graph is not bi connected .

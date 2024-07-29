@@ -43,20 +43,27 @@ class Graph:
         return ap[u]
     
 
-# main function for checking the bi connected graph
-def isBiConnected(self):
-    visited = { vertex : False for vertex in self.vertices }
-    disc = { vertex : float('Inf') for vertex in self.vertices }
-    low = { vertex : float('Inf') for vertex in self.vertices }
-    parent = { vertex : None for vertex in self.vertices }
-    ap = { vertex : False for vertex in self.vertices }
+    # main function for checking the bi connected graph
+    def isBiConnected(self):
+        visited = { vertex : False for vertex in self.vertices }
+        disc = { vertex : float('Inf') for vertex in self.vertices }
+        low = { vertex : float('Inf') for vertex in self.vertices }
+        parent = { vertex : None for vertex in self.vertices }
+        ap = { vertex : False for vertex in self.vertices }
+        
+        if self.isBiConnectedUtil(self.vertices[0],visited,parent,low,disc,ap):
+            return False
+        if any(not visited[vertex] for vertex in self.vertices):
+            return False
+        
+        return True
     
-    if self.isBiConnectedUtil(self.vertices[0],visited,parent,low,disc,ap):
-        return False
-    if any(not visited[vertex] for vertex in self.vertices):
-        return False
     
-    return True
+    # print the graph
+    def printGraph(self):
+        for vertex in self.graph:
+            print(f"{vertex} : {'->'.join(self.graph[vertex])}")
+            logging.info(f"{vertex} : {'->'.join(self.graph[vertex])}")
                 
     
     
@@ -73,7 +80,11 @@ g.addEdge('d', 'e')
 g.addEdge('e', 'f')
 g.addEdge('f', 'd')
 
-if g.isBiConnected() == True:
+print("Printing the graph :")
+logging.info("Printing the graph :")
+g.printGraph()
+
+if g.isBiConnected():
     print("the graph is bi connected .")
     logging.info("the graph is bi connected .")
 else:
