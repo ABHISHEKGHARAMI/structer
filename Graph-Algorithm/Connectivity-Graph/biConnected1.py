@@ -24,7 +24,7 @@ class Graph:
         parent = { vertex : None for vertex in self.vertices }
         ap = { vertex : False for vertex in self.vertices }
         
-        if self.isBiConnectedUtill(self.graph[0],visited,parent,low,disc,ap):
+        if self.isBiConnectedUtill(self.vertices[0],visited,parent,low,disc,ap):
             return False
         if any(not visited[vertex] for vertex in self.vertices):
             return False
