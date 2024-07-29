@@ -74,10 +74,10 @@ class Graph:
 vertices = ['a','b','c','d','e']
 
 g1 = Graph(vertices)
-g1.addEdge('b', 'a')
+
+g1.addEdge('a', 'b')
 g1.addEdge('a', 'c')
-g1.addEdge('c', 'b')
-g1.addEdge('a', 'c')
+g1.addEdge('b', 'c')
 g1.addEdge('c', 'd')
 
 
