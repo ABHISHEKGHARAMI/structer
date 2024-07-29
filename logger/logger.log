@@ -2744,3 +2744,11 @@ Printing the heap.
 2024-07-27 13:24:32,974 - INFO - kahn_topological_sort1.py - the topological sort of the graph is : a->b->c->d->e->f
 2024-07-29 10:59:05,362 - INFO - biConnected1.py - the graph is not bi connected .
 2024-07-29 11:34:46,697 - INFO - biConnected1.py - the graph is not bi connected .
+2024-07-29 12:04:35,621 - INFO - biConnected1.py - Printing the graph :
+2024-07-29 12:04:35,666 - INFO - biConnected1.py - a : b->c
+2024-07-29 12:04:35,668 - INFO - biConnected1.py - b : a->c->d
+2024-07-29 12:04:35,670 - INFO - biConnected1.py - c : a->b
+2024-07-29 12:04:35,671 - INFO - biConnected1.py - d : b->e->f
+2024-07-29 12:04:35,673 - INFO - biConnected1.py - e : d->f
+2024-07-29 12:04:35,676 - INFO - biConnected1.py - f : e->d
+2024-07-29 12:04:35,677 - INFO - biConnected1.py - the graph is not bi connected .
