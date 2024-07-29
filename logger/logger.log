@@ -2752,3 +2752,12 @@ Printing the heap.
 2024-07-29 12:04:35,673 - INFO - biConnected1.py - e : d->f
 2024-07-29 12:04:35,676 - INFO - biConnected1.py - f : e->d
 2024-07-29 12:04:35,677 - INFO - biConnected1.py - the graph is not bi connected .
+2024-07-29 15:39:01,386 - INFO - bridgeComponent1.py - Printing of the Graph :
+2024-07-29 15:39:01,652 - INFO - bridgeComponent1.py - a : b
+2024-07-29 15:39:01,654 - INFO - bridgeComponent1.py - b : a->c
+2024-07-29 15:39:01,818 - INFO - bridgeComponent1.py - c : b->d
+2024-07-29 15:39:01,820 - INFO - bridgeComponent1.py - d : c
+2024-07-29 15:39:01,822 - INFO - bridgeComponent1.py - printing the bridge :
+2024-07-29 15:39:01,827 - INFO - bridgeComponent1.py - c ->d
+2024-07-29 15:39:01,831 - INFO - bridgeComponent1.py - b ->c
+2024-07-29 15:39:01,832 - INFO - bridgeComponent1.py - a ->b
