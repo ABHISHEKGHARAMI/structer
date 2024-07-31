@@ -2775,3 +2775,5 @@ Printing the heap.
 2024-07-29 21:53:45,893 - INFO - eculraionDegree1.py - the graph is not euclerian path.
 2024-07-29 22:00:36,609 - INFO - eculraionDegree1.py - The graph has a euclerian path.
 2024-07-29 22:03:53,607 - INFO - eculraionDegree1.py - The graph has a euclerian path.
+2024-07-31 20:51:55,938 - INFO - heirholzer_printEuclerianPath1.py - the graph has euclerian path.
+2024-07-31 20:51:56,116 - INFO - heirholzer_printEuclerianPath1.py - f->e->d->c->b->a->g->f->b
