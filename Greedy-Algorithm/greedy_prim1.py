@@ -1,7 +1,7 @@
 # setting up the logger file
 
 import sys
-sys.path.append("Documents/DataStructure&Algorithm/structer")
+sys.path.append("/home/abhishek/Documents/DataStructure&Algorithm/structer")
 from settings import setup_logging
 import logging
 setup_logging()
