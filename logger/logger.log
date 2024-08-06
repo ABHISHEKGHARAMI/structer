@@ -2777,3 +2777,21 @@ Printing the heap.
 2024-07-29 22:03:53,607 - INFO - eculraionDegree1.py - The graph has a euclerian path.
 2024-07-31 20:51:55,938 - INFO - heirholzer_printEuclerianPath1.py - the graph has euclerian path.
 2024-07-31 20:51:56,116 - INFO - heirholzer_printEuclerianPath1.py - f->e->d->c->b->a->g->f->b
+2024-08-06 11:32:10,200 - INFO - greedy_prim1.py - Printing the graph.
+2024-08-06 11:32:10,251 - INFO - greedy_prim1.py - Graph printed successfully.
+2024-08-06 11:32:10,253 - INFO - greedy_prim1.py - printing the edges with weight of the graph :
+2024-08-06 11:32:10,254 - INFO - greedy_prim1.py - a---b : 4
+2024-08-06 11:32:10,255 - INFO - greedy_prim1.py - a---c : 2
+2024-08-06 11:32:10,255 - INFO - greedy_prim1.py - a---j : 5
+2024-08-06 11:32:10,256 - INFO - greedy_prim1.py - c---b : 5
+2024-08-06 11:32:10,257 - INFO - greedy_prim1.py - c---e : 3
+2024-08-06 11:32:10,258 - INFO - greedy_prim1.py - e---d : 4
+2024-08-06 11:32:10,259 - INFO - greedy_prim1.py - e---f : 8
+2024-08-06 11:32:10,259 - INFO - greedy_prim1.py - e---g : 7
+2024-08-06 11:32:10,260 - INFO - greedy_prim1.py - b---d : 10
+2024-08-06 11:32:10,261 - INFO - greedy_prim1.py - g---h : 2
+2024-08-06 11:32:10,262 - INFO - greedy_prim1.py - h---f : 1
+2024-08-06 11:32:10,262 - INFO - greedy_prim1.py - h---i : 6
+2024-08-06 11:32:10,263 - INFO - greedy_prim1.py - f---d : 11
+2024-08-06 11:32:10,264 - INFO - greedy_prim1.py - i---j : 4
+2024-08-06 11:32:10,264 - INFO - greedy_prim1.py - total weight of the mst will be : 39
