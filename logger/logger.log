@@ -2795,3 +2795,4 @@ Printing the heap.
 2024-08-06 11:32:10,263 - INFO - greedy_prim1.py - f---d : 11
 2024-08-06 11:32:10,264 - INFO - greedy_prim1.py - i---j : 4
 2024-08-06 11:32:10,264 - INFO - greedy_prim1.py - total weight of the mst will be : 39
+2024-08-21 22:12:14,516 - INFO - dynamic1.py - the fibonacci addition of the {num} is : {fibo_recurr(num)}
