@@ -116,6 +116,37 @@ So far covered topic is -
 
        1. [Basic binary search tree](./Tree/Binary_Search_Tree/bst1.py)
 
+11. [Graph :](./Graph-Algorithm/)
+      
+     1. [Connectivity problems.](./Graph-Algorithm/Connectivity-Graph/)
+
+     2. [Graph Flow](./Graph-Algorithm/graph-flow/)
+
+     3. [Minimum spanning tree.](./Graph-Algorithm/minimum-spanning-tree/)
+
+     4. [Shortest path](./Graph-Algorithm/shortest-path/)
+
+     5. [Topological sorting.](./Graph-Algorithm/topological-sorting/)
+
+     6. [Graph image.](./Graph-Algorithm/graph-images/)
+
+
+12. [Greedy Algorithm](./Greedy-Algorithm/)
+
+     1. [Activity for greedy algorithm](./Greedy-Algorithm/activity_greedy1.py)
+
+     2. [Fast knapsack algorithm](./Greedy-Algorithm/fract_knapSack_problem1.py)
+
+     3. [Prim greedy algorithm](./Greedy-Algorithm/greedy_prim1.py)
+
+     4. [Kruskal algorithm](./Greedy-Algorithm/kruskal_greedy1.py)
+
+13. [Dynamic Algorithm](./Dynamic-Algorithm/)
+
+    content will be updated .
+
+   
+
        
 
 
