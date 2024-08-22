@@ -19,7 +19,7 @@ def fibotabDynamic(num):
     for i in range(2,num):
         fib[i] = fib[i-1] + fib[i-2]
         
-    return fib[num]
+    return fib[num-1]
 
 
 # input
