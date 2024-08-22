@@ -32,3 +32,4 @@ def fiboMemorize(num,fb):
 num = int(input("enter the number as a input :"))
 
 print(f"The {num} of fibonacci is : {intialize(num)}")
+logging.info(f"The {num} of fibonacci is : {intialize(num)}")

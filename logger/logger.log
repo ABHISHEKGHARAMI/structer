@@ -2800,3 +2800,4 @@ Printing the heap.
 2024-08-21 22:20:24,670 - INFO - dynamic1.py - the fibonacci addition of the {num} is : {fibo_recurr(num)}
 2024-08-21 22:26:00,102 - INFO - dynamic1.py - the fibonacci addition of the {num} is : {fibo_recurr(num)}
 2024-08-21 22:26:00,105 - INFO - dynamic1.py - After the dynamic approach the result will be : 5
+2024-08-22 11:19:17,934 - INFO - memorizeDynamic1.py - The 10 of fibonacci is : 55
