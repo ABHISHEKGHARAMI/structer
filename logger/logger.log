@@ -2804,3 +2804,6 @@ Printing the heap.
 2024-08-22 11:22:30,552 - INFO - memorizeDynamic1.py - The 40 of fibonacci is : 102334155
 2024-08-22 11:38:37,207 - INFO - tabularDynamic1.py - After the tabular method 40 is : 0
 2024-08-22 11:39:42,256 - INFO - tabularDynamic1.py - After the tabular method 5 is : 0
+2024-08-22 11:41:38,781 - INFO - tabularDynamic1.py - After the tabular method 5 is : 3
+2024-08-22 11:44:16,983 - INFO - tabularDynamic1.py - After the tabular method 5 is : 5
+2024-08-22 11:44:39,701 - INFO - tabularDynamic1.py - After the tabular method 40 is : 102334155

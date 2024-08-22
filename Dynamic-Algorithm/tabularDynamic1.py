@@ -16,10 +16,10 @@ def fibotabDynamic(num):
     fib = [0] * (num+2)
     fib[0] = 0
     fib[1] = 1
-    for i in range(2,num):
+    for i in range(2,num+1):
         fib[i] = fib[i-1] + fib[i-2]
         
-    return fib[num-1]
+    return fib[num]
 
 
 # input
