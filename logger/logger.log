@@ -2807,3 +2807,15 @@ Printing the heap.
 2024-08-22 11:41:38,781 - INFO - tabularDynamic1.py - After the tabular method 5 is : 3
 2024-08-22 11:44:16,983 - INFO - tabularDynamic1.py - After the tabular method 5 is : 5
 2024-08-22 11:44:39,701 - INFO - tabularDynamic1.py - After the tabular method 40 is : 102334155
+2024-09-06 20:58:03,820 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 0
+2024-09-06 20:59:36,537 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 0
+2024-09-06 21:06:15,904 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 8
+2024-09-06 21:06:46,000 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:12:57,216 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:13:18,787 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:13:18,789 - INFO - diffmemtab1.py - the fibo of the 9 is : 0
+2024-09-06 21:13:52,252 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:13:52,255 - INFO - diffmemtab1.py - the fibo of the 9 is : 0
+2024-09-06 21:14:15,870 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:15:17,285 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 34
+2024-09-06 21:15:25,674 - INFO - diffmemtab1.py - the fibo of the 9 is : 34
