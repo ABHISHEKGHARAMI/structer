@@ -45,3 +45,4 @@ logging.info(f"The top -down approach of the fibo is : {fibo(n)}")
 
 print(f"The fibo of the {n} is : {fiboTab(n)}")
 logging.info(f"the fibo of the {n} is : {fiboTab(n)}")
+

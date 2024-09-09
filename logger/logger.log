@@ -2821,3 +2821,5 @@ Printing the heap.
 2024-09-06 21:15:25,674 - INFO - diffmemtab1.py - the fibo of the 9 is : 34
 2024-09-06 21:53:53,048 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 13
 2024-09-06 21:53:53,064 - INFO - diffmemtab1.py - the fibo of the 7 is : 13
+2024-09-09 20:48:44,446 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 12586269025
+2024-09-09 20:48:44,589 - INFO - diffmemtab1.py - the fibo of the 50 is : 12586269025
