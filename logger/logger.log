@@ -2856,3 +2856,5 @@ Printing the heap.
 2024-09-10 20:38:52,250 - INFO - howSum1.py - the combination using the dynamic approach is : [4, 5]
 2024-09-10 20:40:25,093 - INFO - howSum1.py - the combination is : [5, 4]
 2024-09-10 20:40:25,096 - INFO - howSum1.py - the combination using the dynamic approach is : [5, 4]
+2024-09-10 20:41:02,694 - INFO - howSum1.py - the combination is : [5, 4]
+2024-09-10 20:41:02,696 - INFO - howSum1.py - the combination using the dynamic approach is : [5, 4]
