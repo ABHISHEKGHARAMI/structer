@@ -2852,3 +2852,5 @@ Printing the heap.
 2024-09-10 20:03:08,816 - INFO - canSum1.py - 9 can be acheived using the array.
 2024-09-10 20:03:08,818 - INFO - canSum1.py - 9 can be acheived using the array.
 2024-09-10 20:30:16,147 - INFO - howSum1.py - the combination is : [5, 4]
+2024-09-10 20:38:52,246 - INFO - howSum1.py - the combination is : [5, 4]
+2024-09-10 20:38:52,250 - INFO - howSum1.py - the combination using the dynamic approach is : [4, 5]

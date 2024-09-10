@@ -39,7 +39,9 @@ def howSumDynamic(array,target,memo={}):
         remResult = howSumDynamic(array,remainder,memo)
         if remResult != None:
             memo[target] = [remainder,num]
-            
+            return memo[target]
+        
+    memo[target] = None    
     return None
 
 
