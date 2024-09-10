@@ -2842,3 +2842,6 @@ Printing the heap.
 2024-09-10 16:40:43,677 - INFO - gridDynamic1.py - The move for this path is : 24310
 2024-09-10 16:40:43,680 - INFO - gridDynamic1.py - The move using the dynamic solution is : 24310
 2024-09-10 16:40:43,682 - INFO - gridDynamic1.py - The move using the dynamic solution is : 24310
+2024-09-10 16:47:13,400 - INFO - gridDynamic1.py - The move for this path is : 1716
+2024-09-10 16:50:32,904 - INFO - gridDynamic1.py - The move using the dynamic solution is : 1716
+2024-09-10 16:50:32,908 - INFO - gridDynamic1.py - The move using the dynamic solution is : 1716
