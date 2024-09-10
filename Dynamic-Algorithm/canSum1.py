@@ -27,6 +27,31 @@ def checkSumRecurr(array,targetSum) :
     return checkSumRecurr(array[:-1],targetSum-array[-1]) or checkSumRecurr(array[:-1],targetSum)
 
 
+# Using the dynamic approach
+def checkSumDynamic(array,n,target,memo):
+    if target == 0:
+        return True
+    if n == 0:
+        return False
+    # check the subproblem is already in the solution memo
+    if (n,target) in memo:
+        return memo[(n,target)]
+    
+    # check the element is greater than the target
+    if array[n-1] > target:
+        memo[(n,target)] = checkSumDynamic(array,n-1,target,memo)
+        return memo[(n,target)]
+    
+    # check for the include or exclude the element
+    memo[(n,target)] = checkSumDynamic(array,n-1,target,memo) or checkSumDynamic(array,n-1,target-array[n-1],memo)
+    return memo[(n,target)]
+
+
+# wrapper function
+def subsetSum(array,target):
+    memo = {}
+    checkSumDynamic(array,len(array)-1,target,memo)
+
 array = list(map(int,input("enter the elements :").split(',')))
 target = int(input("enter the target:"))
 
