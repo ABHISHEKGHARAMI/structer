@@ -23,8 +23,27 @@ def getGridrec(m,n):
         return getGridrec(m-1,n) + getGridrec(m,n-1)
     
     
-m,n = int(input("enter the number of the row and column for the grid :").split(','))
+# Dynamic solution for the grid problem
+def getGridDynamic(m,n,mem={}):
+    key = f"{m},{n}"
+    if key not in mem:
+        if m == 0 or n == 0:
+            return 0
+        if m == 1 and n == 1:
+            return 1
+        else:
+            mem[key] = getGridDynamic(m-1,n,mem) + getGridDynamic(m,n-1,mem)
+    return mem[key]
+        
+    
+    
+m,n = map(int,input("enter the row and column :").split(','))
 
 print(f"The move for this path is : {getGridrec(m,n)}")
 logging.info(f"The move for this path is : {getGridrec(m,n)}")
+
+
+
+print(f"The move using the dynamic solution is : {getGridDynamic(m,n)}")
+logging.info(f"The move using the dynamic solution is : {getGridDynamic(m,n)}")
     

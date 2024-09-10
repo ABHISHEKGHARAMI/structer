@@ -2825,3 +2825,9 @@ Printing the heap.
 2024-09-09 20:48:44,589 - INFO - diffmemtab1.py - the fibo of the 50 is : 12586269025
 2024-09-09 22:07:33,313 - INFO - diffmemtab1.py - The top -down approach of the fibo is : 139583862445
 2024-09-09 22:07:33,328 - INFO - diffmemtab1.py - the fibo of the 55 is : 139583862445
+2024-09-10 16:02:21,966 - INFO - gridDynamic1.py - The move for this path is : 3
+2024-09-10 16:02:40,180 - INFO - gridDynamic1.py - The move for this path is : 1716
+2024-09-10 16:13:09,018 - INFO - gridDynamic1.py - The move for this path is : 3
+2024-09-10 16:17:10,216 - INFO - gridDynamic1.py - The move for this path is : 3
+2024-09-10 16:19:14,782 - INFO - gridDynamic1.py - The move for this path is : 3
+2024-09-10 16:19:14,784 - INFO - gridDynamic1.py - The move using the dynamic solution is : 3
