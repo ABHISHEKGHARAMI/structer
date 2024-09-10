@@ -69,3 +69,14 @@ if subsetSum(array, target) == True:
 else:
     print(f"{target} can not be acheived using the array.")
     logging.info(f"{target} can not be acheived using the array.")
+
+'''
+ Problem Solving with the memorization
+ 1. Make the code work
+  i. Visualize the problem as tree
+  ii. try to recur as tree recursion
+  iii. Test it.
+ 2. make it efficient
+  i. Add the memo object.
+  ii. Add the base case to return the memo value.
+'''
