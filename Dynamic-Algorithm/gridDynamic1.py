@@ -35,7 +35,25 @@ def getGridDynamic(m,n,mem={}):
             mem[key] = getGridDynamic(m-1,n,mem) + getGridDynamic(m,n-1,mem)
     return mem[key]
         
+        
+# Dynamic solution for the tabular method
+def getGridDynamicTab(m,n):
+    table = [[0 for _ in range(n+1)] for n in range(m+1)]
     
+    # base case :
+    table[1][1] = 1
+    
+    for i in range(m):
+        for j in range(n):
+            current = table[i][j]
+            
+            # check the step
+            if i < m:
+                table[i+1][j] += current
+            if j < n:
+                table[i][j+1] += current
+    return table[m][n]
+            
     
 m,n = map(int,input("enter the row and column :").split(','))
 
@@ -46,4 +64,10 @@ logging.info(f"The move for this path is : {getGridrec(m,n)}")
 
 print(f"The move using the dynamic solution is : {getGridDynamic(m,n)}")
 logging.info(f"The move using the dynamic solution is : {getGridDynamic(m,n)}")
+
+
+# using the tabular method using the dynamic tabular solution
+print(f"The move using the dynamic solution is : {getGridDynamicTab(m,n)}")
+logging.info(
+    f"The move using the dynamic solution is : {getGridDynamicTab(m,n)}")
     
