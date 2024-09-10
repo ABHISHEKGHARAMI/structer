@@ -38,13 +38,13 @@ def getGridDynamic(m,n,mem={}):
         
 # Dynamic solution for the tabular method
 def getGridDynamicTab(m,n):
-    table = [[0 for _ in range(n+1)] for n in range(m+1)]
+    table = [[0 for _ in range(n+1)] for _ in range(m+1)]
     
     # base case :
     table[1][1] = 1
     
-    for i in range(m):
-        for j in range(n):
+    for i in range(m+1):
+        for j in range(n+1):
             current = table[i][j]
             
             # check the step
