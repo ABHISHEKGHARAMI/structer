@@ -2845,3 +2845,4 @@ Printing the heap.
 2024-09-10 16:47:13,400 - INFO - gridDynamic1.py - The move for this path is : 1716
 2024-09-10 16:50:32,904 - INFO - gridDynamic1.py - The move using the dynamic solution is : 1716
 2024-09-10 16:50:32,908 - INFO - gridDynamic1.py - The move using the dynamic solution is : 1716
+2024-09-10 19:23:06,775 - INFO - canSum1.py - 9 can be acheived using the array.

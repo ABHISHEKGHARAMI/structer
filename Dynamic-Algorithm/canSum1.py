@@ -27,7 +27,7 @@ def checkSumRecurr(array,targetSum) :
     return checkSumRecurr(array[:-1],targetSum-array[-1]) or checkSumRecurr(array[:-1],targetSum)
 
 
-array = map(list,int(input("enter the array element:").split(',')))
+array = list(map(int,input("enter the elements :").split(',')))
 target = int(input("enter the target:"))
 
 if checkSumRecurr(array,target) == True:
