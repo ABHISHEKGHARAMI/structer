@@ -48,9 +48,9 @@ def getGridDynamicTab(m,n):
             current = table[i][j]
             
             # check the step
-            if i < m:
+            if i+1 <= m:
                 table[i+1][j] += current
-            if j < n:
+            if j+1 <= n:
                 table[i][j+1] += current
     return table[m][n]
             
