@@ -61,3 +61,11 @@ if checkSumRecurr(array,target) == True:
 else:
     print(f"{target} can not be acheived using the array.")
     logging.info(f"{target} can not be acheived using the array.")
+    
+
+if subsetSum(array, target) == True:
+    print(f"{target} can be acheived using the array.")
+    logging.info(f"{target} can be acheived using the array.")
+else:
+    print(f"{target} can not be acheived using the array.")
+    logging.info(f"{target} can not be acheived using the array.")
