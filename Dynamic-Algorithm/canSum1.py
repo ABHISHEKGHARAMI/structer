@@ -31,7 +31,7 @@ def checkSumRecurr(array,targetSum) :
 def checkSumDynamic(array,n,target,memo):
     if target == 0:
         return True
-    if n == 0:
+    if n < 0:
         return False
     # check the subproblem is already in the solution memo
     if (n,target) in memo:
@@ -50,7 +50,7 @@ def checkSumDynamic(array,n,target,memo):
 # wrapper function
 def subsetSum(array,target):
     memo = {}
-    checkSumDynamic(array,len(array)-1,target,memo)
+    return checkSumDynamic(array,len(array)-1,target,memo)
 
 array = list(map(int,input("enter the elements :").split(',')))
 target = int(input("enter the target:"))
