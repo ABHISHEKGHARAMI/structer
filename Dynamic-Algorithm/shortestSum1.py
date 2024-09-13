@@ -24,10 +24,11 @@ def shortestComb(array,targetSum):
     for num in array:
         remainder = targetSum - num
         remResult = shortestComb(array,remainder)
-        if remainder !=0:
+        if remResult != None:
             combination = remResult + [num]
-            if shortest==None or len(combination) < len(shortest):
+            if shortest is None or len(combination) < len(shortest):
                 shortest = combination
+                
     return shortest
 
 
