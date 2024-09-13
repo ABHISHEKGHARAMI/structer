@@ -71,3 +71,7 @@ logging.info(f'the shortest combination is : {shortestDynamic(arr,target)}')
 
 print(f'the shortest combination is : {shortestDynamic([2,3,5],8)}')
 logging.info(f'the shortest combination is : {shortestDynamic([2, 3, 5],8)}')
+
+
+print(f'the shortest combination is : {shortestDynamic([25,25,25,25],100)}')
+logging.info(f'the shortest combination is : {shortestDynamic([25,25,25,25],100)}')
