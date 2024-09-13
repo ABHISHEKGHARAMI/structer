@@ -2864,3 +2864,7 @@ Printing the heap.
 2024-09-13 22:14:19,036 - INFO - shortestSum1.py - the shortest combination is : [7]
 2024-09-13 22:16:22,936 - INFO - shortestSum1.py - the shortest combination is : [7]
 2024-09-13 22:16:22,939 - INFO - shortestSum1.py - the shortest combination is : [5, 3]
+2024-09-13 22:28:38,318 - INFO - shortestSum1.py - the shortest combination is : [7]
+2024-09-13 22:28:38,322 - INFO - shortestSum1.py - the shortest combination is : [5, 3]
+2024-09-13 22:28:38,323 - INFO - shortestSum1.py - the shortest combination is : [7]
+2024-09-13 22:28:38,324 - INFO - shortestSum1.py - the shortest combination is : [5, 3]
