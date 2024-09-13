@@ -45,7 +45,7 @@ def shortestDynamic(array,targetSum,memo={}):
     
     for num in array:
         remainder = targetSum - num
-        remResult = shortestDynamic(array,remainder)
+        remResult = shortestDynamic(array,remainder,memo)
         if remResult != None:
             combination = remResult + [num]
             if shortest  is None or len(combination) < len(shortest):
