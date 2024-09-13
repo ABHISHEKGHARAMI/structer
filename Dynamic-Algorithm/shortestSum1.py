@@ -39,4 +39,5 @@ target = 7
 print(f'the shortest combination is : {shortestComb(arr,target)}')
 logging.info(f'the shortest combination is : {shortestComb(arr,target)}')
                 
-                
+print(f'the shortest combination is : {shortestComb([2,3,5],8)}')
+logging.info(f'the shortest combination is : {shortestComb([2,3,5],8)}')
