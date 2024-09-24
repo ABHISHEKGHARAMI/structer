@@ -62,3 +62,8 @@ charArray = ['ab', 'abc', 'cd', 'def', 'abcd']
 
 print(f"All the possible output of the target string {targetString} will be : {recursive(targetString,charArray)}")
 logging.info(f"All the possible output of the target string {targetString} will be : {recursive(targetString,charArray)}")
+
+
+print(f"target string : {targetString} solution will be : {dynamic(targetString,charArray)}")
+logging.info(
+    f"target string : {targetString} solution will be : {dynamic(targetString,charArray)}")
