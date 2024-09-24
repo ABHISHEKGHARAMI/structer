@@ -24,9 +24,9 @@ def grid_dynamics(m,n):
             current = grid[i][j]
             
             if i+1<=m:
-                current += grid[i+1][j]
+                grid[i+1][j] += current
             if j + 1 <= n :
-                current += grid[i][j+1]
+                grid[i][j+1] += current
                 
     return grid[m][n]
 
