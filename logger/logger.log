@@ -2884,3 +2884,5 @@ Printing the heap.
 2024-09-24 19:58:00,582 - INFO - countCheckTarget1.py - the number is : 1
 2024-09-24 19:58:00,585 - INFO - countCheckTarget1.py - the number is : 1
 2024-09-24 20:33:52,497 - INFO - allCheckTarget1.py - All the possible output of the target string abcdef will be : [['abc', 'def']]
+2024-09-24 20:41:23,035 - INFO - allCheckTarget1.py - All the possible output of the target string abcdef will be : [['abc', 'def']]
+2024-09-24 20:41:23,038 - INFO - allCheckTarget1.py - target string : abcdef solution will be : [['abc', 'def']]
