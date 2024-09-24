@@ -57,7 +57,7 @@ def dynamic(targetString,charArray,memo=None):
 
 
 targetString = "abcdef"
-charArray = ['ab', 'abc', 'cd', 'def', 'abcd']
+charArray = ['ab', 'abc', 'cd', 'def', 'abcd','ef','c']
 
 
 print(f"All the possible output of the target string {targetString} will be : {recursive(targetString,charArray)}")
