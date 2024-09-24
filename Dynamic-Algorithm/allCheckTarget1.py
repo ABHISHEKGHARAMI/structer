@@ -30,6 +30,32 @@ def recursive(targetString,charArray):
     return result
 
 
+# using the dyanmic approach
+def dynamic(targetString,charArray,memo=None):
+    if memo is None:
+        memo = {}
+        
+    if targetString in memo:
+        return memo[targetString]
+    
+    if targetString == "":
+        return [[]]
+    
+    result = []
+    
+    for char in charArray:
+        if targetString.startswith(char):
+            remainder = targetString[len(char):]
+            if dynamic(remainder,charArray):
+                result_remainder = dynamic(remainder,charArray)
+                
+                for ways in result_remainder:
+                    result.append([char]+ways)
+                    
+    memo[targetString] = result
+    return memo[targetString]
+
+
 targetString = "abcdef"
 charArray = ['ab', 'abc', 'cd', 'def', 'abcd']
 
