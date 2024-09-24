@@ -26,8 +26,37 @@ def count_target_construct(targetString,charArray):
                 count += count_target_construct(remainder,charArray)
     return count
 
+
+# the dynamic approach
+def count_target_dynamic(targetString,charArray,memo=None):
+    if memo is None:
+        memo = {}
+        
+    if targetString in memo:
+        return memo[targetString] 
+    
+    if targetString == "":
+        return 1
+    
+    count = 0 
+    
+    for char in charArray:
+        if targetString.startswith(char):
+            remainder = targetString[len(char):]
+            if count_target_dynamic(remainder,charArray):
+                count += count_target_dynamic(remainder,charArray)
+                
+    # finally update the memory
+    memo[targetString] = count
+    return memo[targetString]
+    
+    
+
 targetString = "abcdef"
 charArray = ['ab', 'abc', 'cd', 'def', 'abcd']
 
 print(f"the number is : {count_target_construct(targetString,charArray)}")
 logging.info(f"the number is : {count_target_construct(targetString,charArray)}")
+
+print(f"the number is : {count_target_dynamic(targetString,charArray)}")
+logging.info(f"the number is : {count_target_dynamic(targetString,charArray)}")
