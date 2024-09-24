@@ -30,3 +30,4 @@ targetString = "abcdef"
 charArray = ['ab', 'abc', 'cd', 'def', 'abcd']
 
 print(f"the number is : {count_target_construct(targetString,charArray)}")
+logging.info(f"the number is : {count_target_construct(targetString,charArray)}")

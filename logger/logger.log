@@ -2880,3 +2880,4 @@ Printing the heap.
 2024-09-24 16:10:03,591 - INFO - checkTargetString1.py - The abcdef can be build using the charArray.
 2024-09-24 16:26:01,757 - INFO - checkTargetString1.py - The abcdef can be build using the charArray.
 2024-09-24 16:26:01,760 - INFO - checkTargetString1.py - The abcdef can be build using the charArray.
+2024-09-24 19:49:22,159 - INFO - countCheckTarget1.py - the number is : 1
