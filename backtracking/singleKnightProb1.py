@@ -90,7 +90,7 @@ n = int(input("enter the number of chess board block in n*n formation :"))
 user_x = int(input("enter the position of x(0 to {})".format(n-1)))
 user_y = int(input("enter the position of y(0 to {})".format(n-1)))
 
-if (0>=user_x<n) and (0>=user_y<n):
+if (0<=user_x<n) and (0<=user_y<n):
     solveKT(n,user_x,user_y)
 else:
     print("Invalid position for user input.")
