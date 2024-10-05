@@ -18,7 +18,7 @@ def isSafe(x,y,board,n):
     A utility function for check the knight position 
     is safe or not .
     '''
-    if x >=0 and y >=0 and x <=n and y<=n and board[x][y] == -1:
+    if(x >= 0 and y>=0 and x <n and y <n and board[x][y]==-1):
         return True
     return False
 
