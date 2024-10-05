@@ -44,7 +44,7 @@ def solveKT(n,start_x,start_y):
     This utility function solve the knight problem using
     the backtracking solution using another solveKTUtil function.
     '''
-    board = [[-1 for i in range(n)] for _ in range(n)]
+    board = [[-1 for i in range(n)] for i in range(n)]
     
     # move_x and move_y define the next move of Knight.
     move_x = [2, 1, -1, -2, -2, -1, 1, 2]
