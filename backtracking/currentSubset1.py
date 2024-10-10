@@ -43,7 +43,7 @@ def SubsetGenerator(arr):
 
 
 
-arr = map(list,int(input("enter element :")))
+arr = map(list,int(input("enter element :").split(",")))
 res = SubsetGenerator(arr)
 
 print(f"The main array is : {arr}")    
