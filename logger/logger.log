@@ -2897,3 +2897,5 @@ Printing the heap.
 2024-10-05 16:22:15,890 - ERROR - singleKnightProb1.py - Invalid position for user input.
 2024-10-10 12:10:29,751 - INFO - currentSubset1.py - The main array is : [1, 2, 3, 4]
 2024-10-10 12:10:29,783 - INFO - currentSubset1.py - The subset of the array is : None
+2024-10-10 12:13:29,317 - INFO - currentSubset1.py - The main array is : [1, 2, 3, 4, 5]
+2024-10-10 12:13:29,319 - INFO - currentSubset1.py - The subset of the array is : [[], [5], [4], [4, 5], [3], [3, 5], [3, 4], [3, 4, 5], [2], [2, 5], [2, 4], [2, 4, 5], [2, 3], [2, 3, 5], [2, 3, 4], [2, 3, 4, 5], [1], [1, 5], [1, 4], [1, 4, 5], [1, 3], [1, 3, 5], [1, 3, 4], [1, 3, 4, 5], [1, 2], [1, 2, 5], [1, 2, 4], [1, 2, 4, 5], [1, 2, 3], [1, 2, 3, 5], [1, 2, 3, 4], [1, 2, 3, 4, 5]]
