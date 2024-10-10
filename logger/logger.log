@@ -2895,3 +2895,5 @@ Printing the heap.
 2024-09-24 21:15:32,195 - INFO - gridDynamictabular1.py - the step require for the grid is : 10
 2024-09-24 21:22:49,899 - INFO - gridDynamictabular1.py - the step require for the grid is : 10
 2024-10-05 16:22:15,890 - ERROR - singleKnightProb1.py - Invalid position for user input.
+2024-10-10 12:10:29,751 - INFO - currentSubset1.py - The main array is : [1, 2, 3, 4]
+2024-10-10 12:10:29,783 - INFO - currentSubset1.py - The subset of the array is : None

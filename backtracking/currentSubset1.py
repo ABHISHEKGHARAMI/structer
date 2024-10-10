@@ -39,7 +39,8 @@ def SubsetGenerator(arr):
     index = 0
     current_Subset = []
     res = []
-    res = SubsetUtill(arr,0,current_Subset,res)
+    SubsetUtill(arr,0,current_Subset,res)
+    return res
 
 
 
