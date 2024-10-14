@@ -16,6 +16,7 @@ N = 8
 
 def solveNqueens(board,col):
     if col == N:
+        print("")
         print(board)
         logging.info(board)
         return True
