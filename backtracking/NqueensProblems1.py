@@ -14,20 +14,20 @@ such that none of them attack one another (no two are in the same row, column, o
 '''
 N = 8
 
-def solveNqueens(board,row):
-    if row == N:
+def solveNqueens(board,col):
+    if col == N:
         print(board)
         logging.info(board)
         return True
     
     # else
     for i in range(N):
-        if isSafe(board,i,row):
-            board[i][row] = 1
-            if solveNqueens(board,row+1):
+        if isSafe(board,i,col):
+            board[i][col] = 1
+            if solveNqueens(board,col+1):
                 return True
-            board[i][row] = 0
-        return False
+            board[i][col] = 0
+    return False
     
     
 # checking for the safe space for the queen
