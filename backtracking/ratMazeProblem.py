@@ -60,7 +60,7 @@ def solveMaze(maze):
                 backtracking(new_x,new_y)
                 directions.pop()
                 
-        #unmark that path for other path
+        #un-mark that path for other path
         visited[x][y] = False
         
     # call the backtrack for the starting
